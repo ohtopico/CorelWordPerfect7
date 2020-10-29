@@ -1,0 +1,62 @@
+--
+    File:  WP_ENT.MAP     (External Entity Mapping File)
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    This external entity mapping file can be used to add support for WP
+    extended character entity sets in your DTD.  Each WP character set
+    (1-11, 12-14) is mapped to a file containing an SGML entity declaration
+    for each character in the set.
+    
+    When the resulting LGC file is loaded into WordPerfect for Windows 7
+    by selecting an appropriate SGML Document Type, the entities from each
+    referenced set are added to the SDATA list in the "Text References"
+    dialog.
+--
+
+PUBLIC     "ISO Registration Number 100//CHARSET
+            ECMA-94 Right Part of Latin Alphabet Nr. 1//ESC 2/13 4/1"
+CHARSET     ecma94.set
+
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 1 (Multinational)//EN"
+ENTITIES wpset1.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 2 (Phonetic)//EN"
+ENTITIES wpset2.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 3 (Box Drawing)//EN"
+ENTITIES wpset3.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 4 (Typographic Symbols)//EN"
+ENTITIES wpset4.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 5 (Iconic Symbols)//EN"
+ENTITIES wpset5.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 6 (Math/Scientific)//EN"
+ENTITIES wpset6.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 7 (Math/Scientific Extension)//EN"
+ENTITIES wpset7.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 8 (Greek)//EN"
+ENTITIES wpset8.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 9 (Hebrew)//EN"
+ENTITIES wpset9.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 10 (Cyrillic)//EN"
+ENTITIES wpset10.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 11 (Japanese)//EN"
+ENTITIES wpset11.ent
+
+
+-- Character Set 12 is for user-definable characters --
+
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 13 (Arabic)//EN"
+ENTITIES wpset13.ent
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 14 (Arabic Script)//EN"
+ENTITIES wpset14.ent

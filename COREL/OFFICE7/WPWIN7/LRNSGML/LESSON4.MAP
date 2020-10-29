@@ -1,0 +1,6 @@
+PUBLIC    "ISO 8879-1986//ENTITIES General Technical//EN"
+ENTITIES   isotech.ent
+
+PUBLIC    "-//COREL//ENTITIES WP 6.1 Character Set 1 (Multinational)//EN"
+WPCHARS    wpset1.wpc
+

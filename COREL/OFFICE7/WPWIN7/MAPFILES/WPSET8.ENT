@@ -1,0 +1,233 @@
+<!--
+    File:  WPSET8.ENT
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset8 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 8 (Greek)//EN">
+      %wpset8;
+
+         Name            Text          WP#   Description
+--> 
+<!ENTITY ALPHA    SDATA "[ALPHA   ]" --8,0   ALPHA -->
+<!ENTITY alpha    SDATA "[alpha   ]" --8,1   alpha -->
+<!ENTITY BETA     SDATA "[BETA    ]" --8,2   BETA -->
+<!ENTITY beta     SDATA "[beta    ]" --8,3   beta -->
+<!ENTITY BETAmt   SDATA "[BETAmt  ]" --8,4   BETA (Medial or Terminal) -->
+<!ENTITY betamt   SDATA "[betamt  ]" --8,5   beta (Medial or Terminal) -->
+<!ENTITY GAMMA    SDATA "[GAMMA   ]" --8,6   GAMMA -->
+<!ENTITY gamma    SDATA "[gamma   ]" --8,7   gamma -->
+<!ENTITY DELTA    SDATA "[DELTA   ]" --8,8   DELTA -->
+<!ENTITY delta    SDATA "[delta   ]" --8,9   delta -->
+<!ENTITY EPSILON  SDATA "[EPSILON ]" --8,10  EPSILON -->
+<!ENTITY epsilon  SDATA "[epsilon ]" --8,11  epsilon -->
+<!ENTITY ZETA     SDATA "[ZETA    ]" --8,12  ZETA -->
+<!ENTITY zeta     SDATA "[zeta    ]" --8,13  zeta -->
+<!ENTITY ETA      SDATA "[ETA     ]" --8,14  ETA -->
+<!ENTITY eta      SDATA "[eta     ]" --8,15  eta -->
+<!ENTITY THETA    SDATA "[THETA   ]" --8,16  THETA -->
+<!ENTITY theta    SDATA "[theta   ]" --8,17  theta -->
+<!ENTITY IOTA     SDATA "[IOTA    ]" --8,18  IOTA -->
+<!ENTITY iota     SDATA "[iota    ]" --8,19  iota -->
+<!ENTITY KAPPA    SDATA "[KAPPA   ]" --8,20  KAPPA -->
+<!ENTITY kappa    SDATA "[kappa   ]" --8,21  kappa -->
+<!ENTITY LAMBDA   SDATA "[LAMBDA  ]" --8,22  LAMBDA -->
+<!ENTITY lambda   SDATA "[lambda  ]" --8,23  lambda -->
+<!ENTITY MU       SDATA "[MU      ]" --8,24  MU -->
+<!ENTITY mu       SDATA "[mu      ]" --8,25  mu -->
+<!ENTITY NU       SDATA "[NU      ]" --8,26  NU -->
+<!ENTITY nu       SDATA "[nu      ]" --8,27  nu -->
+<!ENTITY XI       SDATA "[XI      ]" --8,28  XI -->
+<!ENTITY xi       SDATA "[xi      ]" --8,29  xi -->
+<!ENTITY OMICRON  SDATA "[OMICRON ]" --8,30  OMICRON -->
+<!ENTITY omicron  SDATA "[omicron ]" --8,31  omicron -->
+<!ENTITY PI       SDATA "[PI      ]" --8,32  PI -->
+<!ENTITY pi       SDATA "[pi      ]" --8,33  pi -->
+<!ENTITY RHO      SDATA "[RHO     ]" --8,34  RHO -->
+<!ENTITY rho      SDATA "[rho     ]" --8,35  rho -->
+<!ENTITY SIGMA    SDATA "[SIGMA   ]" --8,36  SIGMA -->
+<!ENTITY sigma    SDATA "[sigma   ]" --8,37  sigma -->
+<!ENTITY SIGMAt   SDATA "[SIGMAt  ]" --8,38  SIGMA (Terminal) -->
+<!ENTITY sigmat   SDATA "[sigmat  ]" --8,39  sigma (Terminal) -->
+<!ENTITY TAU      SDATA "[TAU     ]" --8,40  TAU -->
+<!ENTITY tau      SDATA "[tau     ]" --8,41  tau -->
+<!ENTITY UPSILON  SDATA "[UPSILON ]" --8,42  UPSILON -->
+<!ENTITY upsilon  SDATA "[upsilon ]" --8,43  upsilon -->
+<!ENTITY PHI      SDATA "[PHI     ]" --8,44  PHI -->
+<!ENTITY phi      SDATA "[phi     ]" --8,45  phi -->
+<!ENTITY CHI      SDATA "[CHI     ]" --8,46  CHI -->
+<!ENTITY chi      SDATA "[chi     ]" --8,47  chi -->
+<!ENTITY PSI      SDATA "[PSI     ]" --8,48  PSI -->
+<!ENTITY psi      SDATA "[psi     ]" --8,49  psi -->
+<!ENTITY OMEGA    SDATA "[OMEGA   ]" --8,50  OMEGA -->
+<!ENTITY omega    SDATA "[omega   ]" --8,51  omega -->
+<!ENTITY ALPHtono SDATA "[ALPHtono]" --8,52  ALPHA Tonos -->
+<!ENTITY alphtono SDATA "[alphtono]" --8,53  alpha Tonos -->
+<!ENTITY EPSItono SDATA "[EPSItono]" --8,54  EPSILON Tonos -->
+<!ENTITY epsitono SDATA "[epsitono]" --8,55  epsilon Tonos -->
+<!ENTITY ETAtono  SDATA "[ETAtono ]" --8,56  ETA Tonos -->
+<!ENTITY etatono  SDATA "[etatono ]" --8,57  eta Tonos -->
+<!ENTITY IOTAtono SDATA "[IOTAtono]" --8,58  IOTA Tonos -->
+<!ENTITY iotatono SDATA "[iotatono]" --8,59  iota Tonos -->
+<!ENTITY IOTAdia  SDATA "[IOTAdia ]" --8,60  IOTA Diaeresis -->
+<!ENTITY iotadia  SDATA "[iotadia ]" --8,61  itota Diaresis -->
+<!ENTITY OMICtono SDATA "[OMICtono]" --8,62  OMICRON Tonos -->
+<!ENTITY omictono SDATA "[omictono]" --8,63  omicron Tonos -->
+<!ENTITY UPSItono SDATA "[UPSItono]" --8,64  UPSILON Tonos -->
+<!ENTITY upsitono SDATA "[upsitono]" --8,65  upsilon Tonos -->
+<!ENTITY UPSIdia  SDATA "[UPSIdia ]" --8,66  UPSILON Diaeresis -->
+<!ENTITY upsidia  SDATA "[upsidia ]" --8,67  upsilon Diaeresis -->
+<!ENTITY OMEGtono SDATA "[OMEGtono]" --8,68  OMEGA Tonos -->
+<!ENTITY omegtono SDATA "[omegtono]" --8,69  omega Tonos -->
+<!ENTITY epsivar  SDATA "[epsivar ]" --8,70  epsilon (variant) -->
+<!ENTITY thetavar SDATA "[thetavar]" --8,71  theta (variant) -->
+<!ENTITY kappavar SDATA "[kappavar]" --8,72  kappa (variant) -->
+<!ENTITY pivar    SDATA "[pivar   ]" --8,73  pi (variant) -->
+<!ENTITY rhovar   SDATA "[rhovar  ]" --8,74  rho (variant) -->
+<!ENTITY sigmavar SDATA "[sigmavar]" --8,75  sigma (variant) -->
+<!ENTITY UPSIvar  SDATA "[UPSIvar ]" --8,76  UPSILON (variant) -->
+<!ENTITY phivar   SDATA "[phivar  ]" --8,77  phi (variant) -->
+<!ENTITY omegvar  SDATA "[omegvar ]" --8,78  omega (variant) -->
+<!ENTITY questmrk SDATA "[questmrk]" --8,79  Question Mark -->
+<!ENTITY semicln  SDATA "[semicln ]" --8,80  Semi-colon -->
+<!ENTITY hiprime  SDATA "[hiprime ]" --8,81  High Prime -->
+<!ENTITY lowprime SDATA "[lowprime]" --8,82  Low Prime -->
+<!ENTITY acutegr  SDATA "[acutegr ]" --8,83  Acute (Greek) -->
+<!ENTITY diaeresi SDATA "[diaeresi]" --8,84  Diaeresis -->
+<!ENTITY acutedia SDATA "[acutedia]" --8,85  Acute Diaeresis -->
+<!ENTITY gravedia SDATA "[gravedia]" --8,86  Grave Diaeresis -->
+<!ENTITY gravegr  SDATA "[gravegr ]" --8,87  Grave (Greek) -->
+<!ENTITY circumgr SDATA "[circumgr]" --8,88  Circumflex (Greek) -->
+<!ENTITY smoothbr SDATA "[smoothbr]" --8,89  Smooth Breathing -->
+<!ENTITY roughbr  SDATA "[roughbr ]" --8,90  Rough Breathing -->
+<!ENTITY iotasub  SDATA "[iotasub ]" --8,91  Iota Subscript -->
+<!ENTITY smbreac  SDATA "[smbreac ]" --8,92  Smooth Breathing Acute -->
+<!ENTITY rgbreac  SDATA "[rgbreac ]" --8,93  Rough Breathing Acute -->
+<!ENTITY smbregr  SDATA "[smbregr ]" --8,94  Smooth Breathing Grave -->
+<!ENTITY rgbregr  SDATA "[rgbregr ]" --8,95  Rough Breathing Grave -->
+<!ENTITY smbreci  SDATA "[smbreci ]" --8,96  Smooth Breathing Circumflex -->
+<!ENTITY rgbreci  SDATA "[rgbreci ]" --8,97  Rough Breathing Circumflex -->
+<!ENTITY acwisb   SDATA "[acwisb  ]" --8,98  Acute w/Iota Subscript -->
+<!ENTITY grwisb   SDATA "[grwisb  ]" --8,99  Grave w/Iota Subscript -->
+<!ENTITY ciwisb   SDATA "[ciwisb  ]" --8,100 Circumflex w/Iota Subscript -->
+<!ENTITY smbrwisb SDATA "[smbrwisb]" --8,101 Smooth Breathing w/Iota Subscript -->
+<!ENTITY rgbrwisb SDATA "[rgbrwisb]" --8,102 Rough Breathing w/Iota Subscript -->
+<!ENTITY smbracws SDATA "[smbracws]" --8,103 Smooth Breathing Acute w/Iota Subscript -->
+<!ENTITY rgbracws SDATA "[rgbracws]" --8,104 Rough Breathing Acute w/Iota Subscript -->
+<!ENTITY smbrgrws SDATA "[smbrgrws]" --8,105 Smooth Breathing Grave w/Iota Subscript -->
+<!ENTITY rgbrgrws SDATA "[rgbrgrws]" --8,106 Rough Breathing Grave w/Iota Subscript -->
+<!ENTITY smbrciws SDATA "[smbrciws]" --8,107 Smooth Breathing Circumflex w/Iota Subscript -->
+<!ENTITY rgbrciws SDATA "[rgbrciws]" --8,108 Rough Breathing Circumflex w/Iota Subscript -->
+<!ENTITY alphgr   SDATA "[alphgr  ]" --8,109 alpha Grave -->
+<!ENTITY alphci   SDATA "[alphci  ]" --8,110 alpha Circumflex -->
+<!ENTITY alphwi   SDATA "[alphwi  ]" --8,111 alpha w/Iota -->
+<!ENTITY alphacwi SDATA "[alphacwi]" --8,112 alpha Acute w/Iota -->
+<!ENTITY alphgrwi SDATA "[alphacwi]" --8,113 alpha Grave w/Iota -->
+<!ENTITY alphciwi SDATA "[alphciwi]" --8,114 alpha Circumflex w/Iota -->
+<!ENTITY alphsm   SDATA "[alphsm  ]" --8,115 alpha Smooth -->
+<!ENTITY alphsmac SDATA "[alphsmac]" --8,116 alpha Smooth Acute -->
+<!ENTITY alphsmgr SDATA "[alphsmgr]" --8,117 alpha Smooth Grave -->
+<!ENTITY alphsmci SDATA "[alphsmci]" --8,118 alpha Smooth Circumflex -->
+<!ENTITY alphsmwi SDATA "[alphsmwi]" --8,119 alpha Smooth w/Iota -->
+<!ENTITY alsmacwi SDATA "[alsmacwi]" --8,120 alpha Smooth Acute w/Iota -->
+<!ENTITY alsmgrwi SDATA "[alsmgrwi]" --8,121 alpha Smooth Grave w/Iota -->
+<!ENTITY alsmciwi SDATA "[alsmciwi]" --8,122 alpha Smooth Circumflex w/Iota -->
+<!ENTITY alphrg   SDATA "[alphrg  ]" --8,123 alpha Rough -->
+<!ENTITY alphrgac SDATA "[alphrgac]" --8,124 alpha Rough Acute -->
+<!ENTITY alphrggr SDATA "[alphrggr]" --8,125 alpha Rough Grave -->
+<!ENTITY alphrgci SDATA "[alphrgci]" --8,126 alpha Rough Circumflex -->
+<!ENTITY alphrgwi SDATA "[alphrgwi]" --8,127 alpha Rough w/Iota -->
+<!ENTITY alrgacwi SDATA "[alrgacwi]" --8,128 alpha Rough Acute w/Iota -->
+<!ENTITY alrggrwi SDATA "[alrggrwi]" --8,129 alpha Rough Grave w/Iota -->
+<!ENTITY alrgciwi SDATA "[alrgciwi]" --8,130 alpha Rough Circumflex w/Iota -->
+<!ENTITY epsigr   SDATA "[epsigr  ]" --8,131 epsilon Grave -->
+<!ENTITY epsism   SDATA "[epsism  ]" --8,132 epsilon Smooth -->
+<!ENTITY epsismac SDATA "[epsismac]" --8,133 epsilon Smooth Acute -->
+<!ENTITY epsismgr SDATA "[epsismgr]" --8,134 epsilon Smooth Grave -->
+<!ENTITY epsirg   SDATA "[epsirg  ]" --8,135 epsilon Rough -->
+<!ENTITY epsirgac SDATA "[epsirgac]" --8,136 epsilon Rough Acute -->
+<!ENTITY epsirggr SDATA "[epsirggr]" --8,137 epsilon Rough Grave -->
+<!ENTITY etagr    SDATA "[etagr   ]" --8,138 eta Grave -->
+<!ENTITY etaci    SDATA "[etaci   ]" --8,139 eta Circumflex -->
+<!ENTITY etawi    SDATA "[etawi   ]" --8,140 eta w/Iota -->
+<!ENTITY etaacwi  SDATA "[etaacwi ]" --8,141 eta Acute w/Iota -->
+<!ENTITY etagrwi  SDATA "[etagrwi ]" --8,142 eta Grave w/Iota -->
+<!ENTITY etaciwi  SDATA "[etaciwi ]" --8,143 eta Circumflex w/Iota -->
+<!ENTITY etasm    SDATA "[etasm   ]" --8,144 eta Smooth -->
+<!ENTITY etasmac  SDATA "[etasmac ]" --8,145 eta Smooth Acute -->
+<!ENTITY etasmgr  SDATA "[etasmgr ]" --8,146 eta Smooth Grave -->
+<!ENTITY etasmci  SDATA "[etasmci ]" --8,147 eta Smooth Circumflex -->
+<!ENTITY etasmwi  SDATA "[etasmwi ]" --8,148 eta Smooth w/Iota -->
+<!ENTITY etsmacwi SDATA "[etsmacwi]" --8,149 eta Smooth Acute w/Iota -->
+<!ENTITY etsmgrwi SDATA "[etsmgrwi]" --8,150 eta Smooth Grave w/Iota -->
+<!ENTITY etsmciwi SDATA "[etsmciwi]" --8,151 eta Smooth Circumflex w/Iota -->
+<!ENTITY etarg    SDATA "[etarg   ]" --8,152 eta Rough -->
+<!ENTITY etargac  SDATA "[etargac ]" --8,153 eta Rough Acute -->
+<!ENTITY etarggr  SDATA "[etarggr ]" --8,154 eta Rough Grave -->
+<!ENTITY etargci  SDATA "[etargci ]" --8,155 eta Rough Circumflex -->
+<!ENTITY etargwi  SDATA "[etargwi ]" --8,156 eta Rough w/Iota -->
+<!ENTITY etrgacwi SDATA "[etrgacwi]" --8,157 eta Rough Acute w/Iota -->
+<!ENTITY etrggrwi SDATA "[etrggrwi]" --8,158 eta Rough Grave w/Iota -->
+<!ENTITY etrgciwi SDATA "[etrgciwi]" --8,159 eta Rough Circumflex w/Iota -->
+<!ENTITY iotagr   SDATA "[iotagr  ]" --8,160 iota Grave -->
+<!ENTITY iotaci   SDATA "[iotaci  ]" --8,161 iota Circumflex -->
+<!ENTITY iotaacdi SDATA "[iotaacdi]" --8,162 iota Acute Diaeresis -->
+<!ENTITY iotagrdi SDATA "[iotagrdi]" --8,163 iota Grave Diaeresis -->
+<!ENTITY iotasm   SDATA "[iotasm  ]" --8,164 iota Smooth -->
+<!ENTITY iotasmac SDATA "[iotasmac]" --8,165 iota Smooth Acute -->
+<!ENTITY iotasmgr SDATA "[iotasmgr]" --8,166 iota Smooth Grave -->
+<!ENTITY iotasmci SDATA "[iotasmci]" --8,167 iota Smooth Circumflex -->
+<!ENTITY iotarg   SDATA "[iotarg  ]" --8,168 iota Rough -->
+<!ENTITY iotargac SDATA "[iotargac]" --8,169 iota Rough Acute -->
+<!ENTITY iotarggr SDATA "[iotarggr]" --8,170 iota Rough Grave -->
+<!ENTITY iotargci SDATA "[iotargci]" --8,171 iota Rough Circumflex -->
+<!ENTITY omicgr   SDATA "[omicgr  ]" --8,172 omicron Grave -->
+<!ENTITY omicsm   SDATA "[omicsm  ]" --8,173 omicron Smooth -->
+<!ENTITY omicsmac SDATA "[omicsmac]" --8,174 omicron Smooth Acute -->
+<!ENTITY omicsmgr SDATA "[omicsmgr]" --8,175 omicron Smooth Grave -->
+<!ENTITY omicrg   SDATA "[omicrg  ]" --8,176 omicron Rough -->
+<!ENTITY omicrgac SDATA "[omicrgac]" --8,177 omicron Rough Acute -->
+<!ENTITY omicrggr SDATA "[omicrggr]" --8,178 omicron Rough Grave -->
+<!ENTITY rhosm    SDATA "[rhosm   ]" --8,179 rho Smooth -->
+<!ENTITY rhorg    SDATA "[rhorg   ]" --8,180 rho Rough -->
+<!ENTITY upsigr   SDATA "[upsigr  ]" --8,181 upsilon Grave -->
+<!ENTITY upsici   SDATA "[upsici  ]" --8,182 upsilon Circumflex -->
+<!ENTITY upsiacdi SDATA "[upsiacdi]" --8,183 upsilon Acute Diaeresis -->
+<!ENTITY upsigrdi SDATA "[upsigrdi]" --8,184 upsilon Grave Diaeresis -->
+<!ENTITY upsism   SDATA "[upsism  ]" --8,185 upsilon Smooth -->
+<!ENTITY upsismac SDATA "[upsismac]" --8,186 upsilon Smooth Acute -->
+<!ENTITY upsismgr SDATA "[upsismgr]" --8,187 upsilon Smooth Grave -->
+<!ENTITY upsismci SDATA "[upsismci]" --8,188 upsilon Smooth Circumflex -->
+<!ENTITY upsirg   SDATA "[upsirg  ]" --8,189 upsilon Rough -->
+<!ENTITY upsirgac SDATA "[upsirgac]" --8,190 upsilon Rough Acute -->
+<!ENTITY upsirggr SDATA "[upsirggr]" --8,191 upsilon Rough Grave -->
+<!ENTITY upsirgci SDATA "[upsirgci]" --8,192 upsilon Rough Circumflex -->
+<!ENTITY omeggr   SDATA "[omeggr  ]" --8,193 omega Grave -->
+<!ENTITY omegci   SDATA "[omegci  ]" --8,194 omega Circumflex -->
+<!ENTITY omegwi   SDATA "[omegwi  ]" --8,195 omega w/Iota -->
+<!ENTITY omegacwi SDATA "[omegacwi]" --8,196 omega Acute w/Iota -->
+<!ENTITY omeggrwi SDATA "[omeggrwi]" --8,197 omega Grave w/Iota -->
+<!ENTITY omegciwi SDATA "[omegciwi]" --8,198 omega Circumflex w/Iota -->
+<!ENTITY omegsm   SDATA "[omegsm  ]" --8,199 omega Smooth -->
+<!ENTITY omegsmac SDATA "[omegsmac]" --8,200 omega Smooth Acute -->
+<!ENTITY omegsmgr SDATA "[omegsmgr]" --8,201 omega Smooth Grave -->
+<!ENTITY omegsmci SDATA "[omegsmci]" --8,202 omega Smooth Circumflex -->
+<!ENTITY omegsmwi SDATA "[omegsmwi]" --8,203 omega Smooth w/Iota -->
+<!ENTITY omsmacwi SDATA "[omegacwi]" --8,204 omega Smooth Acute w/Iota -->
+<!ENTITY omsmgrwi SDATA "[omeggrwi]" --8,205 omega Smooth Grave w/Iota -->
+<!ENTITY omsmciwi SDATA "[omegciwi]" --8,206 omega Smooth Circumflex w/Iota -->
+<!ENTITY omegrg   SDATA "[omegrg  ]" --8,207 omega Rough -->
+<!ENTITY omegrgac SDATA "[omegrgac]" --8,208 omega Rough Acute -->
+<!ENTITY omegrggr SDATA "[omegrggr]" --8,209 omega Rough Grave -->
+ 
+<!-- New as of WPWin 6.0 -->
+
+<!ENTITY omegrgci SDATA "[omegrgci]" --8,210 omega Rough Circumflex -->
+<!ENTITY omegrgwi SDATA "[omegrgwi]" --8,211 omega Rough w/Iota -->
+<!ENTITY omrgacwi SDATA "[omrgacwi]" --8,212 omega Rough Acute w/Iota -->
+<!ENTITY omrggrwi SDATA "[omrggrwi]" --8,213 omega Rough Grave w/Iota -->
+<!ENTITY omrgciwi SDATA "[omrgciwi]" --8,214 omega Rough Circumflex w/Iota -->
+<!ENTITY stigma   SDATA "[stigma  ]" --8,215 Stigma -->
+<!ENTITY digamma  SDATA "[digamma ]" --8,216 Digamma -->
+<!ENTITY koppa    SDATA "[koppa   ]" --8,217 Koppa -->
+<!ENTITY sampi    SDATA "[sampi   ]" --8,218 Sampi -->

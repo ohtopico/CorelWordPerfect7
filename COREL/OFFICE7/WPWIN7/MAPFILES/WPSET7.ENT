@@ -1,0 +1,240 @@
+<!--
+    File:  WPSET7.ENT
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset7 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 7 (Math/Scientific Extension)//EN">
+      %wpset7;
+
+         Name            Text          WP#   Description
+--> 
+<!ENTITY integtop SDATA "[integtop]" --7,0   Integral [Top] -->
+<!ENTITY integbot SDATA "[integbot]" --7,1   Integral [Bottom] -->
+<!ENTITY integext SDATA "[integext]" --7,2   Integral [Extension] -->
+<!ENTITY hbsbrext SDATA "[hbsbrext]" --7,3   Horizontal Baseline Bar [Extension] -->
+<!ENTITY root1h   SDATA "[root1h  ]" --7,4   Root [1x High] -->
+<!ENTITY rthext1h SDATA "[rthext1h]" --7,5   Root Horiz Extension [1x High] -->
+<!ENTITY sum1.5h  SDATA "[sum1.5h ]" --7,6   Summation [1.5x High] -->
+<!ENTITY prod1.5h SDATA "[prod1.5h]" --7,7   Product [1.5x High] -->
+<!ENTITY coprod1h SDATA "[coprod1h]" --7,8   Coproduct [1.5x High] -->
+<!ENTITY integ1h  SDATA "[integ1h ]" --7,9   Integral [1.5x High] -->
+<!ENTITY cntint1h SDATA "[cntint1h]" --7,10  Contour Integral [1.5x High] -->
+<!ENTITY abs1.5h  SDATA "[abs1.5h ]" --7,11  Absolute Value [1.5x High] -->
+<!ENTITY abs2.0h  SDATA "[abs2.0h ]" --7,12  Absolute Value [1.5x High] -->
+<!ENTITY abs3.0h  SDATA "[abs3.0h ]" --7,13  Absolute Value [3.0x High] -->
+<!ENTITY abs4.0h  SDATA "[abs4.0h ]" --7,14  Absolute Value [4.0x High] -->
+<!ENTITY absext   SDATA "[absext  ]" --7,15  Absolute Value [Top/Bottom/Extension] -->
+<!ENTITY dbar1.5h SDATA "[dbar1.5h]" --7,16  Double Bar [1.5x High] -->
+<!ENTITY dbar2.0h SDATA "[dbar2.0h]" --7,17  Double Bar [2.0x High] -->
+<!ENTITY dbar3.0h SDATA "[dbar3.0h]" --7,18  Double Bar [3.0x High] -->
+<!ENTITY dbar4.0h SDATA "[dbar4.0h]" --7,19  Double Bar [4.0x High] -->
+<!ENTITY dbarext  SDATA "[dbarext ]" --7,20  Double Bar [Top/Bottom/Extension] -->
+<!ENTITY lbrc1.5h SDATA "[lbrc1.5h]" --7,21  Left Brace [1.5x High] -->
+<!ENTITY lbrc2.0h SDATA "[lbrc2.0h]" --7,22  Left Brace [2.0x High] -->
+<!ENTITY lbrc3.0h SDATA "[lbrc3.0h]" --7,23  Left Brace [3.0x High] -->
+<!ENTITY lbrc4.0h SDATA "[lbrc4.0h]" --7,24  Left Brace [4.0x High] -->
+<!ENTITY lbrctop  SDATA "[lbrctop ]" --7,25  Left Brace [Top] -->
+<!ENTITY lbrcmid  SDATA "[lbrcmid ]" --7,26  Left Brace [Middle] -->
+<!ENTITY lbrcbot  SDATA "[lbrcbot ]" --7,27  Left Brace [Bottom] -->
+<!ENTITY lbrcext  SDATA "[lbrcext ]" --7,28  Left Brace [Extension] -->
+<!ENTITY rbrc1.5h SDATA "[rbrc1.5h]" --7,29  Right Brace [1.5x High] -->
+<!ENTITY rbrc2.0h SDATA "[rbrc2.0h]" --7,30  Right Brace [2.0x High] -->
+<!ENTITY rbrc3.0h SDATA "[rbrc3.0h]" --7,31  Right Brace [3.0x High] -->
+<!ENTITY rbrc4.0h SDATA "[rbrc4.0h]" --7,32  Right Brace [4.0x High] -->
+<!ENTITY rbrctop  SDATA "[rbrctop ]" --7,33  Right Brace [Top] -->
+<!ENTITY rbrcmid  SDATA "[rbrcmid ]" --7,34  Right Brace [Middle] -->
+<!ENTITY rbrcbot  SDATA "[rbrcbot ]" --7,35  Right Brace [Bottom] -->
+<!ENTITY rbrcext  SDATA "[rbrcext ]" --7,36  Right Brace [Extension] -->
+<!ENTITY lflr1.5h SDATA "[lflr1.5h]" --7,37  Left Floor [1.5x High] -->
+<!ENTITY lflr2.0h SDATA "[lflr2.0h]" --7,38  Left Floor [2.0x High] -->
+<!ENTITY lflr3.0h SDATA "[lflr3.0h]" --7,39  Left Floor [3.0x High] -->
+<!ENTITY lflr4.0h SDATA "[lflr4.0h]" --7,40  Left Floor [4.0x High] -->
+<!ENTITY lflrbot  SDATA "[lflrbot ]" --7,41  Left Floor [Bottom] -->
+<!ENTITY lflrext  SDATA "[lflrext ]" --7,42  Left Floor [Top/Extension] -->
+<!ENTITY rflr1.5h SDATA "[rflr1.5h]" --7,43  Right Floor [1.5x High] -->
+<!ENTITY rflr2.0h SDATA "[rflr2.0h]" --7,44  Right Floor [2.0x High] -->
+<!ENTITY rflr3.0h SDATA "[rflr3.0h]" --7,45  Right Floor [3.0x High] -->
+<!ENTITY rflr4.0h SDATA "[rflr4.0h]" --7,46  Right Floor [4.0x High] -->
+<!ENTITY rlfrbot  SDATA "[rlfrbot ]" --7,47  Right Floor [Bottom] -->
+<!ENTITY rflrext  SDATA "[rflrext ]" --7,48  Right Floor [Top/Extension] -->
+<!ENTITY lclg1.5h SDATA "[lclg1.5h]" --7,49  Left Ceiling [1.5x High] -->
+<!ENTITY lclg2.0h SDATA "[lclg2.0h]" --7,50  Left Ceiling [2.0x High] -->
+<!ENTITY lclg3.0h SDATA "[lclg3.0h]" --7,51  Left Ceiling [3.0x High] -->
+<!ENTITY lclg4.0h SDATA "[lclg4.0h]" --7,52  Left Ceiling [4.0x High] -->
+<!ENTITY lclgtop  SDATA "[lclgtop ]" --7,53  Left Ceiling [Top] -->
+<!ENTITY lclgext  SDATA "[lclgext ]" --7,54  Left Ceiling [Bottom/Extension] -->
+<!ENTITY rclg1.5h SDATA "[rclg1.5h]" --7,55  Right Ceiling [1.5x High] -->
+<!ENTITY rclg2.0h SDATA "[rclg2.0h]" --7,56  Right Ceiling [2.0x High] -->
+<!ENTITY rclg3.0h SDATA "[rclg3.0h]" --7,57  Right Ceiling [3.0x High] -->
+<!ENTITY rclg4.0h SDATA "[rclg4.0h]" --7,58  Right Ceiling [4.0x High] -->
+<!ENTITY rclgtop  SDATA "[rclgtop ]" --7,59  Right Ceiling [Top] -->
+<!ENTITY rclgext  SDATA "[rclgext ]" --7,60  Right Ceiling [Bottom/Extension] -->
+<!ENTITY uni1.5h  SDATA "[uni1.5h ]" --7,61  Union [1.5x High] -->
+<!ENTITY intsct1h SDATA "[intsct1h]" --7,62  Intersection [1.5x High] -->
+<!ENTITY cntintmd SDATA "[cntintmd]" --7,63  Contour Integral [Middle] -->
+<!ENTITY sumtrt   SDATA "[sumtrt  ]" --7,64  Summation [Top Right] -->
+<!ENTITY sumtext  SDATA "[sumtext ]" --7,65  Summation [Top Extension] -->
+<!ENTITY sumtang  SDATA "[sumtang ]" --7,66  Summation [Top Angle] -->
+<!ENTITY sumtaext SDATA "[sumtaext]" --7,67  Summation [Top Angle Extension] -->
+<!ENTITY sumcang  SDATA "[sumcang ]" --7,68  Summation [Center Angle] -->
+<!ENTITY sumbaext SDATA "[sumbaext]" --7,69  Summation [Bottom Angle Extension] -->
+<!ENTITY sumbang  SDATA "[sumbang ]" --7,70  Summation [Bottom Angle] -->
+<!ENTITY sumbext  SDATA "[sumbext ]" --7,71  Summation [Bottom Extension] -->
+<!ENTITY sumbrt   SDATA "[sumbrt  ]" --7,72  Summation [Bottom Right] -->
+<!ENTITY sum2.0h  SDATA "[sum2.0h ]" --7,73  Summation [2.0x High] -->
+<!ENTITY prod2.0h SDATA "[prod2.0h]" --7,74  Product [2.0x High] -->
+<!ENTITY cprd2.0h SDATA "[cprd2.0h]" --7,75  Coproduct [2.0x High] -->
+<!ENTITY integ2h  SDATA "[integ2h ]" --7,76  Integral [2.0x High] -->
+<!ENTITY cntint2h SDATA "[cntint2h]" --7,77  Contour Integral [2.0x High] -->
+<!ENTITY root1.5h SDATA "[root1.5h]" --7,78  Root [1.5x High] -->
+<!ENTITY root2.0h SDATA "[root2.0h]" --7,79  Root [2.0x High] -->
+<!ENTITY root3.0h SDATA "[root3.0h]" --7,80  Root [3.0x High] -->
+<!ENTITY root4.0h SDATA "[root4.0h]" --7,81  Root [4.0x High] -->
+<!ENTITY rootbot  SDATA "[rootbot ]" --7,82  Root [Bottom] -->
+<!ENTITY rootvext SDATA "[rootvext]" --7,83  Root [Vert Extension] -->
+<!ENTITY roottopc SDATA "[roottopc]" --7,84  Root [Top Corner] -->
+<!ENTITY hawrt    SDATA "[hawrt   ]" --7,85  Horiz Arrow [Right] -->
+<!ENTITY hawlt    SDATA "[hawlt   ]" --7,86  Horiz Arrow [Left] -->
+<!ENTITY haext    SDATA "[haext   ]" --7,87  Horiz Arrow [Extension] -->
+<!ENTITY hatlthk  SDATA "[hatlthk ]" --7,88  Horiz Arrow [Terminal Left Hook] -->
+<!ENTITY hatrthk  SDATA "[hatrthk ]" --7,89  Horiz Arrow [Terminal Right Hook] -->
+<!ENTITY hatbar   SDATA "[hatbar  ]" --7,90  Horiz Arrow [Terminal Bar] -->
+<!ENTITY hdart    SDATA "[hdart   ]" --7,91  Horiz Dbl Arrow [Right] -->
+<!ENTITY hdalt    SDATA "[hdalt   ]" --7,92  Horiz Dbl Arrow [Left] -->
+<!ENTITY hdaext   SDATA "[hdaext  ]" --7,93  Horiz Dbl Arrow [Extension] -->
+<!ENTITY vaup     SDATA "[vaup    ]" --7,94  Vert Arrow [Up] -->
+<!ENTITY vadn     SDATA "[vadn    ]" --7,95  Vert Arrow [Down] -->
+<!ENTITY vaext    SDATA "[vaext   ]" --7,96  Vert Arrow [Extension] -->
+<!ENTITY vdaup    SDATA "[vdaup   ]" --7,97  Vert Dbl Arrow [Up] -->
+<!ENTITY vdadn    SDATA "[vdadn   ]" --7,98  Vert Dbl Arrow [Down] -->
+<!ENTITY vdaext   SDATA "[vdaext  ]" --7,99  Vert Dbl Arrow [Extension] -->
+<!ENTITY lpar1.5h SDATA "[lpar1.5h]" --7,100 Left Parenthesis [1.5x High] -->
+<!ENTITY lpar2.0h SDATA "[lpar2.0h]" --7,101 Left Parenthesis [2.0x High] -->
+<!ENTITY lpar3.0h SDATA "[lpar3.0h]" --7,102 Left Parenthesis [3.0x High] -->
+<!ENTITY lpar4.0h SDATA "[lpar4.0h]" --7,103 Left Parenthesis [4.0x High] -->
+<!ENTITY lpartop  SDATA "[lpartop ]" --7,104 Left Parenthesis [Top] -->
+<!ENTITY lparbot  SDATA "[lparbot ]" --7,105 Left Parenthesis [Bottom] -->
+<!ENTITY lparext  SDATA "[lparext ]" --7,106 Left Parenthesis [Extension] -->
+<!ENTITY rpar1.5h SDATA "[rpar1.5h]" --7,107 Right Parenthesis [1.5x High] -->
+<!ENTITY rpar2.0h SDATA "[rpar2.0h]" --7,108 Right Parenthesis [2.0x High] -->
+<!ENTITY rpar3.0h SDATA "[rpar3.0h]" --7,109 Right Parenthesis [3.0x High] -->
+<!ENTITY rpar4.0h SDATA "[rpar4.0h]" --7,110 Right Parenthesis [4.0x High] -->
+<!ENTITY rpartop  SDATA "[rpartop ]" --7,111 Right Parenthesis [Top] -->
+<!ENTITY rparbot  SDATA "[rparbot ]" --7,112 Right Parenthesis [Bottom] -->
+<!ENTITY rparext  SDATA "[rparext ]" --7,113 Right Parenthesis [Extension] -->
+<!ENTITY lbrk1.5h SDATA "[lbrk1.5h]" --7,114 Left Bracket [1.5x High] -->
+<!ENTITY lbrk2.0h SDATA "[lbrk2.0h]" --7,115 Left Bracket [2.0x High] -->
+<!ENTITY lbrk3.0h SDATA "[lbrk3.0h]" --7,116 Left Bracket [3.0x High] -->
+<!ENTITY lbrk4.0h SDATA "[lbrk4.0h]" --7,117 Left Bracket [4.0x High] -->
+<!ENTITY lbrktop  SDATA "[lbrktop ]" --7,118 Left Bracket [Top] -->
+<!ENTITY lbrkbot  SDATA "[lbrkbot ]" --7,119 Left Bracket [Bottom] -->
+<!ENTITY lbrkext  SDATA "[lbrkext ]" --7,120 Left Bracket [Extension] -->
+<!ENTITY rbrk1.5h SDATA "[rbrk1.5h]" --7,121 Right Bracket [1.5x High] -->
+<!ENTITY rbrk2.0h SDATA "[rbrk2.0h]" --7,122 Right Bracket [2.0x High] -->
+<!ENTITY rbrk3.0h SDATA "[rbrk3.0h]" --7,123 Right Bracket [3.0x High] -->
+<!ENTITY rbrk4.0h SDATA "[rbrk4.0h]" --7,124 Right Bracket [4.0x High] -->
+<!ENTITY rbrktop  SDATA "[rbrktop ]" --7,125 Right Bracket [Top] -->
+<!ENTITY rbrkbot  SDATA "[rbrkbot ]" --7,126 Right Bracket [Bottom] -->
+<!ENTITY rbrkext  SDATA "[rbrkext ]" --7,127 Right Bracket [Extension] -->
+<!ENTITY labr1.5h SDATA "[labr1.5h]" --7,128 Left Angle Bracket [1.5x High] -->
+<!ENTITY labr2.0h SDATA "[labr2.0h]" --7,129 Left Angle Bracket [2.0x High] -->
+<!ENTITY labr3.0h SDATA "[labr3.0h]" --7,130 Left Angle Bracket [3.0x High] -->
+<!ENTITY labr4.0h SDATA "[labr4.0h]" --7,131 Left Angle Bracket [4.0x High] -->
+<!ENTITY rabr1.5h SDATA "[rabr1.5h]" --7,132 Right Angle Bracket [1.5x High] -->
+<!ENTITY rabr2.0h SDATA "[rabr2.0h]" --7,133 Right Angle Bracket [2.0x High] -->
+<!ENTITY rabr3.0h SDATA "[rabr3.0h]" --7,134 Right Angle Bracket [3.0x High] -->
+<!ENTITY rabr4.0h SDATA "[rabr4.0h]" --7,135 Right Angle Bracket [4.0x High] -->
+<!ENTITY fgsl1.5h SDATA "[fgsl1.5h]" --7,136 Figure Slash [1.5x High] -->
+<!ENTITY fgsl2.0h SDATA "[fgsl2.0h]" --7,137 Figure Slash [2.0x High] -->
+<!ENTITY fgsl3.0h SDATA "[fgsl3.0h]" --7,138 Figure Slash [3.0x High] -->
+<!ENTITY fgsl4.0h SDATA "[fgsl4.0h]" --7,139 Figure Slash [4.0x High] -->
+<!ENTITY fgbs1.5h SDATA "[fgbs1.5h]" --7,140 Figure Backslash [1.5x High] -->
+<!ENTITY fgbs2.0h SDATA "[fgbs2.0h]" --7,141 Figure Backslash [2.0x High] -->
+<!ENTITY fgbs3.0h SDATA "[fgbs3.0h]" --7,142 Figure Backslash [3.0x High] -->
+<!ENTITY fgbs4.0h SDATA "[fgbs4.0h]" --7,143 Figure Backslash [4.0x High] -->
+<!ENTITY unio2.0h SDATA "[unio2.0h]" --7,144 Union [2.0x High] -->
+<!ENTITY intr2.0h SDATA "[intr2.0h]" --7,145 Intersection [2.0x High] -->
+<!ENTITY msun1.5h SDATA "[msun1.5h]" --7,146 Multiset Union [1.5x High] -->
+<!ENTITY msun2.0h SDATA "[msun2.0h]" --7,147 Multiset Union [2.0x High] -->
+<!ENTITY squn1.5h SDATA "[squn1.5h]" --7,148 Square Union [1.5x High] -->
+<!ENTITY squn2.0h SDATA "[squn2.0h]" --7,149 Square Union [2.0x High] -->
+<!ENTITY land1.5h SDATA "[land1.5h]" --7,150 Logical And [1.5x High] -->
+<!ENTITY land2.0h SDATA "[land2.0h]" --7,151 Logical And [2.0x High] -->
+<!ENTITY lor1.5h  SDATA "[lor1.5h ]" --7,152 Logical Or [1.5x High] -->
+<!ENTITY lor2.0h  SDATA "[lor2.0h ]" --7,153 Logical Or [2.0x High] -->
+<!ENTITY cmlt1.5h SDATA "[cmlt1.5h]" --7,154 Circle Multiply [1.5x High] -->
+<!ENTITY cmlt2.0h SDATA "[cmlt2.0h]" --7,155 Circle Multiply [2.0x High] -->
+<!ENTITY cpls1.5h SDATA "[cpls1.5h]" --7,156 Circle Plus [1.5x High] -->
+<!ENTITY cpls2.0h SDATA "[cpls2.0h]" --7,157 Circle Plus [2.0x High] -->
+<!ENTITY cdot1.5h SDATA "[cdot1.5h]" --7,158 Circle Dot [1.5x High] -->
+<!ENTITY cdot2.0h SDATA "[cdot2.0h]" --7,159 Circle Dot [2.0x High] -->
+<!ENTITY htbrklt  SDATA "[htbrklt ]" --7,160 Horiz Top Brace [Left End] -->
+<!ENTITY htbrkrt  SDATA "[htbrkrt ]" --7,161 Horiz Top Brace [Right End] -->
+<!ENTITY htbrkmd  SDATA "[htbrkmd ]" --7,162 Horiz Top Brace [Middle] -->
+<!ENTITY htbrkext SDATA "[htbrkext]" --7,163 Horiz Top Brace [Extension] -->
+<!ENTITY hbbrklt  SDATA "[hbbrklt ]" --7,164 Horiz Bottom Brace [Left End] -->
+<!ENTITY hbbrkrt  SDATA "[hbbrkrt ]" --7,165 Horiz Bottom Brace [Right End] -->
+<!ENTITY hbbrkmd  SDATA "[hbbrkmd ]" --7,166 Horiz Bottom Brace [Middle] -->
+<!ENTITY hbbrkext SDATA "[hbbrkext]" --7,167 Horiz Bottom Brace [Extension] -->
+<!ENTITY covr1.5w SDATA "[covr1.5w]" --7,168 Circumflex Overmark [1.5x Wide] -->
+<!ENTITY covr2.0w SDATA "[covr2.0w]" --7,169 Circumflex Overmark [2.0x Wide] -->
+<!ENTITY covr3.0w SDATA "[covr3.0w]" --7,170 Circumflex Overmark [3.0x Wide] -->
+<!ENTITY tovr1.5w SDATA "[tovr1.5w]" --7,171 Tilde Overmark [1.5x Wide] -->
+<!ENTITY tovr2.0w SDATA "[tovr2.0w]" --7,172 Tilde Overmark [2.0x Wide] -->
+<!ENTITY tovr3.0w SDATA "[tovr3.0w]" --7,173 Tilde Overmark [3.0x Wide] -->
+<!ENTITY aovr1.5w SDATA "[aovr1.5w]" --7,174 Arc Overmark [1.5x Wide] -->
+<!ENTITY aovr2.0w SDATA "[aovr2.0w]" --7,175 Arc Overmark [2.0x Wide] -->
+<!ENTITY aovr3.0w SDATA "[aovr3.0w]" --7,176 Arc Overmark [3.0x Wide] -->
+<!ENTITY bovr1.5w SDATA "[bovr1.5w]" --7,177 Bar Overmark [1.5x Wide] -->
+<!ENTITY bovr2.0w SDATA "[bovr2.0w]" --7,178 Bar Overmark [2.0x Wide] -->
+<!ENTITY bovr3.0w SDATA "[bovr3.0w]" --7,179 Bar Overmark [3.0x Wide] -->
+<!ENTITY cmin1.5h SDATA "[cmin1.5h]" --7,180 Circle Minus [1.5x High] -->
+<!ENTITY cmin2.0h SDATA "[cmin2.0h]" --7,181 Circle Minus [2.0x High] -->
+<!ENTITY cdiv1.5h SDATA "[cdiv1.5h]" --7,182 Circle Divide [1.5x High] -->
+<!ENTITY cdiv2.0h SDATA "[cdiv2.0h]" --7,183 Circle Divide [2.0x High] -->
+<!ENTITY ldbr1.5h SDATA "[ldbr1.5h]" --7,184 Left Double Bracket [1.5x High] -->
+<!ENTITY ldbr2.0h SDATA "[ldbr2.0h]" --7,185 Left Double Bracket [2.0x High] -->
+<!ENTITY ldbr3.0h SDATA "[ldbr3.0h]" --7,186 Left Double Bracket [3.0x High] -->
+<!ENTITY ldbr4.0h SDATA "[ldbr4.0h]" --7,187 Left Double Bracket [4.0x High] -->
+<!ENTITY ldbrtop  SDATA "[ldbrtop ]" --7,188 Left Double Bracket [Top] -->
+<!ENTITY ldbrbot  SDATA "[ldbrbot ]" --7,189 Left Double Bracket [Bottom] -->
+<!ENTITY ldbrext  SDATA "[ldbrext ]" --7,190 Left Double Bracket [Extension] -->
+<!ENTITY rdbr1.5h SDATA "[rdbr1.5h]" --7,191 Right Double Bracket [1.5x High] -->
+<!ENTITY rdbr2.0h SDATA "[rdbr2.0h]" --7,192 Right Double Bracket [2.0x High] -->
+<!ENTITY rdbr3.0h SDATA "[rdbr3.0h]" --7,193 Right Double Bracket [3.0x High] -->
+<!ENTITY rdbr4.0h SDATA "[rdbr4.0h]" --7,194 Right Double Bracket [4.0x High] -->
+<!ENTITY rdbrtop  SDATA "[rdbrtop ]" --7,195 Right Double Bracket [Top] -->
+<!ENTITY rdbrbot  SDATA "[rdbrbot ]" --7,196 Right Double Bracket [Bottom] -->
+<!ENTITY rdbrext  SDATA "[rdbrext ]" --7,197 Right Double Bracket [Extension] -->
+<!ENTITY hhrprhu  SDATA "[hhrprhu ]" --7,198 Horiz Harpoon [Right Harpoon Up] -->
+<!ENTITY hhrprhdn SDATA "[hhrprhdn]" --7,199 Horiz Harpoon [Right Harpoon Down] -->
+<!ENTITY hhrplhup SDATA "[hhrplhup]" --7,200 Horiz Harpoon [Left Harpoon Up] -->
+<!ENTITY hhrplhdn SDATA "[hhrplhdn]" --7,201 Horiz Harpoon [Left Harpoon Down] -->
+<!ENTITY hhrpext  SDATA "[hhrpext ]" --7,202 Horiz Harpoon [Extension] -->
+<!ENTITY thhrtop  SDATA "[thhrtop ]" --7,203 Two Horiz Harpoons [Right Top] -->
+<!ENTITY thhrbot  SDATA "[thhrbot ]" --7,204 Two Horiz Harpoons [Right Bottom] -->
+<!ENTITY thhltop  SDATA "[thhltop ]" --7,205 Two Horiz Harpoons [Left Top] -->
+<!ENTITY thhlbot  SDATA "[thhlbot ]" --7,206 Two Horiz Harpoons [Left Bottom] -->
+<!ENTITY thhext   SDATA "[thhext  ]" --7,207 Two Horiz Harpoons [Extension] -->
+<!ENTITY thart    SDATA "[thart   ]" --7,208 Two Horiz Arrows [Right] -->
+<!ENTITY thalt    SDATA "[thalt   ]" --7,209 Two Horiz Arrows [Left] -->
+<!ENTITY thaext   SDATA "[thaext  ]" --7,210 Two Horiz Arrows [Extension] -->
+<!ENTITY mhartop  SDATA "[mhartop ]" --7,211 Mixed Horiz Arrows [Right Top] -->
+<!ENTITY mharbot  SDATA "[mharbot ]" --7,212 Mixed Horiz Arrows [Right Bottom] -->
+<!ENTITY mhaltop  SDATA "[mhaltop ]" --7,213 Mixed Horiz Arrows [Left Top] -->
+<!ENTITY mhalbot  SDATA "[mhalbot ]" --7,214 Mixed Horiz Arrows [Left Bottom] -->
+<!ENTITY mhaext   SDATA "[mhaext  ]" --7,215 Mixed Horiz Arrows [Extension] -->
+<!ENTITY vhrpuhr  SDATA "[vhrpuhr ]" --7,216 Vert Harpoon [Up Harpoon Right] -->
+<!ENTITY vhrpuhl  SDATA "[vhrpuhl ]" --7,217 Vert Harpoon [Up Harpoon Left] -->
+<!ENTITY vhrpdhr  SDATA "[vhrpdhr ]" --7,218 Vert Harpoon [Down Harpoon Right] -->
+<!ENTITY vhrpdhl  SDATA "[vhrpdhl ]" --7,219 Vert Harpoon [Down Harpoon Left] -->
+<!ENTITY vhrpext  SDATA "[vhrpext ]" --7,220 Vert Harpoon [Extension] -->
+<!ENTITY sint1.5h SDATA "[sint1.5h]" --7,221 Square Intersection [1.5x High] -->
+<!ENTITY sint2.0h SDATA "[sint2.0h]" --7,222 Square Intersection [2.0x High] -->
+<!ENTITY sqdiv    SDATA "[sqdiv   ]" --7,223 Square Division Sign -->
+<!ENTITY curvdiv  SDATA "[curvdiv ]" --7,224 Curved Division Sign -->
+<!ENTITY rthx1.5h SDATA "[rthx1.5h]" --7,225 Root Horiz Extension [1.5x High] -->
+<!ENTITY rthx2.0h SDATA "[rthx2.0h]" --7,226 Root Horiz Extension [2.0x High] -->
+<!ENTITY rthx2.5h SDATA "[rthx2.5h]" --7,227 Root Horiz Extension [2.5x High] -->
+<!ENTITY rthxptsh SDATA "[rthxptsh]" --7,228 Root Horiz Extension [Parts High] -->

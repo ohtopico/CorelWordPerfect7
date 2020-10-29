@@ -1,0 +1,128 @@
+
+[Version]
+Signature=$CHICAGO$
+Class=PRINTER
+Provider="Corel"
+
+[ClassInstall]
+
+[DestinationDirs]
+EVY_DRV.Copy=11
+
+[Manufacturer]
+"Corel"
+
+[Corel]
+%EvyDriver%=EVY_DRV,Envoy_7_Driver
+
+;
+; Install Sections
+;
+[EVY_DRV]
+DataSection=EVY_DRV.Data
+AddReg=EVY_DRV.Reg,EVY_View.Reg
+CopyFiles=EVY_DRV.Copy
+
+[EVY_DRV.Copy]
+Envoyd7.drv
+Evyd7br.dll
+Evysh7.dll
+Evyxpi7.dll
+Evyrn7br.exe
+
+[EVY_DRV.Data]
+DriverFile=Envoyd7.drv
+DataFile=Envoyd7.drv
+HelpFile=Evyd7%Lang%.dll
+NoTestPage=1
+
+[EVY_DRV.Reg]
+HKLM,%PrinterDriverData%,,0,
+HKLM,%PrinterDriverData%,"Document Directory",0,%Office7Dir%MyFiles
+HKLM,%PrinterDriverData%,"Home Directory",0,%Office7Dir%Envoy7
+HKLM,%PrinterDriverData%,PackageStub,0,%Office7Dir%Envoy7\System\Evypkg7
+HKLM,%PrinterDriverData%,Persistent,3,01,00,00,00,38,2e,35,00,01,00,31,31,2e,30,00,4d,64,00,00,00,01,00,00,00,30,2e,32,35,00,00,30,2e,32,35,00,5d,08,00,b7,55,02,00,c8,00,c8,00,60,00,60,00,08,00,18,00,ff,ff
+HKLM,%PrinterDriverData%,PropertyDLL,0,%WinSys%EVYDP7%Lang%.DLL
+HKLM,%PrinterDriverData%,RenameExe,0,%WinSys%Evyrn7%Lang%.exe
+HKLM,%PrinterDriverData%,ResourceDLL,0,%WinSys%Evyd7%Lang%.dll
+HKLM,%PrinterDriverData%,RuntimeExe,0,%Office7Dir%Envoy7\System\Envoy7.ex_
+HKLM,%PrinterDriverData%,RuntimeHelp,0,%Office7Dir%Envoy7\System\Evyr7%Lang%.hl_
+HKLM,%PrinterDriverData%,RuntimeRes,0,%Offic7Dir%Envoy7\System\Evy7%Lang%.dl_
+HKLM,%PrinterDriverData%,"Spool Directory",0,%Office7Dir%Envoy7\Spool
+
+
+;
+; Envoy 7 Win95 Viewer Registry
+;
+; Even though this part is for the viewer and not a 
+; device driver, the Envoy Driver can print to the 
+; viewer and therefor needs to insure that the viewer
+; is registered.
+;
+[EVY_View.Reg]
+HKCR,.evy,,0,Envoy.Document.7
+HKCR,Envoy.Document.7,,0,"Envoy 7 Document"
+HKCR,Envoy.Document.7\DefaultIcon,,0,%Office7Dir%"Envoy7\Envoy7.exe 1"
+HKCR,Envoy.Document.7\shell\open\command,,0,%Office7Dir%"Envoy7\Envoy7.exe -dde"
+HKCR,Envoy.Document.7\shell\open\ddeexec,,0,"[FileOpen(%1)]"
+HKCR,Envoy.Document.7\shell\open\ddeexec\topic,,0,"System"
+HKCR,Envoy.Document.7\shell\open\ddeexec\application,,0,"Envoy"
+HKCR,Envoy.Document.7\shell\print\command,,0,%Office7Dir%"Envoy7\Envoy7.exe /silent /p %1"
+HKCR,Envoy.Document.7\shell\print\ddeexec,,0,"[FileOpen(%1)]"
+HKCR,Envoy.Document.7\shell\printto\command,,0,%Office7Dir%"Envoy7\Envoy7.exe /silent /p %1 %2 %3 %4"
+HKCR,Envoy.Document.7\shellex\PropertySheetHandlers,,0,"EnvoyInformationPage"
+HKCR,Envoy.Document.7\shellex\PropertySheetHandlers\EnvoyInformationPage,,0,{F9B4480D-EE27-11ce-A269-444553540000}
+HKCR,CLSID\{F9B4480D-EE27-11ce-A269-444553540000},,0,
+HKCR,CLSID\{F9B4480D-EE27-11ce-A269-444553540000}\InProcServer32,,0,%Office7Dir%Envoy7\System\Evysh7.dll
+HKCR,CLSID\{F9B4480D-EE27-11ce-A269-444553540000}\InProcServer32,ThreadingModel,0,Apartment
+HKLM,Software\Classes\.evy,,0,Envoy.Document.7
+HKLM,Software\Classes\Envoy.Document.7,,0,"Envoy 7 Document"
+HKLM,Software\Classes\Envoy.Document.7\DefaultIcon,,0,%Office7Dir%"Envoy7\Envoy7.exe 1"
+HKLM,Software\Classes\Envoy.Document.7\shell\open\command,,0,%Office7Dir%"Envoy7\Envoy7.exe -dde"
+HKLM,Software\Classes\Envoy.Document.7\shell\open\ddeexec,,0,"[FileOpen(%1)]"
+HKLM,Software\Classes\Envoy.Document.7\shell\open\ddeexec\topic,,0,"System"
+HKLM,Software\Classes\Envoy.Document.7\shell\open\ddeexec\application,,0,"Envoy"
+HKLM,Software\Classes\Envoy.Document.7\shell\print\command,,0,%Office7Dir%"Envoy7\Envoy7.exe /silent /p%1"
+HKLM,Software\Classes\Envoy.Document.7\shell\print\ddeexec,,0,"[FileOpen(%1)]"
+HKLM,Software\Classes\Envoy.Document.7\shell\print\ddeexec\ifexec,,0,"[FileOpen(%1)]"
+HKLM,Software\Classes\Envoy.Document.7\shell\print\ddeexec\topic,,0,"System"
+HKLM,Software\Classes\Envoy.Document.7\shell\print\ddeexec\application,,0,"Envoy"
+HKLM,Software\Classes\Envoy.Document.7\shell\printto\command,,0,%Office7Dir%"Envoy7\Envoy7.exe /silent /p %1 %2 %3 %4"
+HKLM,Software\Classes\Envoy.Document.7\shellex\PropertySheetHandlers,,0,EnvoyInformationPage
+HKLM,Software\Classes\Envoy.Document.7\shellex\PropertySheetHandlers\EnvoyInformationPage,,0,{F9B4480D-EE27-11ce-A269-444553540000}
+
+[ControlFlags]
+
+; Instructions to customize this .inf file
+;
+; If you are using a language module other than US edit the information in the line
+; below for Lang to be the language you have installed as the default language.
+; There are two entries above: Evyd7US.dll and Evyrn7US.exe.  You must replacing the US in
+; these lines with the default language you installed.
+
+; US = United States and Canada
+; BR = Brazilian Portugese	IT = Italian
+; DA = Danish			JP = Japanese
+; DE = German			NL = Dutch
+; ES = Spanish			NW = Norweigen
+; FN = Finish			SW = Swedish
+; FR = French			UK = UK English
+
+;
+; If you installed Office 7, Office 7 Pro or Envoy 7 to a location other than C Drive then
+; edit the information in the line below for Office7Dir that identifies where
+; the Office7 directory is located.
+;
+; If your Windows95 directory is different than C:\win95 then edit the information
+; in the line below for WinSys that identifies where the Win95 directory is located.
+;
+; The Envoy 7 printer driver is not compatable with Windows NT.
+
+[Strings]
+EvyDriver="Driver do Envoy 7"
+PrinterDriverData="System\CurrentControlSet\control\Print\Printers\Envoy 7 Driver\PrinterDriverData"
+Semi=";"
+Lang="br"
+Office7Dir="C:\Corel\Office7\"
+WinSys="C:\win95\system\"
+

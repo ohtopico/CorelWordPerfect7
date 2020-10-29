@@ -1,0 +1,53 @@
+--
+    File:  ISOAMSB.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOamsb PUBLIC
+       "ISO 8879-1986//ENTITIES Added Math Symbols: Binary Operators//EN">
+     %ISOamsb;
+
+  WP #    Name       Text            Description
+--
+  6,114   amalg     "[amalg ]"     --/amalg B: amalgamation or coproduct--
+  0,0     Barwed    "[Barwed]"     --/doublebarwedge B: log and, dbl bar--
+  0,0     barwed    "[barwed]"     --/barwedge B: logical and, bar above--
+  6,161   Cap       "[Cap   ]"     --/Cap /doublecap B: dbl intersection--
+  6,160   Cup       "[Cup   ]"     --/Cup /doublecup B: dbl union--
+  0,0     cuvee     "[cuvee ]"     --/curlyvee B: curly logical or--
+  0,0     cuwed     "[cuwed ]"     --/curlywedge B: curly logical and--
+  6,95    diam      "[diam  ]"     --/diamond B: open diamond--
+  0,0     divonx    "[divonx]"     --/divideontimes B: division on times--
+  6,88    intcal    "[intcal]"     --/intercal B: intercal--
+  0,0     lthree    "[lthree]"     --/leftthreetimes B:--
+  0,0     ltimes    "[ltimes]"     --/ltimes B: times sign, left closed--
+  0,0     minusb    "[minusb]"     --/boxminus B: minus sign in box--
+  6,165   oast      "[oast  ]"     --/circledast B: asterisk in circle--
+  6,164   ocir      "[ocir  ]"     --/circledcirc B: open dot in circle--
+  6,166   odash     "[odash ]"     --/circleddash B: hyphen in circle--
+  6,84    odot      "[odot  ]"     --/odot B: middle dot in circle--
+  6,82    ominus    "[ominus]"     --/ominus B: minus sign in circle--
+  6,81    oplus     "[oplus ]"     --/oplus B: plus sign in circle--
+  6,72    osol      "[osol  ]"     --/oslash B: solidus in circle--
+  6,80    otimes    "[otimes]"     --/otimes B: multiply sign in circle--
+  0,0     plusb     "[plusb ]"     --/boxplus B: plus sign in box--
+  6,174   plusdo    "[plusdo]"     --/dotplus B: plus sign, dot above--
+  0,0     rthree    "[rthree]"     --/rightthreetimes B:--
+  0,0     rtimes    "[rtimes]"     --/rtimes B: times sign, right closed--
+  6,32    sdot      "[sdot  ]"     --/cdot B: small middle dot--
+  0,0     sdotb     "[sdotb ]"     --/dotsquare /boxdot B: small dot in box--
+  6,7     setmn     "[setmn ]"     --/setminus B: reverse solidus--
+  6,128   sqcap     "[sqcap ]"     --/sqcap B: square intersection--
+  6,129   sqcup     "[sqcup ]"     --/sqcup B: square union--
+  0,0     ssetmn    "[ssetmn]"     --/smallsetminus B: sm reverse solidus--
+  6,112   sstarf    "[sstarf]"     --/star B: small star, filled--
+  0,0     timesb    "[timesb]"     --/boxtimes B: multiply sign in box--
+  6,88    top       "[top   ]"     --/top B: inverted perpendicular--
+  6,125   uplus     "[uplus ]"     --/uplus B: plus sign in union--
+  6,183   wreath    "[wreath]"     --/wr B: wreath product--
+  6,143   xcirc     "[xcirc ]"     --/bigcirc B: large circle--
+  6,137   xdtri     "[xdtri ]"     --/bigtriangledown B: big dn tri, open--
+  6,136   xutri     "[xutri ]"     --/bigtriangleup B: big up tri, open--
+  6,114   coprod    "[coprod]"     --/coprod L: coproduct operator--
+  6,41    prod      "[prod  ]"     --/prod L: product operator--
+  6,18    sum       "[sum   ]"     --/sum L: summation operator--

@@ -1,0 +1,78 @@
+--
+    File:  ISOCYR1.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOcyr1 PUBLIC
+       "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+     %ISOcyr1;
+
+  WP #    Name       Text            Description
+--
+  10,1    acy       "[acy   ]"     --=small a, Cyrillic--
+  10,0    Acy       "[Acy   ]"     --=capital A, Cyrillic--
+  10,3    bcy       "[bcy   ]"     --=small be, Cyrillic--
+  10,2    Bcy       "[Bcy   ]"     --=capital BE, Cyrillic--
+  10,5    vcy       "[vcy   ]"     --=small ve, Cyrillic--
+  10,4    Vcy       "[Vcy   ]"     --=capital VE, Cyrillic--
+  10,7    gcy       "[gcy   ]"     --=small ghe, Cyrillic--
+  10,6    Gcy       "[Gcy   ]"     --=capital GHE, Cyrillic--
+  10,9    dcy       "[dcy   ]"     --=small de, Cyrillic--
+  10,8    Dcy       "[Dcy   ]"     --=capital DE, Cyrillic--
+  10,11   iecy      "[iecy  ]"     --=small ie, Cyrillic--
+  10,10   IEcy      "[IEcy  ]"     --=capital IE, Cyrillic--
+  10,13   iocy      "[iocy  ]"     --=small io, Russian--
+  10,12   IOcy      "[IOcy  ]"     --=capital IO, Russian--
+  10,15   zhcy      "[zhcy  ]"     --=small zhe, Cyrillic--
+  10,14   ZHcy      "[ZHcy  ]"     --=capital ZHE, Cyrillic--
+  10,17   zcy       "[zcy   ]"     --=small ze, Cyrillic--
+  10,16   Zcy       "[Zcy   ]"     --=capital ZE, Cyrillic--
+  10,19   icy       "[icy   ]"     --=small i, Cyrillic--
+  10,18   Icy       "[Icy   ]"     --=capital I, Cyrillic--
+  10,21   jcy       "[jcy   ]"     --=small short i, Cyrillic--
+  10,20   Jcy       "[Jcy   ]"     --=capital short I, Cyrillic--
+  10,23   kcy       "[kcy   ]"     --=small ka, Cyrillic--
+  10,22   Kcy       "[Kcy   ]"     --=capital KA, Cyrillic--
+  10,25   lcy       "[lcy   ]"     --=small el, Cyrillic--
+  10,24   Lcy       "[Lcy   ]"     --=capital EL, Cyrillic--
+  10,27   mcy       "[mcy   ]"     --=small em, Cyrillic--
+  10,26   Mcy       "[Mcy   ]"     --=capital EM, Cyrillic--
+  10,29   ncy       "[ncy   ]"     --=small en, Cyrillic--
+  10,28   Ncy       "[Ncy   ]"     --=capital EN, Cyrillic--
+  10,31   ocy       "[ocy   ]"     --=small o, Cyrillic--
+  10,30   Ocy       "[Ocy   ]"     --=capital O, Cyrillic--
+  10,33   pcy       "[pcy   ]"     --=small pe, Cyrillic--
+  10,32   Pcy       "[Pcy   ]"     --=capital PE, Cyrillic--
+  10,35   rcy       "[rcy   ]"     --=small er, Cyrillic--
+  10,34   Rcy       "[Rcy   ]"     --=capital ER, Cyrillic--
+  10,37   scy       "[scy   ]"     --=small es, Cyrillic--
+  10,36   Scy       "[Scy   ]"     --=capital ES, Cyrillic--
+  10,39   tcy       "[tcy   ]"     --=small te, Cyrillic--
+  10,38   Tcy       "[Tcy   ]"     --=capital TE, Cyrillic--
+  10,41   ucy       "[ucy   ]"     --=small u, Cyrillic--
+  10,40   Ucy       "[Ucy   ]"     --=capital U, Cyrillic--
+  10,43   fcy       "[fcy   ]"     --=small ef, Cyrillic--
+  10,42   Fcy       "[Fcy   ]"     --=capital EF, Cyrillic--
+  10,45   khcy      "[khcy  ]"     --=small ha, Cyrillic--
+  10,44   KHcy      "[KHcy  ]"     --=capital HA, Cyrillic--
+  10,47   tscy      "[tscy  ]"     --=small tse, Cyrillic--
+  10,46   TScy      "[TScy  ]"     --=capital TSE, Cyrillic--
+  10,49   chcy      "[chcy  ]"     --=small che, Cyrillic--
+  10,48   CHcy      "[CHcy  ]"     --=capital CHE, Cyrillic--
+  10,51   shcy      "[shcy  ]"     --=small sha, Cyrillic--
+  10,50   SHcy      "[SHcy  ]"     --=capital SHA, Cyrillic--
+  10,53   shchcy    "[shchcy]"     --=small shcha, Cyrillic--
+  10,52   SHCHcy    "[SHCHcy]"     --=capital SHCHA, Cyrillic--
+  10,55   hardcy    "[hardcy]"     --=small hard sign, Cyrillic--
+  10,54   HARDcy    "[HARDcy]"     --=capital HARD sign, Cyrillic--
+  10,57   ycy       "[ycy   ]"     --=small yeru, Cyrillic--
+  10,56   Ycy       "[Ycy   ]"     --=capital YERU, Cyrillic--
+  10,59   softcy    "[softcy]"     --=small soft sign, Cyrillic--
+  10,58   SOFTcy    "[SOFTcy]"     --=capital SOFT sign, Cyrillic--
+  10,61   ecy       "[ecy   ]"     --=small e, Cyrillic--
+  10,60   Ecy       "[Ecy   ]"     --=capital E, Cyrillic--
+  10,63   yucy      "[yucy  ]"     --=small yu, Cyrillic--
+  10,62   YUcy      "[YUcy  ]"     --=capital YU, Cyrillic--
+  10,65   yacy      "[yacy  ]"     --=small ya, Cyrillic--
+  10,64   YAcy      "[YAcy  ]"     --=capital YA, Cyrillic--
+   4,76   numero    "[numero]"     --=numero sign--

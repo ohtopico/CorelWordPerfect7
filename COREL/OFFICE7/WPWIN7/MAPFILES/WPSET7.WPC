@@ -1,0 +1,240 @@
+--
+    File:  WPSET7.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset7 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 7 (Math/Scientific Extension)//EN">
+      %wpset7;
+
+  WP #    Name       Text                Description
+-- 
+  7,0     integtop   "[integtop]"     -- Integral [Top] --
+  7,1     integbot   "[integbot]"     -- Integral [Bottom] --
+  7,2     integext   "[integext]"     -- Integral [Extension] --
+  7,3     hbsbrext   "[hbsbrext]"     -- Horizontal Baseline Bar [Extension] --
+  7,4     root1h     "[root1h  ]"     -- Root [1x High] --
+  7,5     rthext1h   "[rthext1h]"     -- Root Horiz Extension [1x High] --
+  7,6     sum1.5h    "[sum1.5h ]"     -- Summation [1.5x High] --
+  7,7     prod1.5h   "[prod1.5h]"     -- Product [1.5x High] --
+  7,8     coprod1h   "[coprod1h]"     -- Coproduct [1.5x High] --
+  7,9     integ1h    "[integ1h ]"     -- Integral [1.5x High] --
+  7,10    cntint1h   "[cntint1h]"     -- Contour Integral [1.5x High] --
+  7,11    abs1.5h    "[abs1.5h ]"     -- Absolute Value [1.5x High] --
+  7,12    abs2.0h    "[abs2.0h ]"     -- Absolute Value [2.0x High] --
+  7,13    abs3.0h    "[abs3.0h ]"     -- Absolute Value [3.0x High] --
+  7,14    abs4.0h    "[abs4.0h ]"     -- Absolute Value [4.0x High] --
+  7,15    absext     "[absext  ]"     -- Absolute Value [Top/Bottom/Extension] --
+  7,16    dbar1.5h   "[dbar1.5h]"     -- Double Bar [1.5x High] --
+  7,17    dbar2.0h   "[dbar2.0h]"     -- Double Bar [2.0x High] --
+  7,18    dbar3.0h   "[dbar3.0h]"     -- Double Bar [3.0x High] --
+  7,19    dbar4.0h   "[dbar4.0h]"     -- Double Bar [4.0x High] --
+  7,20    dbarext    "[dbarext ]"     -- Double Bar [Top/Bottom/Extension] --
+  7,21    lbrc1.5h   "[lbrc1.5h]"     -- Left Brace [1.5x High] --
+  7,22    lbrc2.0h   "[lbrc2.0h]"     -- Left Brace [2.0x High] --
+  7,23    lbrc3.0h   "[lbrc3.0h]"     -- Left Brace [3.0x High] --
+  7,24    lbrc4.0h   "[lbrc4.0h]"     -- Left Brace [4.0x High] --
+  7,25    lbrctop    "[lbrctop ]"     -- Left Brace [Top] --
+  7,26    lbrcmid    "[lbrcmid ]"     -- Left Brace [Middle] --
+  7,27    lbrcbot    "[lbrcbot ]"     -- Left Brace [Bottom] --
+  7,28    lbrcext    "[lbrcext ]"     -- Left Brace [Extension] --
+  7,29    rbrc1.5h   "[rbrc1.5h]"     -- Right Brace [1.5x High] --
+  7,30    rbrc2.0h   "[rbrc2.0h]"     -- Right Brace [2.0x High] --
+  7,31    rbrc3.0h   "[rbrc3.0h]"     -- Right Brace [3.0x High] --
+  7,32    rbrc4.0h   "[rbrc4.0h]"     -- Right Brace [4.0x High] --
+  7,33    rbrctop    "[rbrctop ]"     -- Right Brace [Top] --
+  7,34    rbrcmid    "[rbrcmid ]"     -- Right Brace [Middle] --
+  7,35    rbrcbot    "[rbrcbot ]"     -- Right Brace [Bottom] --
+  7,36    rbrcext    "[rbrcext ]"     -- Right Brace [Extension] --
+  7,37    lflr1.5h   "[lflr1.5h]"     -- Left Floor [1.5x High] --
+  7,38    lflr2.0h   "[lflr2.0h]"     -- Left Floor [2.0x High] --
+  7,39    lflr3.0h   "[lflr3.0h]"     -- Left Floor [3.0x High] --
+  7,40    lflr4.0h   "[lflr4.0h]"     -- Left Floor [4.0x High] --
+  7,41    lflrbot    "[lflrbot ]"     -- Left Floor [Bottom] --
+  7,42    lflrext    "[lflrext ]"     -- Left Floor [Top/Extension] --
+  7,43    rflr1.5h   "[rflr1.5h]"     -- Right Floor [1.5x High] --
+  7,44    rflr2.0h   "[rflr2.0h]"     -- Right Floor [2.0x High] --
+  7,45    rflr3.0h   "[rflr3.0h]"     -- Right Floor [3.0x High] --
+  7,46    rflr4.0h   "[rflr4.0h]"     -- Right Floor [4.0x High] --
+  7,47    rlfrbot    "[rlfrbot ]"     -- Right Floor [Bottom] --
+  7,48    rflrext    "[rflrext ]"     -- Right Floor [Top/Extension] --
+  7,49    lclg1.5h   "[lclg1.5h]"     -- Left Ceiling [1.5x High] --
+  7,50    lclg2.0h   "[lclg2.0h]"     -- Left Ceiling [2.0x High] --
+  7,51    lclg3.0h   "[lclg3.0h]"     -- Left Ceiling [3.0x High] --
+  7,52    lclg4.0h   "[lclg4.0h]"     -- Left Ceiling [4.0x High] --
+  7,53    lclgtop    "[lclgtop ]"     -- Left Ceiling [Top] --
+  7,54    lclgext    "[lclgext ]"     -- Left Ceiling [Bottom/Extension] --
+  7,55    rclg1.5h   "[rclg1.5h]"     -- Right Ceiling [1.5x High] --
+  7,56    rclg2.0h   "[rclg2.0h]"     -- Right Ceiling [2.0x High] --
+  7,57    rclg3.0h   "[rclg3.0h]"     -- Right Ceiling [3.0x High] --
+  7,58    rclg4.0h   "[rclg4.0h]"     -- Right Ceiling [4.0x High] --
+  7,59    rclgtop    "[rclgtop ]"     -- Right Ceiling [Top] --
+  7,60    rclgext    "[rclgext ]"     -- Right Ceiling [Bottom/Extension] --
+  7,61    uni1.5h    "[uni1.5h ]"     -- Union [1.5x High] --
+  7,62    intsct1h   "[intsct1h]"     -- Intersection [1.5x High] --
+  7,63    cntintmd   "[cntintmd]"     -- Contour Integral [Middle] --
+  7,64    sumtrt     "[sumtrt  ]"     -- Summation [Top Right] --
+  7,65    sumtext    "[sumtext ]"     -- Summation [Top Extension] --
+  7,66    sumtang    "[sumtang ]"     -- Summation [Top Angle] --
+  7,67    sumtaext   "[sumtaext]"     -- Summation [Top Angle Extension] --
+  7,68    sumcang    "[sumcang ]"     -- Summation [Center Angle] --
+  7,69    sumbaext   "[sumbaext]"     -- Summation [Bottom Angle Extension] --
+  7,70    sumbang    "[sumbang ]"     -- Summation [Bottom Angle] --
+  7,71    sumbext    "[sumbext ]"     -- Summation [Bottom Extension] --
+  7,72    sumbrt     "[sumbrt  ]"     -- Summation [Bottom Right] --
+  7,73    sum2.0h    "[sum2.0h ]"     -- Summation [2.0x High] --
+  7,74    prod2.0h   "[prod2.0h]"     -- Product [2.0x High] --
+  7,75    cprd2.0h   "[cprd2.0h]"     -- Coproduct [2.0x High] --
+  7,76    integ2h    "[integ2h ]"     -- Integral [2.0x High] --
+  7,77    cntint2h   "[cntint2h]"     -- Contour Integral [2.0x High] --
+  7,78    root1.5h   "[root1.5h]"     -- Root [1.5x High] --
+  7,79    root2.0h   "[root2.0h]"     -- Root [2.0x High] --
+  7,80    root3.0h   "[root3.0h]"     -- Root [3.0x High] --
+  7,81    root4.0h   "[root4.0h]"     -- Root [4.0x High] --
+  7,82    rootbot    "[rootbot ]"     -- Root [Bottom] --
+  7,83    rootvext   "[rootvext]"     -- Root [Vert Extension] --
+  7,84    roottopc   "[roottopc]"     -- Root [Top Corner] --
+  7,85    hawrt      "[hawrt   ]"     -- Horiz Arrow [Right] --
+  7,86    hawlt      "[hawlt   ]"     -- Horiz Arrow [Left] --
+  7,87    haext      "[haext   ]"     -- Horiz Arrow [Extension] --
+  7,88    hatlthk    "[hatlthk ]"     -- Horiz Arrow [Terminal Left Hook] --
+  7,89    hatrthk    "[hatrthk ]"     -- Horiz Arrow [Terminal Right Hook] --
+  7,90    hatbar     "[hatbar  ]"     -- Horiz Arrow [Terminal Bar] --
+  7,91    hdart      "[hdart   ]"     -- Horiz Dbl Arrow [Right] --
+  7,92    hdalt      "[hdalt   ]"     -- Horiz Dbl Arrow [Left] --
+  7,93    hdaext     "[hdaext  ]"     -- Horiz Dbl Arrow [Extension] --
+  7,94    vaup       "[vaup    ]"     -- Vert Arrow [Up] --
+  7,95    vadn       "[vadn    ]"     -- Vert Arrow [Down] --
+  7,96    vaext      "[vaext   ]"     -- Vert Arrow [Extension] --
+  7,97    vdaup      "[vdaup   ]"     -- Vert Dbl Arrow [Up] --
+  7,98    vdadn      "[vdadn   ]"     -- Vert Dbl Arrow [Down] --
+  7,99    vdaext     "[vdaext  ]"     -- Vert Dbl Arrow [Extension] --
+  7,100   lpar1.5h   "[lpar1.5h]"     -- Left Parenthesis [1.5x High] --
+  7,101   lpar2.0h   "[lpar2.0h]"     -- Left Parenthesis [2.0x High] --
+  7,102   lpar3.0h   "[lpar3.0h]"     -- Left Parenthesis [3.0x High] --
+  7,103   lpar4.0h   "[lpar4.0h]"     -- Left Parenthesis [4.0x High] --
+  7,104   lpartop    "[lpartop ]"     -- Left Parenthesis [Top] --
+  7,105   lparbot    "[lparbot ]"     -- Left Parenthesis [Bottom] --
+  7,106   lparext    "[lparext ]"     -- Left Parenthesis [Extension] --
+  7,107   rpar1.5h   "[rpar1.5h]"     -- Right Parenthesis [1.5x High] --
+  7,108   rpar2.0h   "[rpar2.0h]"     -- Right Parenthesis [2.0x High] --
+  7,109   rpar3.0h   "[rpar3.0h]"     -- Right Parenthesis [3.0x High] --
+  7,110   rpar4.0h   "[rpar4.0h]"     -- Right Parenthesis [4.0x High] --
+  7,111   rpartop    "[rpartop ]"     -- Right Parenthesis [Top] --
+  7,112   rparbot    "[rparbot ]"     -- Right Parenthesis [Bottom] --
+  7,113   rparext    "[rparext ]"     -- Right Parenthesis [Extension] --
+  7,114   lbrk1.5h   "[lbrk1.5h]"     -- Left Bracket [1.5x High] --
+  7,115   lbrk2.0h   "[lbrk2.0h]"     -- Left Bracket [2.0x High] --
+  7,116   lbrk3.0h   "[lbrk3.0h]"     -- Left Bracket [3.0x High] --
+  7,117   lbrk4.0h   "[lbrk4.0h]"     -- Left Bracket [4.0x High] --
+  7,118   lbrktop    "[lbrktop ]"     -- Left Bracket [Top] --
+  7,119   lbrkbot    "[lbrkbot ]"     -- Left Bracket [Bottom] --
+  7,120   lbrkext    "[lbrkext ]"     -- Left Bracket [Extension] --
+  7,121   rbrk1.5h   "[rbrk1.5h]"     -- Right Bracket [1.5x High] --
+  7,122   rbrk2.0h   "[rbrk2.0h]"     -- Right Bracket [2.0x High] --
+  7,123   rbrk3.0h   "[rbrk3.0h]"     -- Right Bracket [3.0x High] --
+  7,124   rbrk4.0h   "[rbrk4.0h]"     -- Right Bracket [4.0x High] --
+  7,125   rbrktop    "[rbrktop ]"     -- Right Bracket [Top] --
+  7,126   rbrkbot    "[rbrkbot ]"     -- Right Bracket [Bottom] --
+  7,127   rbrkext    "[rbrkext ]"     -- Right Bracket [Extension] --
+  7,128   labr1.5h   "[labr1.5h]"     -- Left Angle Bracket [1.5x High] --
+  7,129   labr2.0h   "[labr2.0h]"     -- Left Angle Bracket [2.0x High] --
+  7,130   labr3.0h   "[labr3.0h]"     -- Left Angle Bracket [3.0x High] --
+  7,131   labr4.0h   "[labr4.0h]"     -- Left Angle Bracket [4.0x High] --
+  7,132   rabr1.5h   "[rabr1.5h]"     -- Right Angle Bracket [1.5x High] --
+  7,133   rabr2.0h   "[rabr2.0h]"     -- Right Angle Bracket [2.0x High] --
+  7,134   rabr3.0h   "[rabr3.0h]"     -- Right Angle Bracket [3.0x High] --
+  7,135   rabr4.0h   "[rabr4.0h]"     -- Right Angle Bracket [4.0x High] --
+  7,136   fgsl1.5h   "[fgsl1.5h]"     -- Figure Slash [1.5x High] --
+  7,137   fgsl2.0h   "[fgsl2.0h]"     -- Figure Slash [2.0x High] --
+  7,138   fgsl3.0h   "[fgsl3.0h]"     -- Figure Slash [3.0x High] --
+  7,139   fgsl4.0h   "[fgsl4.0h]"     -- Figure Slash [4.0x High] --
+  7,140   fgbs1.5h   "[fgbs1.5h]"     -- Figure Backslash [1.5x High] --
+  7,141   fgbs2.0h   "[fgbs2.0h]"     -- Figure Backslash [2.0x High] --
+  7,142   fgbs3.0h   "[fgbs3.0h]"     -- Figure Backslash [3.0x High] --
+  7,143   fgbs4.0h   "[fgbs4.0h]"     -- Figure Backslash [4.0x High] --
+  7,144   unio2.0h   "[unio2.0h]"     -- Union [2.0x High] --
+  7,145   intr2.0h   "[intr2.0h]"     -- Intersection [2.0x High] --
+  7,146   msun1.5h   "[msun1.5h]"     -- Multiset Union [1.5x High] --
+  7,147   msun2.0h   "[msun2.0h]"     -- Multiset Union [2.0x High] --
+  7,148   squn1.5h   "[squn1.5h]"     -- Square Union [1.5x High] --
+  7,149   squn2.0h   "[squn2.0h]"     -- Square Union [2.0x High] --
+  7,150   land1.5h   "[land1.5h]"     -- Logical And [1.5x High] --
+  7,151   land2.0h   "[land2.0h]"     -- Logical And [2.0x High] --
+  7,152   lor1.5h    "[lor1.5h ]"     -- Logical Or [1.5x High] --
+  7,153   lor2.0h    "[lor2.0h ]"     -- Logical Or [2.0x High] --
+  7,154   cmlt1.5h   "[cmlt1.5h]"     -- Circle Multiply [1.5x High] --
+  7,155   cmlt2.0h   "[cmlt2.0h]"     -- Circle Multiply [2.0x High] --
+  7,156   cpls1.5h   "[cpls1.5h]"     -- Circle Plus [1.5x High] --
+  7,157   cpls2.0h   "[cpls2.0h]"     -- Circle Plus [2.0x High] --
+  7,158   cdot1.5h   "[cdot1.5h]"     -- Circle Dot [1.5x High] --
+  7,159   cdot2.0h   "[cdot2.0h]"     -- Circle Dot [2.0x High] --
+  7,160   htbrklt    "[htbrklt ]"     -- Horiz Top Brace [Left End] --
+  7,161   htbrkrt    "[htbrkrt ]"     -- Horiz Top Brace [Right End] --
+  7,162   htbrkmd    "[htbrkmd ]"     -- Horiz Top Brace [Middle] --
+  7,163   htbrkext   "[htbrkext]"     -- Horiz Top Brace [Extension] --
+  7,164   hbbrklt    "[hbbrklt ]"     -- Horiz Bottom Brace [Left End] --
+  7,165   hbbrkrt    "[hbbrkrt ]"     -- Horiz Bottom Brace [Right End] --
+  7,166   hbbrkmd    "[hbbrkmd ]"     -- Horiz Bottom Brace [Middle] --
+  7,167   hbbrkext   "[hbbrkext]"     -- Horiz Bottom Brace [Extension] --
+  7,168   covr1.5w   "[covr1.5w]"     -- Circumflex Overmark [1.5x Wide] --
+  7,169   covr2.0w   "[covr2.0w]"     -- Circumflex Overmark [2.0x Wide] --
+  7,170   covr3.0w   "[covr3.0w]"     -- Circumflex Overmark [3.0x Wide] --
+  7,171   tovr1.5w   "[tovr1.5w]"     -- Tilde Overmark [1.5x Wide] --
+  7,172   tovr2.0w   "[tovr2.0w]"     -- Tilde Overmark [2.0x Wide] --
+  7,173   tovr3.0w   "[tovr3.0w]"     -- Tilde Overmark [3.0x Wide] --
+  7,174   aovr1.5w   "[aovr1.5w]"     -- Arc Overmark [1.5x Wide] --
+  7,175   aovr2.0w   "[aovr2.0w]"     -- Arc Overmark [2.0x Wide] --
+  7,176   aovr3.0w   "[aovr3.0w]"     -- Arc Overmark [3.0x Wide] --
+  7,177   bovr1.5w   "[bovr1.5w]"     -- Bar Overmark [1.5x Wide] --
+  7,178   bovr2.0w   "[bovr2.0w]"     -- Bar Overmark [2.0x Wide] --
+  7,179   bovr3.0w   "[bovr3.0w]"     -- Bar Overmark [3.0x Wide] --
+  7,180   cmin1.5h   "[cmin1.5h]"     -- Circle Minus [1.0x High] --
+  7,181   cmin2.0h   "[cmin2.0h]"     -- Circle Minus [1.5x High] --
+  7,182   cdiv1.5h   "[cdiv1.5h]"     -- Circle Divide [1.5x High] --
+  7,183   cdiv2.0h   "[cdiv2.0h]"     -- Circle Divide [2.0x High] --
+  7,184   ldbr1.5h   "[ldbr1.5h]"     -- Left Double Bracket [1.5x High] --
+  7,185   ldbr2.0h   "[ldbr2.0h]"     -- Left Double Bracket [2.0x High] --
+  7,186   ldbr3.0h   "[ldbr3.0h]"     -- Left Double Bracket [3.0x High] --
+  7,187   ldbr4.0h   "[ldbr4.0h]"     -- Left Double Bracket [4.0x High] --
+  7,188   ldbrtop    "[ldbrtop ]"     -- Left Double Bracket [Top] --
+  7,189   ldbrbot    "[ldbrbot ]"     -- Left Double Bracket [Bottom] --
+  7,190   ldbrext    "[ldbrext ]"     -- Left Double Bracket [Extension] --
+  7,191   rdbr1.5h   "[rdbr1.5h]"     -- Right Double Bracket [1.5x High] --
+  7,192   rdbr2.0h   "[rdbr2.0h]"     -- Right Double Bracket [2.0x High] --
+  7,193   rdbr3.0h   "[rdbr3.0h]"     -- Right Double Bracket [3.0x High] --
+  7,194   rdbr4.0h   "[rdbr4.0h]"     -- Right Double Bracket [4.0x High] --
+  7,195   rdbrtop    "[rdbrtop ]"     -- Right Double Bracket [Top] --
+  7,196   rdbrbot    "[rdbrbot ]"     -- Right Double Bracket [Bottom] --
+  7,197   rdbrext    "[rdbrext ]"     -- Right Double Bracket [Extension] --
+  7,198   hhrprhu    "[hhrprhu ]"     -- Horiz Harpoon [Right Harpoon Up] --
+  7,199   hhrprhdn   "[hhrprhdn]"     -- Horiz Harpoon [Right Harpoon Down] --
+  7,200   hhrplhup   "[hhrplhup]"     -- Horiz Harpoon [Left Harpoon Up] --
+  7,201   hhrplhdn   "[hhrplhdn]"     -- Horiz Harpoon [Left Harpoon Down] --
+  7,202   hhrpext    "[hhrpext ]"     -- Horiz Harpoon [Extension] --
+  7,203   thhrtop    "[thhrtop ]"     -- Two Horiz Harpoons [Right Top] --
+  7,204   thhrbot    "[thhrbot ]"     -- Two Horiz Harpoons [Right Bottom] --
+  7,205   thhltop    "[thhltop ]"     -- Two Horiz Harpoons [Left Top] --
+  7,206   thhlbot    "[thhlbot ]"     -- Two Horiz Harpoons [Left Bottom] --
+  7,207   thhext     "[thhext  ]"     -- Two Horiz Harpoons [Extension] --
+  7,208   thart      "[thart   ]"     -- Two Horiz Arrows [Right] --
+  7,209   thalt      "[thalt   ]"     -- Two Horiz Arrows [Left] --
+  7,210   thaext     "[thaext  ]"     -- Two Horiz Arrows [Extension] --
+  7,211   mhartop    "[mhartop ]"     -- Mixed Horiz Arrows [Right Top] --
+  7,212   mharbot    "[mharbot ]"     -- Mixed Horiz Arrows [Right Bottom] --
+  7,213   mhaltop    "[mhaltop ]"     -- Mixed Horiz Arrows [Left Top] --
+  7,214   mhalbot    "[mhalbot ]"     -- Mixed Horiz Arrows [Left Bottom] --
+  7,215   mhaext     "[mhaext  ]"     -- Mixed Horiz Arrows [Extension] --
+  7,216   vhrpuhr    "[vhrpuhr ]"     -- Vert Harpoon [Up Harpoon Right] --
+  7,217   vhrpuhl    "[vhrpuhl ]"     -- Vert Harpoon [Up Harpoon Left] --
+  7,218   vhrpdhr    "[vhrpdhr ]"     -- Vert Harpoon [Down Harpoon Right] --
+  7,219   vhrpdhl    "[vhrpdhl ]"     -- Vert Harpoon [Down Harpoon Left] --
+  7,220   vhrpext    "[vhrpext ]"     -- Vert Harpoon [Extension] --
+  7,221   sint1.5h   "[sint1.5h]"     -- Square Intersection [1.5x High] --
+  7,222   sint2.0h   "[sint2.0h]"     -- Square Intersection [2.0x High] --
+  7,223   sqdiv      "[sqdiv   ]"     -- Square Division Sign --
+  7,224   curvdiv    "[curvdiv ]"     -- Curved Division Sign --
+  7,225   rthx1.5h   "[rthx1.5h]"     -- Root Horiz Extension [1.5x High] --
+  7,226   rthx2.0h   "[rthx2.0h]"     -- Root Horiz Extension [2.0x High] --
+  7,227   rthx2.5h   "[rthx4.0h]"     -- Root Horiz Extension [2.5x High] --
+  7,228   rthxptsh   "[rthxptsh]"     -- Root Horiz Extension [Parts High] --

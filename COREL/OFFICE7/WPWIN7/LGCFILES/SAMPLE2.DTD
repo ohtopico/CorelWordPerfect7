@@ -1,0 +1,120 @@
+<!-- (C) 1996 Corel Corporation Limited.  All Rights Reserved. -->
+
+<!-- Simple DTD for illustrating attributes and external entities.  Uses
+     parameter entity declarations for WordPerfect character entity sets.
+     Requires an "external entity mapping file" (WP_ENT.MAP or WP_WPC.MAP)
+     because it contains references to external entities.
+-->
+
+<!DOCTYPE  sample2  [
+
+
+<!-- Parameter entities are used within the DTD.  They are not preserved
+     in the LGC file and are not used in the WordPerfect for Windows 7
+     editing environment. -->
+
+<!ENTITY % wp              "WordPerfect" >
+<!ENTITY % corel           "Corel Corporation" >
+
+
+<!-- General entities appear in the "Text References" or "File References"
+     dialogs in WordPerfect for Windows 7. -->
+
+<!ENTITY   wpcorel         "%wp;, from %corel;" >
+<!ENTITY   wpwin7          "WordPerfect for Windows 7" >
+
+
+<!-- The following parameter entity declarations (and their accompanying
+     references later in this DTD) incorporate the PUBLIC character entity
+     sets for WordPerfect characters into this DTD.  When you create an
+     "LGC" file from this DTD, the DTD2LGCW utility maps each entity name
+     to an external file by matching the entity's public identifier with a
+     filename in the "external entity mapping file." -->
+
+<!ENTITY % wpset1  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 1
+                            (Multinational)//EN" >
+<!ENTITY % wpset2  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 2
+                            (Phonetic)//EN" >
+<!ENTITY % wpset3  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 3
+                            (Box Drawing)//EN" >
+<!ENTITY % wpset4  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 4
+                            (Typographic Symbols)//EN" >
+<!ENTITY % wpset5  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 5
+                            (Iconic Symbols)//EN" >
+<!ENTITY % wpset6  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 6
+                            (Math/Scientific)//EN" >
+<!ENTITY % wpset7  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 7
+                            (Math/Scientific Extension)//EN" >
+<!ENTITY % wpset8  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 8
+                            (Greek)//EN" >
+<!ENTITY % wpset9  PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 9
+                            (Hebrew)//EN" >
+<!ENTITY % wpset10 PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 10
+                            (Cyrillic)//EN" >
+<!ENTITY % wpset11 PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 11
+                            (Japanese)//EN" >
+                            
+<!-- Character Set 12 is for user-definable characters --> 
+
+
+<!ENTITY % wpset13 PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 13
+                            (Arabic)//EN" >
+<!ENTITY % wpset14 PUBLIC "-//COREL//ENTITIES WP 6.1 Character Set 14
+                            (Arabic Script)//EN" >
+
+<!-- When the DTD2LGCW utility is parsing this DTD and encounters the
+     following parameter entity references, it parses through the file
+     mapped to each entity name. -->
+
+%wpset1;
+
+<!-- Mappings for WP Character Set 2 are not yet complete.
+%wpset2;
+-->
+
+%wpset3;
+%wpset4;
+%wpset5;
+%wpset6;
+%wpset7;
+%wpset8;
+%wpset9;
+
+<!-- Mappings for WP Character Sets 10-11, 13-14 are not yet complete.
+%wpset10;
+%wpset11;
+
+%wpset13;
+%wpset14;
+-->
+
+
+<!-- Elements appear in the "Valid Tags" and "All Tags" lists in the
+     "Elements" dialog. -->
+
+<!--       NAME     OMIT   CONTENT MODEL --> 
+
+<!ELEMENT  sample2  - -    (orgroup, andgroup) >
+
+<!ELEMENT  orgroup  - -    (oritem1 | oritem2) >
+<!ELEMENT  andgroup - -    (anditem1 & anditem2) >
+
+<!ELEMENT  (oritem1, oritem2, anditem1, anditem2)
+                    - -    (#PCDATA) >
+
+
+<!-- Attributes values may be entered while inserting a start tag for
+     the associated element.  You may also edit the attributes in an
+     existing start tag at any time. -->
+
+<!ATTLIST  orgroup
+                    attrib-1    (a|b|c)            b
+                    attrib-2    CDATA              "data data data"
+                    attrib-3    ID                 #REQUIRED
+                    attrib-4    IDREF              #CONREF
+                    attrib-5    NAME      #FIXED   Corel
+                    attrib-6    NMTOKEN            #CURRENT
+                    attrib-7    NUMBER             12345
+                    attrib-8    NUTOKEN            #IMPLIED
+                    attrib-9    NUTOKENS           "1sttoken 2ndtoken" >
+]>

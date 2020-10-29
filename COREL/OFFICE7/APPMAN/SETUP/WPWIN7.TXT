@@ -1,0 +1,818 @@
+WPWIN7.TXT
+Notas da Versão do Corel WordPerfect Suite 7
+Rev. 16 de Outubro de 1996
+=================================================================
+
+Estas notas da versão contêm as informações mais recentes sobre o 
+produto Corel(R) WordPerfect(R) Suite 7, incluindo dicas sobre como 
+configurar os aplicativos.
+
+
+
+CONTEÚDO
+========
+1  QUESTÕES DA INSTALAÇÃO
+   1.1  Qual o Conteúdo do Corel WordPerfect Suite 7?
+   1.2  Requisitos do Sistema
+   1.3  Notas da Versão em CD-ROM
+   1.4  Removendo Versões mais antigas dos Aplicativos
+   1.5  Preservando as Configurações do WordPerfect
+   1.6  Instalando o Software de Acesso à Internet
+   1.7  Limitações de Fontes no Registro do Windows 95
+   1.8  Arquivo de Dicionário Thesaurus
+   1.9  Compatibilidade entre o Envoy 1.x e o Envoy 7
+   1.10  Corel Barista
+   1.11  Instalando um Corretor Ortográfico e Thesaurus em 
+         Francês-Canadense
+   1.12  Quarterdeck CleanSweep
+   1.13  Retomando uma Instalação sem Êxito
+   1.14  Problemas com comctl32.dll
+
+2  QUESTÕES GERAIS
+   2.1  Erro ao Instalar Impressora no Corel WordPerfect 7
+   2.2  Comandos de Macro PerfectScript do Quattro Pro
+   2.3  Versão em HTML para o Publicado da Internet
+   2.4  Imprimir Lista de Arquivos a partir do Diálogo Abrir
+   2.5  Imprimir Mais Rápido Linhas Gráficas com a HP LaserJet 4
+   2.6  Atualizando os Visores de Arquivo
+   2.7  Salvando e Recuperando Arquivos com Grupos de Trabalho 
+        Duplicados
+   2.8  Publicar para Corel Barista
+   2.9  Executando Demos a partir da Rede
+   2.10 Habilitando Correio com o Microsoft Exchange
+
+3  PROBLEMAS DE MONITOR
+   3.1 Driver de ATI
+   3.2  Microsoft PLUS!
+
+4  QUESTÕES DO WINDOWS NT
+   4.1  Permissões do Registro de Chaves
+   4.2  Inicialização Dupla com o Windows NT 4.0 e Windows 95
+   4.3  Driver do Envoy
+   4.4  Habilitando Correio
+   4.5  Programa de remendo para ODBC
+   4.6  Caderno de Endereços da Corel e NTFS
+   4.7  Serviço WorldNet da AT&T
+   4.8  Questões sobre o Windows NT 3.51
+   4.9  CTL3D32.DLL e Windows NT 3.51
+
+5  Notas sobre Marcas Registradas
+
+
+
+1  QUESTÕES DA INSTALAÇÃO
+==========================
+
+1.1  Qual o Conteúdo do Corel WordPerfect Suite 7?
+--------------------------------------------------------------------------
+O Corel WordPerfect Suite 7 inclui os seguintes aplicativos e
+utilitários:
+
+     - Corel WordPerfect 7
+     - Corel Quattro Pro(R) 7
+     - Corel Presentations(TM) 7
+     - Corel Desktop Application Director(TM) (DAD(TM))
+     - Corel Visual DTD(TM)
+     - Envoy(TM) 7 (from Novell, Inc.)
+     - Software do Serviço WorldNet(SM) da AT&T incluindo o Netscape
+       Navigator(TM) para Internet
+
+Os seguintes aplicativos são incluídos como bônus:
+
+     - CorelFLOW(TM) 3
+     - Protetor de Tela da Corel
+     - Fontes TrueType 
+   
+É possível usar o programa de instalação do Corel WordPerfect Suite 
+7 para instalar o Corel WordPerfect Suite, somente o Corel 
+WordPerfect, ou os aplicativos adicionais.  Cada uma destas 
+possibilidades é representada por uma opção distinta na instalação. 
+Por exemplo, para instalar a Suite e os aplicativos de bônus é
+necessário executar o programa de instalação duas vezes.
+
+que inclui o Netscape Navigator da Internet são cada qual instalados separadamente
+a partir do CD do Corel WordPerfect Suite 7 (consulte as instruções de instalação
+para esses aplicativos mais adiante neste documento).  O Corel Visual DTD é 
+instalado como parte do componente WordPerfect SGML, o qual é uma opção da 
+instalação personalizada do Corel WordPerfect.
+
+Cada aplicativo do conjunto é um programa de 32 bits destinado ao
+Windows(R) 95.  Para obter mais detalhes sobre o que há de novo em um
+aplicativo, instale-o e clique em Ajuda > Tópicos da Ajuda > O Que Há 
+de Novo Alterações.
+
+O CD dp Corel WordPerfect Suite 7 também inclui o seguinte:
+
+     Pasta    Contém
+     --------  ---------
+     Clipart   Mais de 4.500 imagens de clipart no formato .WPG
+     
+     Fotos    Mais de 200 fotos no formato .JPG
+
+     Sdk       O Kit de Desenvolvimento de Software do Corel WordPerfect 7
+
+     Sons    Mais de 400 clipes de música e efeitos sonoros nos formatos 
+               Wave (.WAV) e MIDI (.MID)
+
+
+1.2  Requisitos do Sistema
+--------------------------
+Para executar os aplicativos no Corel WordPerfect Suite 7, são 
+necessários os seguintes:
+
+Para o Microsoft(R) Windows 95 (recomendado):
+
+     - Computador pessoal com um processador 386DX 
+       (recomenda-se um 486)
+     - Microsoft(R) Windows 95*
+     - 8 MB de RAM (recomenda-se 16 MB)
+     - Espaço em disco rígido**:
+         - WordPerfect Suite:  126 MB (Normal) - 262 MB (Completo)
+         - Somente o WordPerfect: 74 MB (Normal) - 164 MB (Completo)
+         - Aplicativos adicionais:65 MB (Normal) - 67 MB (Completos)
+     - Adaptador Gráfico e tela VGA
+     - Mouse
+
+Para o Microsoft Windows NT(TM):
+
+     - Computador Pessoal com 486 ou processador Pentium(R)
+     - Microsoft Windows NT versão 3.51 ou posterior (versão 4.0
+       recomendado)
+     - 12 MB RAM (16 MB recomendado)
+     - Espaço no disco rígido*:
+         - WordPerfect Suite:    126 MB (Típica) - 262 MB (Completa)
+         - WordPerfect apenas:    74 MB (Típica) - 164 MB (Completa)
+         - Aplicativos de Bônus:  65 MB (Típica) - 67 MB (Completa)
+     - Placa Gráfica para VGA e monitor
+     - Mouse
+
+* As exigências de espaço em disco listada aqui valem somente para os
+ aplicativos instalados pelo programa de instalação do Corel WordPerfect Suite 7
+ e variam de acordo com o tamanho dos setores do seu disco rígido.  
+O Programa de instalação indica o número correto para o disco de destino.
+
+
+1.3  Notas da Versão em CD-ROM
+------------------------------
+As seguintes notas da versão (ou os arquivos LEIAME) estão incluídas 
+no CD-ROM do Corel WordPerfect Suite 7.  É possível acessá-las a 
+partir da pasta no CD indicada abaixo ou (após a instalação) no 
+sistema. WPWIN7.TXT e NETWORK.TXT também se encontram à disposição no 
+programa de Instalação.
+
+               Sub-pasta em
+Nome do Arq.   Corel\Office7  Conteúdo
+-------------  -------------  -----------------------------------
+WPWIN7.TXT     AppMan\Setup   Informações sobre o produto Corel
+                              WordPerfect Suite 7
+
+NETWORK.TXT    AppMan\Setup   Informações importantes para
+                              administradores de rede sobre a 
+                              instalação em um servidor de rede
+
+README.TXT     Quattro7       Informações sobre o produto e 
+                              instalação para o Corel Quattro Pro 7
+
+DATAMAPS.TXT   Quattro7\      Descrição dos dados de mapeamento
+               DataMaps       na pasta Quattro7\DataMaps
+
+EVY7UK.TXT     Envoy7         Informações sobre o produto Envoy 7
+
+EVYDSTUK.TXT   Envoy7         Informações sobre o produto Visor
+					Distribuível do Envoy 7
+
+EVYLCDUK.TXT   Envoy7         Contrato de licença para o Visor
+					Distribuível do Envoy 7
+
+PFAUTO.TXT     Dad7           Informações para PFAUTO.DLL
+
+LEIAME.TXT     PRWin7\System  Lista de arquivos Graphicsland
+
+LEIAMEF3.HLP   Bônus          Informações sobre o CorelFLOW 3
+
+
+
+1.4  Removendo Versões mais antigas dos Aplicativos
+---------------------------------------------------
+Se você dispuser do Envoy 1.0 ou 1.0a instalado, será necessário removê-lo
+antes de instalar o Envoy 7.
+
+Não é necessário remover as versões mais antigas dos outros
+aplicativos (por exemplo: WordPerfect 6.1, Quattro Pro 6.0 ou
+PerfectOffice 3.0) antes de instalar o Corel WordPerfect Suite 7.
+
+O programa de instalação para o conjunto de aplicativos não
+sobrescreve ou remove as versões destes aplicativos anteriores ao
+Windows 95.  Para remover o Envoy 1.x ou outros aplicativos a fim de
+preservar espaço de disco,
+
+1    Execute o programa de instalação usado para instalar o 
+     aplicativo.
+
+2    Clique em Desinstalar e, em seguida, siga os avisos na tela.
+
+Se o programa de configuração ou instalação original não incluir uma
+opção Desinstalar, exclua manualmente os arquivos de programa ou use
+um dos programas de desinstalação disponíveis nos revendedores de 
+software.
+
+NOTA:  O programa TextArt incluído no Corel WordPerfect 7 não sobregrava 
+      a versão incluída com o Corel WordPerfect 6.1, mas usa a mesma entrada
+      no Registro do Windows 95.  Se você deixar o Corel WordPerfect 6.1
+      no sisitema e instalar o Corel WordPerfect 7, obterá a versão mais nova
+      do TextArt quando executar o Corel WordPerfect 6.1.
+
+
+1.5  Preservando as Configurações do WordPerfect
+------------------------------------------------
+Se as configurações da Barra de Ferramentas, menus ou teclado no 
+modelo default do WordPerfect 6.0 ou 6.1 tiverem sido alteradas, as 
+alterações serão mescladas no novo modelo default do Corel WordPerfect 7 
+ao se instalar o Corel WordPerfect 7.
+
+
+1.6  Instalando o Software de Acesso à Internet
+-----------------------------------------------
+Para instalar o navegador Netscape Navigator da Internet,
+
+1    Insira o CD do Corel WordPerfect Suite 7 CD na unidade de 
+     CD-ROM.
+
+2    Clique em Configuração do Serviço de Internet.
+
+3    Siga os avisos na tela.
+
+Se a opção Executar Automaticamente não estiver ativada na unidade
+de CD-ROM, é possível abrir esta unidade a partir de Explorando
+ou Meu Computador e, em seguida, clicar duas vezes em Autorun.exe e
+clicar em Configuração do Serviço de Internet.
+
+Também é possível executar o arquivo Setup.exe a partir da pasta
+Browser\Disk1 no CD-ROM.
+
+
+
+
+
+1.7 Limitações de Fontes no Registro do Windows 95
+---------------------------------------------------
+Os aplicativos do Corel WordPerfect Suite e os aplicativos de
+bônus incluem fontes que são ou podem ser instaladas no disco
+rígido.  Para que essas fontes estejam disponíveis nos aplicativos,
+devem ser copiadas para o disco rígido e registradas no Registro do 
+Windows 95.  O programa de instalação do Corel WordPerfect Suite 7
+faz a cópia e o registro para você.  Entretanto, devido a uma limitação
+de fontes no Registro do Windows, às vezes a Instalação não poderá
+registrar todas fontes selecionadas.
+
+Existe um limite quanto a quantidade de informações sobre fontes
+que podem ser armazenadas no Registro.  Se o programa de instalação do
+Corel WordPerfect Suite 7 detectar que esse limite foi alcançado, ele
+não tentará registrar nenhuma fonte adicional, mas exibirá uma mensagem
+e continuará com o processo de instalação.  Todas as fontes selecionadas
+serão copiadas para o disco rígido, porém, se você receber a mensagem
+"Excesso de Fontes Instaladas", algumas das fontes não serão registradas.
+
+O Corel WordPerfect não funcionará corretamente se algumas das fontes
+não forem instaladas.  Se alguns dos caracteres do WordPerfect não estiverem
+disponíveis no Corel WordPerfect, provavelmente seu computador estava no
+limite de fontes quando você instalou esse aplicativo.
+
+Se você instalar os aplicativos de bônus primeiro e selecionar a instalação
+de todas as fontes TrueType (existem mais de 150), provavelmente alcançará
+o limite de fontes.  Portanto, a Corel recomenda a você instalar o Corel WordPerfect
+ou os aplicativos da Suite primeiro para que haja espaço para a Instalação registrar
+todas as fontes necessárias ao Corel WordPerfect.
+
+Pelo fato da limitação de fontes se aplicar à todas as fontes registradas
+no computador, e não apenas àquelas instaladas por cada aplicativo,
+é possível que existam fontes previamente instaladas por outros aplicativos
+que o farão alcançar o limite quando for instalar o Corel WordPerfect Suite 7
+ou os aplicativos de bônus.  Se for necessário remover fontes para liberar espaço
+no Registro do computador para as fontes requeridas pelos aplicativos da
+Corel, use o Painel de Controle do Windows 95 para remover as fontes
+não utilizadas.  Em seguida, reinstale os aplicativos da Corel ou use o 
+Control Panel para reinstalar as fontes deles.
+
+
+1.8 Thesaurus (Arquivo de Dicionário)
+------------------------------------
+O arquivo default de dicionário instalado com o recurso Thesaurus,
+e também usado pelo QuickFinder no quadro de diálogo Abrir, inclui
+somente sinônimos e antônimos.  Um arquivo de dicionário maior
+(um pouco maior do que 7 MB) encontra-se à disposição em uma
+instalação Personalizada.  O dicionário maior contém a Rede de 
+Conceitos,
+que aprimora a busca do Thesaurus e da BuscaRápida incluindo
+sinônimos, antônimos, definições de palavras, além de sub-categorias
+e super-categorias.
+
+Usando-se o dicionário maior, é possível procurar ou localizar os
+seguintes:
+
+     Termos Coordenados:  Se a palavra for um tipo de uma outra
+          palavra mais geral (assim como "carvalho" é um tipo de
+          "árvore"), as suas coordenadas serão outras palavras
+          que também são tipos da palavra mais geral.  Por exemplo:
+          "bicicleta" é um tipo de veículo, portanto algumas de suas
+          coordenadas serão "carro", "caminhão" e "carroça".
+
+     Categorias Descritivas:  Por exemplo: ao procurar
+          "Alemanha", o Thesaurus lista (ou a BuscaRápida tenta
+          localizar) categorias às quais pertence a Alemanha, tais 
+          como "país", "nação" e "terra."
+
+     Exemplos:  Por exemplo: ao procurar "cidade", o Thesaurus
+          lista (ou a BuscaRápida tenta localizar) exemplos de 
+          cidades, tais como "Nova Iorque", "Tóquio" e "Paris."
+
+     Palavras Mais Gerais:  Por exemplo, ao procurar "carvalho", o
+          Thesaurus lista (ou a BuscaRápida tenta localizar) mais
+          palavras gerais, tais como "árvore" e "floresta".
+
+     Palavras Mais Específicas:  Por exemplo, ao procurar "colar",
+          o Thesaurus lista (ou a BuscaRápida tenta localizar) 
+          determinados nomes de adornos, tais como "gargantilha" e 
+          "gola".  Também é possível listar ou procurar determinados 
+          termos para o verbo "colar," tais como "grudar" e "aderir".
+
+     Palavras Relacionadas:  Palavras relacionadas possuem um 
+          significado similar.  Por exemplo, ao procurar "velho", o 
+          Thesaurus lista (ou a BuscaRápida tenta localizar) palavras 
+          tais como "veterano", "original" e "superado".
+
+     Uma Palavra é uma Parte de:  Por exemplo: ao procurar "perna",
+          o Thesaurus lista (ou a BuscaRápida tenta localizar) 
+          palavras tais como "cadeira" e "ave", porque uma perna é 
+          uma parte de cada um deste itens.
+
+Para instalar o dicionário maior,
+
+1    Faça uma instalação Personalizada do Corel WordPerfect Suite 7.
+
+2    Selecione Componentes Compartilhados Opcionais e clique em 
+     Componentes.
+
+3    Selecione Thesaurus e clique em Componentes.
+
+4    Clique no quadro de seleção para Thesaurus com Definições.
+
+NOTA DE REPÚDIO:  Este arquivo contém palavras que podem ser
+             ofensivas para algumas pessoas.  Essas palavras estão incluídas
+             no arquivo para para permitir as buscas de palavras relacionadas
+             mencionadas acima. Não é nossa intenção promover o uso desses
+             termos ou ofender o usuário.
+
+
+1.9  Compatibilidade entre o Envoy 1.x e o Envoy 7
+---------------------------------------------------
+Embora seja possível executar tanto o Envoy 1.x quanto o Envoy 7
+no Windows 95 e na mesma máquina, recomenda-se não fazê-lo.  Para
+obter os melhores resultados, certifique-se de que todos os
+integrantes do grupo de trabalho (aqueles que compartilharão os 
+arquivos do Envoy) instalarão e usarão a mesma versão do Envoy.
+Por exemplo: todos deverão instalar e usar o Envoy 1.0a OU
+o Envoy 7, mas não os dois.
+
+Os arquivos .EVY do Envoy 7 criados no Windows 95 são abertos somente
+em um outro sistema em que estiver instalado o Envoy 7.  Os arquivos 
+do Envoy 7 Runtime (.EXE) também necessitam do Windows 95.  Os 
+arquivos de versões mais antigas do Envoy (1.0 e 1.0a para Windows e 
+para Macintosh) são abertos somente no Visor do Envoy 7, mas o 
+contrário não se aplica.
+
+
+1.10  Corel Barista
+-------------------
+O Corel Barista(TM) representa uma nova tecnologia da Corel que permite
+a você publicar documentos formatados para serem exibidos em uma janela
+de Java na World Wide Web, superando os recursos de publicação do HTML.
+O Corel Barista vem incluído no Corel WordPerfect 7, Corel Quattro Pro 7
+e Corel Presentations 7.
+
+Os arquivos de programa necessários para publicar e exibir documentos do
+Corel Barista estão instalados por default como parte dos Componentes
+Compartilhados Necessários quando você instala o Corel WordPerfect Suite 7.
+Se você executar a instalação personalizada, certifique-se de incluir o Corel Barista
+ao instalar os Componentes Compartilhados Necessários.
+
+Quando o Corel Barista é instalado, o programa de instalação modifica
+o arquivo Autoexec.bat para que você possa exibir os documentos do Corel Barista.
+(A Instalação antes cria uma cópia de backup denominada Autoexec.bar.)
+É preciso reiniciar o computador para que as alterações surtam efeito.  O
+programa de instalação acrescenta as seguintes definições de variáveis de
+ambiente ao Autoexec.bat:
+
+     SET CLASSPATH=.;<dir-de-instalação>\barista;< dir-de-instalação >truedoc
+     SET LD_LIBRARY_PATH=< dir-de-instalação >\truedoc\bin
+
+O programa de instalação também anexa os seguintes nomes de diretórios à
+instrução Path do arquivo Autoexec.bat:
+
+     < dir-de-instalação >\truedoc\bin
+
+O < dir-de-instalação > normalmente é C:\Corel\Office7\Shared.
+
+Para exibir documentos do Corel Barista, é necessário ter o Netscape
+Navigator versão 2.01 ou posterior, o Netscape Navigator Gold ou
+um outro navegador da Web que reconheça Java instalado no computador.
+
+
+1.11  Instalando um Corretor Ortográfico e Thesaurus em 
+      Francês-Canadense
+-------------------------------------------------------
+Para instalar o Verificador de Ortografia de Francês-Canadense e o Thesaurus
+faça uma instalação personalizada do Corel WordPerfect Suite 7 e instale as
+ferramentas de auxílio à escrita.
+
+
+1.12  Quarterdeck CleanSweep
+----------------------------
+É possível se deparar com problemas na instalação do conjunto de
+aplicativos quando se usa o programa CleanSweep(TM) da Quarterdeck
+para monitorar o sistema.  Se tiver algum problema, execute
+novamente o programa de Instalação do Corel WordPerfect Suite 7
+sem monitorar o processo de instalação.
+
+
+1.13  Retomando uma Instalação sem Êxito
+----------------------------------------
+Se for obtida uma mensagem de erro durante o processo de instalação,
+informando que um determinado arquivo sendo instalado não é um 
+arquivo válido do Windows 95, ou solicitando a inserção de um disco 
+já inserido, pode-se cancelar o processo de instalação, executar 
+novamente o programa de Instalação do Corel WordPerfect Suite 7 e, 
+em seguida, retomar a instalação quando solicitado.  Se este 
+procedimento já tiver sido repetido diversas vezes sem resultados, é 
+possível que se tenha que desativar o cache de disco do sistema antes 
+de se executar o programa de Instalação novamente.
+
+
+1.14  Problemas com comctl32.dll
+--------------------------------
+Se você instalou ou vai instalar o Microsoft Internet Browser 3.0
+Beta ou o Microsoft NetMeeting 1.0 Beta, obterá um novo arquivo
+comctl32.dll na pasta Win95\System.  Este arquivo novo pode causar
+problemas com o Corel WordPerfect Suite.  Faça uma cópia de backup
+do comctl32.dll (com data de 7/11/95) antes de instalar o Microsoft
+Internet Browser 3.0 Beta ou o Microsoft NetMeeting 1.0 Beta e
+substitua a nova versão do comctl32.dll pela versão de backup.
+
+
+
+2  QUESTÕES GERAIS
+=================
+
+2.1  Erro ao Instalar Impressora no Corel WordPerfect 7
+-------------------------------------------------------
+É possível que você não consiga instalar algumas impressoras 
+com o Corel WordPerfect 7.  Muitas impressoras compartilham drivers e
+se um driver de impressora compartilhado já está aberto, as outras
+impressoras que usam o driver não poderão ser inseridas.  O driver de 
+impressora compartilhado mais comum é o Unidrv.dll.
+
+Quando o Corel WordPerfect 7 é aberto, o driver associado com a 
+impressora selecionada no momento é automaticamente aberto.
+Se o driver estiver sendo compartilhado, você receberá uma mensagem 
+de erro se tentar acrescentar uma outra impressora que também usa o driver.
+O Assistente de Inclusão de Impressoras do Windows 95 vai exigir que você 
+saia do Corel WordPerfect 7 e, possivelmente dos outros aplicativos, antes
+de poder acrescentar a impressora.
+
+
+2.2  Comandos de Macro PerfectScript do Quattro Pro
+---------------------------------------------------
+Informações sobre os comandos de macro para o PerfectScript do Quattro Pro
+estão disponíveis somente no Quattro Pro, e não no Inseridor de Comandos.
+
+Para criar um arquivo de texto com a lista de comandos de macro para o PerfectScript
+do Quattro Pro,
+
+1    Na Barra de Tarefas do Windows, clique em Iniciar > Corel Office 7 >
+     Acessórios > PerfectScript.
+
+2    Clique em Ajuda > Paginador de Comandos de Macro.
+
+3    Selecione o QuattroPro-BR como Tipo de comando.
+
+4    Pressione Ctrl+Shift ao clicar em Inserir e, em seguida, clique em Salvar.
+
+
+2.3  Versão em HTML para o Publicado da Internet
+------------------------------------------------
+O recurso de Publicador da Internet do Corel WordPerfect oferece suporte direto
+ao código da linguagem HTML 2.0.
+
+Para inserir outro tipo de marcação de código, clique em Formatar > Personalizar 
+HTML e, em seguida, digite a marcação.  Para retornar ao texto do documento,
+pressione a Seta para direita.  (Pode ser conveniente ativar o recurso Revelar Códigos
+para ver o final do estila da marcação.)
+
+
+2.4  Imprimir Lista de Arquivos a partir do Diálogo Abrir
+---------------------------------------------------------
+Para imprimir uma lista de arquivos na caixa de diálogo Abrir,
+
+1    Clique em Arquivo > Imprimir Lista de Arquivos.
+
+Você pode imprimir a lista inteira dos arquivos, incluindo ou não as subpastas, 
+ou uma lista com apenas os arquivos selecionados.  É possível também enviar
+a lista diretamente para a impressora ou exibi-la no WordPad.
+
+
+2.5  Imprimir Mais Rápido Linhas Gráficas com a HP LaserJet 4
+-------------------------------------------------------------
+Se as linhas de gráficos estiverem sendo impressas com lentidão em uma impressora
+da série HP LaserJet 4, pode ser necessário alterar o formato dos dados de spool 
+de RAW para EMF.  Para alterar o formato,
+
+1 Na Barra de Tarefas do Windows, clique em Iniciar > Configurações > Painel
+     de Controle.
+
+2    Clique duas vezes em Impressoras.
+
+3    Selecione o modelo da impressora HP LaserJet 4 e, em seguida, clique em Arquivo >
+     Propriedades.
+
+4    Clique na guia Detalhes, clique em Configuração do Spool e selecione EMF
+     em Formato de Dados do Spool. Em seguida, clique em OK.
+
+
+
+
+2.6 Atualizando os Visores de Arquivo
+--------------------------------------
+A Inso Corporation é a responsável pela programação 
+o fornecedor da tecnologia do visualizador de arquivos usada
+no QuickFinder e no conjunto de aplicativos da Corel.  Atualmente,
+o QuickFinder aceitam a visualização de arquivos
+em mais de 200 formatos de arquivo diferentes.  Os formatos de 
+arquivo são alterados regularmente, à medida que novas versões dos 
+programas de software são introduzidas, e novos formatos de arquivo 
+surgem com o desenvolvimento de novos aplicativos.  À medida que 
+estes formatos de arquivo são alterados, a Inso se responsabiliza 
+pelo envio de novos visualizadores de arquivo, sendo a fonte de 
+avanços nos visualizadores que atualizarão os recursos 
+do QuickFinder.
+
+Como contatar a Inso Corporation:
+
+        Por correio:  330 North Wabash
+                      15th Floor
+                      Chicago, IL 60611
+                      USA
+
+          Telefones:  Apoio: (312) 527-HELP [(312)527-4357]
+                      Geral: (312) 329-0700
+                      Gratuito (somente nos EUA): 800-333-1395
+
+                Fax:  (312) 670-0820
+
+         CompuServe:  72662,67
+
+           Internet:  supportchi@inso.com
+                      saleschi@inso.com
+
+Site na World Wide Web:  http://www.inso.com
+
+          Na Europa:  Gibbard Mews, High Street
+                      Wimbledon Village
+                      London, UK  SW19 SBY
+
+                      Telefone: [+44] (181) 947 1122
+                      Fax:      [+44] (181) 947 1810
+
+
+
+2.7  Salvando e Recuperando Arquivos com Grupos de Trabalho 
+Duplicados
+-----------------------------------------------------------
+Pelo fato de ser possível a existência de dois grupos de trabalho com nomes
+idênticos no Windows 95, você pode ter problemas para recuperar ou salvar
+arquivos a partir de grupos de trabalho com nomes duplicados.  O mapeamento
+direto da unidade para o local do grupo de trabalho onde você está trabalhando
+permitirá que seus arquivo sejam abertos e salvos sem problemas.
+
+
+2.8  Publicar para Corel Barista
+---------------------------------
+O Corel Barista(TM) representa uma nova tecnologia da Corel que permite
+a você publicar documentos formatados para serem exibidos em uma janela
+de Java na World Wide Web, superando os recursos de publicação do HTML.
+O Corel Barista vem incluído no Corel WordPerfect 7, Corel Quattro Pro 7
+e Corel Presentations 7.  Ao publicar no Corel Barista, você pode incluir
+todos os recursos de formatação de texto desses aplicativos em seus documentos
+para a Web:  colunas, múltiplas fontes, texto contornando objetos, etc.
+Tudo o que você pode publicar com o Corel WordPerfect, Corel Quattro Pro
+ou Corel Presentations pode ser exibido com formatação completa em qualquer
+navegador da Web que reconheça Java.
+
+O Corel Barista usa a tecnologia TrueDoc da Bitstream Incorporated. 
+A TrueDoc supera as limitações de fontes da Java e permite que você use
+qulaquer uma das fontes incluídas com o Corel WordPerfect Suite.
+(A TrueDoc não funciona com o Netscape Navigator 3.0 e, assim sendo, 
+as três fontes padrão da Java serão usadas.)
+
+Para publicar um documento no Corel Barista a partir do Corel
+WordPerfect, Corel Quattro Pro ou Corel Presentations,
+
+1    Clique em Arquivo > Publicar para > Corel Barista.
+
+2    Siga as instruções na tela.
+
+
+2.9  Habilitando Correio com o Microsoft Exchange
+--------------------------------------------------
+Habilitação de Correio-a posibilidade de se enviar correio eletrônico a partir de 
+aplicativos do Suite-não funcionará se ambos o Microsoft Exchange e 
+Novell GroupWise 4.1 estiverem instalados.  A execução do comando Arquivo > 
+Enviar causará um erro de IPF.  (NOTA:  Se apenas um desses sistemas de correio
+eletrônico estiver instalado, a habilitação do correio funcionará corretamente.)
+
+Você pode contornar o problema desabilitando o uso do GroupWise 
+ao mesmo tempo do recurso de correio nesses aplicativos.  Para isso,
+exclua as seguintes chaves do Registro do Windows:
+
+     HKEY_CLASSES_ROOT\WPConfig\Apps\OFWin41
+     HKEY_CLASSES_ROOT\WPOffice40
+
+Quando você eclui essas chaves do Registro, o GroupWise ainda funcionará,
+mas não será usado pelo recurso de habilitação de correio nos aplicativos
+do Suite.  A habilitação de correio usará somente o Exchange.
+
+
+
+3  PROBLEMAS DE MONITOR
+=======================
+
+Existem alguns problemas com monitores conhecidos no Corel WordPerfect 7.
+
+
+3.1  Driver de ATI
+-----------------------
+Se você está usando o driver gráfico de ATI MACxw4 versão 2.01, pode
+ter problemas com a movimentação do cursor ao selecionar ou editar
+equações.  Entre em contato com seu fornecedor para obter um driver 
+atualizado ou use a versão do driver que vem com o Windows 95.
+
+
+3.2  Microsoft PLUS!
+--------------------
+Se você estiver usando o Microsoft PLUS! com a opção Smooth Edges of Screen
+Fonts ativada, esse recurso pode não funcionar sempre em alguns textos no 
+Corel WordPerfect.  Por exemplo, textos marcados com Correção Instantânea,
+códigos de mesclagem ou códigos de SGML pode ter aparência "nebulosa"
+Para corrigir o problema, desative a opção Smooth Edges of Screen
+Fontes ou execute o Corel WordPerfect com a opção de inicialização /fl.
+
+
+
+4  QUESTÕES DO WINDOWS
+====================
+
+4.1  Permissões do Registro de Chaves
+-------------------------------------
+Antes de instalar ou remover qualquer um desses aplicativos em uma
+estação de trabalho com Windows NT, a Corel recomenda o acesso de Controle
+Total à chave HKEY_LOCAL_MACHINE\SOFTWARE no Registro
+do Windows NT.  Entre em contato com seu administrador de rede se
+precisar de ajuda para alterar as permissões de segurança para o Registro.
+
+Você pode se deparar com os problemas descritos a seguir se executar a
+Instalação sem o acesso necessário no Registro:
+
+-    Se você executar a Instalação com a conta default Visitante, os ícones
+     acrescentados ao menu Iniciar e/ou área de trabalho existirão apenas
+     na sessão atual.  Esses ícones serão perdidos quando você sair da sessão
+     (logout).
+
+-    Se você executar a Instalação sem o acesso de Controle Total a todas 
+     as chaves do Registro, a extensão do shell do QuickFinder não será
+     registrada.  O QuickFinder será instalado funcionará a partir da caixa 
+     de diálogo Abrir, mas nãoserá integrado à sua área de trabalho (ou shell); 
+     por exemplo, a opção "usar QuickFinder" não será acrescentada ao menu
+     Localizar no menu Iniciar. Para que o QuickFinder seja integrado à sua
+     área de trabalho, você precisará do acesso de Controle Total à seguinte
+     chave do Registro  quando instalar o QuickFinder.
+
+         
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell 
+Extensions\Approved
+
+Antes de remover os aplicativos, você precisa obter o acesso de Exclusão a
+HKEY_LOCAL_MACHINE\SOFTWARE.
+
+
+4.2  Inicialização Dupla com o Windows NT 4.0 e Windows 95
+----------------------------------------------------------
+De acordo com o Windows NT Workstation Deployment Guide for NT 4.0 (versão preliminar) da Microsoft,
+
+     "Não é recomendável configurar um computador com inicialização dual
+     (isto é, dando ao usuário a escolha entre uma estação de trabalho com Windows NT 
+     ou Windows 95 quando o computador é iniciado).  Para evitar problemas com a
+     configuração do hardware e a instalação de aplicativos, escolha um sistema 
+     operacional para cada computador.  Se for necessária a configuração da inicialização
+     dual, instale os aplicativos uma vez com o Windows NT em execução e outra
+     vez com o Windows 95 executando, para assegurar que os aplicativos são incluídos
+     nos Registros de ambos os sistemas operacionais."
+
+
+4.3  Driver do Envoy
+-------------------------
+O driver do Envoy 7 que permite a você "imprimir" documentos no formato
+do Envoy, não funciona no Windows NT.  Esse driver não deve ser instalado
+em nenhuma versão do Windows NT.  Entretanto, o visor do
+Envoy 7 funciona e pode ser instalado no Windows NT.
+
+
+4.4  Habilitando Correio
+-----------------------------
+A habilitação de correio no Windows NT (a possibilidade de se enviar 
+correio eletrônico a partir do Corel WordPerfect e aplicativos relacionados)
+funciona somente com aplicativos clientes de correio eletrônico que usem 
+32-bit MAPI ou CMC. A habilitação de correio não funciona com o GroupWise 4.x.
+
+
+
+4.5 Programa de Remendo para ODBC
+-----------------------------------------------
+Quando estiver executando com o Windows NT, é possível que você
+se depare com erros nos aplicativos ao importar dados de um banco 
+de dados ODBC para o Corel WordPerfect.  Um programa de Remendo 
+para ODBC, disponível no FTP do site da Microsoft corrige esse problema.
+O programa se encontra em
+
+     ftp://ftp.microsoft.com/Softlib/MSLFILES/Msjtwng.exe
+
+
+4.6  Caderno de Endereços da Corel e NTFS
+-----------------------------------------
+Se o computador com Windows NT estiver usando o sistema de arquivos NTFS,
+o Caderno de Endereços da Corel Address Book pode não funcionar corretamente 
+a menos que você também esteja usando a versão 4 do arquivo MAPI32.DLL.  
+A Versão 4 do MAPI32.DLL é fornecido pela Microsoft.
+
+
+4.7  AT&T WorldNet Service
+--------------------------
+A versão do navegador Netscape Navigator da Internet incluído com o software
+do Serviço WorldNet da AT&T não funciona no Windows NT.
+
+
+4.8  Questões do Windows NT 3.51
+----------------------------------
+Pelo fato de os aplicativos serem projetados para o Windows 95, alguns
+recursos podem ser prejudicados ou não funcionar no Windows NT 3.51.
+Por exemplo:
+
+-    O Corel Desktop Application Director (DAD), o QuickFinder, o driver do Envoy, a guia Mostrar e
+     o recurso Fazer Comigo da Ajuda não são instalados no
+     NT 3.51.  
+-    A caixa de diálogo Abrir Arquivo do PerfectFit (clique em Arquivo > Abrir)
+     não funciona no NT 3.51.  Na maioria dos aplicativos, a caixa de diálogo
+     Abrir Arquivo do Windows é usada no lugar.
+
+-    Quando o Corel WordPerfect é executado no NT 3.51, a caixa de
+     diálogo Inserir Imagem (clique em Gráficos > Imagem) não inclui
+     a opção Imagem em Disco.  Se você quiser que seu documento seja
+     ligado a uma imagem no disco, insira a imagem.  Vá para a caixa de
+     diálogo Editar Quadro (selecione a imagem e, em seguida, clique em 
+     Gráficos >Editar Quadro), clique em Conteúdo e, em seguida, selecione
+     Imagem em Disco na lista drop-down Conteúdo.
+
+
+-    A opção Iniciar Navegador do Corel Barista é desativada no NT 3.51.
+
+
+
+
+
+
+4.9  CTL3D32.DLL e Windows NT 3.51
+----------------------------------
+Quando você instala esses aplicativos no Windows NT 3.51,
+a versão 2.31 do CTL3D32.DLL será instalada no diretório System32
+no diretório do Windows NT 3.51.  Se uma outra versão deste
+arquivo já existe, o programa de instalação irá criar uma cópia
+de backup dele.  A Versão 2.31 do CTL3D32.DLL tem data do dia
+4 de dezembro de 1995 e o arquivo possui 27,136 bytes.  O nome da 
+cópia de backup é CTL3D32.DL!.
+
+O CTL3D32.DLL é usado por vários aplicativos do Windows 
+para a exibição "tri-dimensional" de caixas de diálogo.  Alguns
+aplicativos podem não funcionar com a versão 2.31 deste arqiuivo .DLL.
+Se você encontrar problemas em outros aplicativos, pode renomear
+a cópia de backup (CTL3D32.DL!) de volta para CTL3D32.DLL.
+
+
+
+5  Notas sobre Marcas Registradas
+=================================
+
+Para obter uma lista de marcas registradas nos aplicativos do Corel
+WordPerfect Suite, clique em Ajuda > Tópicos da Ajuda > Copyrights e
+Marcas Registradas em qualquer aplicativo do conjunto.
+
+
+
+END

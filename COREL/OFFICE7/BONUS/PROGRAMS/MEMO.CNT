@@ -1,0 +1,21 @@
+:Base MEMO.hlp>main
+1 Introdução
+2 Funções do CorelMEMO=intro_corel_memo
+1 Como...
+2 Criar um CorelMEMO
+3 Para inserir um CorelMEMO no seu aplicativo=proc_insert_note>proc4
+3 Para editar o seu CorelMEMO=proc_edit_note>proc4
+3 Para redimensionar o seu CorelMEMO=proc_resize_note>proc4
+3 Para mudar as unidades do seu CorelMEMO=proc_change_units>proc4
+3 Para redimensionar a janela principal do CorelMEMO=proc_resize_main_memo_window>proc4
+3 Para mudar a imagem do seu CorelMEMO=proc_change_picture>proc4
+3 Para salvar o seu CorelMEMO=proc_save_note>proc4
+3 Para imprimir o seu CorelMEMO=print_memo_proc>proc4
+3 Para configurar uma impressora a partir do CorelMEMO=printsetup_memo_proc>proc4
+3 Para pré-visualizar um CorelMEMO antes de imprimir=printpreview_memo_proc>proc4
+2 Adaptar o seu CorelMEMO
+3 Para mudar a cor do texto do cabeçalho=proc_header_color>proc4
+3 Para mudar a fonte do texto do cabeçalho=proc_header_font>proc4
+3 Para mudar a cor do texto do corpo=proc_body_text_color>proc4
+3 Para mudar a fonte do texto do corpo=proc_body_text_font>proc4
+3 Para mudar a cor do papel=proc_paper_color>proc4

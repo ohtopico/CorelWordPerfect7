@@ -1,0 +1,9 @@
+<!-- This is the "end" section of LESSON3.DTD -->
+
+<!ELEMENT   end          - -  (biblio? & index)                             >
+<!ELEMENT   biblio       O -  ((author+ | publishr | phrase), title, date)+ >
+<!ELEMENT    publishr    O -  (#PCDATA)                                     >
+<!ELEMENT    date        - O  EMPTY                                         >
+
+<!ELEMENT   index        O -  (phrase, pagenum+)+                           >
+<!ELEMENT    phrase      - -  (#PCDATA)                                     >

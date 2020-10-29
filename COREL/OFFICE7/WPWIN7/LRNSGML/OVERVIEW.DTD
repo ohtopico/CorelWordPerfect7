@@ -1,0 +1,104 @@
+<!-- (C) 1996 Corel Corporation Limited.  All Rights Reserved. -->
+
+<!-- WordPerfect for Windows 7 does not require a <!DOCTYPE... declaration -->
+
+<!-- Simple DTD for illustrating attributes and external entities.
+     Illustrates parameter entity declarations for ISO character entity
+     sets.  Requires an "external entity mapping file" (ISO_ENT.MAP or
+     ISO_WPC.MAP) because it contains references to external entities.
+
+     This DTD has been precompiled into an LGC file, with some layout
+     design files prepared.  The OVERVIEW.LGC, OVERVIEW.LSI, OVERVW2.LSI,
+     OVERVIEW.LNM and the OVERVIEW.SGM file can be used as a simple example
+     of how to use the SGML features of WordPerfect for Windows 7.
+
+     If you compile this DTD using ISO_WPC.MAP as the "entity mapping file",
+     the entities declared in the following public ISO character sets
+     will be mapped to the appropriate WordPerfect extended characters.
+     These characters will appear in RED in WordPerfect's Ctrl-W dialog.
+-->
+
+<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES
+                             Added Latin 1//EN"                >
+<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES
+                             Added Latin 2//EN"                >
+<!ENTITY % ISOnum  PUBLIC "ISO 8879:1986//ENTITIES
+                             Numeric and Special Graphic//EN"  >
+<!ENTITY % ISOpub  PUBLIC "ISO 8879:1986//ENTITIES
+                             Publishing//EN"                   >
+<!ENTITY % ISOtech PUBLIC "ISO 8879:1986//ENTITIES
+                             General Technical//EN"            >
+<!ENTITY % ISOdia  PUBLIC "ISO 8879:1986//ENTITIES
+                             Diacritical Marks//EN"            >
+<!ENTITY % ISOamso PUBLIC "ISO 8879:1986//ENTITIES
+                             Added Math Symbols: Ordinary//EN" >
+<!ENTITY % ISOgrk1 PUBLIC "ISO 8879:1986//ENTITIES
+                             Greek Letters//EN"                >
+<!ENTITY % ISOgrk3 PUBLIC "ISO 8879:1986//ENTITIES
+                             Greek Symbols//EN"                >
+
+<!-- When the "DTD to LGC" utility is parsing this DTD and encounters the
+     following parameter entity references, it parses through the file mapped
+     to each entity name.  Look in the MAPFILES directory for the entity
+     mapping files.
+-->
+
+%ISOlat1;
+%ISOlat2;
+%ISOnum;
+
+<!-- To keep the size of this sample LGC file small we have commented out 
+     the following character sets.  Feel free to move the entity references
+     for any desired character sets to the list above this comment.
+-->
+
+<!--
+%ISOpub;
+%ISOtech;
+%ISOdia;
+%ISOamso;
+%ISOgrk1;
+%ISOgrk3;
+-->
+
+
+<!-- The Elements dialog in WordPerfect can be made to display either
+     "All Tags" or "Valid Tags".
+-->
+
+<!--       NAME     OMIT   CONTENT MODEL                                --> 
+
+<!ELEMENT Overview  - -    (Front,  Chapter+)                             >
+<!ELEMENT  Front    - -    (title,  Company, TOC?)                        >
+<!ELEMENT   title   - -    (#PCDATA)                                      >
+<!ELEMENT   Company - -    (Name, Street, City, State, Zip)               >
+<!ELEMENT    Name   - -    (#PCDATA)                                      >
+<!ELEMENT    Street - -    (#PCDATA)                                      >
+<!ELEMENT    City   - -    (#PCDATA)                                      >
+<!ELEMENT    State  - -    (#PCDATA)                                      >
+<!ELEMENT    Zip    - -    (#PCDATA)                                      >
+<!ELEMENT   TOC     - -    (Level1 | Level2)+                             >
+<!ELEMENT    Level1 - -    (#PCDATA)                                      >
+<!ELEMENT    Level2 - -    (#PCDATA)                                      >
+<!ELEMENT  Chapter  - -    (title, Section+)                              >
+<!ELEMENT   Section - -    (title, (para | step)+)  +(graphic, list)      >
+<!ELEMENT    para   - -    (#PCDATA)               +(quote, emph, ftnote) >
+<!ELEMENT    quote  - -    (#PCDATA)                                      >
+<!ELEMENT    emph   - -    (#PCDATA)                                      >
+<!ELEMENT    ftnote - -    (#PCDATA)                                      >
+<!ELEMENT   step    - -    (title?,(para | step)+)  +(list)               >
+<!ELEMENT   list    - -    (item+)                                        >
+<!ELEMENT    item   - -    (#PCDATA)                                      >
+<!ELEMENT   graphic - -    (lit?)                                         >
+<!ELEMENT    lit    - -    (#PCDATA)                                      >
+
+<!-- You may enter values for a start tag's attributes while inserting the
+     tag into a document.  You may also may edit the attribute values for
+     an existing start tag at any time during an editing session.
+
+     See "Edit Attributes" under "Feature Reference" in Help.
+-->
+
+<!ATTLIST  emph     type   (1|2|3|4)    1                                 >
+
+<!ATTLIST  graphic  file   CDATA        #IMPLIED                          >

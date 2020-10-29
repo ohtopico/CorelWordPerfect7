@@ -1,0 +1,54 @@
+--
+    File:  ISOGRK3.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOgrk3 PUBLIC
+       "ISO 8879-1986//ENTITIES Greek Symbols//EN">
+     %ISOgrk3;
+
+  WP #    Name       Text            Description
+--
+  8,1     alpha     "[alpha ]"     --=small alpha, Greek--
+  8,3     beta      "[beta  ]"     --=small beta, Greek--
+  8,7     gamma     "[gamma ]"     --=small gamma, Greek--
+  8,6     Gamma     "[Gamma ]"     --=capital Gamma, Greek--
+  8,216   gammad    "[gammad]"     --/digamma--
+  8,9     delta     "[delta ]"     --=small delta, Greek--
+  8,8     Delta     "[Delta ]"     --=capital Delta, Greek--
+  8,11    epsi      "[epsi  ]"     --=small epsilon, Greek--
+  8,70    epsiv     "[epsiv ]"     --/varepsilon--
+  0,0     epsis     "[epsis ]"     --/straightepsilon--
+  8,13    zeta      "[zeta  ]"     --=small zeta, Greek--
+  8,15    eta       "[eta   ]"     --=small eta, Greek--
+  8,17    thetas    "[thetas]"     --straight theta--
+  8,16    Theta     "[Theta ]"     --=capital Theta, Greek--
+  8,71    thetav    "[thetav]"     --/vartheta - curly or open theta--
+  8,19    iota      "[iota  ]"     --=small iota, Greek--
+  8,21    kappa     "[kappa ]"     --=small kappa, Greek--
+  8,72    kappav    "[kappav]"     --/varkappa--
+  8,23    lambda    "[lambda]"     --=small lambda, Greek--
+  8,22    Lambda    "[Lambda]"     --=capital Lambda, Greek--
+  8,25    mu        "[mu    ]"     --=small mu, Greek--
+  8,27    nu        "[nu    ]"     --=small nu, Greek--
+  8,29    xi        "[xi    ]"     --=small xi, Greek--
+  8,28    Xi        "[Xi    ]"     --=capital Xi, Greek--
+  8,33    pi        "[pi    ]"     --=small pi, Greek--
+  8,73    piv       "[piv   ]"     --/varpi--
+  8,32    Pi        "[Pi    ]"     --=capital Pi, Greek--
+  8,35    rho       "[rho   ]"     --=small rho, Greek--
+  8,74    rhov      "[rhov  ]"     --/varrho--
+  8,37    sigma     "[sigma ]"     --=small sigma, Greek--
+  8,36    Sigma     "[Sigma ]"     --=capital Sigma, Greek--
+  8,39    sigmav    "[sigmav]"     --/varsigma--
+  8,41    tau       "[tau   ]"     --=small tau, Greek--
+  8,43    upsi      "[upsi  ]"     --=small upsilon, Greek--
+  8,42    Upsi      "[Upsi  ]"     --=capital Upsilon, Greek--
+  8,45    phis      "[phis  ]"     --/straightphi - straight phi--
+  8,44    Phi       "[Phi   ]"     --=capital Phi, Greek--
+  8,77    phiv      "[phiv  ]"     --/varphi - curly or open phi--
+  8,47    chi       "[chi   ]"     --=small chi, Greek--
+  8,49    psi       "[psi   ]"     --=small psi, Greek--
+  8,48    Psi       "[Psi   ]"     --=capital Psi, Greek--
+  8,51    omega     "[omega ]"     --=small omega, Greek--
+  8,50    Omega     "[Omega ]"     --=capital Omega, Greek--

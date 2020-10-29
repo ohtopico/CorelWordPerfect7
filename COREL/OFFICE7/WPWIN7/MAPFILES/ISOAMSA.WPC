@@ -1,0 +1,67 @@
+--
+    File:  ISOAMSA.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOamsa PUBLIC
+       "ISO 8879-1986//ENTITIES Added Math Symbols: Arrow Relations//EN">
+     %ISOamsa;
+
+  WP #    Name       Text            Description
+--
+  0,0     cularr    "[cularr]"     --/curvearrowleft A: left curved arrow --
+  0,0     curarr    "[curarr]"     --/curvearrowright A: rt curved arrow --
+  6,59    dArr      "[dArr  ]"     --/Downarrow A: down dbl arrow --
+  0,0     darr2     "[darr2 ]"     --/downdownarrows A: two down arrows --
+  6,156   dharl     "[dharl ]"     --/downleftharpoon A: dn harpoon-left --
+  6,157   dharr     "[dharr ]"     --/downrightharpoon A: down harpoon-rt --
+  0,0     lAarr     "[lAarr ]"     --/Lleftarrow A: left triple arrow --
+  0,0     Larr      "[Larr  ]"     --/twoheadleftarrow A:--
+  6,159   larr2     "[larr2 ]"     --/leftleftarrows A: two left arrows --
+  6,145   larrhk    "[larrhk]"     --/hookleftarrow A: left arrow-hooked --
+  0,0     larrlp    "[larrlp]"     --/looparrowleft A: left arrow-looped --
+  0,0     larrtl    "[larrtl]"     --/leftarrowtail A: left arrow-tailed --
+  6,149   lhard     "[lhard ]"     --/leftharpoondown A: l harpoon-down --
+  6,148   lharu     "[lharu ]"     --/leftharpoonup A: left harpoon-up --
+  6,60    hArr      "[hArr  ]"     --/Leftrightarrow A: l&r dbl arrow --
+  6,25    harr      "[harr  ]"     --/leftrightarrow A: l&r arrow --
+  6,55    lrarr2    "[lrarr2]"     --/leftrightarrows A: l arr over r arr --
+  6,54    rlarr2    "[rlarr2]"     --/rightleftarrows A: r arr over l arr --
+  0,0     harrw     "[harrw ]"     --/leftrightsquigarrow A: l&r arr-wavy --
+  6,152   rlhar2    "[rlhar2]"     --/rightleftharpoons A: r harp over l --
+  6,153   lrhar2    "[lrhar2]"     --/leftrightharpoons A: l harp over r --
+  0,0     lsh       "[lsh   ]"     --/Lsh A:--
+  6,147   map       "[map   ]"     --/mapsto A:--
+  0,0     mumap     "[mumap ]"     --/multimap A:--
+  6,62    nearr     "[nearr ]"     --/nearrow A: NE pointing arrow --
+  0,0     nlArr     "[nlArr ]"     --/nLeftarrow A: not implied by --
+  0,0     nlarr     "[nlarr ]"     --/nleftarrow A: not left arrow --
+  0,0     nhArr     "[nhArr ]"     --/nLeftrightarrow A: not l&r dbl arr --
+  0,0     nharr     "[nharr ]"     --/nleftrightarrow A: not l&r arrow --
+  0,0     nrarr     "[nrarr ]"     --/nrightarrow A: not right arrow --
+  0,0     nrArr     "[nrArr ]"     --/nRightarrow A: not implies --
+  6,64    nwarr     "[nwarr ]"     --/nwarrow A: NW pointing arrow --
+  0,0     olarr     "[olarr ]"     --/circlearrowleft A: l arr in circle --
+  0,0     orarr     "[orarr ]"     --/circlearrowright A: r arr in circle --
+  0,0     rAarr     "[rAarr ]"     --/Rrightarrow A: right triple arrow --
+  0,0     Rarr      "[Rarr  ]"     --/twoheadrightarrow A:--
+  6,158   rarr2     "[rarr2 ]"     --/rightrightarrows A: two rt arrows --
+  6,146   rarrhk    "[rarrhk]"     --/hookrightarrow A: rt arrow-hooked --
+  0,0     rarrlp    "[rarrlp]"     --/looparrowright A: rt arrow-looped --
+  0,0     rarrtl    "[rarrtl]"     --/rightarrowtail A: rt arrow-tailed --
+  6,144   rarrw     "[rarrw ]"     --/squigarrowright A: rt arrow-wavy --
+  6,151   rhard     "[rhard ]"     --/rightharpoondown A: rt harpoon-down --
+  6,150   rharu     "[rharu ]"     --/rightharpoonup A: rt harpoon-up --
+  0,0     rsh       "[rsh   ]"     --/Rsh A:--
+  6,63    drarr     "[drarr ]"     --/searrow A: downward rt arrow --
+  6,65    dlarr     "[dlarr ]"     --/swarrow A: downward l arrow --
+  6,58    uArr      "[uArr  ]"     --/Uparrow A: up dbl arrow --
+  0,0     uarr2     "[uarr2 ]"     --/upuparrows A: two up arrows --
+  6,61    vArr      "[vArr  ]"     --/Updownarrow A: up&down dbl arrow --
+  6,26    varr      "[varr  ]"     --/updownarrow A: up&down arrow --
+  6,154   uharl     "[uharl ]"     --/upleftharpoon A: up harpoon-left --
+  6,155   uharr     "[uharr ]"     --/uprightharpoon A: up harp-r--
+  0,0     xlArr     "[xlArr ]"     --/Longleftarrow A: long l dbl arrow --
+  0,0     xhArr     "[xhArr ]"     --/Longleftrightarrow A: long l&r dbl arr--
+  0,0     xharr     "[xharr ]"     --/longleftrightarrow A: long l&r arr --
+  0,0     xrArr     "[xrArr ]"     --/Longrightarrow A: long rt dbl arr --

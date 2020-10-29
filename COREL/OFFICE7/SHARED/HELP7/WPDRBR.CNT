@@ -1,0 +1,495 @@
+:Base wpdrbr.hlp>topics
+:Title Ajuda do Corel WordPerfect Draw
+:Index Ajuda do Serviços de Suporte da Corel=support.hlp
+:Index Ajuda do Corel WordPerfect Draw=wpdrbr.hlp
+:Index Ajuda do Sistema de Arquivos =pfod70br.hlp
+:Index Ajuda do PerfectFit =wpsh70br.hlp
+:Index Ajuda do Sistema de Impressão =pfpi70br.hlp
+:Link pfod70br.hlp
+:Link pfpi70br.hlp
+:Link support.hlp
+:Link wpdrbr.hlp
+:Link wpsh70br.hlp
+1 Examplos=438>visual
+1 Copyrights e Marcas Registradas=8020@support.hlp>topics
+1 Como Fazer
+2 Fundamentos
+3 Definindo Defaults
+4 Selecionando objetos automaticamente=402>topics
+4 Escolhendo diretórios default =49>topics
+4 Escolhendo defaults de exibição =50>topics
+4 Escolhendo ambientes default =52>topics
+4 Escolhendo módulos de idioma =58>topics
+4 Criando um formato de data personalizado =409>topics
+4 Definindo preferências de default=337>topics
+3 Selecionando Opções de Exibição na Tela
+4 Alterando o local e aparência da Barra de Ferramentas =490>topics
+4 Alterando a visualização do documento =395>topics
+4 Escolhendo as opções de grade e encaixe =56>topics
+4 Copiando uma Barra de Ferramentas, barra de menus ou teclado =494>topics
+4 Criando uma Barra de Ferramentas, barra de menus ou teclado=492>topics
+4 Eliminando uma Barra de Ferramentas, barra de menus ou teclado =496>topics
+4 Exibindo ou ocultando a grade =140>topics
+4 Exibindo ou ocultando a régua =141>topics
+4 Exibindo ou ocultando a Barras de Ferramentas =142>topics
+4 Exibindo teclas de atalho nos menus =138>topics
+4 Exibindo os objetos atualmente selecionados =410>topics
+4 Editando a Barra de Ferramentas, barra de menus ou teclad=493>topics
+4 Renomenando a Barra de Ferramentas, barra de menus ou teclado =495>topics
+4 Utilizando guias de alinhamento =376>topics
+3 Abrindo, Fechando e Salvando Documentos
+4 Fechando objetos ativos =80>topics
+4 Fechando documentos =407>topics
+4 Saindo do WP Draw=177>topics
+4 Exportando dados =178>topics
+4 Abrindo documentos =263>topics
+4 Recuperando arquivos de texto =302>topics
+4 Salvando objetos com menos espaço branco =322>topics
+4 Salvando documentos como novos arquivos =321>topics
+4 Salvando documentos =320>topics
+4 Salvando objetos selecionados =319>topics
+4 Alternando entre documentos abertos =354>topics
+3 Recortando, Copiando e Colando
+4 Copiando e colando dados =110>topics
+4 Copiando e colando objetos e texto =111>topics
+4 Recortando e colando dados =71>topics
+4 Recortando e colando objetos e texto =83>topics
+4 Duplicando objetos=159>topics
+3 Eliminando, Recuperando e Refazendo
+4 Limpando a janela de desenho =78>topics
+4 Eliminando objetos e texto =132>topics
+4 Refazendo alterações =296>topics
+4 Desfazendo alterações =374>topics
+4 Recuperando texto =372>topics
+3 Utilizando o teclado
+4 Acessando menus usando o teclado =380>topics
+4 Escolhendo opções em um quadro de diálogo utilizando o teclado =379>topics
+4 Desenhando objetos usando o teclado =378>topics
+3 Escolhendo e Criando Paletas de Cores
+4 Copiando e colando cores =97>topics
+4 Definindo paletas de cores =130>topics
+4 Editando blocos de cores =163>topics
+4 Recuperando paletas de cores =194>topics
+4 Salvando paletas de cores =317>topics
+4 Utilizando modelos de cores =377>topics
+3 Utilizando Macros
+4 Interrompendo uma macro =275>topics
+4 Executando uma macro =280>topics
+4 Gravando uma macro =292>topics
+4 Parando uma macro =350>topics
+3 Utilizando os Recursos da Interface
+4 Utilizando MenusRápidos=383>topics
+4 Utilizando a paleta de ferramentas =367>topics
+2 Gráficos de Dados
+3 Criando Gráficos de Dados
+4 Criando Gráficos em 3-D=258>topics
+4 Criando gráficos de dados=103>topics
+4 Criando gráficos orientados horizontalmente =268>topics
+4 Criando gráficos com figuras =105>topics
+4 Dicas sobre como criar gráficos de dados =364>topics
+4 Utilizando a galeria de gráficos =385>topics
+4 Usando a Folha de Dados =386>topics
+3 Editando Gráficos de Dados
+4 Editando células =161>topics
+4 Editando gráficos =162>topics
+4 Redesenhando gráficos automaticamente =298>topics
+3 Importando e Exportando Dados
+4 Exportando dados =178>topics
+4 Importando dados de planilha =216>topics
+4 Importando dados de texto =253>topics
+3 Salvando e Recuperando Estilos de Gráficos
+4 Recuperando estilos de gráficos =191>topics
+4 Salvando estilos de gráficos =316>topics
+3 Alterando a Aparência do Gráfico
+4 Alterando a aparência do gráfico de dados =269>topics
+4 Alterando a aparência do gráfico de radar =270>topics
+4 Alterando a cor das séries =31>topics
+4 Alterando a largura, estilo e cor de linhas =294>topics
+4 Alterando o tipo e forma da série =36>topics
+4 Preenchendo uma série de dados com figuras =289>topics
+3 Digitando e Limpando Dados
+4 Escolhendo larguras de coluna na Folha de Dados =48>topics
+4 Eliminando fileiras e colunas =134>topics
+4 Exibindo ou ocultando a Folha de Dados =139>topics
+4 Digitando dados na Folha de Dados =173>topics
+4 Excluindo dados em gráficos =176>topics
+4 Formatando dados do gráfico =403>topics
+4 Formatando datas em gráficos =192>topics
+4 Format numeric data=257>topics
+4 Incluindo dados em gráficos =223>topics
+4 Inserindo fileiras e colunas =231>topics
+4 Move to a cell=261>topics
+4 Selecionando todas as células na Folha de Dados =328>topics
+4 Transpondo dados =370>topics
+3 Exibindo e Editando Títulos, Legendas e Rótulos
+4 Escolhendo as opções da legenda =59>topics
+4 Criando e editando subtítulos do gráfico =67>topics
+4 Criando e editando títulos do gráfico s=99>topics
+4 Exibindo títulos e subtítulos do gráfico com quadros ao redor =357>topics
+4 Exibindo um título do eixo =332>topics
+4 Exibindo os rótulos do eixo x =310>topics
+4 Exibindo rótulos do eixo y =356>topics
+4 Rotulando gráficos de dados =239>topics
+3 Gráficos XY
+4 Atribuindo uma série de dados a um eixo y secundário =282>topics
+4 Escolhendo opções da moldura =55>topics
+4 Escolhendo opções da grade =57>topics
+4 Escolhendo opções de perspectiva =63>topics
+4 Escolhendo opções de série =64>topics
+4 Escolhendo opções do eixo x =218>topics
+4 Escolhendo opções do eixo y =45>topics
+4 Elaborando gráficos de dados =135>topics
+4 Exibindo divisões em um eixo =339>topics
+4 Utilizando dois eixos y em um gráfico =388>topics
+3 Gráficos de Torta
+4 Alterando a aparência de um gráfico de torta =279>topics
+4 Criando um gráfico de torta com mais de uma torta =108>topics
+4 Exibindo gráficos de torta em colunas empilhadas =278>topics
+4 Rotulando gráficos de torta =299>topics
+4 Ligando Gráficos de Torta=484>topics
+4 Separando fatias de um gráfico de torta =335>topics
+2 Desenhando e Editando Objetos
+3 Desenhando e Criando Objetos
+4 Escolhendo as cores de preenchimento e de linha =47>topics
+4 Escolhendo preenchimento para objetos =53>topics
+4 Escolhendo as conexões e finais de linhas =60>topics
+4 Escolhendo a largura e estilos da linha =211>topics
+4 Escolhendo atributos de sombreado =65>topics
+4 Escolhendo a textura de objetos =184>topics
+4 Criando arcos e fatias=102>topics
+4 Criando cúspides =429>topics
+4 Criando objetos de desenho =104>topics
+4 Desenhando setas =435>topics
+4 Desenhando curvas de Bezier =431>topics
+4 Desenhando círculos =146>topics
+4 Desenhando arcos circulares=445>topics
+4 Desenhando curvas fechadas =147>topics
+4 Desenhando setas curvas =436>topics
+4 Desenhando curvas =148>topics
+4 Desenhando setas curvas duplas =437>topics
+4 Desenhando elipses=149>topics
+4 Desenhando arcos elípticos =150>topics
+4 Desenhando à mão livre=152>topics
+4 Desenhando polígonos =154>topics
+4 Desenhando retângulos =155>topics
+4 Desenhando polígonos regulares =433>topics
+4 Desenhando retângulos arredondados =156>topics
+4 Desenhando linhas retas =219>topics
+4 Desenhando linhas em zigue-zague =153>topics
+4 Preenchendo objetos com figuras =248>topics
+4 Preenchendo objetos com texturas =251>topics
+3 Editando e Reformando Objetos
+4 Alterando objetos para preto e branco =33>topics
+4 Alterando objetos para esboços =34>topics
+4 Alterando objetos para silhuetas =35>topics
+4 Editando curvas de Bezier =430>topics
+4 Editando objetos desenhados =166>topics
+4 Preenchendo arcos =183>topics
+4 Virando objetos =188>topics
+4 Agrupando objetos =207>topics
+4 Invertendo cores =233>topics
+4 Selecionando objetos =213>topics
+4 Separando objetos combinados ou agrupados =334>topics
+4 Dimensionando objetos =343>topics
+4 Inclinando objetos =346>topics
+4 Esticando objetos =353>topics
+3 Alinhando e Movendo Objetos
+4 Alinhando objetos na janela de desenho =421>topics
+4 Alinhando objetos com a grade =8>topics
+4 Centralizando objetos =422>topics
+4 Alterando a ordem de objetos =398>topics
+4 Movendo objetos =260>topics
+4 Girando objetos =308>topics
+4 Selecionando objetos =213>topics
+4 Espaçando objetos por igual =447>topics
+2 Formatando Páginas
+3 Escolhendo fundos de página em padrão ou gradiente =62>topics
+3 Escolhendo fundos de página em figura ou textura =406>topics
+3 Formatando páginas =413>topics
+3 Salvando objetos com menos espaço branco =322>topics
+2 Vinculando e Incorporando Objetos (OLE)>topics
+3 Exibindo objetos OLE como ícones =136>topics
+3 Editando objetos incorporados =100>topics
+3 Editando objetos vinculados =101>topics
+3 Editando vínculos OLE =70>topics
+3 Incorporando objetos de arquivo =27>topics
+3 Incorporando novos objetos =21>topics
+3 Incorporando objetos em outros aplicativos =22>topics
+3 Edição no local e Edição Aberta =220>topics
+3 Inserindo arquivos =227>topics
+3 Inserindo objetos vinculados =41>topics
+3 Listando os vínculos OLE no documento atual =255>topics
+3 Atualizando objetos vinculados e incorporados =375>topics
+2 Organogramas
+3 Criando Organogramas
+4 Criando organogramas =482>topics
+4 Importando um esboço de organograma =470>topics
+4 Inserindo uma posição de gerenciador =471>topics
+4 Inserindo posições de colegas de trabalho =472>topics
+4 Inserindo posições de cargos =473>topics
+4 Inserindo posições de subordinados =474>topics
+4 Substituir um gerente por um subordinado=151>topics
+4 Selecionando níveis em organogramas =476>topics
+4 Dicas para a Criação de Organogramas =463>topics
+3 Alterando a Aparência de Organogramas
+4 Adicionando campos a quadros do organograma =464>topics
+4 Adicionando mais informações a organogramas =465>topics
+4 Escolhendo uma estrutura de ramificação para organogramas =467>topics
+4 Escolhendo propriedades de quadros do organograma =468>topics
+4 Alterando conectores entre níveis de organogramas =466>topics
+4 Elaborando organogramas =469>topics
+4 Orientando organogramas =475>topics
+4 Selecionando níveis em organogramas =476>topics
+4 Espaçando posições em organogramas =478>topics
+3 Visualizando Organogramas
+4 Definindo a posição superior em um organograma =477>topics
+4 Visualizando todas as ramificações em um organograma =479>topics
+4 Visualizando somente a ramificação selecionada =480>topics
+4 Visualizando ou ocultando posições subordinadas =481>topics
+2 ArteRápida (Figuras)
+3 Inserindo ArteRápida e Figuras
+4 Editando ArteRápida e figuras =167>topics
+4 Importando arquivos gráficos =217>topics
+3 Combinando Objetos da ArteRápida com Outros Tipos de Objetos
+4 Adicionando ArteRápida a gráficos =6>topics
+4 Sobrepondo figuras =266>topics
+2 Texto
+3 Criando Texto
+4 Escolhendo fontes=54>topics
+4 Escolhendo cores de textos e esboços=66>topics
+4 Inserindo caracteres em textos=51>topics
+4 Reutilizando uma fonte, tamanho e combinação de estilo=359>topics
+4 Utilizando áreas de textos e linhas de textos=384>topics
+3 Editando e Alterando Texto
+4 Alterando o tamanho relativo do texto=37>topics
+4 Editando texto=168>topics
+4 Localizando e substituindo texto=186>topics
+4 Posicionando texto como sobrescrito ou subscrito =283>topics
+4 Reorganizando texto =291>topics
+4 Revelando códigos na linha de texto atual =304>topics
+4 Selecionando texto =331>topics
+4 Recuperando texto =372>topics
+3 Formatando Texto
+4 Ajustando kerning de texto =7>topics
+4 Alinhando texto =9>topics
+4 Centralizando uma linha de texto =29>topics
+4 Escolhendo o espaçamento de linhas =61>topics
+4 Documentos de Data =125>topics
+4 Endentando texto =225>topics
+4 Justificando texto =235>topics
+4 Liberando margens =300>topics
+4 Justificando uma linha de texto à direita =306>topics
+4 Dimensionando áreas de texto =344>topics
+3 Verificando Texto
+4 Corrigindo automaticamente os erros à medida que digita =360>topics
+4 Corrigindo a gramática =44>topics
+4 Criando uma lista de erros para a correção automática =23>topics
+4 Localizando sinônimos e antônimos =387>topics
+4 Corrigindo a ortografia do texto =348>topics
+3 Utilizando Texto com Outros Objetos
+4 Contornando objetos com texto =95>topics
+4 Sobrepondo texto à ArteRápida =267>topics
+4 Tornando reto o texto contornado =351>topics
+1 Sobre os Recursos
+2 Adquirindo Imagem =5>topics
+2 Tamanho Real (100%)=412>topics
+2 Alinhando Menu =420>topics
+2 Aplicando Atributos =416>topics
+2 Gráfico de Área =13>topics
+2 Seta =434>topics
+2 AutoRedesenhando =14>topics
+2 Seleção Automática =98>topics
+2 Menu Eixo=197>topics
+2 Propriedades do Eixo =17>topics
+2 Voltando =400>topics
+2 Tab à Esquerda =18>topics
+2 Nível para Trás =426>topics
+2 Gráfico de Barras =19>topics
+2 Bezier=428>topics
+2 Preto e Branco =20>topics
+2 Campos de Quadro =448>topics
+2 Propriedades do Quadro =449>topics
+2 Espaçamento do Quadro =450>topics
+2 Estrutura da Ramificação =451>topics
+2 Centralizando =26>topics
+2 Alterando Ícone =32>topics
+2 Alterando Exame de Ícones =3>topics
+2 Alterando Origem =4>topics
+2 Caracteres=414>topics
+2 Menu Gráfico =40>topics
+2 Círculo =68>topics
+2 Arco Circular =444>topics
+2 Limpando =72>topics
+2 Limpando Todos os Dados =73>topics
+2 Limpando Dados =74>topics
+2 Limpando Guias =76>topics
+2 Fechando =79>topics
+2 Curva Fechada =81>topics
+2 Paletas de Cores =85>topics
+2 Largura da Coluna =91>topics
+2 Conectores =483>topics
+2 Restringindo Objetos ao Desenhar =93>topics
+2 Contornando Texto =94>topics
+2 Copiando =96>topics
+2 Corel WordPerfect Draw=2>topics
+2 Colegas de Trabalho =452>topics
+2 Curva =106>topics
+2 Retícula =109>topics
+2 Gráfico de Dados =112>topics
+2 Etiquetas de Dados =241>topics
+2 Menu Dados =121>topics
+2 Folha de dados =123>topics
+2 Formato de Data =126>topics
+2 Menu de Datas=127>topics
+2 Definindo Paleta de Cores =129>topics
+2 Excluindo =131>topics
+2 Excluindo Fileira/Coluna =133>topics
+2 Preferências de Exibição =137>topics
+2 Endentado Duplo =143>topics
+2 Modo Rascunho =397>topics
+2 Menu Ferramentas de Desenho =157>topics
+2 Editando =160>topics
+2 Editando Célula Atual =164>topics
+2 Menu Editar =165>topics
+2 Elipse=169>topics
+2 Arco Elíptico =171>topics
+2 Objetos Incorporados e Vinculados =418>topics
+2 Preferências de Ambiente =174>topics
+2 Excluindo Fileira/Coluna =175>topics
+2 Saindo =43>topics
+2 Expandindo e Reduzindo Subordinados =453>topics
+2 Explodindo Fatia =405>topics
+2 Exportando Dados =179>topics
+2 Menu Arquivo =181>topics
+2 Preferências de Arquivo =182>topics
+2 Localizando e Substituindo =185>topics
+2 Menu Virar =187>topics
+2 Alinhando à Direita =189>topics
+2 Propriedades da Fonte =190>topics
+2 Formatando =39>topics
+2 Menu Formatar=193>topics
+2 Nível a Frente =425>topics
+2 Moldura =195>topics
+2 À Mão Livre =196>topics
+2 Primeiro Nível =399>topics
+2 Indo para Célula =415>topics
+2 Indo para Célula =198>topics
+2 Configurações de Gradiente =361>topics
+2 Grammatik=199>topics
+2 Menu Gráficos =201>topics
+2 Grade =202>topics
+2 Propriedades da Grade =203>topics
+2 Menu Grade/Encaixar =204>topics
+2 Opções de Grade/Encaixar =205>topics
+2 Agrupando =206>topics
+2 Ajuste Programado=208>topics
+2 Menu Ajuda =209>topics
+2 Ajuda On-line =419>topics
+2 Gráfico de Alta/Baixa =210>topics
+2 Menu Configurações de Imagem =214>topics
+2 Importando Dados =215>topics
+2 Importando Esboço =454>topics
+2 Incluindo Fileira/Coluna =222>topics
+2 Endentando =224>topics
+2 Inserindo =230>topics
+2 Inserindo Arquivo =226>topics
+2 Inserindo Examinar Arquivo =107>topics
+2 Menu Inserir=228>topics
+2 Invertendo =232>topics
+2 Menu Justificação =234>topics
+2 Idioma =242>topics
+2 Layout/Tipo =144>topics
+2 Legenda =244>topics
+2 Linha=247>topics
+2 Gráfico de Linhas =249>topics
+2 Menu de Linha =250>topics
+2 Espaçamento de Linha =252>topics
+2 Objetos Vinculados e Incorporados =418>topics
+2 Ligações =254>topics
+2 Menu Macro =256>topics
+2 Gerenciador =455>topics
+2 Kerning Manual =259>topics
+2 Objeto=229>topics
+2 Propriedades do Objeto =46>topics
+2 Abrindo =262>topics
+2 Menu Ordem =264>topics
+2 Organograma =456>topics
+2 Orientação =457>topics
+2 Esboço =265>topics
+2 Configuração de Página =170>topics
+2 Menu Parágrafo =271>topics
+2 Colando =272>topics
+2 Colando Especial =273>topics
+2 Colando Transposto =274>topics
+2 Configurações de Padrão =381>topics
+2 Perspective=276>topics
+2 Picture Settings=404>topics
+2 Gráfico de Torta =277>topics
+2 Polígono =281>topics
+2 Polyline=172>topics
+2 Preferências =284>topics
+2 ArteRápida =285>topics
+2 CorreçãoRápida =286>topics
+2 Opções de CorreçãoRápida =287>topics
+2 FontesRápidas =180>topics
+2 Gráfico de Radar =288>topics
+2 Retângulo =293>topics
+2 Refazendo =295>topics
+2 Redesenhando =297>topics
+2 Polígono Regular =432>topics
+2 Substituir Gerente=503>topics
+2 Recuperando Estilo =301>topics
+2 Revelando Códigos =303>topics
+2 Girando =307>topics
+2 Retângulo Arredondado =309>topics
+2 Régua =314>topics
+2 Salvando =315>topics
+2 Salvando Como =318>topics
+2 Salvando Objetos Selecionados =401>topics
+2 Salvando Estilo =323>topics
+2 Gráfico de Dispersão =325>topics
+2 Selecionando Todos os Dados =327>topics
+2 Selecionando Origem da Imagem =329>topics
+2 Selecionando Níveis =458>topics
+2 Menu Selecionar=330>topics
+2 Visor do Objeto Selecionado =411>topics
+2 Separando =333>topics
+2 Propriedades da Série =336>topics
+2 Propriedades da Sombra =427>topics
+2 Silhueta =341>topics
+2 Dimensionando =342>topics
+2 Inclinando =345>topics
+2 Alinhando pela Grade=347>topics
+2 Espaçando por igual=446>topics
+2 Corretor Ortográfico =349>topics
+2 Equipe =459>topics
+2 Esticando =352>topics
+2 Subordinados =460>topics
+2 Propriedades do Subtítulo =366>topics
+2 Área de Texto =355>topics
+2 Linha de Texto =358>topics
+2 Configurações de Textura =382>topics
+2 Thesaurus=362>topics
+2 Propriedades do Título =365>topics
+2 Paleta de Ferramentas =367>topics
+2 Menu Ferramentas =369>topics
+2 Barra de Ferramentas =368>topics
+2 Opções da Barra de Ferramentas =497>topics
+2 Barra de Ferramentas/Barra de Menus/Preferências de Teclado =488>topics
+2 Recuperando =371>topics
+2 Desfazendo =373>topics
+2 Atualizando =69>topics
+2 Exibir Folha de Dados =389>topics
+2 Menu Visualizar=390>topics
+2 Menu Janela=391>topics
+2 Zoom na Área =396>topics
+2 Menu Zoom =42>topics
+2 Zoom para Ramificação =461>topics
+2 Zoom para Gráfico =462>topics
+1 Macros
+2 Programação de Macros =!IE(FE(`wpdrmhbr.hlp'), `Exit():EF(`wpdrmhbr.hlp',`',1,`')', `IE(FE(`wpmcc7br.hlp'), `CS():JI(`wpmcc7br.hlp>envoy',`WPDRAWMACROSTEASER'):CW(`topics'):CW(`visual')', `JI(`wpdrbr.hlp>topics',`256')')')
+2 Sobre Macros=256>topics
+1 Serviços de Suporte da Corel
+2 Web Site Independente CorelNET =8050@support.hlp>topics
+2 Suporte do Produto na América do Norte =8037@support.hlp>topics
+2 Suporte Internacional do Produto =8038@support.hlp>topics

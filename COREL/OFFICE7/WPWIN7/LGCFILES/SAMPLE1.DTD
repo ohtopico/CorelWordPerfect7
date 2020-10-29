@@ -1,0 +1,39 @@
+<!-- (C) 1996 Corel Corporation Limited.  All Rights Reserved. -->
+
+<!-- Simple DTD for illustrating basics of elements and entities.
+     Does not require an "external entity mapping file" because it 
+     contains no references to external entities.
+-->
+
+
+<!DOCTYPE  sample1  [
+
+
+<!-- Parameter entities are used within the DTD.  They are not preserved
+     in the LGC file and are not used in the WordPerfect for Windows 7
+     editing environment. -->
+
+<!ENTITY % wp              "WordPerfect" >
+<!ENTITY % corel           "Corel Corporation" >
+
+
+<!-- General entities appear in the "Text References" or "File References"
+     dialogs in WordPerfect for Windows 7. -->
+
+<!ENTITY   wpcorel         "%wp;, from %corel;" >
+<!ENTITY   wpwin7          "WordPerfect for Windows 7" >
+
+
+<!-- Elements appear in the "Valid Tags" and "All Tags" lists in the
+     "Elements" dialog. -->
+
+<!--       NAME     OMIT   CONTENT MODEL --> 
+
+<!ELEMENT  sample1  - -    (orgroup, andgroup) >
+
+<!ELEMENT  orgroup  - -    (oritem1 | oritem2) >
+<!ELEMENT  andgroup - -    (anditem1 & anditem2) >
+
+<!ELEMENT  (oritem1, oritem2, anditem1, anditem2)
+                    - -    (#PCDATA) >
+]>

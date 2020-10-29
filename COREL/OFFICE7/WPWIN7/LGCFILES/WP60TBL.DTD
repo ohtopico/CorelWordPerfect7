@@ -1,0 +1,101 @@
+<!-- Public document type declaration for WordPerfect 6.X tabular
+     material. To tag tables using the WP 6.X method, include this DTD
+     subset in the DTD. -->
+
+<!-- Add the following declaration and reference to the DTD:
+
+     <!ENTITY % wp60tbl PUBLIC "-//COREL//DTD WP 6.0 Table Declarations//EN">
+     %table;
+
+     The external entity mapping file must contain an entry similar to the
+     following:
+
+     PUBLIC  "-//COREL//DTD WP 6.0 Table Declarations//EN"
+     DTD     wp60tbl.dtd
+
+     In this example, the DTD2LGCW utility would search for the file
+     WP60TBL.DTD in one of the directories specified in the documentation.
+     If the file is not in one of those directories, you must include the
+     full pathname in the fourth field of the entity mapping entry (e.g.,
+     C:\MYDTD\WP60TBL.DTD).
+-->
+
+<!ELEMENT table        - -    (colinf+, row+) >
+
+<!ATTLIST table     tabnum       NMTOKEN         #IMPLIED
+          -- Table number, WordPerfect will automatically generate the correct
+             table number. --
+
+                       numcols      NUMBER          #REQUIRED
+          -- Number of columns per row starting at 1 at the left cell.--
+
+                       frame       (fsingle|fdouble|fdashed|fdotted|
+                                    fthick|fexthick|fnone)      "fdouble"
+          -- Border for outside the table. --
+
+                       defbord     (single|double|dashed|dotted|
+                                    thick|exthick|none)       "single"
+          -- Default line border -->
+
+<!-- The number of colinf tags entered must match the number specfified
+     in the attribute "numcols" in the tag "table". -->
+
+<!ELEMENT colinf       - O    EMPTY >
+
+<!ATTLIST colinf    cwidth        NMTOKEN        #REQUIRED
+          -- gives the dimensions of the column in the specified units.
+             Allowed units are " (inches), i (inches), c (centimeters),
+             m (millimeters), p (points), w (1200th of an inch) 
+             Examples:
+               "3.25i" gives 3.25 inches as the column width
+               "2.2c" gives 2.2 centimeters as the column width --
+
+                       just          (left|center|right|full|
+                                      fullall|decimal)       "left"
+          -- To indicate the default alignment of the column --
+
+                       prec          NUMBER         "2"
+          -- Precision. Number of digits to the right of the decimal point. -->
+
+<!ELEMENT row          - O    (cell+) >
+
+<!ATTLIST row       header        (yes|no)       "no"
+          -- Is this a header row. -->
+
+<!ELEMENT cell         - O    (#PCDATA) >
+
+<!ATTLIST cell       just          (left|center|right|full|
+                                      fullall|decimal)      #IMPLIED
+          -- This will override the column alignment. --
+
+                       prec          NUMBER         "2"
+          -- Precision. Number of digits to the right of the decimal point. --
+
+                       align         (top|middle|bottom)      "top"
+          -- Vertical alignment of a cell. --
+
+                       tbord         (tsingle|tdouble|tdashed|tdotted|
+                                      tthick|texthick|tnone)    #IMPLIED
+          -- Top border for cell.  Uses defbord value if not specified.--
+
+                       lbord         (lsingle|ldouble|ldashed|ldotted|
+                                      lthick|lexthick|lnone)    #IMPLIED
+          -- Left border for cell.  Uses defbord value if not specified.--
+
+                       bbord         (bsingle|bdouble|bdashed|bdotted|
+                                      bthick|bexthick|bnone)    #IMPLIED
+          -- Bottom border for cell.  Uses defbord value if not specified.--
+
+                       rbord         (rsingle|rdouble|rdashed|rdotted|
+                                    rthick|rexthick|rnone)    #IMPLIED
+          -- Right border for cell.  Uses defbord value if not specified.--
+
+                       cspan         NUMBER         #IMPLIED
+          -- The number of columns that are spanned by this cel1.
+             (e.g. cspan="2" indicates that the cell spans two cells -
+             itself and the cell adjacent to the right). --
+
+                       rspan         NUMBER         #IMPLIED
+          -- The number of rows that are spanned by this cel1.
+             (e.g. rspan="2" indicates that the cell spans two rows -
+             itself and the row below it). -->

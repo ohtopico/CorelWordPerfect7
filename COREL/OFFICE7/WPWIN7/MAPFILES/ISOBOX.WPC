@@ -1,0 +1,51 @@
+--
+    File:  ISOBOX.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISObox PUBLIC
+       "ISO 8879-1986//ENTITIES Box and Line Drawing//EN">
+     %ISObox;
+
+  WP #    Name       Text            Description
+--
+  3,8     boxh      "[boxh  ]"     --horizontal line --
+  3,9     boxv      "[boxv  ]"     --vertical line--
+  3,13    boxur     "[boxur ]"     --upper right quadrant--
+  3,12    boxul     "[boxul ]"     --upper left quadrant--
+  3,11    boxdl     "[boxdl ]"     --lower left quadrant--
+  3,10    boxdr     "[boxdr ]"     --lower right quadrant--
+  3,14    boxvr     "[boxvr ]"     --upper and lower right quadrants--
+  3,17    boxhu     "[boxhu ]"     --upper left and right quadrants--
+  3,16    boxvl     "[boxvl ]"     --upper and lower left quadrants--
+  3,15    boxhd     "[boxhd ]"     --lower left and right quadrants--
+  3,18    boxvh     "[boxvh ]"     --all four quadrants--
+  3,38    boxvR     "[boxvR ]"     --upper and lower right quadrants--
+  3,41    boxhU     "[boxhU ]"     --upper left and right quadrants--
+  3,40    boxvL     "[boxvL ]"     --upper and lower left quadrants--
+  3,39    boxhD     "[boxhD ]"     --lower left and right quadrants--
+  3,47    boxvH     "[boxvH ]"     --all four quadrants--
+  3,19    boxH      "[boxH  ]"     --horizontal line--
+  3,20    boxV      "[boxV  ]"     --vertical line--
+  3,24    boxUR     "[boxUR ]"     --upper right quadrant--
+  3,23    boxUL     "[boxUL ]"     --upper left quadrant--
+  3,22    boxDL     "[boxDL ]"     --lower left quadrant--
+  3,21    boxDR     "[boxDR ]"     --lower right quadrant--
+  3,25    boxVR     "[boxVR ]"     --upper and lower right quadrants--
+  3,28    boxHU     "[boxHU ]"     --upper left and right quadrants--
+  3,27    boxVL     "[boxVL ]"     --upper and lower left quadrants--
+  3,26    boxHD     "[boxHD ]"     --lower left and right quadrants--
+  3,29    boxVH     "[boxVH ]"     --all four quadrants--
+  3,42    boxVr     "[boxVr ]"     --upper and lower right quadrants--
+  3,45    boxHu     "[boxHu ]"     --upper left and right quadrants--
+  3,44    boxVl     "[boxVl ]"     --upper and lower left quadrants--
+  3,43    boxHd     "[boxHd ]"     --lower left and right quadrants--
+  3,46    boxVh     "[boxVh ]"     --all four quadrants--
+  3,33    boxuR     "[boxuR ]"     --upper right quadrant--
+  3,36    boxUl     "[boxUl ]"     --upper left quadrant--
+  3,31    boxdL     "[boxdL ]"     --lower left quadrant--
+  3,34    boxDr     "[boxDr ]"     --lower right quadrant--
+  3,37    boxUr     "[boxUr ]"     --upper right quadrant--
+  3,32    boxuL     "[boxuL ]"     --upper left quadrant--
+  3,35    boxDl     "[boxDl ]"     --lower left quadrant--
+  3,30    boxdR     "[boxdR ]"     --lower right quadrant--

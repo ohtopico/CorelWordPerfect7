@@ -1,0 +1,131 @@
+PFAUTO.TXT
+Programmer's Reference for PFAUTO.DLL
+Rev. June 28, 1996
+=================================================================
+
+PFAUTO.DLL contains an OLE Automation interface to control the
+PerfectScript macro system found in PerfectFit shared code and
+used by Corel Corporation Limited in the Corel WordPerfect, Corel
+Presentations, and Corel Quattro Pro products.  The interface is
+made up of several properties and the methods that act on those
+properties.  These allow the user to control the playing and
+recording of PerfectScript macros and to set and get variables
+from the PerfectScript persistent variable pool.
+
+OLE Automation Object Name
+==========================
+The OLE Automation object name is "PerfectFit.PerfectScript" and
+would be used in an automation controller as follows (NOTE:  all
+examples are given in Visual Basic code syntax):
+
+Private Sub MySub()
+     Dim objPF as Object
+
+     Set objPF = CreateObject("Perfectfit.PerfectScript")
+
+     objPF.Property...
+     objPF.Method...
+     etc.
+End Sub
+
+Object Properties
+=================
+Each of the object properties can be set and retrieved via OLE
+Automation.  For example, to set the value of the ScriptName
+property, then later in the code output that to a text box, the
+code would be:
+
+objPF.ScriptName = "c:\temp\testme.wcm"
+more code here...
+Text1.Text = objPF.ScriptName
+
+The properties are shown below.
+
+ScriptName
+----------
+The ScriptName property specifies the path and filename to a
+PerfectScript script if playing or recording a file script, or to
+a script template name if playing or recording a script into a
+Corel WordPerfect template file.
+
+TemplateName
+------------
+The TemplateName property specifies the path and filename to a
+Corel WordPerfect template if playing or recording a script into
+a Corel WordPerfect template file.
+
+VariableName
+------------
+The VariableName property is set to the name of a PerfectScript
+persistent variable.  A PerfectScript persistent variable remains
+in scope as long as the PerfectFit system is active, such as when
+Corel WordPerfect is being used.  Persistent variables remain in
+scope even between the playing of separate scripts.
+
+Script Object Methods
+---------------------
+The scriptint methods of the PerfectFit.PerfectScript object
+carry out actions in the PerfectScript system based on the
+properties set at the time the method is invoked.  All of the
+methods take no parameters and return a boolean value True or
+False indicating the result of the method.  The following methods
+are available.
+
+     BOOL ScriptPlay()
+     The ScriptPlay method will play a file script if the
+     ScriptName property is a valid PerfectScript script file.
+
+     BOOL TemplateScriptPlay()
+     The TemplateScriptPlay method will play a valid
+     PerfectScript script named in the ScriptName property in the
+     Corel WordPerfect template found in the TemplateName
+     property.
+
+     BOOL ScriptRecord()
+     The ScriptRecord method begins a PerfectScript recording
+     session and records the script to the filename specified in
+     the ScriptName property.  Template scripts cannot be
+     recorded.
+
+     BOOL PauseScriptRecord()
+     The PauseScriptRecord method pauses the current recording
+     session started by the ScriptRecord method.
+
+     BOOL ResumeScriptRecord ()
+     The ResumeScriptRecord method will restart a script
+     recording session paused by the PauseScriptRecord method.
+
+     BOOL StopScriptRecord()
+     StopScriptRecord terminates a script recording session that
+     was started using ScriptRecord().
+
+Persistent Variable Methods
+---------------------------
+The persistent variable methods let the programmer set, change,
+or discard PerfectScript persistent variables.  The methods are
+explained below.
+
+     BOOL SetPerfectScriptVariable(VariableValue)
+     This method will create a persistent variable in the
+     PerfectScript system with the name indicated in the
+     VariableName property and with the value passed in the
+     VariableValue parameter.
+
+     BOOL PerfectScriptVariableExists()
+     This method returns true if the variable contained in the
+     VariableName property exists in the PerfectScript system, or
+     false if it does not.
+
+     VariableValue  GetPerfectScriptVariable()
+     This method returns the value of the variable named in the
+     VariableName property.  If the variable does not exist, this
+     will return an empty variant to the controller.
+
+     BOOL DiscardPerfectScriptVariable()
+     This method will discard the PerfectScript variable named in
+     the VariableName property.  The variables will remain in
+     memory until this method is used or until the PerfectFit
+     session is closed.
+
+
+END

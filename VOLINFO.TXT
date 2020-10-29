@@ -1,0 +1,5 @@
+Product Name:    Corel WordPerfect Suite 7 OEM
+Language:        BR Brazilian-Portuguese
+Build No: 	 750
+Media No:        CD 1
+RTM Date:        April 17th, 1997

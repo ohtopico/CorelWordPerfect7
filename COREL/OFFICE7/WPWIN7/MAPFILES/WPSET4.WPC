@@ -1,0 +1,116 @@
+--
+    File:  WPSET4.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset4 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 4 (Typographic Symbols)//EN">
+      %wpset4;
+
+  WP #    Name      Text                 Description
+-- 
+  4,0     bullet   "[bullet  ]"       -- Bullet --
+  4,1     hlbul    "[hlbul   ]"       -- Hollow Bullet --
+  4,2     sqbul    "[sqbul   ]"       -- Square Bullet --
+  4,3     smbul    "[smbul   ]"       -- Small Bullet --
+  4,4     basaster "[basaster]"       -- Base Asterisk --
+  4,5     para     "[para    ]"       -- Paragraph Sign --
+  4,6     sect     "[sect    ]"       -- Section Sign --
+  4,7     iexcl    "[iexcl   ]"       -- Inverted Exclamation Point --
+  4,8     iquest   "[iquest  ]"       -- Inverted Question Mark --
+  4,9     ldguill  "[ldguill ]"       -- Left Double Guillemet --
+  4,10    rdguill  "[rdguill ]"       -- Right Double Guillemet --
+  4,11    pound    "[pound   ]"       -- Pound/Sterling --
+  4,12    yen      "[yen     ]"       -- Yen --
+  4,13    peseta   "[peseta  ]"       -- Peseta --
+  4,14    florin   "[florin  ]"       -- Florin/Guilder --
+  4,15    fspanord "[fspanord]"       -- Feminine Spanish Ordinal --
+  4,16    mspanord "[mspanord]"       -- Masculine Spanish Ordinal --
+  4,17    frac1.2  "[frac1.2 ]"       -- 1/2 --
+  4,18    frac1.4  "[frac1.4 ]"       -- 1/4 --
+  4,19    cent     "[cent    ]"       -- Cent --
+  4,20    power.2  "[power.2 ]"       -- Power of 2 --
+  4,21    power.n  "[power.n ]"       -- Power of n --
+  4,22    reg.tm   "[reg.tm  ]"       -- Registered Trademark --
+  4,23    copy     "[copy    ]"       -- Copyright --
+  4,24    currency "[currency]"       -- General Currency Symbol --
+  4,25    frac3.4  "[frac3.4 ]"       -- 3/4 --
+  4,26    power.3  "[power.3 ]"       -- Power of 3 --
+  4,27    ilsquote "[ilsquote]"       -- Left Single Quote (Like Inverted 6) --
+  4,28    rsquote  "[rsquote ]"       -- Right Single Quote (Like 9) --
+  4,29    lsquote  "[lsquote ]"       -- Inverted Single Quote (Like 6) --
+  4,30    ldquote  "[ldquote ]"       -- Left Double Quote (Like Inverted 66) --
+  4,31    rdquote  "[rdquote ]"       -- Right Double Quote (Like 99) --
+  4,32    idquote  "[idquote ]"       -- Inverted Double Quote (Like 66) --
+  4,33    endash   "[endash  ]"       -- En Dash --
+  4,34    emdash   "[emdash  ]"       -- Em Dash --
+  4,35    lsguill  "[lsguill ]"       -- Left Single Guillemet --
+  4,36    rsguill  "[rsguill ]"       -- Right Single Guillemet --
+  4,37    lghlbul  "[lghlbul ]"       -- Large Hollow Bullet --
+  4,38    lhlsqbul "[lhlsqbul]"       -- Large Hollow Square Bullet --
+  4,39    dagger   "[dagger  ]"       -- Dagger --
+  4,40    ddagger  "[ddagger ]"       -- Double Dagger --
+  4,41    trademrk "[trademrk]"       -- Trademark --
+  4,42    servmrk  "[servmrk ]"       -- Servicemark --
+  4,43    Rx       "[Rx      ]"       -- Prescription (Rx) --
+  4,44    lgbul    "[lgbul   ]"       -- Large Bullet --
+  4,45    smhlbul  "[smhlbul ]"       -- Small Hollow Bullet --
+  4,46    lgsqbul  "[lgsqbul ]"       -- Large Square Bullet --
+  4,47    smsqbul  "[smsqbul ]"       -- Small Square Bullet --
+  4,48    hlsqbul  "[hlsqbul ]"       -- Hollow Square Bullet --
+  4,49    smhlsqbl "[smhlsqbl]"       -- Small Hollow Square Bullet --
+  4,50    figdash  "[figdash ]"       -- Figure Dash --
+  4,51    fflig    "[fflig   ]"       -- Ligature ff --
+  4,52    ffilig   "[ffilig  ]"       -- Ligature ffi --
+  4,53    ffllig   "[ffllig  ]"       -- Ligature ffl --
+  4,54    filig    "[filig   ]"       -- Ligature fi --
+  4,55    fllig    "[fllig   ]"       -- Ligature fl --
+  4,56    ellips   "[ellips  ]"       -- Em Leader (Ellipsis) --
+  4,57    milreis  "[milreis ]"       -- Milreis/Escudo --
+  4,58    francs   "[francs  ]"       -- Francs --
+  4,59    cruzeiro "[cruzeiro]"       -- Cruzeiro --
+  4,60    eurocurr "[eurocurr]"       -- European Currency Symbol --
+  4,61    lire     "[lire    ]"       -- Lire (Italian currency symbol) --
+  4,62    bsquote  "[bsquote ]"       -- Base Single Quote --
+  4,63    bdquote  "[bdquote ]"       -- Base Double Quote --
+  4,64    frac1.3  "[frac1.3 ]"       -- 1/3 --
+  4,65    frac2.3  "[frac2.3 ]"       -- 2/3 --
+  4,66    frac1.8  "[frac1.8 ]"       -- 1/8 --
+  4,67    frac3.8  "[frac3.8 ]"       -- 3/8 --
+  4,68    frac5.8  "[frac5.8 ]"       -- 5/8 --
+  4,69    frac7.8  "[frac7.8 ]"       -- 7/8 --
+  4,70    circleM  "[circleM ]"       -- Circle M --
+  4,71    circleP  "[circleP ]"       -- Circle P --
+  4,72    circleU  "[circleU ]"       -- Circle U --
+  4,73    careof   "[careof  ]"       -- Care of --
+  4,74    cadauna  "[cadauna ]"       -- Cadauna --
+  4,75    perthou  "[perthou ]"       -- Per Thousand --
+  4,76    number   "[number  ]"       -- Number (No.) --
+  4,77    emdash3q "[emdash3q]"       -- Three Fourths Em Dash --
+  4,78    power.1  "[power.1 ]"       -- Power of 1 --
+  4,79    HT       "[HT      ]"       -- HT (Horizontal Tab) --
+  4,80    FF       "[FF      ]"       -- FF (Form Feed) --
+  4,81    CR       "[CR      ]"       -- CR (Carriage Return) --
+  4,82    LF       "[LF      ]"       -- LF (Line Feed) --
+  4,83    NL       "[NL      ]"       -- NL (Newline) --
+  4,84    VT       "[VT      ]"       -- VT (Vertical Tab) --
+
+-- New as of WPWin 6.0 --
+
+  4,85    recycle  "[recycle ]"       -- Recycle Symbol --
+  4,86    won      "[won     ]"       -- Won (Korean Currency) --
+  4,87    naira    "[naira   ]"       -- Naira (Nigerian Currency) --
+  4,88    rupee    "[rupee   ]"       -- Rupee (India Currency) --
+  4,89    md       "[md      ]"       -- MD (Canadian Registration Mark) --
+  4,90    mc       "[mc      ]"       -- MC (Canadian Trademark Symbol) --
+  4,91    play     "[play    ]"       -- Play --
+  4,92    stop     "[stop    ]"       -- Stop --
+  4,93    pause    "[pause   ]"       -- Pause --
+  4,94    reverse  "[reverse ]"       -- Reverse --
+  4,95    fastfwd  "[fastfwd ]"       -- Fast Forward --
+  4,96    record   "[record  ]"       -- Record --
+  4,97    tracbkwd "[tracbkwd]"       -- Track Backward, Skip Backward --
+  4,98    tracfwd  "[tracfwd ]"       -- Track Forward, Skip Forward --
+  4,99    eject    "[eject   ]"       -- Eject --
+  4,100   trebclef "[trebclef]"       -- Treble Clef --
+  4,101   bassclef "[bassclef]"       -- Bass Clef --

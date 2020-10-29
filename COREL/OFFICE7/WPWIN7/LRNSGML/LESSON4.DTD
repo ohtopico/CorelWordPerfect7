@@ -1,0 +1,16 @@
+<!DOCTYPE chars [
+
+<!-- External entity declarations and references -->
+
+<!ENTITY % isotech PUBLIC "ISO 8879-1986//ENTITIES
+                              General Technical//EN" >
+<!ENTITY % wpset1  PUBLIC "-//COREL//ENTITIES
+                              WP 6.1 Character Set 1 (Multinational)//EN" >
+%isotech;
+%wpset1;
+
+<!-- Element declarations --
+
+<!ELEMENT	chars		O O		(#PCDATA) >
+
+]>

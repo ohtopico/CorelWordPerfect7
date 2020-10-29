@@ -1,0 +1,190 @@
+DATAMAPS.TXT
+Notas de cartografia do Corel Quattro Pro 
+Rev. 02/05/96
+=================================================================
+
+A seguir, uma descrição dos dados de cartografia disponíveis no diretório 
+DataMaps do Corel Quattro Pro 7.
+
+Nota: Para evitar uma exclusão acidental do conteúdo do caderno,
+todas as páginas foram protegidas. Se você desejar alterar os dados, 
+clique com o botão direito do mouse na aba Página, clique na aba Proteção 
+e remova a célula de proteção.
+
+I. Sobreposições de Domínio de Cartografia
+
+Estes são os arquivos com as seguintes extensões:
+.TV, .TVC, .D1B, .D2B
+
+Nome do arquivo 	Conteúdo
+---------------		--------
+ALASKA           	sobreposição do Alasca
+AUSTRALI         	sobreposição da Austrália
+CANADA           	sobreposição do Canadá
+EUROPE           	sobreposição da Europa
+HAWAII           	sobreposição do Havaí
+JAPAN            	sobreposição do Japão
+MEXICO           	sobreposição do México
+NUTS            	regiões NUTS da Comunidade Européia
+                 	(NUTS, Nomenclature of Territorial Units for 
+			Statistics)
+TAIWAN           	sobreposição de Formosa
+USA              	sobreposição dos EUA por estado
+WORLD            	sobreposição do Mundo
+
+
+II. Sobreposições de códigos geográficos 
+
+Estes arquivos têm a extensão .DBF:
+
+Nome do arquivo        	Conteúdo
+---------------       	--------
+US_CITY          	Principais cidades dos EUA
+USSTCAPS         	Capitais dos estados dos EUA
+W_CITY           	Principais cidades do Mundo
+W_CAPITL         	Capitais do Mundo
+
+
+III. Sobreposições estáticas 
+
+Estes arquivos têm a extensão .TV:
+
+Nome do arquivo        	Conteúdo
+---------------		--------
+USINTRS        		Rodovias interestaduais dos EUA
+
+
+IV. Definições de dados
+
+Nome do Arquivo: AUSTRALI.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+Australia 1             Dados demográficos básicos da Austrália por estado 
+Australia 1 Keys        Glossário das abreviaturas de campo na página "Australia 1"
+Australia 2             Dados demográficos específicos do interior da Austrália por estado
+Australia 2 Keys        Glossário das abreviaturas de campo na página "Australia 2"
+Australia 3             Estatísticas de emprego da Austrália por estado
+Australia 3 Keys        Glossário das abreviaturas de campo na página "Australia 3"
+Cities                  Principais cidades da Austrália
+Cities Keys             Glossário das abreviaturas de campo na página " Cities"
+
+
+Nome do arquivo: CANADA.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+Canada 1          	Dados demográficos básicos do Canadá por província
+Canada 1 Keys           Glossário das abreviaturas de campo na página "Canada 1"
+Canada 2                Estatísticas das atividades comerciais no Canadá por província
+Canada 2 Keys           Glossário das abreviaturas de campo na página "Canada 2"
+Canada 3                Dados demográficos específicos do interior do Canadá por província 
+Canada 3 Keys           Glossário das abreviaturas de campo na página "Canada 3"
+Cities                  Principais cidades do Canadá
+Cities Keys             Glossário das abreviaturas de campo na página "Cities"
+
+
+Nome do arquivo: EUROPE.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+Europe 1                Dados demográficos básicos  da Comunidade Européia por regiões NUTS 1
+Europe 2                Dados demográficos básicos da Dinamarca, Irlanda, Luxemburgo por NUTS 0
+Europe 1 and 2 Keys     Glossário das abreviaturas de campo nas páginas "Europe 1" e "Europe 2"
+Europe 3                Estatísticas de emprego da Comunidade Européia por regiões NUTS 1 
+Europe 4                Estatísticas de emprego da Dinamarca, Irlanda, Luxemburgo por NUTS 0
+Europe 3 and 4 Keys     Glossário das abreviaturas de campo nas páginas "Europe 3" e "Europe 4"
+Cities                  Principais cidades da Europa
+Cities Keys             Glossário das abreviaturas de campo na página "Cities"
+
+
+Nome do arquivo: JAPAN.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+Japan 1              	Dados demográficos básicos do Japão por Prefeitura (Censo de 1990)
+Japan 1 Keys            Glossário das abreviaturas de campo na página "Japan 1"
+Japan 2                 Dados demográficos específicos do interior do Japão por Prefeitura (Censo 			de 1990)
+Japan 2 Keys            Glossário das abreviaturas de campo na página "Japan 2"
+Cities                  Principais cidades do Japão
+Cities Keys             Glossário das abreviaturas de campo na página "Cities"
+
+
+Nome do arquivo: MEXICO.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+Mexico 1              	Dados demográficos básicos do México por estado (1990)
+Mexico 1 Keys           Glossário das abreviaturas de campo na página "Mexico 1"
+Mexico 2                Dados demográficos específicos do interior do México por estado (1990)
+Mexico 2 Keys           Glossário das abreviaturas de campo na página "Mexico 2"
+Mexico 3                Estatísticas de emprego do México por estado (1990)
+Mexico 3 Keys           Glossário das abreviaturas de campo na página "Mexico 3"
+Cities                  Principais cidades do México
+Cities Keys             Glossário das abreviaturas de campo na página "Cities"
+
+
+Nome do arquivo: USA_BUSI.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+USA_Busi 1              Códigos SIC comerciais 01-67 (Com exceção de 20-39)
+AK and HI Busi 1        Códigos SIC comerciais 01-67 do Alasca e Havaí (Com exceção de 20-39)
+USA_Busi 2              Códigos SIC comerciais 70-97
+AK and HI Busi 2        Códigos SIC comerciais 70-97 do Alasca e Havaí
+USA_Busi 3              Códigos SIC comerciais 20-39 (Industrial)
+AK and HI Busi 3        Códigos SIC comerciais 20-39 do Alasca e Havaí (Industrial)
+USA_Busi Keys           Glossário das abreviaturas de campo em todas as páginas do caderno
+
+
+Nome do arquivo: USA_DEMO.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+USA_Demo 1              Dados demográficos básicos dos Estados Unidos por estado
+AK and HI Demo 1        Dados demográficos básicos do Alasca e Havaí
+USA_Demo 1 Keys         Glossário das abreviaturas de campo nas páginas "USA_Demo 1" e "AK and HI Demo 1"
+USA_Demo 2              Dados demográficos específicos do interior dos Estados Unidos por estado
+AK and HI Demo 2        Dados demográficos específicos do Alasca e Havaí
+USA_Demo 2 Keys         Glossário das abreviaturas de campo nas páginas "USA_Demo 2" e "AK and HI Demo 2"
+USA_Demo 3              Dados do Departamento de Censo de 1990 dos Estados Unidos por estado
+AK and HI Demo 3        Dados do Departamento de Censo de 1990 do Alasca e Havaí
+USA_Demo 3 Keys         Glossário das abreviaturas de campo nas páginas "USA_Demo 3" e "AK and HI Demo 3"
+
+
+Nome do arquivo: USA_POPU.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+USA_Popu 1              Dados populacionais de1994-1999 dos Estados Unidos por estado 
+USA_AK and HI           Dados populacionais de1994-1999  do Alasca e Havaí
+USA_Popu Keys           Glossário das abreviaturas de campo nas páginas "USA_Popu 1" e "USA_AK and HI"
+
+
+Nome do arquivo: USCITIES.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+US Major Cities         Principais cidades dos Estados Unidos
+US Major Cities Keys    Glossário das abreviaturas de campo na página "US Major Cities"
+
+
+Nome do arquivo: USSTCAPS.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+US State Capitals       Capitais dos estados dos EUA
+US State Nicknames      Apelidos dos estados dos EUA
+US States Keys          Glossário das abreviaturas de campo nas páginas "US State Capitals" e "US State Nicknames"
+
+
+Nome do arquivo: WORLD.WB3
+
+Nome da página          Conteúdo
+--------------		--------
+World 1                 Dados demográficos básicos mundiais por país
+World 1 Keys            Glossário das abreviaturas de campo na página "World 1"
+Cities                  Principais cidades do Mundo
+Capitals                Capitais do Mundo
+Cities and Capitals	Glossário das abreviaturas de campo na página "Cities and Capitals"
+ Keys

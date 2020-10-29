@@ -1,0 +1,60 @@
+<!DOCTYPE Overview SYSTEM "overview.dtd">
+<Overview><Front><title>Sample Overview SGML File</title><Company><Name>Corel Corp.</Name><Street>567 E. Timpanogos Parkway</Street><City>Orem</City><State>UT</State><Zip>84057</Zip></Company></Front><Chapter><title>General Concepts of SGML</title><Section><title>What Makes
+Up an SGML
+Document</title><para>If you browse through a novel, you will probably find a title page, a table of contents, and
+chapters.  A book other than a novel may also include appendices, a glossary, and an index.</para><para>If you analyze each part of a book, you discover that each part could be broken down into
+smaller parts.  For example, each chapter in a novel begins with a title; some chapters also have
+subtitles.  Each chapter has paragraphs and may include footnotes and pictures.</para><para>In SGML, these parts of a book (title page, table of contents, chapters, titles, paragraphs,
+and pictures) are called <emph type="3">elements</emph>.  These elements are combined to create a
+complete book.</para><para>In a printed book, you can identify the beginning and ending of each element from the
+format.  The title page and table of contents appear on separate pages.  The chapter title is usually
+in a larger font size than the paragraphs in the chapter, and the paragraphs are typically separated
+by double or triple spacing.</para><para>In SGML, the elements are identified by markings (markup) at the beginning and ending
+of each element.  Although SGML provides shorthand methods to represent markup, most
+elements have a start and end tag.  For example, the start tag for the element "title" is &lt;title>and
+the end tag is &lt;/title>.  The forward slash in the end tag distinguishes it from the start tag.</para><para>Although you can identify the beginning and ending of these elements in a book, an
+electronic program cannot easily recognize the beginning and ending of these elements.  When
+you use the SGML markup method (start and end tags for each element), an electronic program
+can recognize the beginning and ending of each element without relying on the format of the
+document.</para></Section><Section><title>Controlling
+the Order of the
+Elements</title><para> You can control the order of the elements in an SGML document.  This is useful because
+you can check that tags are being used in the correct order in a document.</para><para>To indicate the order, you use a syntax language that is part of the SGML standard.  This
+information is then saved in a DTD file (Document Type Definition).  The DTD contains the
+names of the elements that can be used in the document, the order in which the elements can
+occur, and other information.</para><para>When you validate a document to ensure that elements are named and ordered according
+to information in the DTD, WordPerfect for Windows 7 reports errors when the document doesn't
+comply with the DTD information.</para><para>You may want to retrieve a DTD from the /LGCFILES/ directory to see what a DTD looks
+like.  The files end with the .DTD extension.  Use an ASCII editor to retrieve the DTD.  You can
+also use WordPerfect and retrieve the file as an ASCII DOS text file.</para></Section></Chapter><Chapter><title>Using SGML Features</title><Section><title>Compiling
+Your DTD with
+DTD to LGC</title><para>Before you can edit an SGML document, you must decide which DTD you will be using.</para><para>Most users will not write their own DTD.  Usually you will be asked to make your
+documents conform to a specific DTD.  Some users will have existing documents in WordPerfect
+file format, and some users will be creating new documents.  Regardless of your situation, you
+must have a DTD to edit an SGML document and access SGML features.</para><para>Many industries have developed DTDs specific for their needs.  The Department of
+Defense has created DTDs to support the CALS initiative.  The Internet Engineering Task Force
+has created several versions of DTDs used to create documents for the World Wide Web.  The
+World Wide Web DTD is known as Html.dtd.  These DTDs and others are included with
+WordPerfect.</para><para>DTDs are stored as ASCII text files.  Included with WordPerfect is DTD to LGC that can
+read a specified DTD and create a new file called a .LGC file.  LGC stands for logic file.  For
+example, if you compile the file Overview.dtd in DTD to LGC, the file OVERVIEW.LGC would
+be created.  WordPerfect then uses the .LGC file to validate your documents more quickly.</para><para>To start DTD to LGC,</para><para><emph type="1">Click Start > Corel Office 7 > Accessories > WordPerfect SGML DTD to
+LGC</emph>.</para><para>DTD to LGC consists of one dialog box.  You use this dialog box to specify all the
+information necessary to create a .LGC file.</para><para>The next paragraphs explain some of the text boxes in the DTD to LGC dialog box.</para><para><emph type="1">LGC (Output) File.</emph>You specify the output path and filename of the
+.LGC file in the LGC (Output) File text box.  If you don't put anything in this field, the program
+creates a .LGC file in the same location as the DTD and names it the DTD filename, but with a
+.LGC extension.</para><para><emph type="1">SGML Declaration File.</emph>The SGML Declaration File text box is
+where you specify the path and filename for the declaration information.  All DTDs require this
+information.  The declaration file controls information such as which character set is used in the
+document, how long element names can be, and other important information.  WordPerfect
+provides a declaration file called Default.dec.  This file can be edited in an ASCII editor.  You can
+also edit Default.dec in WordPerfect, but you must save it as an ASCII DOS text file.</para><para><emph type="1">Entity Mapping File.</emph>The Entity Mapping File text box is used to
+identify a special mapping file.  This special mapping file is also an ASCII DOS text file.  A DTD
+frequently references entities, which refer to additional files that contain necessary information. 
+Some DTD files have only a portion of the elements defined in one file, and other elements are
+defined in a separate file.  This mapping file tells the DTD to LGC utility the path and filename of
+all the extra files (entities) referenced in the DTD.</para><para>The Overview.dtd uses an entity reference called ISOlat1, which references an external
+file containing information about the multinational characters available with this DTD.  The
+mapping file called Iso_wpc.map has an entry that specifies where to find the file Isolat1.wpc file.</para><para><emph type="1">More Information about DTD to LGC.</emph>You can learn more about
+how to use the DTD to LGC utility by trying the lessons at the end of this document.  We have also
+included some sample DTD files you can look at:  Sample1.dtd and Sample2.dtd.</para></Section></Chapter></Overview>

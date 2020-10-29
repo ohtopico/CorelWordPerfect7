@@ -1,0 +1,85 @@
+################################################################
+#
+# Visual DTD (tm) Entity Reference File
+#
+# Keywords:
+#
+# PUBLIC  "public id"   "filename"
+# SYSTEM  "system id"   "filename"
+# FILE    "match path"  "replace path"
+# CALL    "another entity reference file name"
+#
+# Please see the documentation for complete details.
+#
+# 95-04-03 Added new naming convention for 1986 standard documents
+#
+################################################################
+
+# 1986 Entities resolved in the directory ENT1986
+
+PUBLIC "ISO 8879-1986//ENTITIES Added Math Symbols: Arrow Relations//EN"      "..\visdtd\ISO\ENT1986\ISOAMSA.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN"      "..\visdtd\ISO\ENT1986\ISOAMSA.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Added Math Symbols: Binary Operators//EN"     "..\visdtd\ISO\ENT1986\ISOAMSB.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN"     "..\visdtd\ISO\ENT1986\ISOAMSB.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Added Math Symbols: Delimiters//EN"           "..\visdtd\ISO\ENT1986\ISOAMSC.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Added Math Symbols: Delimiters//EN"           "..\visdtd\ISO\ENT1986\ISOAMSC.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Added Math Symbols: Negated Relations//EN"    "..\visdtd\ISO\ENT1986\ISOAMSN.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Added Math Symbols: Negated Relations//EN"    "..\visdtd\ISO\ENT1986\ISOAMSN.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Added Math Symbols: Ordinary//EN"             "..\visdtd\ISO\ENT1986\ISOAMSO.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Added Math Symbols: Ordinary//EN"             "..\visdtd\ISO\ENT1986\ISOAMSO.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Added Math Symbols: Relations//EN"            "..\visdtd\ISO\ENT1986\ISOAMSR.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Added Math Symbols: Relations//EN"            "..\visdtd\ISO\ENT1986\ISOAMSR.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Box and Line Drawing//EN"                     "..\visdtd\ISO\ENT1986\ISOBOX.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Box and Line Drawing//EN"                     "..\visdtd\ISO\ENT1986\ISOBOX.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN"                         "..\visdtd\ISO\ENT1986\ISOCYR1.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Russian Cyrillic//EN"                         "..\visdtd\ISO\ENT1986\ISOCYR1.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN"                     "..\visdtd\ISO\ENT1986\ISOCYR2.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Non-Russian Cyrillic//EN"                     "..\visdtd\ISO\ENT1986\ISOCYR2.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Diacritical Marks//EN"                        "..\visdtd\ISO\ENT1986\ISODIA.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Diacritical Marks//EN"                        "..\visdtd\ISO\ENT1986\ISODIA.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN"                            "..\visdtd\ISO\ENT1986\ISOGRK1.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Greek Letters//EN"                            "..\visdtd\ISO\ENT1986\ISOGRK1.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN"                         "..\visdtd\ISO\ENT1986\ISOGRK2.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Monotoniko Greek//EN"                         "..\visdtd\ISO\ENT1986\ISOGRK2.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Greek Symbols//EN"                            "..\visdtd\ISO\ENT1986\ISOGRK3.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Greek Symbols//EN"                            "..\visdtd\ISO\ENT1986\ISOGRK3.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Alternative Greek Symbols//EN"                "..\visdtd\ISO\ENT1986\ISOGRK4.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Alternative Greek Symbols//EN"                "..\visdtd\ISO\ENT1986\ISOGRK4.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN"                            "..\visdtd\ISO\ENT1986\ISOLAT1.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN"                            "..\visdtd\ISO\ENT1986\ISOLAT1.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN"                            "..\visdtd\ISO\ENT1986\ISOLAT2.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN"                            "..\visdtd\ISO\ENT1986\ISOLAT2.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN"              "..\visdtd\ISO\ENT1986\ISONUM.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN"              "..\visdtd\ISO\ENT1986\ISONUM.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN"                               "..\visdtd\ISO\ENT1986\ISOPUB.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN"                               "..\visdtd\ISO\ENT1986\ISOPUB.ENT"
+PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN"                        "..\visdtd\ISO\ENT1986\ISOTECH.ENT"
+PUBLIC "ISO 8879:1986//ENTITIES General Technical//EN"                        "..\visdtd\ISO\ENT1986\ISOTECH.ENT"
+                                                                              
+# 1991 Entities resolved in the directory ENT1991                             
+                                                                              
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Arrow Relations//EN"   "..\visdtd\ISO\ENT1991\ISOAMSA.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Binary Operators//EN"  "..\visdtd\ISO\ENT1991\ISOAMSB.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Delimiters//EN"        "..\visdtd\ISO\ENT1991\ISOAMSC.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Negated Relations//EN" "..\visdtd\ISO\ENT1991\ISOAMSN.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Ordinary//EN"          "..\visdtd\ISO\ENT1991\ISOAMSO.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Relations//EN"         "..\visdtd\ISO\ENT1991\ISOAMSR.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Chemistry//EN"                             "..\visdtd\ISO\ENT1991\ISOCHEM.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Greek Symbols//EN"                         "..\visdtd\ISO\ENT1991\ISOGRK3.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Alternative Greek Symbols//EN"             "..\visdtd\ISO\ENT1991\ISOGRK4.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Fraktur//EN"               "..\visdtd\ISO\ENT1991\ISOMFRK.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Open Face//EN"             "..\visdtd\ISO\ENT1991\ISOMOPF.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Script//EN"                "..\visdtd\ISO\ENT1991\ISOMSCR.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES Publishing//EN"                            "..\visdtd\ISO\ENT1991\ISOPUB.ENT"
+PUBLIC "ISO 9573-13:1991//ENTITIES General Technical//EN"                     "..\visdtd\ISO\ENT1991\ISOTECH.ENT"
+                                                                              
+# 1992 Entities resolved in the directory ENT1992                             
+                                                                              
+PUBLIC "ISO 9573-11:1992//ENTITIES Chemistry//EN"                             "..\visdtd\ISO\ENT1992\ISOCHEM.ENT"
+                                                                              
+# Entities resolved in the directory ENTISOCS
+                                                                              
+PUBLIC "ISO 9573-12:1991//ENTITIES Numeric and Special Graphic//EN"           "..\visdtd\ISO\entisocs\isonum.ent"
+PUBLIC "ISO 9573-12:1991//ENTITIES Publishing//EN"                            "..\visdtd\ISO\entisocs\isopub.ent"
+                                                                              
+# End of file

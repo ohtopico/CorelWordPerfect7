@@ -1,0 +1,19 @@
+<!-- DTD for Office Memoranda, Lesson 2 -->
+
+<!DOCTYPE Memo [
+
+<!--  ELEMENTS       MIN   CONTENT MODEL               -->
+
+<!ELEMENT Memo       - -   ((To & From), Body, Close?)   >
+<!ELEMENT To         - O   (#PCDATA)                     >
+<!ELEMENT From       - O   (#PCDATA)                     >
+<!ELEMENT Body       - O   (P*)                          >
+<!ELEMENT P          - O   (#PCDATA)*                    >
+<!ELEMENT Close      - O   (#PCDATA)                     >
+
+<!--      ELEMENT    ATTRIBUTE NAME      DECLARED VALUE       DEFAULT VALUE -->
+
+<!ATTLIST Memo       status              (confiden | public)  public          >
+<!ATTLIST P          id                  NAME                   #IMPLIED      >
+
+]>

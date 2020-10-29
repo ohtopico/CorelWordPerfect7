@@ -1,0 +1,99 @@
+--
+    File:  WPSET3.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset3 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 3 (Box Drawing)//EN">
+      %wpset3;
+
+  WP #    Name       Text                Description
+-- 
+  3,0     boxshad1   "[boxshad1]"     -- Box [Shade 1] --
+  3,1     boxshad2   "[boxshad2]"     -- Box [Shade 2] --
+  3,2     boxshad3   "[boxshad3]"     -- Box [Shade 3] --
+  3,3     boxshad4   "[boxshad4]"     -- Box [Shade 4] --
+  3,4     boxlshad   "[boxlshad]"     -- Box [Left Shade] --
+  3,5     boxtshad   "[boxtshad]"     -- Box [Top Shade] --
+  3,6     boxrshad   "[boxrshad]"     -- Box [Right Shade] --
+  3,7     boxbshad   "[boxbshad]"     -- Box [Bottom Shade] --
+  3,8     box.lr     "[box.lr  ]"     -- Box [left right] --
+  3,9     box.tb     "[box.tb  ]"     -- Box [top bottom] --
+  3,10    box.rb     "[box.rb  ]"     -- Box [right bottom] --
+  3,11    box.lb     "[box.lb  ]"     -- Box [left bottom] --
+  3,12    box.lt     "[box.lt  ]"     -- Box [left top] --
+  3,13    box.tr     "[box.tr  ]"     -- Box [top right] --
+  3,14    box.trb    "[box.trb ]"     -- Box [top right bottom] --
+  3,15    box.lrb    "[box.lrb ]"     -- Box [left right bottom] --
+  3,16    box.ltb    "[box.ltb ]"     -- Box [left top bottom] --
+  3,17    box.ltr    "[box.ltr ]"     -- Box [left top right] --
+  3,18    box.ltrb   "[box.ltrb]"     -- Box [left top right bottom] --
+  3,19    box.LR     "[box.LR  ]"     -- Box [LEFT RIGHT] --
+  3,20    box.TB     "[box.TB  ]"     -- Box [TOP BOTTOM] --
+  3,21    box.RB     "[box.RB  ]"     -- Box [RIGHT BOTTOM] --
+  3,22    box.LB     "[box.LB  ]"     -- Box [LEFT BOTTOM] --
+  3,23    box.LT     "[box.LT  ]"     -- Box [LEFT TOP] --
+  3,24    box.TR     "[box.TR  ]"     -- Box [TOP RIGHT] --
+  3,25    box.TRB    "[box.TRB ]"     -- Box [TOP RIGHT BOTTOM] --
+  3,26    box.LRB    "[box.LRB ]"     -- Box [LEFT RIGHT BOTTOM] --
+  3,27    box.LTB    "[box.LTB ]"     -- Box [LEFT TOP BOTTOM] --
+  3,28    box.LTR    "[box.LTR ]"     -- Box [LEFT TOP RIGHT] --
+  3,29    box.LTRB   "[box.LTRB]"     -- Box [LEFT TOP RIGHT BOTTOM] --
+  3,30    box.Rb     "[box.Rb  ]"     -- Box [RIGHT bottom] --
+  3,31    box.Lb     "[box.Lb  ]"     -- Box [LEFT bottom] --
+  3,32    box.Lt     "[box.Lt  ]"     -- Box [LEFT top] --
+  3,33    box.tR     "[box.tR  ]"     -- Box [top RIGHT] --
+  3,34    box.rB     "[box.rB  ]"     -- Box [right BOTTOM] --
+  3,35    box.lB     "[box.lB  ]"     -- Box [left BOTTOM] --
+  3,36    box.lT     "[box.lT  ]"     -- Box [left TOP] --
+  3,37    box.Tr     "[box.Tr  ]"     -- Box [TOP right] --
+  3,38    box.tRb    "[box.tRb ]"     -- Box [top RIGHT bottom] --
+  3,39    box.lrB    "[box.lrB ]"     -- Box [left right BOTTOM] --
+  3,40    box.Ltb    "[box.Ltb ]"     -- Box [LEFT top bottom] --
+  3,41    box.lTr    "[box.lTr ]"     -- Box [left TOP right] --
+  3,42    box.TrB    "[box.TrB ]"     -- Box [TOP right BOTTOM] --
+  3,43    box.LRb    "[box.LRb ]"     -- Box [LEFT RIGHT bottom] --
+  3,44    box.lTB    "[box.lTB ]"     -- Box [left TOP BOTTOM] --
+  3,45    box.LtR    "[box.LtR ]"     -- Box [LEFT top RIGHT] --
+  3,46    box.lTrB   "[box.lTrB]"     -- Box [left TOP right BOTTOM] --
+  3,47    box.LtRb   "[box.LtRb]"     -- Box [LEFT top RIGHT bottom] --
+  3,48    box.l      "[box.l   ]"     -- Box [left] --
+  3,49    box.t      "[box.t   ]"     -- Box [top] --
+  3,50    box.r      "[box.r   ]"     -- Box [right] --
+  3,51    box.b      "[box.b   ]"     -- Box [bottom] --
+  3,52    box.L      "[box.L   ]"     -- Box [LEFT] --
+  3,53    box.T      "[box.T   ]"     -- Box [TOP] --
+  3,54    box.R      "[box.R   ]"     -- Box [RIGHT] --
+  3,55    box.B      "[box.B   ]"     -- Box [BOTTOM] --
+  3,56    box.lR     "[box.lR  ]"     -- Box [left RIGHT] --
+  3,57    box.Lr     "[box.Lr  ]"     -- Box [LEFT right] --
+  3,58    box.tB     "[box.tB  ]"     -- Box [top BOTTOM] --
+  3,59    box.Tb     "[box.Tb  ]"     -- Box [TOP bottom] --
+  3,60    box.trB    "[box.trB ]"     -- Box [top right BOTTOM] --
+  3,61    box.tRB    "[box.tRB ]"     -- Box [top RIGHT BOTTOM] --
+  3,62    box.Trb    "[box.Trb ]"     -- Box [TOP right bottom] --
+  3,63    box.TRb    "[box.TRb ]"     -- Box [TOP RIGHT bottom] --
+  3,64    box.lRb    "[box.lRb ]"     -- Box [left RIGHT bottom] --
+  3,65    box.lRB    "[box.lRB ]"     -- Box [left RIGHT BOTTOM] --
+  3,66    box.Lrb    "[box.Lrb ]"     -- Box [LEFT right bottom] --
+  3,67    box.LrB    "[box.LrB ]"     -- Box [LEFT right BOTTOM] --
+  3,68    box.ltB    "[box.ltB ]"     -- Box [left top BOTTOM] --
+  3,69    box.lTb    "[box.lTb ]"     -- Box [left TOP bottom] --
+  3,70    box.LtB    "[box.LtB ]"     -- Box [LEFT top BOTTOM] --
+  3,71    box.LTb    "[box.LTb ]"     -- Box [LEFT TOP bottom] --
+  3,72    box.ltR    "[box.ltR ]"     -- Box [left top RIGHT] --
+  3,73    box.lTR    "[box.lTR ]"     -- Box [left TOP RIGHT] --
+  3,74    box.Ltr    "[box.Ltr ]"     -- Box [LEFT top right] --
+  3,75    box.LTr    "[box.LTr ]"     -- Box [LEFT TOP right] --
+  3,76    box.ltrB   "[box.ltrB]"     -- Box [left top right BOTTOM] --
+  3,77    box.ltRB   "[box.ltRB]"     -- Box [left top RIGHT BOTTOM] --
+  3,78    box.ltRb   "[box.ltRb]"     -- Box [left top RIGHT bottom] --
+  3,79    box.lTrb   "[box.lTrb]"     -- Box [left TOP right bottom] --
+  3,80    box.lTRb   "[box.lTRb]"     -- Box [left TOP RIGHT bottom] --
+  3,81    box.lTRB   "[box.lTRB]"     -- Box [left TOP RIGHT BOTTOM] --
+  3,82    box.Ltrb   "[box.Ltrb]"     -- Box [LEFT top right bottom] --
+  3,83    box.LtrB   "[box.LtrB]"     -- Box [LEFT top right BOTTOM] --
+  3,84    box.LtRB   "[box.LtRB]"     -- Box [LEFT top RIGHT BOTTOM] --
+  3,85    box.LTrb   "[box.LTrb]"     -- Box [LEFT TOP right bottom] --
+  3,86    box.LTrB   "[box.LTrB]"     -- Box [LEFT TOP right BOTTOM] --
+  3,87    box.LTRb   "[box.LTRb]"     -- Box [LEFT TOP RIGHT bottom] --

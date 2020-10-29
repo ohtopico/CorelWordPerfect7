@@ -1,0 +1,116 @@
+[Autorun]
+OPEN=AUTORUN.EXE
+ICON=AUTORUN\AUTORUN.ICO
+
+[Bitmaps]
+256Color = autorun\intro256.bmp
+16Color = autorun\intro16.bmp
+
+[Product]
+Title = CD-ROM do Corel WordPerfect Suite 7
+WaveFile = autorun\autorun.wav
+NoProcessCaption = Programa Não Encontrado
+NoProcessTextLine1 = O CD-ROM pode ter sido removido da unidade.
+NoProcessTextLine2 = Insira novamente o CD-ROM.  E clique em Tentar Novamente para continuar ou clique em Cancelar para sair.
+LabelFont = Arial
+TextFont = Times New Roman
+Charset = 1
+ButtonWidth = 50
+ButtonHeight = 50
+LabelWidth = 250
+LabelHeight = 43
+TextTopLeftX = 30
+TextTopLeftY = 365
+TextBotRightX = 570
+TextBotRightY = 420
+ButtonCount = 10
+
+[Button0]
+Label = Instalação do WordPerfect Suite
+Text = Instala o Corel WordPerfect 7, Corel Quattro Pro 7, Corel Presentations 7, visor do Envoy 7 e o Corel Desktop Application Director (DAD).
+Program = setup.exe /SetFile=\autorun\wpi7br.set
+Option = 0
+Exit = N
+XTopLeft = 30
+YTopLeft = 125
+
+[Button1]
+Label = Instalação do WordPerfect
+Text = Instala apenas o Corel WordPerfect 7.
+Program = setup.exe /SetFile=\autorun\wpsi7br.set
+Option = 0
+Exit = N
+XTopLeft = 30
+YTopLeft = 197
+
+[Button2]
+Label = Aplicativos Gratuitos
+Text = Instala o CorelFLOW 3, Corel Screen Saver e fontes TrueType.
+Program = setup.exe /SetFile=\autorun\bai7br.set
+Option = 0
+Exit = N
+XTopLeft = 30
+YTopLeft = 269
+
+[Button3]
+Label = Instalação da Paradox
+Text = Instala o Paradox 7.
+Program = \Paradox7\setup.exe
+Option = 0
+Exit = N
+XTopLeft = 1999
+YTopLeft = 1999
+
+[Button4]
+Label = Instalação do Quick View Plus
+Text = Instala o Quick View Plus 3 da Inso Corporation.
+Program = \qvplus3\setup.exe
+Option = 0
+Exit = N
+XTopLeft = 1999
+YTopLeft = 1999
+
+[Button5]
+Label = Instalação da Netscape
+Text = Instala o software Netscape Navigator para acessar a Internet.
+Program = \browser\disk1\setup.exe
+Option = 0
+Exit = N
+XTopLeft = 1999
+YTopLeft = 1999
+
+[Button6]
+Label = Instalação do Internet Service
+Text = Install AT&&T WorldNet Service and Netscape Navigator software for Internet access.
+Program = \browser\disk1\setup.exe
+Option = 0
+Exit = N
+XTopLeft = 1999
+YTopLeft = 1999
+
+[Button7]
+Label = Centro de Referência
+Text = Visualiza o Centro de Referência, o conjunto de manuais eletrônicos neste CD-ROM.
+Program = \corel\office7\shared\help7\wprc70br.hlp
+Option = 1
+Exit = N
+XTopLeft = 350
+YTopLeft = 125
+
+[Button8]
+Label = Demos
+Text = Visualiza os demos educativos neste CD-ROM.  Pode-se acessar os demos a partir da Ajuda no Corel WordPerfect.
+Program = \autorun\demos.exe
+Option = 0
+Exit = N
+XTopLeft = 1999
+YTopLeft = 1999
+
+[Button9]
+Label = 
+Text = Sai desta janela.  Para pular esta janela da próxima vez, pressione Shift ao inserir o CD-ROM.
+Program = X
+Option = 9
+Exit = Y
+XTopLeft = 589
+YTopLeft = 385

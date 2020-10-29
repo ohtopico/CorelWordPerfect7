@@ -1,0 +1,11 @@
+<!-- This is the "front" section of LESSON3.DTD -->
+
+<!ELEMENT  front         O O  (titlpage, toc)      >
+<!ELEMENT   titlpage     O -  (TITLE, author)      >
+<!ELEMENT   TITLE        O O  (#PCDATA)            >
+<!ELEMENT   author       - O  (#PCDATA)            >
+
+<!ELEMENT   toc          O O  (chaptitl, pagenum)+ >
+<!ELEMENT    chaptitl    - O  (#PCDATA)            >
+<!ELEMENT    pagenum     - O  EMPTY                >
+

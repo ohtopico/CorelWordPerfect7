@@ -1,0 +1,20 @@
+:Base CDRFLT60.hlp>main
+1 Referência
+2 Importar e Exportar Arquivos
+3 Formatos de arquivos
+4 Introdução=format_overview
+4 Compressão de arquivos=compression_overview
+4 Intensidade da cor=color_overview
+3 Gerênciador de Filtros do Corel
+4 Introdução=filter_manager_overview
+4 Importar arquivos=import_overview
+4 Exportar arquivos=export_overview
+3 Tipos de formatos
+4 Mapa de Bit=bitmap_overview
+4 Vetor=vector_overview
+4 Meta-arquivo=meta_overview
+4 Texto=text_overview
+4 Apresentação=presentation_overview
+4 Som=sound_overview
+4 Animação=animation_overview
+4 Formatos de arquivos nativos do Corel=corel_overview

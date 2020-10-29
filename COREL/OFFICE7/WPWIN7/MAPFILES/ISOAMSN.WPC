@@ -1,0 +1,70 @@
+--
+    File:  ISOAMSN.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOamsn PUBLIC
+       "ISO 8879-1986//ENTITIES Added Math Symbols: Negated Relations//EN">
+     %ISOamsn;
+
+  WP #    Name       Text            Description
+--
+  0,0     gnap      "[gnap  ]"     --/gnapprox N: greater, not approximate--
+  0,0     gne       "[gne   ]"     --/gneq N: greater, not equals--
+  0,0     gnE       "[gnE   ]"     --/gneqq N: greater, not dbl equals--
+  0,0     gnsim     "[gnsim ]"     --/gnsim N: greater, not similar--
+  0,0     gvnE      "[gvnE  ]"     --/gvertneqq N: gt, vert, not dbl eq--
+  0,0     lnap      "[lnap  ]"     --/lnapprox N: less, not approximate--
+  0,0     lnE       "[lnE   ]"     --/lneqq N: less, not double equals--
+  0,0     lne       "[lne   ]"     --/lneq N: less, not equals--
+  0,0     lnsim     "[lnsim ]"     --/lnsim N: less, not similar--
+  0,0     lvnE      "[lvnE  ]"     --/lvertneqq N: less, vert, not dbl eq--
+  6,192   nap       "[nap   ]"     --/napprox N: not approximate--
+  6,191   ncong     "[ncong ]"     --/ncong N: not congruent with--
+  6,100   nequiv    "[nequiv]"     --/nequiv N: not identical with--
+  0,0     ngE       "[ngE   ]"     --/ngeqq N: not greater, dbl equals--
+  6,188   nge       "[nge   ]"     --/ngeq N: not greater-than-or-equal--
+  0,0     nges      "[nges  ]"     --/ngeqslant N: not gt-or-eq, slanted--
+  6,187   ngt       "[ngt   ]"     --/ngtr N: not greater-than--
+  6,186   nle       "[nle   ]"     --/nleq N: not less-than-or-equal--
+  0,0     nlE       "[nlE   ]"     --/nleqq N: not less, dbl equals--
+  0,0     nles      "[nles  ]"     --/nleqslant N: not less-or-eq, slant--
+  6,185   nlt       "[nlt   ]"     --/nless N: not less-than--
+  0,0     nltri     "[nltri ]"     --/ntriangleleft N: not left triangle--
+  0,0     nltrie    "[nltrie]"     --/ntrianglelefteq N: not l tri, eq--
+  0,0     nmid      "[nmid  ]"     --/nmid--
+  6,205   npar      "[npar  ]"     --/nparallel N: not parallel--
+  6,193   npr       "[npr   ]"     --/nprec N: not precedes--
+  6,194   npre      "[npre  ]"     --/npreceq N: not precedes, equals--
+  0,0     nrtri     "[nrtri ]"     --/ntriangleright N: not rt triangle--
+  0,0     nrtrie    "[nrtrie]"     --/ntrianglerighteq N: not r tri, eq--
+  6,195   nsc       "[nsc   ]"     --/nsucc N: not succeeds--
+  6,196   nsce      "[nsce  ]"     --/nsucceq N: not succeeds, equals--
+  6,189   nsim      "[nsim  ]"     --/nsim N: not similar--
+  6,190   nsime     "[nsime ]"     --/nsimeq N: not similar, equals--
+  0,0     nsmid     "[nsmid ]"     --/nshortmid--
+  0,0     nspar     "[nspar ]"     --/nshortparallel N: not short par--
+  6,197   nsub      "[nsub  ]"     --/nsubset N: not subset--
+  6,199   nsube     "[nsube ]"     --/nsubseteq N: not subset, equals--
+  0,0     nsubE     "[nsubE ]"     --/nsubseteqq N: not subset, dbl eq--
+  6,198   nsup      "[nsup  ]"     --/nsupset N: not superset--
+  0,0     nsupE     "[nsupE ]"     --/nsupseteqq N: not superset, dbl eq--
+  6,200   nsupe     "[nsupe ]"     --/nsupseteq N: not superset, equals--
+  0,0     nvdash    "[nvdash]"     --/nvdash N: not vertical, dash--
+  0,0     nvDash    "[nvDash]"     --/nvDash N: not vertical, dbl dash--
+  0,0     nVDash    "[nVDash]"     --/nVDash N: not dbl vert, dbl dash--
+  0,0     nVdash    "[nVdash]"     --/nVdash N: not dbl vertical, dash--
+  0,0     prnap     "[prnap ]"     --/precnapprox N: precedes, not approx--
+  0,0     prnE      "[prnE  ]"     --/precneqq N: precedes, not dbl eq--
+  0,0     prnsim    "[prnsim]"     --/precnsim N: precedes, not similar--
+  0,0     scnap     "[scnap ]"     --/succnapprox N: succeeds, not approx--
+  0,0     scnE      "[scnE  ]"     --/succneqq N: succeeds, not dbl eq--
+  0,0     scnsim    "[scnsim]"     --/succnsim N: succeeds, not similar--
+  6,126   subne     "[subne ]"     --/subsetneq N: subset, not equals--
+  0,0     subnE     "[subnE ]"     --/subsetneqq N: subset, not dbl eq--
+  6,127   supne     "[supne ]"     --/supsetneq N: superset, not equals--
+  0,0     supnE     "[supnE ]"     --/supsetneqq N: superset, not dbl eq--
+  0,0     vsubnE    "[vsubnE]"     --/subsetneqq N: subset not dbl eq, var--
+  0,0     vsubne    "[vsubne]"     --/subsetneq N: subset, not eq, var--
+  0,0     vsupne    "[vsupne]"     --/supsetneq N: superset, not eq, var--
+  0,0     vsupnE    "[vsupnE]"     --/supsetneqq N: super not dbl eq, var--

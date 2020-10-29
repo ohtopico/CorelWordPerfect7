@@ -1,0 +1,711 @@
+:Base qpw.hlp>topics
+:Title Ajuda do Corel Quattro Pro
+:Index Corel Quattro Pro Help=qpw.hlp
+:Index Corel Quattro Pro Reference Help=qpwref.hlp
+:Index Corel Quattro Pro Template Help=qpwtempl.hlp
+:Index Spell Checker Help=wtsi61br.hlp
+:Link qpw.hlp
+:Link qpwref.hlp
+:Link qpwtempl.hlp
+:Link wtsi61br.hlp
+;:Tab Show Me=pfht70br.dll
+;:Tab Ask the PerfectExpert=pfpe70.dll
+;:Index Perfectfit Help=wpsh70br.hlp
+;:Index File Open System Help=pfod70br.hlp
+;:Index Workflow Help=ensblite.hlp
+;:Link wpsh70br.hlp
+;:Link pfod70br.hlp
+;:Link ensblite.hlp
+1 Copyrights e Marcas Registradas=8020@wpsh70br.hlp
+1 O Que Há de Novo=ESSENT_FEATURES
+1 Como Fazer...
+2 Princípios Básicos
+;3 Perguntar ao PerfectExpert=ESSENT_PROD_PERFECTEXPERT
+3 Experts =ESSENT_PROD_EXPERT
+3 Cadernos=BASICS_NOTEBOOKDEF
+3 Inspetor de Objeto=BASICS_PROPERTIES
+3 Áreas de Trabalho=BASICS_WORKAREAS
+3 Barras de Ferramentas=BASICS_TOOLBARS
+3 Barra Auxiliar=BASICS_PROPBAND
+3 Gráficos do Corel Quattro Pro=BASICS_GRAPHS
+3 Técnicas do Mouse=HELP_MOUSE
+3 Técnicas de teclado=KEY_TOPICS
+3 Desfazendo erros=TS_EDITUNDO
+3 Usuários de planilhas DOS=DOSUSERS_OVERVIEW
+3 Dúvidas comuns=QUESTIONS
+3 Dicas e Truques
+4 Entrada de dados=TIP1
+4 @Funções e fórmulas =TIP2
+4 Gráficos=TIP3
+4 Modificando cadernos=TIP4
+4 Ajuda=TIP5
+4 Navegação e arrastar-e-soltar=TIP6
+4 Usando Experts=TIP7
+4 Atalhos e teclas de função=TIP8
+4 Macros =TIP9
+4 Barras de ferramentas=TIP10
+4 Comandos de dados=TIP11
+4 Conectividade=TIP12
+4 Impressão=TIP13
+4 Cadernos grandes=TIP14
+4 Dicas diversas=TIP15
+2 Entrada de Dados
+3 Introdução à Entrada de Dados
+4 Entrada de dados básica=OV_ENTERBAS
+4 Digitar dados em uma célula=TS_ENTERBAS
+4 Tipos de dados=TS_ENTERTYPES
+3 Entrada de Etiquetas
+4 Digitando Etiquetas=TS_ENTERLABEL
+4 Alinhando etiquetas=OV_ENTERLABEL_ALIGN
+4 Digitando números em etiquetas=TS_ENTERLABEL_NUMBERS
+4 Digitando etiquetas largas=TS_ENTERLABEL_WIDE
+4 Repetir caracteres em etiquetas=TS_ENTERLABEL_REPEAT
+3 Entrada de Números, Datas e Horas
+4 Digitando números=TS_ENTERNUM
+4 Digitando datas e horas=OV_ENTERDATE
+3 Entrada de Fórmulas
+4 Conceitos básicos de fórmulas=TS_FORMULA_BASICS
+4 Tipos de fórmulas=FUNCTION_FORMULAS5
+4 Usando valores em fórmulas=TS_ENTERF_VALUE
+4 Usando operadores em fórmulas=TS_ENTERF_OPER
+4 Tipos de operadores=TS_ENTERF_OPERTYPE
+4 Usando @funções em fórmulas =TS_ENTERF_FUNCTION
+4 Digitar uma @função em uma célula =TS_ENTERF_FUNCTBTN
+4 Abertura e fechamento de parênteses na linha de entrada=TS_ENTERF_PAREN
+4 Criando totais com a SomaRápida=OV_ENTERF_QUICK
+4 Adicionar um comentário oculto a uma fórmula ou valor=TS_ENTERCOMMENT
+4 Fórmulas de arranjo=ESSENT_FEATURES_ARRAY
+3 Usando o Compositor de Fórmulas
+4 Usar o Compositor de Fórmulas =TS_FORMCOMP_GUIDELINES
+4 Mudar de tela do Compositor de Fórmulas =TS_FORMCOMP_VIEW
+4 Editando expressões =TS_FORMCOMP_EDITING
+4 Expandir ou comprimir um esboço =TS_FORMCOMP_EXPAND
+4 Converter uma expressão em um valor =TS_FORMCOMP_VALUE
+4 Rastreando referências de célula em uma fórmula =TS_FORMCOMP_TRACING
+4 Painel de Descrição de @Funções =TS_FORMCOMP_FUNCTION
+4 Painel de Argumentos =TS_FORMCOMP_ARGUMENT
+4 Painel de esboços =TS_FORMCOMP_OUTLINE
+4 Aninhando @funções no Compositor de Fórmulas =TS_FORMCOMP_NEST
+3 Trabalhando com Blocos
+4 Usando blocos em fórmulas =TS_ENTERF_BLOCK
+4 Apontando para blocos =TS_ENTERF_POINT
+4 Apontando a partir de quadros de diálogo =TS_ENTERF_DIALOG
+4 Usando quadros de diálogo não-contíguos =TS_ENTERF_NONCONT
+4 Usando blocos 3-D =TS_ENTERF_3D
+4 Selecionar um bloco de dados com a SeleçãoRápida=TS_ENTERF_SPEEDSELECT
+4 Mover o contorno de um bloco de dados =TS_ENTERF_NAVTOOLS
+4 Zoom em um bloco de dados para ajustar na tela =TS_ENTERF_ZOOMTOFIT
+3 Preenchendo um Bloco com Dados
+4 Como digitar uma seqüência de valores=OV_ENTERNUM_SEQUENCE
+4 Preencher um bloco com uma seqüência de números ou fórmulas =TS_ENTERNUM_SEQUENCE
+4 Preencher um bloco com uma seqüência de datas ou horas =TS_ENTERNUM_DATESEQ
+4 Usando o PreenchimentoRápido =TS_ENTERNUM_SPEEDFILL
+4 Criando e modificando séries de PreenchimentoRápido =TS_ENTERNUM_SPEEDFILL_NEW
+2 Edição de Dados
+3 Selecionando, Editando e Apagando
+4 Selecionando células e blocos =TS_EDITSELECT
+4 Editando entradas =TS_EDITENTRY
+4 Apagando entradas =TS_ERASE
+3 Copiando e Movendo Dados
+4 Visão Geral =EDIT_COPYMOVE
+4 Mover uma célula ou bloco com arrastar-e-soltar=EDIT_DRAGDROP
+4 Copiando e movendo com a Área de Transferência do Windows =OV_EDIT_CLIPBOARD
+4 Copiar e mover dados com a Área de Transferência =EDIT_CLIPBOARD
+4 Copiando fórmulas =EDIT_COPYFORMULAS
+4 Tornar um endereço de célula absoluto (em vez de relativo) =EDIT_ABSKEY
+4 Usando a tecla Abs (F4) =OV_EDIT_ABSKEY
+4 Usando comandos para copiar e mover blocos =BLOCK_COPYMOVE
+4 Usando a opção Copiar Modelo =BLOCK_MODELCOPY
+4 Mover páginas =TS_MOVEPAGE
+4 Movendo fórmulas ou células referenciadas =EDIT_MOVE_FORMULAS
+3 Inserindo e Excluindo
+4 Inserindo =TS_INSERT
+4 Excluindo =TS_DELETE
+3 Nomeando Blocos
+4 Usando blocos nomeados =TS_NAMEBLOCK
+4 Nomear um bloco de células =EDIT_NAMES_CREATE
+4 Referenciar um bloco nomeado em uma fórmula =TS_NAMES_FORMULA
+4 Atribuir nomes a células usando etiquetas adjacentes =EDIT_NAMES_LABELS
+4 Nomear blocos multicélula automaticamente =EDIT_NAMES_AUTO
+4 Criar uma tabela de blocos nomeados =EDIT_NAMES_TABLE
+4 Apagar um nome de bloco =EDIT_NAMES_DELETE
+3 Usando Ir Para e Localizar e Substituir
+4 Usando o comando Ir Para=OV_ENTERGOTO
+4 Ir para uma célula ou bloco =TS_ENTERGOTO
+4 Estender blocos usando Ir Para =TS_ENTER_GOTOSEL
+4 Rastrear erros com Ir Para =TS_ENTER_GOTOERR
+4 Localizar e substituir dados =TS_SEARCH_BASIC
+3 Usando o Corel Quattro Pro para Windows
+4 Selecionar uma janela =TS_WIND_SELECT
+4 Exibir uma nova tela de caderno=TS_WIN_NEWVIEW
+4 Redimensionar e organizar janelas =TS_WIN_MOVESIZE
+4 Ocultar uma janela =TS_WIN_HIDE
+4 Exibir uma janela oculta =TS_WIN_SHOW
+4 Dividir uma janela em painéis =TS_WIN_SPLIT
+4 Redimensionar painéis =TS_WIN_SPLITRESIZE
+4 Dessincronizar painéis =TS_WIN_SPLITUNSYNCH
+4 Fechar o segundo painel =TS_WIN_SPLITCLOSE
+4 Bloquear fileiras e/ou colunas como títulos =TS_WIN_LOCK
+3 Agrupando Páginas de Caderno
+4 Visão Geral =TS_GROUP
+4 Criar um grupo de páginas de caderno =TS_GROUP_CREATE
+4 Ativar e desativar o modo Agrupar=TS_GROUP_ONOFF
+4 Alterar ou apagar um grupo =TS_GROUP_CHANGE
+4 Incluir uma entrada em páginas agrupadas =TS_GROUP_DRILL
+4 Excluir em páginas de um grupo =TS_GROUP_DELETE
+4 Dicas do modo Agrupar =TS_GROUP_TIPS
+3 Definindo Estilos e Formatos Numéricos Personalizados
+4 Definindo estilos =OV_ADVN_STYLES
+4 Definindo formatos numéricos personalizados =OV_ADVN_NUMFMT
+4 Usando códigos de formato numérico =TS_ADVN_NUMCODE
+4 Símbolos de formato numérico =TS_ADVN_NUMBER
+4 Símbolos de formato de data/hora =TS_ADVN_NUMDATE
+4 Símbolos de formatos diversos =TS_ADVN_NUMMISC
+3 Reformatando, Transpondo e Convertendo Dados
+4 Reformatar texto em um bloco de células =EDIT_NAMES_REFORMAT
+4 Transpor colunas e fileiras =EDIT_TRANSPOSE
+4 Converter fórmulas em valores =EDIT_VALUES
+3 Colando Dados
+4 Variações sobre colar =TS_ADVN_VAR
+4 Usando Colar Especial para controlar o que é colado =OV_ADVN_SPECIAL
+4 Colar dados de planilha sem propriedades =TS_ADVN_SPECIAL
+4 Colando tipos de dados diferentes =TS_ADVN_CHOOSE
+3 Criando Objetos Flutuantes
+4 Criando objetos flutuantes =OV_ADVN_CREATEFLOAT
+4 Desenhando objetos na planilha =TS_DRAW_DRAWLAYER
+4 Redimensionar um objeto flutuante =TS_ADVN_FLOATRESIZE
+4 Mover um objeto flutuante =TS_ADVN_FLOATMOVE
+4 Mudando as propriedades de objetos flutuantes =TS_ADVN_CHGPROP
+4 Proteger de mudanças um objeto flutuante =TS_ADVN_FLOATPROTECT
+4 Tornar objetos flutuantes transparentes =TS_ADVN_FLOATTRANSPARENT
+4 Adicionar sombreados a objetos flutuantes =TS_ADVN_FLOATDROPSHADOW
+4 Reordenar camadas de objetos sobrepostos =TS_ADVN_LAYER
+4 Colar uma imagem do Corel Quattro Pro no Paintbrush =TS_ADVN_IMAGE
+2 Formatar Blocos e Páginas
+3 Formatando com a Barra de Ferramentas e a Barra Auxiliar
+4 Visão Geral =TS_ADVN_TLBR_PROPBAND
+4 Escolher negrito, itálico ou sublinhado usando a Barra de Ferramentas =TS_FORMAT_BOLDITALIC
+4 Mudar o tamanho da fonte =TS_FORMAT_FONTSIZE
+4 Mudar fontes usando a Barra Auxiliar =TS_FORMAT_FONTDEFINE
+4 Alinhar dados usando a Barra Auxiliar =TS_FORMAT_ALIGNMENT
+4 Sublinhar uma célula usando a Barra Auxiliar =TS_FORMAT_UNDERLINE
+4 Centralizar texto em blocos =TS_ENTERLABEL_BLCENTER
+4 Entradas múltiplas com centralização de bloco =TS_ENTERLABEL_MULTCENTER
+4 Usando estilos =OV_BLOCK_STYLE
+4 Usando o FormatoRápido =OV_BLOCK_SPEEDFORMAT
+4 Aplicar um formato predefinido a um bloco de células =TS_BLOCK_SPEEDFORMAT
+4 Redimensionando fileiras e colunas =TS_STYLE_HEIGHT
+3 Mudando Propriedades de Blocos
+4 Visão Geral =TS_BLOCK_INSPECT
+4 Definindo o formato númerico =OV_STYLE_NUMERICFORMAT
+4 Definir o formato númerico para um bloco de células =TS_STYLE_NUMERICFORMAT
+4 Escolher uma fonte =TS_STYLE_FONTDEFINE
+4 Sombrear um bloco de células =TS_STYLE_SHADING
+4 Alinhar dados em células =TS_STYLE_ALIGNMENT
+4 Desenhar linhas em um bloco =TS_STYLE_LINEDRAWING
+4 Alterar a cor do texto em um bloco =TS_STYLE_COLOR
+4 Definir a largura da coluna para um tamanho exato =TS_STYLE_COL_EXACT
+4 Redefinir fileiras para tamanhos exatos =TS_STYLE_ROWS_EXACT
+4 Ocultando fileiras e colunas =OV_OTHER_EXPOSEHIDE
+4 Desprotegendo células em uma página =TS_STYLE_PROTECTION
+4 Restringir entradas em células para um determinado tipo de dados=TS_STYLE_DATAENTRY
+3 Mudando Propriedades de Página
+4 Visão Geral =TS_PAGE_INSPECT
+4 Impedir a exibição de zeros em uma página =TS_PROPERTY_PAGE_ZEROES
+4 Remover bordas de fileira e coluna de uma página =TS_WINDOW_BORDERS
+4 Ocultar linhas do quadriculado da planilha em uma página =TS_WINDOW_GRIDLINES
+4 Aumentando ou diminuindo o zoom =TS_PAGE_ZOOM
+4 Nomeando uma página =OV_PROPERTY_PAGENAME
+4 Proteger células e objetos flutuantes em uma página=TS_OPTIONS_PROTECTION
+4 Colorindo células condicionais =OV_OPTIONS_COLORS_CONDITIONAL
+4 Mudar a cor de tipos de dados específicos =TS_OPTIONS_COLORS_CONDITIONAL
+4 Mudar a largura de coluna default para uma página =TS_PROPERTY_PAGE_DEFAULTCLMN
+4 Mudar a cor de uma guia de página =TS_PAGE_TABCOLOR
+2 Usando Arquivos
+3 Abrindo, Salvando, Enviando e Fechando Arquivos
+4 Opções de manuseio de arquivos =TS_FILE_DIALOG
+4 Digitando nomes de arquivos =OV_FILE_ENTER_FILENAMES
+4 Criar um novo arquivo =TS_FILE_NEW
+4 Abrir um arquivo =TS_FILE_OPEN
+4 Abrir um arquivo na Internet =TS_FILE_OPEN_URL
+4 Salvar um arquivo =TS_FILE_SAVE
+4 Enviar o arquivo atual =TS_FILE_SEND
+4 Fechar um arquivo =TS_FILE_ERASE
+4 Usando ícones de documentos de caderno =OV_FILE_DOCUMENT_ICONS
+4 Ver e editar informações de resumo e estatísticas =TS_FILE_PROPERTIES
+3 Usando Senhas
+4 Atribuindo uma senha a um arquivo =OV_FILE_PASSWORD
+4 Atribuir uma senha a um arquivo =TS_FILE_PASSWORD
+4 Usar uma senha na inicialização =TS_DATAEXCH_UsingPass
+3 Usando Modelos e Áreas de Trabalho de Caderno
+4 Usando modelos de caderno =OV_FILE_USETEMPLATE
+4 Criar um novo caderno com base em um ModeloRápido =TS_FILE_USETEMPLATE
+4 Criar um novo ModeloRápido =TS_FILE_TEMPLATE
+;4 Criar um modelo simples =TS_FILE_TEMPLATE_SIMPLE
+4 Usando áreas de trabalho =OV_FILE_WORKSPACE
+4 Salvar uma área de trabalho =TS_FILE_WORKSPACE
+4 Recuperar uma área de trabalho =TS_FILE_WORKSPACE_RETRIEVE
+3 Importando e Exportando Dados
+4 Convertendo arquivos =OV_FILE_TRANSLATE
+4 Salvar um arquivo do Corel Quattro Pro em outro formato =TS_FILE_TRANSLATE
+4 Carregar um arquivo de outro programa =TS_FILE_IMPORT
+4 Salvar a página atual como arquivo de texto delimitado por tabs=TS_FILE_TEXT
+4 Importando texto =TS_IMPORT
+4 Analisando arquivos de texto =OV_PARSE
+4 Inserir um arquivo em um caderno =TS_INSERT_NOTEFILE
+4 Combinar arquivos =TS_COMBINE
+4 Extrair parte de um caderno =TS_EXTRACT
+3 Ligando Cadernos
+4 Por que usar ligações? =TS_LINK_OVERVIEW
+4 Criando ligações =TS_LINK_CREATE
+4 Atalhos para ligar cadernos =TS_LINK_SHORTCUT
+4 Ligando a cadernos fechados =TS_LINK_CLOSED
+4 Movendo e copiando ligações =TS_LINK_COPYMOVE
+4 Mantendo ligações =TS_LINK_MAINTAIN
+2 Imprimir
+3 Imprimindo Cadernos e Gráficos
+4 Especificar a impressora a ser utilizada =OPTIONS_PRINTERS
+4 Imprimir um caderno=TS_PRINT_NOTEBOOK
+4 Imprimir um gráfico =PRINT_GRAPH
+4 Visualizar um serviço de impressão =TS_PRINT_PREVIEW
+3 Opções de Configuração de Página e Impressão de Planilha
+4 Configuração de página =OV_PRINT_PAGE_SETUP
+4 Opções de impressão de planilha =OV_PRINT_SHEET_OPTIONS
+3 Imprimir para Arquivo
+4 Imprimir para arquivo binário =PRINT_BINARY
+4 Imprimir para arquivo de texto =PRINT_ASCII
+2 Criar Gráficos e Mapas
+3 Princípios Básicos dos Gráficos
+4 Informações sobre gráficos =TS_GRAPH_BASICS
+4 A Janela de gráfico =TS_GRAPH_GRAPHWIND
+4 A página Objetos =TS_GRAPH_GRAPHPAGE
+3 Criando Gráficos Numéricos
+4 Criar um gráfico flutuante =TS_GRAPH_CREATEFRM
+4 Criar um gráfico em uma janela =TS_GRAPH_CREATEWIN
+4 Como as séries são plotadas =TS_GRAPH_SERIESPLOT
+3 Escolhendo Estilos de Gráficos
+4 Usar a Galeria de Gráficos =TS_GRAPH_GALLERY
+4 Escolher estilos de gráfico usando Consultores =TS_GRAPH_ADVISOR
+3 Designando um Tipo de Gráfico
+4 Escolhendo um tipo de gráfico =GRAPH_TYPE
+4 Mudar o tipo de gráfico =TS_GRAPH_CHANGE
+3 Escolhendo Séries de Dados
+4 Reorganizando séries de dados =OV_GRAPH_ARRSERIES
+4 Designar um bloco de dados em uma série de gráfico =TS_GRAPH_ARRSERIES
+4 Adicionar uma nova série a um gráfico =TS_GRAPH_SERIESADD
+4 Adicionar uma nova primeira série a um gráfico =TS_GRAPH_SERIESADD_FIRST
+4 Adicionar séries de gráfico através da Área de Transferência =TS_GRAPH_SERIESADD_CLIPBOARD
+4 Adicionar séries a um gráfico flutuante usando Arrastar-e-Soltar=TS_GRAPH_SERIESADD_DRAGDROP
+4 Excluir uma série de um gráfico =TS_GRAPH_SERIESDEL
+4 Ajustar a legenda e a série do eixo x =TS_GRAPH_ARRLEGEND
+4 Gráficos com dados agrupados ou ligados =TS_GRAPH_SERIESGROUP
+3 Editando, Salvando, Excluindo e Copiando Gráficos
+4 Adicionar títulos a um gráfico =TS_GRAPH_TITLE
+4 Adicionar etiquetas a barras ou pontos de dados em um gráfico =TS_GRAPH_SERIESLABELS
+4 Salvar gráficos =TS_GRAPH_STORE
+4 Editar um gráfico =TS_GRAPH_EDIT
+4 Mudar nome de gráfico =TS_GRAPH_RENAME
+4 Excluir um gráfico =TS_GRAPH_DELETE
+4 Copiando gráficos =TS_GRAPH_COPY
+4 Inserir um gráfico flutuante em uma página de planilha =TS_GRAPH_INSERT
+4 Mover ou redimensionar um gráfico flutuante =TS_GRAPH_MOVEFLT
+3 Construindo Gráficos de Bullet e Gráficos em Branco
+4 Criar um gráfico de bullet =TS_GRAPH_BULLET_CHART
+4 Criar um gráfico em branco em uma janela =TS_DRAW_BLANK_WINDOW
+4 Criar um gráfico em branco flutuante =TS_DRAW_BLANK_FLOATING
+3 Criando Mapas
+4 Visão Geral =OV_MAP_CREATING
+;4 Mapas Disponíveis = OV_MAP_AVAILMAPS
+4 Formas de criar um mapa =OV_MAP_WAYS
+4 Criar um mapa flutuante =TS_MAP_CREATE_FLOATING
+4 Criar um mapa flutuante em uma janela =TS_MAP_CREATE_WINDOW
+4 Configurando um mapa de dados =OV_MAP_SETTING_UP_DATA
+4 Diretrizes para mapeamento de dados =OV_MAP_DATA_GUIDELINES
+4 Verificando nomes de regiões =OV_MAP_REGION_NAMES
+3 Editando Mapas
+4 Edições de mapas que você pode fazer =OV_MAP_EDIT
+4 Mudar dados de mapas =TS_MAP_CHANGE_DATA
+4 Adicionar sobreposições a um mapa =TS_MAP_OVERLAYS
+4 Tipos de sobreposição de mapas=OV_MAP_OVERLAYS_TYPES
+4 Adicionando dados regionais a um mapa =OV_MAP_OVERLAY_REGION
+4 Adicionando características estáticas a um mapa =OV_MAP_OVERLAY_STATIC
+4 Adicionando dados de pins a um mapa =OV_MAP_OVERLAY_PIN
+4 Adicionar títulos de mapa =TS_MAP_TITLES
+4 Aplicar zoom a um mapa =TS_MAP_ZOOM
+2 Personalizar Gráficos e Mapas
+3 Introdução à Personalização de Gráficos
+4 Exibindo Inspetores de Objeto Gráfico =TS_GRAPH_INSPECT
+4 Personalizando diferentes tipos de gráficos =TS_GRAPH_CUST
+4 Personalizando gráficos Máx-Mín =OV_GRAPH_CUSTHIGHLOW
+4 Personalizando gráficos de bullet =TS_GRAPH_CUSTBULLET
+3 Mudando as Propriedades de Gráficos Flutuantes e da Janela de Gráficos
+4 Mudar as propriedades de gráficos flutuantes =TS_GRAPH_FLOATINGPROP
+4 Mudar as propriedades da janela de gráficos =TS_GRAPH_WINDOWPROP
+3 Mudando o Tipo/Layout de Gráfico e Legenda
+4 Mudar o tipo/layout de gráfico =TS_GRAPH_CHANGE
+4 Mudar as propriedades da legenda do gráfico =TS_GRAPH_LEGENDPLACE
+3 Mudando o Fundo do Gráfico e o Painel de Gráfico
+4 Mudar a aparência do fundo do gráfico =TS_GRAPH_BACKG
+4 Mudar as propriedades do painel de gráfico =TS_GRAPH_PANE
+3 Mudando a Visão em 3-D
+4 Propriedade Visão em 3-D=PROPERTIES_GRPH_3DVIEW
+4 Mudar as opções de 3-D =TS_GRAPH_DISPLAYFRM
+3 Mudando as Propriedades do Eixo
+4 Visão geral de propriedades do eixo =TS_GRAPH_AXISPROP
+4 Mudando as propriedades do eixo x =TS_GRAPH_XAXISPROP
+4 Mudando as propriedades do eixo y =TS_GRAPH_YAXISPROP
+4 Propriedades de título de eixo =PROPERTY_AXIS
+3 Mudando Configurações de Preenchimento, Quadro e Borda
+4 Propriedades de preenchimento e borda=TS_GRAPH_BACKFILL
+4 Selecionar configurações de preenchimento para um objeto =TS_GRAPH_BACKCOL
+4 Selecionar um novo tipo de quadro ou estilo de borda =TS_GRAPH_BOXBORDER
+4 Preencher um objeto com um bitmap importado =TS_GRAPH_BITMAP
+4 Tornar um objeto transparente =TS_GRAPH_TRANSPARENT
+3 Mudando Séries e Propriedades de Título/Subtítulo
+4 Mudando opções de séries de gráfico =OV_GRAPH_SERIESOPT
+4 Adicionar etiquetas a barras ou pontos de dados em um gráfico =TS_GRAPH_SERIESLABELS
+4 Plotando séries no eixo secundário y =OV_GRAPH_SECONDY
+4 Mudando as propriedades de título e subtítulo do gráfico =TS_GRAPH_INSPECTTITLE
+3 Personalizando Mapas
+4 Mudar as propriedades de mapas =TS_MAP_PROPERTIES
+4 Definir opções de redesenho de mapas =TS_MAP_REDRAW
+4 Mudando símbolos e etiquetas de pins =OV_MAP_PIN
+4 Exibir etiquetas de pins sem símbolos de pins em mapas =TS_MAP_PIN_LABELS
+4 Exibir símbolos de pins sem etiquetas de pins em mapas =TS_MAP_PIN_SYMBOLS
+4 Mudar propriedades da legenda de mapas =TS_MAP_LEGEND
+4 Como funcionam as legendas de mapas =OV_MAP_LEGEND
+4 Mudando as cores das legendas de mapas =OV_MAP_LEGEND_COLORS
+4 Mudando a posição da legenda de mapa =OV_MAP_LEGEND_POSITION
+3 Adicionando Objetos a Gráficos e Mapas
+4 Desenhando Linhas e Formas
+5 Desenhar uma linha ou seta =TS_DRAW_LINE
+5 Desenhar uma polilinha ou polígono =TS_DRAW_POLYGON
+5 Desenhar uma linha à mão livre ou polígono =TS_DRAW_FREEHAND
+5 Desenhar um retângulo ou elipse =TS_DRAW_RECTOVAL
+5 Dicas para criação de linhas e formas =GRAPH_ANNOTATE_CREATE
+4 Criando Quadros de Texto e Ligações para Células de Planilha
+5 Criar quadros de texto em um gráfico =TS_DRAW_TEXTBLOCK
+5 Criar um quadro de texto que referencie texto em uma célula=TS_DRAW_TEXTREF
+5 Criar um quadro de texto com texto colado da Área de Transferência =TS_DRAW_TEXTCLIP
+5 Adicionar bullets a quadros de texto =TS_GRAPH_BULLET
+5 Mudar as propriedades de quadros de texto =GRAPH_FONT
+5 Definir propriedades de quadro de texto antes de criar um quadro de texto =TS_GRAPH_TEXTPRESET
+5 Criar quadros de texto com texto em 3-D =TS_DRAW_TEXT3D
+5 Adicionar um bloco de planilha a um gráfico =TS_DRAW_LINKBLOCK
+4 Trabalhando com Objetos Gráficos
+5 Selecionando objetos =TS_DRAW_SELECT
+5 Agrupar e desagrupar objetos =TS_DRAW_GROUP
+5 Organizar camadas de objetos =TS_DRAW_LAYERS
+5 Alinhando objetos =OV_DRAW_ALIGN
+5 Alinhar objetos =TS_DRAW_ALIGN
+5 Centralizar objetos =TS_DRAW_CENTER_OBJECTS
+5 Espacejar objetos =TS_DRAW_SPACE_OBJECTS
+5 Mover e redimensionar objetos =TS_DRAW_RESIZE
+5 Mudando propriedades de objeto =TS_DRAW_CHGPROP
+3 Usando Cores
+4 Mudar a cor de um objeto gráfico =TS_DRAW_COLORPAL
+4 Criar uma cor personalizada para um objeto =TS_DRAW_NEWCOLOR
+4 Criando paletas de cores personalizadas =TS_DRAW_CUSTPAL
+4 Definir uma nova cor para uma paleta =TS_DRAW_PALETTE_NEWCOLOR
+4 Salvar cores modificadas em uma nova paleta =TS_DRAW_PALETTE_MODIFY
+4 Mudar cores de uma paleta existente =TS_DRAW_PALETTE_CHANGE
+4 Excluir uma paleta =TS_DRAW_PALETTE_DELETE
+3 Importando, Exportando e Modificando Gráficos
+4 Importar gráficos =TS_GRAPH_IMPORT
+4 Recortando, redimensionando e colocando bitmaps lado a lado =TS_GRAPH_CROPBMP
+4 Mudar seções de gráficos .CGM e .CLP =TS_GRAPH_VECTOR
+4 Exportar um gráfico =TS_GRAPH_EXPORT
+3 Criando gráficos analíticos
+4 Criar gráficos analíticos =TS_ANALGRAF_GdAnalGrph
+4 Gerar uma tabela de resultados de gráficos analíticos =TS_ANALGRAF_ResTbls
+4 Agregação =TS_ANALGRAF_Agreg
+4 Média móvel =TS_ANALGRAF_MovgAvrg
+4 Ajuste linear =TS_ANALGRAF_LinrFt
+4 Ajuste exponencial =TS_ANALGRAF_ExponFt
+4 Relacionamentos múltiplos em um gráfico =TS_ANALGRAF_MultRelGrph
+2 Criar Shows de Slides
+3 Criando e executando um show de slides
+4 Criando um show de slides =OV_DRAW_CREATESLIDE
+4 Configurando efeitos e tempos de exibição default =OV_SLIDE_EFFECTS
+4 Adicionando efeitos de transição =GRAPH_SLIDESHOW_EFFECTS
+4 Adicionando slides a um show de slides =TS_SLIDE_ADDING
+4 Executando um show de slides =OV_GRAPH_SLIDESHOW_RUN
+3 Editando um Show de Slides
+4 Visão Geral =OV_GRAPH_SLIDESHOW_EDIT
+4 Selecionando um Slide Mestre =OV_SLIDE_EDIT_MASTER
+4 Usando a Galeria de Slide Mestre =OV_SLIDE_EDIT_GALLERY
+4 Atalhos para shows de slides =GRAPH_SLIDESHOW_SHORT
+3 Usando Botões de Gráfico
+4 Criar um botão de gráfico =GRAPHBUTTONS
+4 Criar um botão de gráfico em segundo plano =BKGBUTTONS
+2 Analisar Dados
+3 Usando o Gerenciador de Cenários
+4 Visão geral do gerenciamento de cenários =ts_scenman_overview
+4 Planejando cenários =ts_scenman_plan
+4 Criar cenários diferentes =ts_scenman_guidelines
+4 Definir a área de captura do cenário =ts_scenman_capture
+4 Definir a linha de base do cenário =ts_scenman_baseline
+4 Células de cenário =ts_scenman_cells
+4 Nomear e salvar cenários =ts_scenman_name
+4 Grupos de cenário =OV_scenman_groups
+4 Exibir um cenário =ts_scenman_display
+4 Salvar edições no cenário ativo =TS_SCENMAN_saveedits
+4 Exibir um relatório de resumo de cenário =ts_scenman_report
+4 Excluir um cenário =ts_scenman_delscen
+4 Acompanhar versões com o Gerenciador de Cenários =OV_scenman_TrkVers
+3 Usando o Consolidador
+4 Visão geral do Consolidador =ts_conso_overview
+4 Executar consolidações =ts_conso_guidelines
+4 Adicionar blocos de origem do Consolidador =ts_conso_source
+4 Salvar configurações de consolidação =ts_conso_Name
+4 Excluir consolidações =ts_conso_delete
+3 Criando Distribuições de Freqüência
+4 Visão Geral =OV_FREQUENCY
+4 Configurando um bloco de bin de freqüência =TOOLS_FREQUENCY_BIN
+4 Outras análises básicas =TS_FREQUENCY_OTHER
+4 Criando gráficos de distribuição de freqüência =TS_FREQUENCY_GRAPHS
+3 Executando Análises de Regressão e Operações de Matriz
+4 Executando análises de regressão =OV_REGRESSION_PROCEDURE
+4 Introdução às operações de matriz =TS_MATRIX_INTRO
+4 Solucionando problemas de matriz=TS_MATRIX_SOLUTIONS
+3 Criando Tabelas E-Se
+4 Introdução às tabelas e-se =TS_WHATIF_INTRO
+4 Criar uma tabela e-se com uma variável =TS_WHATIF_1VARIABLE
+4 Criar uma tabela e-se com duas variáveis =TS_WHATIF_2VARIABLES
+3 Encontrando Soluções com o Otimizador e o Solucionar Para
+4 Visão Geral =OV_OPTIMIZER
+4 Solucionar um problema com o Otimizador =TS_OPTIMIZER
+4 Informar uma restrição do Otimizador =TS_OPTIMIZER_CONSTRAINTS
+4 Salvar um modelo do Otimizador =TS_OPTIMIZER_MODEL
+4 Reutilizar um modelo do Otimizador =TS_OPTIMIZER_REUSE
+4 Produzir relatórios do Otimizador =TS_OPTIMIZER_REPORTS
+4 Executar procura de meta usando o Solucionar Para =TS_SOLVEFOR
+2 Configurar Preferências
+3 Configurando Preferências de Aplicativos
+4 Configurando opções de exibição =TS_OPTIONS_OTHER
+4 Configurando opções internacionais =TS_OPTIONS_INTERNATIONAL
+4 Configurando opções de macros e menus =TS_PROPERTY_APPMACRO
+4 Configurando opções de arquivo =TS_PROPERTY_APPFILE
+4 Configurando opções gerais =TS_PROPERTY_APPGENERAL
+3 Configurando Propriedades de Caderno
+4 Ocultar barras de rolamento de caderno, guias de página e objetos flutuantes=TS_OPTIONS_NOTEB_DISPLAY
+4 Aumentar e diminuir o zoom =TS_OPTIONS_ZOOM
+4 Configurando opções de recálculo =TS_OPTIONS_RECALCULATION
+4 Mudar a paleta de cores do caderno =TS_OPTIONS_COLORS_PALETTES
+4 Transformar um caderno em biblioteca de macros =TS_OPTIONS_NOTEB_MACROLIB
+4 Atribuir uma senha a um arquivo =TS_FILE_PASSWORD
+4 Criar um caderno do sistema =TS_NOTEBOOK_SYSTEM
+2 Usar a Internet
+3 Abrir um arquivo na Internet =TS_FILE_OPEN_URL
+3 Conectar um BotãoRápido a um site na World Wide Web =TS_MACRO_MAKEBUTTON
+3 Ligar um caderno a um site na World Wide Web =TS_LINK_TYPING
+2 Usando OLE e DDE
+3 Embutimento e ligação com OLE e DDE
+4 Visão Geral =TS_OLE_EMBED
+4 Termos e conceitos de OLE e DDE =TS_OLE_CONCEPTS
+4 Embutindo informações =TS_OLE_EMBEDDING
+4 Ligando informações =TS_OLE_LINKING
+3 Criando e Usando Objetos e Ligações no Corel Quattro Pro
+4 Visão Geral =TS_OLE_CREATEOBJECT
+4 Arrastar um objeto OLE para o Corel Quattro Pro =TS_OLE_DRAG
+4 Colar um objeto OLE ou ligação DDE no Corel Quattro Pro =TS_OLE_PASTE
+4 Inserir objetos no Corel Quattro Pro =TS_OLE_INSERT
+4 Usando e alterando objetos e ligações no Corel Quattro Pro =TS_OLE_USEOBJECTS
+4 Executar, editar ou abrir objetos OLE =TS_OLE_PLAYEDITOPEN
+4 Atualizar ligações para objetos =TS_OLE_UPDATING
+4 Converter um formato de objeto ou alterar seu efeito de ativação =TS_OLE_CONVERT
+4 Usando recursos de automação OLE =TS_OLE_AUTOMATION
+3 Criando e Usando Objetos do Corel Quattro Pro em Outros Aplicativos
+4 Visão Geral =TS_OLE_CREATECONTAINER
+4 Editando objetos OLE em aplicativos recipientes=TS_OLE_EDIT
+3 Usando o Notes/FX
+4 Visão Geral =OV_OLE_NOTESFX
+4 Usar o Notes/FX com o Corel Quattro Pro =TS_OLE_NOTESFX_USE
+4 Nomear um bloco de campo do Notes =TS_OLE_NOTESFX_NAME
+2 Usar Bancos de Dados
+3 Criar um Banco de Dados do Corel Quattro Pro
+4 O que é um banco de dados? =DATABASE_BASICS
+4 Configurando um banco de dados =OV_DATABASE_SETUP
+4 Configurar um banco de dados do Corel Quattro Pro =DATABASE_SETUP
+4 O bloco de banco de dados =DATABASE_QUERY_BLOCK
+4 A tabela de critérios =OV_DATABASE_QUERY_TABLE
+4 O bloco de saída =OV_DATABASE_QUERY_OUTPUT
+3 Procurando Registros
+4 Procurar em um banco de dados do Corel Quattro Pro =DATABASE_QUERY_PROCEDURE
+4 Destacar registros correspondentes em um banco de dados do Corel Quattro Pro =DATABASE_QUERY_LOCATE
+4 Copiar registros correspondentes em um banco de dados do Corel Quattro Pro =DATABASE_QUERY_EXTRACT
+4 Excluir registros correspondentes de um banco de dados do Corel Quattro Pro =DATABASE_QUERY_DELETE
+3 Usando Bancos de Dados Externos
+4 Visão Geral =DATABASE_EXTERNAL
+4 Procurar em um banco de dados externo com o comando Consultar Caderno =DATABASE_QUERY_DATABASE
+4 Consultar uma tabela de banco de dados externo com QBE =DATABASE_QUERY_QBE
+4 Exibir tabelas de bancos de dados externos no Corel Quattro Pro =DATABASE_TABLELINK
+4 Atribuir um álias para diretórios privados e de trabalho =DATABASE_ALIAS
+3 Ordenando Dados
+4 Visão Geral =OV_DATABASE_SORTPERFORM
+4 Ordenar dados em um bloco =DATABASE_SORTPERFORM
+4 Ordenar um bloco usando o botão OrdenaçãoRápida =DATABASE_SORTQUICK
+3 Usando o Database Desktop
+4 Sobre o Database Desktop =OV_CROSSTAB
+4 Consultar um banco de dados externo usando o Database Desktop =TS_CROSSTAB_QUERY
+2 Usar o Módulo de Análise de Dados
+3 Sobre o Módulo de Análise de Dados =OV_DMD
+3 Enviar um bloco de dados em 2-D para o Módulo de Análise de Dados=SendingDataToDataModelingDesktop
+3 Enviar um bloco de dados em 3-D para o Módulo de Análise de Dados=Sending3DNotebookDataToDataModelingDesktop
+2 Usando @Funções
+3 Digitando @funções =TS_FUNCTIONS
+3 Regras de sintaxe =FUNCTION_SYNTAX
+3 Aninhando @funções =FUNCTION_NESTED
+3 Comentários em @funções =FUNCTION_COMMENTS
+3 Argumentos em @funções =FUNCTION_ARGUMENTS
+3 Argumentos de @função numérica =FUNCTION_ARG_NUMERIC
+3 Argumentos de @função de bloco =FUNCTION_ARG_BLOCK
+3 Argumentos de @função de string =FUNCTION_ARG_STRING
+3 Recálculo =FUNCTION_FORMULAS6
+2 Usando Macros
+3 Princípios básicos das Macros
+4 O que é uma macro? =TS_MACRO_OVERVIEW
+4 Usando macros do Corel Quattro Pro e do PerfectScript =OV_MACRO_TYPES
+4 Planejando macros =TS_MACRO_PLANNING
+3 Gravando e Digitando Macros
+4 Dicas para gravação de macros =TS_MACRO_RECORDINGTIPS
+4 Gravar uma macro =TS_MACRO_RECORDING
+4 Gravar uma macro PerfectScript =TS_MACRO_RECORD_PERFECTSCRIPT
+4 Gravar referências de célula relativas =TS_MACRO_RELATIVE
+4 Digitar uma macro =TS_MACRO_TYPING
+4 Traduzir um comando de macro do Corel Quattro Pro em sintaxe do PerfectScript =TS_MACRO_TRANSLATE_TO_PERFECTSCRIPT
+4 Digitando comandos de macro =OV_MACRO_COMMANDS
+4 Digitar um comando de macro com a tecla Macros =TS_MACRO_COMMANDS
+4 Usando subrotinas de macro =TS_MACRO_SUBROUTINES
+4 Acessando outros cadernos em macros =TS_MACRO_ACCESSNOTE
+4 Macros auto-modificadas =TS_MACRO_SELFMOD
+4 Usando bibliotecas de macro =OV_MACRO_LIBRARIES
+3 Tipos de Macros Especiais
+4 Sobre equivalentes de comando =TS_MACRO_EQUIVS
+4 Sobre comandos de macro DDE =TS_MACRO_DDECOMMANDS
+4 Sobre comandos de macro Objeto =TS_MACRO_ABOUTOBCOMM
+3 Executando Macros
+4 Visão Geral da execução de macros =OV_MACRO_EXECUTING
+4 Executar uma macro =TS_MACRO_EXECUTING
+4 Executar uma macro PerfectScript =TS_MACRO_RUN_PERFECTSCRIPT
+4 Anexar uma macro a uma tecla =TS_MACRO_ATTACHTOKEY
+4 Criar um BotãoRápido =TS_MACRO_MAKEBUTTON
+4 Exibir um quadro de diálogo com um BotãoRápido =TS_MACRO_MAKEBUTTON_DIALOG
+4 Usando macros de Inicialização e Saída =TS_MACRO_AUTOLOAD
+4 Executar o Corel Quattro Pro para macros de toques de tecla DOS =TS_MACRO_LOTUS
+4 Executar macros de toques de tecla do Lotus 1-2-3 =TS_MACRO_KEYREADER
+3 Depurando Macros
+4 Visão Geral da depuração de macros =OV_MACRO_DEBUGGER
+4 Executar uma macro no modo Depurar =TS_MACRO_DEBUGGER
+4 Janela de Depuração =TS_MACRO_DEBUGWIN
+4 Configurando pontos de interrupção de Macro =TS_MACRO_BREAKPOINTS
+4 Células de rastreamento =OV_MACRO_TRACECELLS
+4 Editar células de macro na janela de depuração =TS_MACRO_TRACECELLS_EDIT
+2 Personalizar o Corel Quattro Pro
+3 Criar e Personalizar Barras de Ferramentas
+4 Compondo Barras de Ferramentas =OV_TBAR_DESIGNING
+4 Barras de Ferramentas Padrão =OV_TBAR_STANDARD
+4 Mudar para outra Barra de Ferramentas =TS_TBAR_SWITCH
+4 Exibir ou ocultar uma Barra de Ferramentas =TS_TBAR_SHOWHIDE
+4 Áreas de contexto da Barra de Ferramentas =OV_TBAR_CONTEXTS
+4 Reposicionar uma Barra de Ferramentas =TS_TBAR_MOVE
+4 Criar uma nova Barra de Ferramentas =TS_TBAR_CREATE
+4 Editar uma Barra de Ferramentas =TS_TBAR_EDIT
+4 Mover um botão da Barra de Ferramentas =TS_BAR_MOVEBUTTON
+4 Remover um botão de Barra de Ferramentas =TS_BAR_REMOVEBUTTON
+4 Copiar um botão de Barra de Ferramentas para outra Barra de Ferramentas =TS_BAR_COPYBUTTON
+4 Redefinir uma Barra de Ferramentas com suas configurações default =TS_TBAR_RESET
+4 Mudar opções da Barra de Ferramentas =TS_TBAR_OPTIONS
+4 Excluir uma Barra de Ferramentas =TS_TBAR_DELETE
+4 Adicionar Barras de Ferramentas existentes ao Corel Quattro Pro =TS_BAR_IMPORT
+3 Construir Aplicativos
+4 O que é um aplicativo? =TS_ABAS_WHAT
+4 Informações sobre componentes de aplicativos =TS_ABAS_COMPONENTS
+4 Compondo macros =TS_ABAS_COMPMACRO
+4 Preparando para construir um aplicativo =TS_ABAS_PLAN
+4 Usando o modo Desenvolvedor =TS_ABAS_DEVMODE
+3 Criar Quadros de Diálogo
+4 Compondo quadros de diálogo =TS_ABAS_COMPDIAL
+4 Visão geral dos quadros de diálogo =TS_DIAL_OVERVIEW
+4 Ferramentas para construção de quadros de diálogo =TS_DIAL_TOOLS
+4 Diretrizes para quadros de diálogo =TS_DIAL_BASICDIAL
+4 Abrindo um novo quadro de diálogo =TS_DIAL_OPENDIAL
+4 Adicionando controles de quadro de diálogo =OV_DIAL_ADDCTRL
+4 Adicionar controles a um quadro de diálogo =TS_DIAL_ADDCTRL
+4 Etiquetar controles de quadros de diálogo =TS_DIAL_LABEL
+4 Personalizando controles =TS_DIAL_CUSTOMCTRL
+4 Exibindo um quadro de diálogo usando o comando {DODIALOG} =OV_DIAL_DODIALOG
+4 Exibir um quadro de diálogo =TS_DIAL_DODIALOG
+4 Ligar comandos a controles de quadro de diálogo =TS_DIAL_LINK
+4 Trabalhando com quadros de diálogo =TS_DIAL_WORKDIAL
+3 Trabalhar com Controles
+4 Selecionando, Copiando e Movendo Controles
+5 Selecionar vários controles =TS_DIAL_SELECTSEVRL
+5 Copiar um controle =TS_DIAL_COPY
+5 Mover um controle =TS_DIAL_MOVE
+5 Redimensionar ou mover um controle usando o mouse =TS_DIAL_MOVESIZE
+5 Especificar com precisão o tamanho e a posição de controles=TS_DIAL_DIMENSION
+5 Mover controles sobrepostos =TS_DIAL_MOVEOVERLAP
+4 Alinhando e Reposicionando Controles
+5 Definir opções de grade para um quadro de diálogo =TS_DIAL_ALIGNCTRL
+5 Reposicionando controles =TS_DIAL_REPOSITION
+4 Mudando as Propriedades de Controles
+5 Configurando o valor de um controle =TS_DIAL_CTRLVALUE
+5 Mudando o texto de um controle =TS_DIAL_CHGTXT
+5 Usando a Área de Transferência com controles =TS_DIAL_CLIPBOARD
+5 Atribuindo uma tecla a um controle =TS_DIAL_ASSIGNKEY
+4 Configurando a Ordem das Guias e de Seleção
+5 Configurando a ordem das guias =OV_DIAL_SETTAB
+5 Mudar a ordem de seleção de um quadro de grupo =TS_DIAL_GROUPSLCT
+4 Desativando, Ocultando e Agrupando Controles
+5 Desativando e ocultando controles =TS_DIAL_DISABLE
+5 Agrupar controles =TS_DIAL_GROUPCTRL
+5 Redimensionando controles agrupados =TS_DIAL_GROUPRESIZE
+5 Conectando controles a células ou a outros controles=OV_DIAL_CONNECTCTRL
+5 Conectar um controle a células ou a outros controles=TS_DIAL_CONNECTCTRL
+4 Criando Dicas
+5 Criar uma dica de barra de título para um controle =TS_DIAL_HINT
+3 Trabalhar com Comandos de Ligação
+4 Visão Geral =TS_DIAL_WORKLINK
+4 Quadro de Diálogo Ligação de Objeto =TS_DIAL_OBJLINK
+4 Ligar eventos =TS_DIAL_LINKEVENTS
+4 Adicionar um comando de ligação a um controle =TS_DIAL_ASSLINKCTRL
+4 Exemplos de comando de ligação =LINK_EXAMPLES
+4 Ligar um quadro de diálogo à Ajuda =TS_DIAL_LINKHELP
+4 Ligar um botão de Ajuda à Ajuda =TS_DIAL_LINKHELPBUTTON
+3 Construir Menus
+4 Introdução à Construção de Menus
+5 O que é um menu? =TS_MENU_WHATIS
+5 Compondo menus =TS_ABAS_COMPMENU
+5 Dicas para composição de menus =TS_MENU_DESIGN
+4 Personalizando a Barra de Menus
+5 Adicionar um menu à barra de menus =TS_MENU_ADD
+5 Substituir a barra de menus =TS_MENU_REPLACE
+5 Mudar as propriedades do comando de menus =TS_MENU_CHANGEPROP
+4 Usando Definições de Comando
+5 Visão Geral =TS_MENU_CMDEF
+5 Nomeando um comando de menu =TS_MENU_NAME
+5 Fazendo os comandos de menu atuarem =TS_MENU_ACT
+5 Dicas de menu e Ajuda =TS_MENU_HINT
+5 Atribuindo uma tecla de atalho =TS_MENU_SHORTCUT
+5 Desativando comandos de menu =TS_MENU_GRAY
+5 Inserindo marcas de verificação =TS_MENU_CHECKMARK
+4 Adicionando e Excluindo Menus e Comandos
+5 Excluir um menu =TS_MENU_DELETE
+5 Adicionar um comando de menu =TS_MENU_ADDCMD
+5 Excluir um comando de menu =TS_MENU_DELCMD
+1 Exemplos
+2 Exemplos =!JI("QPW.HLP>visual", "EXAMPLE_1"): JI("QPW.HLP>topics", "TS_BLOCK_INSPECT")
+;1 Upgrade da Ajuda
+;2 Upgrade do Corel Quattro Pro 6 para Windows = ESSENT_FEATURES
+;2 Upgrade do Corel Quattro Pro para DOS = UPGRADEINFO_QPDOS
+;2 Upgrade do Lotus 1-2-3 para DOS = UPGRADEINFO_123DOS
+;2 Upgrade do 1-2-3 para Windows = UPGRADEINFO_123WIN
+;2 Upgrade do Excel = UPGRADEINFO_EXCEL
+:Include QPWREF.CNT
+1 Livros On-line (Centro de Referência)
+3 Ir para o Centro de Referência =1@wprc70br.hlp>envoy
+1 Serviços de Suporte da Corel
+2 Site Independente CorelNET na WWW =8050@wpsh70us.hlp>topics
+2 Suporte de Produto na América no Norte =8037@wpsh70us.hlp>topics
+2 Suporte de Produto Mundial =8038@wpsh70us.hlp>topics

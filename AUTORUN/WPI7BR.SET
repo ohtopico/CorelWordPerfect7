@@ -1,0 +1,74 @@
+[General Information]
+SetupArchive=PFSet7.INI,WordP7.INI
+Decompressor=namdelz7.dll
+InstallExe=WPI7.exe
+DriverID=BRWPSuite701CDOEM
+
+[Interface Language Prompts]
+BR=Instructions in Brazilian Portuguese
+
+[Interface Language Files]
+BR=wpi7BR.dll
+
+[Archive File List]
+SETUP.EXE=458752,133389
+REMOVEBR.DLL=
+REMOVE.EXE=458752,133559
+NETSETUP.EXE=
+NAMSHAR7.DLL=458752,133440
+IENGINE7.DLL=458752,133440
+CENGINE7.DLL=458752,133440
+DENGINE7.DLL=458752,133440
+CLEANUP.EXE=
+LICENSE.BR=
+WPI7BR.SET=
+WPI7BR.DLL=458752,133363
+WPI7.EXE=458752,133440
+NAMDEQU7.DLL=458752,133440
+NAMDELZ7.DLL=458752,133440
+NAMDECF7.DLL=458752,133440
+ABC10.dll=458752,134203
+WPC7.DLL=458752,133560
+PFTC7.DLL=458752,133560
+PFLC7.DLL=458752,133560
+QFCI7.DLL=
+DRC7.DLL=458752,133560
+REQ7.DLL=
+OTAWAC7.DLL=
+BDEC3.dll=
+BRC7.DLL=
+IDAPINST.DLL=
+IDUNINST.EXE=
+QPC7.dll=
+POSOLC7.dll=
+
+[Strings]
+MainWindowCaption="Copiando Arquivos Temporários.  Aguarde..."
+ArcSecNotFound="A seção [Archive File List] não foi localizada no arquivo de configuração."
+NoEXEinSet="Nenhum EXE no arquivo de configuração."
+CannotRunEXE="Impossível executar install exe"
+NoArcInSet="Nenhum arquivo reserva no arquivo de configuração"
+NoDecompInSet="Nenhum descompactador no arquivo de configuração"
+DecompLoadFail="Falha ao carregar descompactador"
+CantOpenArc="Não foi possível abrir arquivo reserva"
+ArcNotComplete="Não foi possível completar arquivo reserva"
+InsertDisk="Insira disco nº"
+NewDisk="Novo disco é solicitado"
+DiskNotFound="Disco não localizado"
+DiskFull="Disco cheio"
+DecompError="Erro no Descompactador"
+DriveListError="Memória Insuficiente"
+FuncLoadFailed="Falha ao carregar a função do descompactador"
+DirCreateError="Erro ao criar diretório: "
+InsufTempSpace="Espaço insuficiente no diretório temp"
+NoDriverIDinSet="Nenhuma ID de Controlador foi localizada no arquivo .set."
+IDSTR_S2_ProfileLocTitle="Caminho do Perfil"
+IDSTR_S2_ProfileLocPrompt="Digite o caminho do Perfil Admin, localizado na Instalação de Rede, a partir do qual deseja instalar."
+IDSTR_S2_ProfileLocText="&Caminho do Perfil"
+IDSTR_S2_ProfileLocOK="OK"
+IDSTR_S2_ProfileLocCancel="Cancelar"
+IDSTR_S2_ProfileLocBrowse="P&rocurar..."
+NTTitle="Executando o Windows NT"
+NTText="Este programa não pode ser executado no Windows NT.  Para que este programa seja executado, deve-se estar usando o Windows 95."
+MessageBoxTitle="Programa da Instalação da Corel"
+

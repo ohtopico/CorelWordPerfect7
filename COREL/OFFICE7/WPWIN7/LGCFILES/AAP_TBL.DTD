@@ -1,0 +1,161 @@
+<!--
+     File:  AAP_TBL.DTD        (DTD Declaration Subset)
+
+     DISCLAIMER:  This declaration subset contains the AAP table
+     information that is considered relevant by the SGML features of
+     WordPerfect for Windows 7.  It does not include all of the elements,
+     entities, and attributes found in the complete DTDs defined by the
+     Association of American Publishers (AAP) in Markup of Tabular Material,
+     part of the Electronic Manuscript Series designed for use with the
+     American National Standard for Electronic Manuscript Preparation and
+     Markup (ANSI/NISO Z39.59-1988).  It is intended primarily for your
+     information.
+-->
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<!ENTITY % t.style "style (s|d|t|da|dot|b|bl|n) bl"
+          --styles for borders and sparators, default blank-->
+<!ENTITY % t.align "align (l|c|r|d|e|en) #IMPLIED"
+          --align attributes for columns, cells-->
+<!ENTITY % t.val "valign (t|m|b) #IMPLIED" --vertical alignment-->
+<!ENTITY % t.cs "#PCDATA"
+          --character strings-->
+
+<!--       ELEMENT       MIN       CONTENT         EXCEPTIONS
+                      ATTRIBUTE     VALUE           DEFAULT-->
+
+<!ELEMENT ctbl           - -    (cthd,ctby,ctbf) >
+
+<!ATTLIST ctbl           id     ID                 #IMPLIED
+
+                     numcols    NUMBER             #REQUIRED
+          -- Number of columns per row starting with 1 at the left cell.
+          This attribute is not part of the original AAP advanced tables
+          DTD fragment but was added to facilitate the tagging and
+          importing of AAP tables when using WP Intellitag. --
+
+                         cs     NMTOKENS           "A bl"
+          --Valid NMTOKENS are single (s), double (d), triple (t), dash (da),
+          dot, bold (b), blank (bl), and none (n); they indicate separator
+          style. Specify up to F+1 style tokens, where F is the number of
+          columns, each preceded by a column number from 0 through F. 0
+          applies to separatorbefore 1st column, and 1 through F to separators
+          after corresponding columns; unspecified separators are blank.
+          Special column "numbers" F (for final) and A (for all others) can
+          be used.
+          Examples:
+              "O d F d" gives double rules as the vertical borders.
+              "1 b" gives bold rule after the first column.--
+
+                         rs     NMTOKENS           "A bl"
+          --Value specified as for cs, but applies to row separators and the
+          horizontal borders.--
+
+                         ca     NMTOKENS           "A c"
+          --Specify from 1 to F alignment tokens, where F is the number of
+          columns, to indicate alignment of cells within the corresponding
+          column. Alignments are: l(eft), c(enter), r(ight), e(xponent),
+          d(ecimal point), and en (en dash). Default is "c" alignment for any
+          unspecified column. Tokens are paired with column numbers as with cs.
+          Examples:
+              "1 l A r" gives left aligned 1st column, all others right.
+              "1 l" gives left aligned 1st column, all others center.-->
+
+<!ELEMENT cthd           - O    (ctt|ctst|cthn|cthr)*>
+<!ELEMENT cthn           - O    (%t.cs;)*>
+
+<!ELEMENT (ctt|ctst)     - O    (%t.cs;)*>
+<!ELEMENT cthr           - O    (cth*|ctsh)>
+<!ATTLIST cthr           ra     NMTOKENS           "A m"
+          --Specify from 1 to F vertical alignment tokens, where F is the
+          number of columns, to indicate alignment of cells within the
+          corresponding column. Alignments are: t(op), m(iddle), and b(ottom).
+          Default is "m" alignment for any unspecified cell. Tokens are paired
+          with column numbers as with cs.
+          Examples:
+              "1 t A b" gives top aligned 1st cell, all others bottom.
+              "1 t" gives top aligned 1st cell, all others middle.-->
+
+<!ELEMENT (cth|ctsh)     - O    (%t.cs;)*
+          --Use cth if there is only one header over each column or for the
+          main column headers when there are column subheads. Use ctsh for
+          column subheads.-->
+<!ATTLIST (cth|ctsh)     %t.align;
+          --This will override the column alignment for the designated head--
+
+                         %t.val;
+          --This will override the vertical alignment of a head or subhead
+          specified by ra at the header row level.--
+
+                         cb     NUMBER             #IMPLIED
+          --Indicate the column in which the head will begin if it straddles
+          more than one column, (e.g. cb=4 indicates that the head should
+          begin in column 4).--
+
+                         ce     NUMBER             #IMPLIED
+          --Indicate the column in which the head will end if it straddles
+          more than one column, (e.g. ce=6 indicates that the head should end
+          in column 6).--
+
+                         rb     NUMBER             #IMPLIED
+          --Indicate the row in which the head will begin if it straddles more
+          than one row, (e.g. rb=2 indicates that the head will begin in row 2).--
+
+                         re     NUMBER             #IMPLIED
+          --Indicate the row in which the head will end if it straddles more
+          than one row, (e.g. re=4 indicates that the head will end in row 4).-->
+
+<!ELEMENT ctby           - O    (ctr)*
+          --Every table must have at least one row.-->
+
+<!ELEMENT ctr            - O    (((ctsb1|ctsb2|ctsb3|ctsb4)?, cte*) | ctsh*)>
+
+<!ATTLIST ctr            ra     NMTOKENS           "A m"
+          --Specify from 1 to F vertical alignment tokens, where F is the
+          number of columns, to indicate alignment of cells within the
+          corresponding column. Alignments are: t(op), m(iddle), and b(ottom).
+          Default is "m" alignment for any unspecified cell. Tokens are paired
+          with column numbers as with cs.
+          Examples:
+              "1 t A b" gives top aligned 1st cell, all others bottom.
+              "1 t" gives top aligned 1st cell, all others middle.-->
+
+<!ELEMENT (ctsb1|ctsb2|ctsb3|ctsb4)
+                         - O    (%t.cs;)*>
+<!ATTLIST (ctsb1|ctsb2|ctsb3|ctsb4)
+                         %t.align;
+          --This overrides the column alignment--
+
+                         %t.val;
+          --This will override the vertical alignment of a stub specified by
+          ra at the table row level.-->
+
+<!ELEMENT cte            - O    (%t.cs;)*>
+<!ATTLIST cte            %t.align;
+          --This overrides the column alignment, not valid if cell is split--
+
+                         %t.val;
+          --This will override the vertical alignment of a cell specified by
+          ra at the table row level.--
+
+                         cb     NUMBER             #IMPLIED
+          --Designate the column numbere where entry is to begin if it
+          straddles more than one column--
+
+                         ce     NUMBER             #IMPLIED
+          --Designate the column number where entry is to end if it straddles
+          more than one column--
+
+                         rb     NUMBER             #IMPLIED
+          --Designate the row number where entry is to begin if it straddles
+          more than one row--
+
+                         re     NUMBER             #IMPLIED
+          --Designate the row number where entry is to end if it straddles
+          more than one row-->
+
+<!ELEMENT ctbf           - O    (ctc|ctfn)>
+<!ELEMENT ctc            - O    (%t.cs;)*>
+<!ELEMENT ctfn           - O    (%t.cs;)*>

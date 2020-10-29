@@ -1,0 +1,73 @@
+--
+    File:  ISOTECH.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOtech PUBLIC
+       "ISO 8879-1986//ENTITIES General Technical//EN">
+     %ISOtech;
+
+  WP #    Name       Text            Description
+--
+  9,0     aleph     "[aleph ]"     --/aleph =aleph, Hebrew--
+  6,85    and       "[and   ]"     --/wedge /land B: =logical and--
+  6,218   ang90     "[ang90 ]"     --=right (90 degree) angle--
+  6,169   angsph    "[angsph]"     --/sphericalangle =angle-spherical--
+  6,13    ap        "[ap    ]"     --/approx R: =approximate--
+  6,101   becaus    "[becaus]"     --/because R: =because--
+  6,89    bottom    "[bottom]"     --/bot B: =perpendicular--
+  6,16    cap       "[cap   ]"     --/cap B: =intersection--
+  6,116   cong      "[cong  ]"     --/cong R: =congruent with--
+  6,104   conint    "[conint]"     --/oint L: =contour integral operator--
+  6,66    cup       "[cup   ]"     --/cup B: =union or logical sum--
+  6,14    equiv     "[equiv ]"     --/equiv R: =identical with--
+  6,121   exist     "[exist ]"     --/exists =at least one exists--
+  6,122   forall    "[forall]"     --/forall =for all--
+  4,14    fnof      "[fnof  ]"     --=function of (italic small f)--
+  6,3     ge        "[ge    ]"     --/geq /ge R: =greater-than-or-equal--
+  6,60    iff       "[iff   ]"     --/iff =if and only if--
+  6,19    infin     "[infin ]"     --/infty =infinity--
+  6,40    int       "[int   ]"     --/int L: =integral operator--
+  6,15    isin      "[isin  ]"     --/in R: =set membership--
+  6,10    lang      "[lang  ]"     --/langle O: =left angle bracket--
+  6,57    lArr      "[lArr  ]"     --/Leftarrow A: =is implied by--
+  6,2     le        "[le    ]"     --/leq /le R: =less-than-or-equal--
+  6,0     minus     "[minus ]"     --B: =minus sign--
+  6,42    mnplus    "[mnplus]"     --/mp B: =minus-or-plus sign--
+  6,43    nabla     "[nabla ]"     --/nabla =del, Hamilton operator--
+  6,99    ne        "[ne    ]"     --/ne /neq R: =not equal--
+  6,71    ni        "[ni    ]"     --/ni /owns R: =contains--
+  6,86    or        "[or    ]"     --/vee /lor B: =logical or--
+  6,17    par       "[par   ]"     --/parallel R: =parallel--
+  6,44    part      "[part  ]"     --/partial =partial differential--
+  4,75    permil    "[permil]"     --=per thousand--
+  6,89    perp      "[perp  ]"     --/perp R: =perpendicular--
+  6,45    prime     "[prime ]"     --/prime =prime or minute--
+  6,46    Prime     "[Prime ]"     --=double prime or second--
+  6,4     prop      "[prop  ]"     --/propto R: =is proportional to--
+  5,14    radic     "[radic ]"     --/surd =radical--
+  6,11    rang      "[rang  ]"     --/rangle C: =right angle bracket--
+  6,56    rArr      "[rArr  ]"     --/Rightarrow A: =implies--
+  6,12    sim       "[sim   ]"     --/sim R: =similar--
+  6,115   sime      "[sime  ]"     --/simeq R: =similar, equals--
+  6,93    square    "[square]"     --/square B: =square--
+  6,67    sub       "[sub   ]"     --/subset R: =subset or is implied by--
+  6,69    sube      "[sube  ]"     --/subseteq R: =subset, equals--
+  6,68    sup       "[sup   ]"     --/supset R: =superset or implies--
+  6,70    supe      "[supe  ]"     --/supseteq R: =superset, equals--
+  6,102   there4    "[there4]"     --/therefore R: =therefore--
+  0,0     Verbar    "[Verbar]"     --/Vert =dbl vertical bar--
+  6,35    angst     "[angst ]"     --Angstrom =capital A, ring--
+  0,0     bernou    "[bernou]"     --Bernoulli function (script capital B)--
+  6,33    compfn    "[compfn]"     --B: composite function (small circle)--
+  1,7     Dot       "[Dot   ]"     --=dieresis or umlaut mark--
+  0,0     DotDot    "[DotDot]"     --four dots above--
+  6,233   hamilt    "[hamilt]"     --Hamiltonian (script capital H)--
+  0,0     lagran    "[lagran]"     --Lagrangian (script capital L)--
+  4,4     lowast    "[lowast]"     --low asterisk--
+  6,209   notin     "[notin ]"     --N: negated set membership--
+  0,0     order     "[order ]"     --order of (script small o)--
+  0,0     phmmat    "[phmmat]"     --physics M-matrix (script capital M)--
+  6,224   tdot      "[tdot  ]"     --three dots above--
+  6,113   tprime    "[tprime]"     --triple prime--
+  6,181   wedgeq    "[wedgeq]"     --R: corresponds to (wedge, equals)--

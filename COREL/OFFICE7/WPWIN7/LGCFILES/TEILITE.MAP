@@ -1,0 +1,41 @@
+--
+    File:  TEILITE.MAP     (External Entity Mapping File)
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    This .MAP file enables special SGML characters to be manipulated as
+    WordPerfect extended characters.  For example, to place an "A acute"
+    in a document, use WordPerfect's Ctrl-W dialog to insert character
+    1,26 (number 26 in the Multinational set).
+
+    If you would rather use entity references to represent special SGML
+    characters, make the following changes and recompile TEILITE.DTD
+    using the "DTD to LGC" utility:
+
+       1.  Change each occurrence of "WPCHARS" below to "ENTITIES"
+       2.  Change each ".wpc" filename extension below to ".ent"
+       3.  Save the modified .MAP file.
+       4.  Specify the modified .MAP file as the "Entity Mapping File"
+           in the "DTD to LGC" dialog.
+
+--
+
+PUBLIC    "ISO Registration Number 100//CHARSET
+           ECMA-94 Right Part of Latin Alphabet Nr. 1//ESC 2/13 4/1"
+CHARSET    ecma94.set
+
+
+PUBLIC    "-//TEI U5-1995//DTD TEI Lite 1.0 Extensions//EN"
+DTD        teilite.ext
+
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Latin 1//EN" 
+WPCHARS    isolat1.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Latin 2//EN" 
+WPCHARS    isolat2.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN"
+WPCHARS    isonum.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Publishing//EN"
+WPCHARS    isopub.wpc

@@ -1,0 +1,8 @@
+PUBLIC     "ISO Registration Number 100//CHARSET ECMA-94 Right Part of
+            Latin Alphabet Nr. 1//ESC 2/13 4/1"
+CHARSET    ECMA94.SET
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Latin 1//EN//HTML"
+ENTITIES   ISOLAT1.ENT
+
+

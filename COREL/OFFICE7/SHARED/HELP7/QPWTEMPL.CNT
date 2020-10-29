@@ -1,0 +1,36 @@
+:Base qpwtempl.hlp>topics
+:Title Ajuda de Modelos do Quattro Pro
+1 Modelos
+2 Registro de Contas a Pagar=TEMPLATE_APREG
+2 Registro de Contas a Receber=TEMPLATE_ARREG
+2 Despesas Automáticas=TEMPLATE_AUTOEXP
+2 Planejador de Negócios=TEMPLATE_BSNSPLAN
+2 Análise de Arrendamento de Carro=TEMPLATE_CAR_LEASE
+2 Conciliação de Talão de Cheques=TEMPLATE_BANCREC
+2 Plano de Poupança para Universidade=TEMPLATE_COLLEGE
+2 Análise de Marketing Direto=TEMPLATE_MARKETING_ANALYSIS
+2 Suporte de Decisão Econômica=TEMPLATE_EOQDISC
+2 Rastreador de adequação=TEMPLATE_FITNESS_TRACKER
+2 Gráfico de Gantt=TEMPLATE_GANTDAY
+2 Inventário Doméstico=TEMPLATE_HSINVEN
+2 Relatório de Cobertura de Seguro=TEMPLATE_INSURANCE
+2 Estimativa de Trabalho=TEMPLATE_JOB_ESTIMATE
+2 Horário da Sala de Reuniões=TEMPLATE_CONFROOM
+2 Calculadora de Hipoteca=TEMPLATE_MORTGAGE
+2 Orçamento Pessoal=TEMPLATE_PERSONAL_BUDGET
+2 Patrimônio Líquido Pessoal=TEMPLATE_NETWORTH
+2 Fatura de Produtos=TEMPLATE_SINVOICE
+2 Ordem de Compra (Horizontal)=TEMPLATE_POLAND
+2 Ordem de Compra (Vertical)=TEMPLATE_POPORT
+2 Requisição de Compra=TEMPLATE_PURCHREQ
+2 Construtor Rápido de Modelos=TEMPLATE_BUILDER
+2 Planejamento de Aposentadoria=TEMPLATE_RETIRE
+2 Relatório de Vendas e de Quilometragem=TEMPLATE_SALES
+2 Formulário de Pedido de Venda=TEMPLATE_SALESORD
+2 Cotação de Vendas=TEMPLATE_QUOTE
+2 Fatura de Serviços=TEMPLATE_HINVOICE
+2 Cartão de ponto=TEMPLATE_TIMECARD
+2 Relatório de Despesas de Viagem=TEMPLATE_TRAVELEX
+2 Planejador de férias=TEMPLATE_VACATION_PLANNER
+;1 Purchasing Additional Templates
+;2 TidalWave Press = TEMPLATE_ORDERING_INFO@QPWTEMPL.HLP>TOPICS

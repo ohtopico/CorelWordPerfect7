@@ -1,0 +1,7 @@
+"Person","","-","",""
+"Mother 1 1","m","Person","",""
+"Father 1 1","f","Person","",""
+"Mother 2 1","m","Father 1 1","",""
+"Father 2 1","f","Father 1 1","",""
+"Mother 2 2","m","Mother 1 1","",""
+"Father 2 2","f","Mother 1 1","",""

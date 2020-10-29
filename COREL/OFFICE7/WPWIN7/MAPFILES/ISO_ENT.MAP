@@ -1,0 +1,136 @@
+--
+    File:  ISO_ENT.MAP     (External Entity Mapping File)
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    This external entity mapping file can be used when incorporating
+    ISO 8879 character entity sets in your DTD.  Each set is mapped
+    to a file containing the matching SGML entity declarations from
+    Annex D of ISO 8879.
+    
+    When the resulting LGC file is loaded into WordPerfect for Windows 7
+    by selecting an appropriate SGML Document Type, the entities from each
+    referenced set are added to the SDATA list in the "Text References"
+    dialog.
+--
+
+PUBLIC     "ISO Registration Number 100//CHARSET
+            ECMA-94 Right Part of Latin Alphabet Nr. 1//ESC 2/13 4/1"
+CHARSET     ecma94.set
+
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Latin 1//EN" 
+ENTITIES    isolat1.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Latin 2//EN" 
+ENTITIES    isolat2.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Greek Letters//EN"
+ENTITIES    isogrk1.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Monotoniko Greek//EN"
+ENTITIES    isogrk2.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Russian Cyrillic//EN"
+ENTITIES    isocyr1.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN"
+ENTITIES    isocyr2.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN"
+ENTITIES    isonum.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Diacritical Marks//EN"
+ENTITIES    isodia.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Publishing//EN"
+ENTITIES    isopub.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Box and Line Drawing//EN"
+ENTITIES    isobox.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES General Technical//EN"
+ENTITIES    isotech.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Greek Symbols//EN"
+ENTITIES    isogrk3.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Alternative Greek Symbols//EN"
+ENTITIES    isogrk4.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Math Symbols: Ordinary//EN"
+ENTITIES    isoamso.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Math Symbols: Binary Operators//EN"
+ENTITIES    isoamsb.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Math Symbols: Relations//EN"
+ENTITIES    isoamsr.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Math Symbols: Negated Relations//EN"
+ENTITIES    isoamsn.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Math Symbols: Arrow Relations//EN"
+ENTITIES    isoamsa.ent
+
+PUBLIC     "ISO 8879-1986//ENTITIES Added Math Symbols: Delimiters//EN"
+ENTITIES    isoamsc.ent
+
+
+-- Same entity sets, using the newer ISO naming conventions --
+
+PUBLIC     "ISO 8879:1986//ENTITIES Added Latin 1//EN" 
+ENTITIES    isolat1.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Added Latin 2//EN" 
+ENTITIES    isolat2.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Greek Letters//EN"
+ENTITIES    isogrk1.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Monotoniko Greek//EN"
+ENTITIES    isogrk2.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Russian Cyrillic//EN"
+ENTITIES    isocyr1.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Non-Russian Cyrillic//EN"
+ENTITIES    isocyr2.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN"
+ENTITIES    isonum.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Diacritical Marks//EN"
+ENTITIES    isodia.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Publishing//EN"
+ENTITIES    isopub.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Box and Line Drawing//EN"
+ENTITIES    isobox.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES General Technical//EN"
+ENTITIES    isotech.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Greek Symbols//EN"
+ENTITIES    isogrk3.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Alternative Greek Symbols//EN"
+ENTITIES    isogrk4.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Added Math Symbols: Ordinary//EN"
+ENTITIES    isoamso.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN"
+ENTITIES    isoamsb.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Added Math Symbols: Relations//EN"
+ENTITIES    isoamsr.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Added Math Symbols: Negated Relations//EN"
+ENTITIES    isoamsn.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN"
+ENTITIES    isoamsa.ent
+
+PUBLIC     "ISO 8879:1986//ENTITIES Added Math Symbols: Delimiters//EN"
+ENTITIES    isoamsc.ent

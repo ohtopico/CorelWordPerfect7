@@ -1,0 +1,1726 @@
+[Header]
+CorelVersion=600
+StylesLibraryName="Styles"
+LastUsedName="Styles"
+L0= "Samples"
+L1= "Samples 5"
+L2= "Samples 6"
+L3= "Styles"
+
+
+[Styles]
+LastUsedName="Rain Drops Soft 3C"
+
+;	Version4Styles
+
+T0="Aerial Photography"
+S0='Aerial Photography'
+
+T1="Blend Corners"
+S1='Blend Corners'
+
+T2="Blend Edges"
+S2='Blend Edges'
+
+T3="Cosmic Clouds"
+S3='Cosmic Clouds'
+
+T4="Cosmic Energy"
+S4='Cosmic Energy'
+
+T5="Cosmic Minerals"
+S5='Cosmic Minerals'
+
+T6="Drapes"
+S6='Drapes'
+
+T7="Fiber"
+S7='Fiber'
+
+T8="Flames"
+S8='Flames'
+
+T9="Mineral.Cloudy 2 Colors"
+S9='Mineral.Cloudy 2 Colors'
+
+T10="Mineral.Cloudy 3 Colors"
+S10='Mineral.Cloudy 3 Colors'
+
+T11="Mineral.Cloudy 5 Colors"
+S11='Mineral.Cloudy 5 Colors'
+
+T12="Mineral.Fractal 2 Colors"
+S12='Mineral.Fractal 2 Colors'
+
+T13="Mineral.Fractal 3 Colors"
+S13='Mineral.Fractal 3 Colors'
+
+T14="Mineral.Fractal 5 Colors"
+S14='Mineral.Fractal 5 Colors'
+
+T15="Mineral.Speckled 2 Colors"
+S15='Mineral.Speckled 2 Colors'
+
+T16="Mineral.Speckled 3 Colors"
+S16='Mineral.Speckled 3 Colors'
+
+T17="Mineral.Speckled 5 Colors"
+S17='Mineral.Speckled 5 Colors'
+
+T18="Mineral.Swirled 2 Colors"
+S18='Mineral.Swirled 2 Colors'
+
+T19="Mineral.Swirled 3 Colors"
+S19='Mineral.Swirled 3 Colors'
+
+T20="Mineral.Swirled 5 Colors"
+S20='Mineral.Swirled 5 Colors'
+
+T21="Noise"
+S21='Noise'
+
+T22="Noise.Blended"
+S22='Noise.Blended'
+
+T23="Noise.Rainbow Blended"
+S23='Noise.Rainbow Blended'
+
+T24="Recycled Paper"
+S24='Recycled Paper'
+
+T25="Recycled Paper Rainbow"
+S25='Recycled Paper Rainbow'
+
+T26="Satellite Photography"
+S26='Satellite Photography'
+
+T27="Scribbles"
+S27='Scribbles'
+
+T28="Sky 2 Colors"
+S28='Sky 2 Colors'
+
+T29="Sky 3 Colors"
+S29='Sky 3 Colors'
+
+T30="Sky 5 Colors"
+S30='Sky 5 Colors'
+
+T31="Smooth Weave"
+S31='Smooth Weave'
+
+T32="Surfaces"
+S32='Surfaces'
+
+T33="Swirls"
+S33='Swirls'
+
+T34="Swirls2"
+S34='Swirls2'
+
+T35="Texture Blend Horizontal"
+S35='Texture Blend Horizontal'
+
+T36="Texture Blend Vertical"
+S36='Texture Blend Vertical'
+
+T37="Threads"
+S37='Threads'
+
+T38="Threads Rainbow"
+S38='Threads Rainbow'
+
+T39="Water 2 Colors"
+S39='Water 2 Colors'
+
+T40="Water 3 Colors"
+S40='Water 3 Colors'
+
+T41="Water 5 Colors"
+S41='Water 5 Colors'
+
+T42="Water Color"
+S42='Water Color'
+
+;	Version5Styles
+
+T43="Biology1 2C"
+S43='Cdr5:Biology1 2C'
+
+T44="Biology1 3C"
+S44='Cdr5:Biology1 3C'
+
+T45="Biology1 5C"
+S45='Cdr5:Biology1 5C'
+
+T46="Biology2 2C"
+S46='Cdr5:Biology2 2C'
+
+T47="Biology2 3C"
+S47='Cdr5:Biology2 3C'
+
+T48="Biology2 5C"
+S48='Cdr5:Biology2 5C'
+
+T49="BubbleMania Hard 2C"
+S49='Cdr5:BubbleMania Hard 2C'
+
+T50="BubbleMania Hard 3C"
+S50='Cdr5:BubbleMania Hard 3C'
+
+T51="BubbleMania Soft 2C"
+S51='Cdr5:BubbleMania Soft 2C'
+
+T52="BubbleMania Soft 3C"
+S52='Cdr5:BubbleMania Soft 3C'
+
+T53="Cotton 2C"
+S53='Cdr5:Cotton 2C'
+
+T54="Cotton 3C"
+S54='Cdr5:Cotton 3C'
+
+T55="Cotton 5C"
+S55='Cdr5:Cotton 5C'
+
+T56="Eclipse 2 Colors"
+S56='Cdr5:Eclipse 2 Colors'
+
+T57="Fiber Embossed"
+S57='Cdr5:Fiber Embossed'
+
+T58="Hypnotic1 2 Colors"
+S58='Cdr5:Hypnotic1 2 Colors'
+
+T59="Hypnotic2 2 Colors"
+S59='Cdr5:Hypnotic2 2 Colors'
+
+T60="Leather 2C"
+S60='Cdr5:Leather 2C'
+
+T61="Leather 3C"
+S61='Cdr5:Leather 3C'
+
+T62="Leather 5C"
+S62='Cdr5:Leather 5C'
+
+T63="Mandel0"
+S63='Cdr5:Mandel0'
+
+T64="Patches 2C"
+S64='Cdr5:Patches 2C'
+
+T65="Patches 3C"
+S65='Cdr5:Patches 3C'
+
+T66="Patches 5C"
+S66='Cdr5:Patches 5C'
+
+T67="Pottery Wheel 2 Colors"
+S67='Cdr5:Pottery Wheel 2 Colors'
+
+T68="Putty 2C"
+S68='Cdr5:Putty 2C'
+
+T69="Putty 3C"
+S69='Cdr5:Putty 3C'
+
+T70="Putty 5C"
+S70='Cdr5:Putty 5C'
+
+T71="Rain Drops Hard 2C"
+S71='Cdr5:Rain Drops Hard 2C'
+
+T72="Rain Drops Hard 3C"
+S72='Cdr5:Rain Drops Hard 3C'
+
+T73="Rain Drops Soft 2C"
+S73='Cdr5:Rain Drops Soft 2C'
+
+T74="Rain Drops Soft 3C"
+S74='Cdr5:Rain Drops Soft 3C'
+
+T75="Rings Hard 2C"
+S75='Cdr5:Rings Hard 2C'
+
+T76="Rings Hard 3C"
+S76='Cdr5:Rings Hard 3C'
+
+T77="Rings Soft 2C"
+S77='Cdr5:Rings Soft 2C'
+
+T78="Rings Soft 3C"
+S78='Cdr5:Rings Soft 3C'
+
+T79="Ripples Hard Embossed 2C"
+S79='Cdr5:Ripples Hard Embossed 2C'
+
+T80="Ripples Soft Embossed 2C"
+S80='Cdr5:Ripples Soft Embossed 2C'
+
+T81="Rock-Cloudy-Cracked 2C"
+S81='Cdr5:Rock-Cloudy-Cracked 2C'
+
+T82="Rock-Cloudy-Eroded. 2C"
+S82='Cdr5:Rock-Cloudy-Eroded 2C'
+
+T83="Rock-Fractal-Cracked 2C"
+S83='Cdr5:Rock-Fractal-Cracked 2C'
+
+T84="Rock-Fractal-Eroded. 2C"
+S84='Cdr5:Rock-Fractal-Eroded 2C'
+
+T85="Rock-Speckled-Cracked 2C"
+S85='Cdr5:Rock-Speckled-Cracked 2C'
+
+T86="Rock-Speckled-Eroded. 2C"
+S86='Cdr5:Rock-Speckled-Eroded 2C'
+
+T87="Rock-Swirled-Cracked 2C"
+S87='Cdr5:Rock-Swirled-Cracked 2C'
+
+T88="Rock-Swirled-Eroded. 2C"
+S88='Cdr5:Rock-Swirled-Eroded 2C'
+
+T89="Scribbles Embossed"
+S89='Cdr5:Scribbles Embossed'
+
+T90="Spots Hard 2C"
+S90='Cdr5:Spots Hard 2C'
+
+T91="Spots Hard 3C"
+S91='Cdr5:Spots Hard 3C'
+
+T92="Spots Soft 2C"
+S92='Cdr5:Spots Soft 2C'
+
+T93="Spots Soft 3C"
+S93='Cdr5:Spots Soft 3C'
+
+T94="Surfaces 3C"
+S94='Cdr5:Surfaces 3C'
+
+T95="Surfaces 5C"
+S95='Cdr5:Surfaces 5C'
+
+T96="Surfaces-Rainbow"
+S96='Cdr5:Surfaces-Rainbow'
+
+T97="Surfaces1 2C"
+S97='Cdr5:Surfaces1 2C'
+
+T98="Surfaces1 3C"
+S98='Cdr5:Surfaces1 3C'
+
+T99="Surfaces1 5C"
+S99='Cdr5:Surfaces1 5C'
+
+T100="Swirls2 Horizontal"
+S100='Cdr5:Swirls2 Horizontal'
+
+T101="Threads Embossed"
+S101='Cdr5:Threads Embossed'
+
+T102="Vapor 2C"
+S102='Cdr5:Vapor 2C'
+
+T103="Vapor 3C"
+S103='Cdr5:Vapor 3C'
+
+T104="Vapor 5C"
+S104='Cdr5:Vapor 5C'
+
+T105="Water Color2 2C"
+S105='Cdr5:Water Color2 2C'
+
+T106="Water Color2 3C"
+S106='Cdr5:Water Color2 3C'
+
+T107="Water Color2 5C"
+S107='Cdr5:Water Color2 5C'
+
+
+;	Verion4Styles
+
+
+[.Aerial Photography]
+P0=NUM,"Texture #:",0,0,0,32767,26228,1
+P1=NUM,"Softness %:",1,0,0,100,50,0
+P2=RGB,"Background:",0,1,0,100,0,0,40,0
+P3=RGB,"Foreground:",1,1,0,100,100,100,100,0
+P4=NUM,"Brightness ±%:",2,0,-100,+100,0,0
+F0="",25,P0,P1,P2,P3,P4
+
+
+[.Blend Corners]
+P0=RGB,"Top left:",0,1,0,100,0,100,0,1
+P1=RGB,"Top right:",1,1,0,100,0,0,0,1
+P2=RGB,"Bottom left:",2,1,0,100,100,0,0,1
+P3=RGB,"Bottom right:",3,1,0,100,0,0,100,1
+P4=NUM,"Brightness ±%:",0,0,-100,+100,0,0
+F0="",5,P2,P3,P1,P0,P4
+
+
+[.Blend Edges]
+P0=RGB,"Top edge:",0,1,0,100,0,0,100,1
+P1=RGB,"Bottom edge:",1,1,0,100,100,0,0,1
+P2=RGB,"Left edge:",2,1,0,100,0,0,0,1
+P3=RGB,"Right edge:",3,1,0,100,100,100,100,1
+P4=NUM,"Brightness ±%:",0,0,-100,+100,0,0
+F0="",6,P1,P3,P0,P2,P4
+
+
+[.Cosmic Clouds]
+P0=NUM,"Texture #:",0,0,0,32767,24169,1
+P1=NUM,"Density %:",4,0,0,100,0,0
+P2=NUM,"Red softness %:",1,0,0,100,50,0
+P3=NUM,"Green softness %:",2,0,0,100,50,0
+P4=NUM,"Blue softness %:",3,0,0,100,50,0
+P5=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",8,P0,P1,P2,P3,P4,P5
+
+
+[.Cosmic Energy]
+P0=NUM,"Texture #:",0,0,0,32767,32439,1
+P1=RGB,"Top left:",0,1,0,100,26,8,11,1
+P2=RGB,"Top right:",1,1,0,100,74,16,61,1
+P3=RGB,"Bottom left:",2,1,0,100,80,64,75,1
+P4=RGB,"Bottom right:",3,1,0,100,24,44,44,1
+P5=RGB,"Low energy:",4,1,0,100,100,100,100,0
+P6=RGB,"High energy:",5,1,0,100,100,100,100,0
+P7=NUM,"Brightness ±%:",1,0,-100,+100,0,0
+F0="",14,P0,P3,P4,P2,P1,P5,P6,P7
+
+
+[.Cosmic Minerals]
+P0=NUM,"Texture #:",0,0,0,32767,31395,1
+P1=NUM,"Red density %:",1,1,0,100,100,0
+P2=NUM,"Red softness %:",1,0,0,100,100,0
+P3=NUM,"Green density %:",2,1,0,100,0,0
+P4=NUM,"Green softness %:",2,0,0,100,100,0
+P5=NUM,"Blue density %:",3,1,0,100,0,0
+P6=NUM,"Blue softness %:",3,0,0,100,100,0
+P7=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",49,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Drapes]
+P0=NUM,"Texture #:",0,0,0,32767,10894,1
+P1=NUM,"Density %:",1,0,0,100,50,0
+P2=RGB,"1st color:",0,1,0,100,43,1,0,0
+P3=RGB,"2nd color:",1,1,0,100,100,100,80,0
+P4=NUM,"Brightness ±%:",2,0,-100,+100,0,0
+F0="",37,P0,P1,P2,P3,P4
+
+
+[.Fiber]
+P0=NUM,"Texture #:",0,0,0,32767,0,1
+P1=NUM,"Density %:",1,0,1,100,25,0
+P2=NUM,"Min length:",2,0,1,500,10,0
+P3=NUM,"Max length:",3,0,1,500,20,0
+P4=RGB,"Background:",0,1,0,100,0,0,0,1
+P5=RGB,"1st color:",1,1,0,100,100,0,0,1
+P6=RGB,"2nd color:",2,1,0,100,100,100,100,1
+P7=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",10,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Flames]
+P0=NUM,"Texture #:",0,0,0,32767,15813,1
+P1=NUM,"Density %:",1,0,0,100,50,0
+P2=RGB,"1st color:",0,1,0,100,100,0,0,0
+P3=RGB,"2nd color:",1,1,0,100,100,100,40,0
+P4=NUM,"Brightness ±%:",2,0,-100,+100,0,0
+F0="",19,P0,P1,P2,P3,P4
+
+
+[.Mineral.Cloudy 2 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,15657,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,65,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,40,20,20,0
+P6=RGB,"2nd mineral:",1,1,0,100,100,100,80,0
+P7=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",46,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Mineral.Cloudy 3 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,1659,1
+P1=NUM,"Density %:",2,0,0,100,50,0
+P2=NUM,"Softness %:",1,0,0,100,65,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,27,78,54,0
+P6=RGB,"2nd mineral:",1,1,0,100,18,1,8,0
+P7=RGB,"3rd mineral:",2,1,0,100,100,99,19,0
+P8=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",47,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Mineral.Cloudy 5 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,8003,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,25,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,0,0,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,89,34,6,0
+P7=RGB,"3rd mineral:",2,1,0,100,40,20,20,0
+P8=RGB,"4th mineral:",3,1,0,100,0,20,20,0
+P9=RGB,"5th mineral:",4,1,0,100,40,20,20,0
+P10=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",48,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Mineral.Fractal 2 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,19702,1
+P1=NUM,"Density %:",2,0,0,100,12,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Color density %:",4,0,0,100,50,0
+P4=NUM,"Color softness %:",3,0,0,100,100,0
+P5=RGB,"1st mineral:",0,1,0,100,20,20,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,100,100,100,0
+P7=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",53,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Mineral.Fractal 3 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,4530,1
+P1=NUM,"Density %:",2,0,0,100,12,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Color density %:",4,0,0,100,50,0
+P4=NUM,"Color softness %:",3,0,0,100,100,0
+P5=RGB,"1st mineral:",0,1,0,100,57,90,92,0
+P6=RGB,"2nd mineral:",1,1,0,100,10,12,82,0
+P7=RGB,"3rd mineral:",2,1,0,100,100,60,100,0
+P8=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",54,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Mineral.Fractal 5 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,3616,1
+P1=NUM,"Density %:",2,0,0,100,12,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Color density %:",4,0,0,100,50,0
+P4=NUM,"Color softness %:",3,0,0,100,100,0
+P5=RGB,"1st mineral:",0,1,0,100,80,40,20,0
+P6=RGB,"2nd mineral:",1,1,0,100,51,48,84,0
+P7=RGB,"3rd mineral:",2,1,0,100,47,22,35,0
+P8=RGB,"4th mineral:",3,1,0,100,95,81,74,0
+P9=RGB,"5th mineral:",4,1,0,100,36,13,84,0
+P10=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",55,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Mineral.Speckled 2 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,5499,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,25,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,40,20,20,0
+P6=RGB,"2nd mineral:",1,1,0,100,80,60,20,0
+P7=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",43,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Mineral.Speckled 3 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,29794,1
+P1=NUM,"Density %:",2,0,0,100,50,0
+P2=NUM,"Softness %:",1,0,0,100,25,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,40,40,80,0
+P6=RGB,"2nd mineral:",1,1,0,100,0,0,60,0
+P7=RGB,"3rd mineral:",2,1,0,100,60,80,80,0
+P8=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",44,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Mineral.Speckled 5 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,7511,1
+P1=NUM,"Density %:",2,0,0,100,50,0
+P2=NUM,"Softness %:",1,0,0,100,40,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,0,0,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,60,40,20,0
+P7=RGB,"3rd mineral:",2,1,0,100,0,0,0,0
+P8=RGB,"4th mineral:",3,1,0,100,30,30,30,0
+P9=RGB,"5th mineral:",4,1,0,100,0,0,0,0
+P10=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",45,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Mineral.Swirled 2 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,24710,1
+P1=NUM,"Density %:",2,0,0,100,50,0
+P2=NUM,"Softness %:",1,0,0,100,54,0
+P3=NUM,"Grain %:",3,0,0,100,3,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,3,0
+P5=RGB,"1st mineral:",0,1,0,100,40,20,20,0
+P6=RGB,"2nd mineral:",1,1,0,100,80,100,80,0
+P7=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",29,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Mineral.Swirled 3 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,27709,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,8,0
+P5=RGB,"1st mineral:",0,1,0,100,80,50,60,0
+P6=RGB,"2nd mineral:",1,1,0,100,50,50,90,0
+P7=RGB,"3rd mineral:",2,1,0,100,60,50,40,0
+P8=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",30,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Mineral.Swirled 5 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,27299,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,60,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,8,0
+P5=RGB,"1st mineral:",0,1,0,100,0,0,40,0
+P6=RGB,"2nd mineral:",1,1,0,100,100,100,100,0
+P7=RGB,"3rd mineral:",2,1,0,100,18,34,42,0
+P8=RGB,"4th mineral:",3,1,0,100,100,100,100,0
+P9=RGB,"5th mineral:",4,1,0,100,0,0,0,0
+P10=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",31,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Noise]
+P0=NUM,"Texture #:",0,0,0,32767,0,1
+P1=RGB,"Noise:",0,1,0,100,20,60,40,1
+P2=NUM,"Brightness ±%:",1,0,-100,+100,0,0
+F0="",2,P0,P1,P2
+
+
+[.Noise.Blended]
+P0=NUM,"Texture #:",0,0,0,32767,0,1
+P1=RGB,"Background:",0,1,0,100,0,0,0,1
+P2=RGB,"Foreground:",1,1,0,100,100,100,100,1
+P3=NUM,"Brightness ±%:",1,0,-100,+10,0,0
+F0="",3,P0,P1,P2,P3
+
+
+[.Noise.Rainbow Blended]
+P0=NUM,"Texture #:",0,0,0,32767,44,1
+P1=RGB,"Background:",0,1,0,100,0,0,0,1
+P2=RGB,"Foreground:",1,1,0,100,100,100,100,1
+P3=NUM,"Brightness ±%:",1,0,-100,+100,0,0
+F0="",1,P0,P1,P2,P3
+
+
+[.Recycled Paper]
+P0=NUM,"Texture #:",0,0,0,32767,1,1
+P1=NUM,"",1000
+P2=NUM,"",1
+P3=NUM,"",5
+P4=RGB,"Paper:",0,1,0,100,70,70,70,0
+P5=RGB,"1st fiber:",1,1,0,100,50,50,50,0
+P6=RGB,"2nd fiber:",2,1,0,100,80,80,80,0
+P7=NUM,"Brightness ±%:",1,0,-100,+100,0,0
+F0="",7,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Recycled Paper Rainbow]
+P0=NUM,"Texture #:",0,0,0,32767,0,1
+P1=NUM,"",1000
+P2=NUM,"",1
+P3=NUM,"",5
+P4=RGB,"Paper:",0,1,0,100,70,70,70,0
+P5=RGB,"1st fiber:",1,1,0,100,50,50,50,0
+P6=RGB,"2nd fiber:",2,1,0,100,80,80,80,0
+P7=NUM,"Brightness ±%:",1,0,-100,+100,0,0
+F0="",23,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Satellite Photography]
+P0=NUM,"Landscape #:",0,0,0,32767,25391,1
+P1=NUM,"Softness %:",1,0,0,100,35,0
+P2=NUM,"Cloud %:",2,0,0,100,75,0
+P3=NUM,"Cloud #:",3,0,0,32767,16317,1
+P4=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+P5=NUM,"Cloud softness %:",4,0,0,100,50,0
+P6=RGB,"Lower water:",0,1,0,100,0,0,40,0
+P7=RGB,"Upper water:",1,1,0,100,0,0,100,0
+P8=RGB,"Lower land:",2,1,0,100,60,60,40,0
+P9=RGB,"Upper land:",3,1,0,100,60,40,20,0
+P10=RGB,"Lower vegetation:",4,1,0,100,0,20,20,0
+P11=RGB,"Upper vegetation:",5,1,0,100,0,60,20,0
+F0="",26,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Scribbles]
+P0=NUM,"Texture #:",0,0,0,32767,14430,0
+P1=NUM,"Strokes per char:",1,0,1,10,5,0
+P2=NUM,"Line density %:",2,0,1,100,90,1
+P3=NUM,"Page density %:",3,0,1,100,75,1
+P4=RGB,"Paper:",0,1,0,100,100,100,100,0
+P5=RGB,"Ink:",1,1,0,100,40,20,20,0
+P6=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",38,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Sky 2 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,28644,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=RGB,"Sky:",0,1,0,100,0,0,100,0
+P4=RGB,"Clouds:",1,1,0,100,100,100,100,0
+P5=NUM,"Brightness ±%:",3,0,-100,+100,0,0
+F0="",13,P0,P1,P2,P3,P4,P5
+
+
+[.Sky 3 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,2,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=RGB,"Sky:",0,1,0,100,00,0,100,0
+P4=RGB,"Atmosphere:",1,1,0,100,80,60,80,0
+P5=RGB,"Clouds:",2,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",3,0,-100,+100,0,0
+F0="",27,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Sky 5 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,24873,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=RGB,"Lower sky:",0,1,0,100,0,0,100,0
+P4=RGB,"Upper sky:",1,1,0,100,80,80,100,0
+P5=RGB,"Atmosphere:",2,1,0,100,60,60,100,0
+P6=RGB,"Lower cloud:",3,1,0,100,40,60,100,0
+P7=RGB,"Upper cloud:",4,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",3,0,-100,+100,0,0
+F0="",28,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Smooth Weave]
+P0=NUM,"Texture #:",0,0,0,32767,6224,1
+P1=NUM,"Density %:",1,0,0,100,25,0
+P2=RGB,"1st color:",0,1,0,100,100,0,50,0
+P3=RGB,"2nd color:",1,1,0,100,100,100,100,0
+P4=NUM,"Brightness ±%:",2,0,-100,+100,0,0
+F0="",39,P0,P1,P2,P3,P4
+
+
+[.Surfaces]
+P0=NUM,"Texture #:",0,0,0,32767,7767,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,42,0
+P3=NUM,"Eastern light:",3,0,-100,100,-27,1
+P4=NUM,"Northern light:",4,0,-100,100,28,1
+P5=NUM,"Volume %:",5,0,0,100,12,0
+P6=RGB,"Shade:",0,1,0,100,0,0,40,0
+P7=RGB,"Light:",1,1,0,100,100,80,80,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",59,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Swirls]
+P0=NUM,"Texture #:",0,0,0,32767,17323,1
+P1=NUM,"Density %:",1,0,0,100,9,0
+P2=RGB,"1st color:",0,1,0,100,0,0,40,0
+P3=RGB,"2nd color:",1,1,0,100,100,100,100,0
+P4=NUM,"Brightness ±%:",2,0,-100,+100,0,0
+F0="",35,P0,P1,P2,P3,P4
+
+
+[.Swirls2]
+P0=NUM,"Texture #:",0,0,0,32767,3761,1
+P1=NUM,"Density %:",1,0,0,100,20,0
+P2=RGB,"1st color:",0,1,0,100,80,100,80,0
+P3=RGB,"2nd color:",1,1,0,100,40,0,40,0
+P4=NUM,"Brightness ±%:",2,0,-100,+100,0,0
+F0="",36,P0,P1,P2,P3,P4
+
+
+[.Texture Blend Horizontal]
+P0=NUM,"Texture #:",0,0,0,32767,13211,1
+P1=RGB,"Background:",0,1,0,100,80,93,81,1
+P2=RGB,"Foreground:",1,1,0,100,11,31,64,1
+P3=NUM,"Brightness ±%:",1,0,-100,+100,0,0
+F0="",60,P0,P1,P2,P3
+
+
+[.Texture Blend Vertical]
+P0=NUM,"Texture #:",0,0,0,32767,7862,1
+P1=RGB,"Background:",0,1,0,100,34,0,1,1
+P2=RGB,"Foreground:",1,1,0,100,91,70,50,1
+P3=NUM,"Brightness ±%:",1,0,-100,+100,0,0
+F0="",61,P0,P1,P2,P3
+
+
+[.Threads]
+P0=NUM,"Texture #:",0,0,0,32767,0,1
+P1=NUM,"Density %:",1,0,1,100,5,0
+P2=NUM,"Min length:",2,0,0,32767,1,0
+P3=NUM,"Max length:",3,0,0,32767,100,0
+P4=RGB,"Background:",0,1,0,100,0,0,40,0
+P5=RGB,"1st color:",1,1,0,100,0,20,60,0
+P6=RGB,"2nd color:",2,1,0,100,100,100,100,0
+P7=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",7,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Threads Rainbow]
+P0=NUM,"Texture #:",0,0,0,32767,0,1
+P1=NUM,"Density %:",1,0,1,100,5,0
+P2=NUM,"Min length:",2,0,0,32767,1,0
+P3=NUM,"Max length:",3,0,0,32767,100,0
+P4=RGB,"Background:",0,1,0,100,0,0,40,0
+P5=RGB,"1st color:",1,1,0,100,0,20,60,0
+P6=RGB,"2nd color:",2,1,0,100,100,100,100,0
+P7=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",23,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Water 2 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,25212,1
+P1=NUM,"Waves density %:",2,0,0,100,25,0
+P2=NUM,"Waves softness %:",1,0,0,100,60,0
+P3=NUM,"Perspective %:",3,0,0,100,75,0
+P4=RGB,"Bottom:",0,1,0,100,0,0,40,0
+P5=RGB,"Surface:",1,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",40,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Water 3 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,20527,1
+P1=NUM,"Waves density %:",2,0,0,100,25,0
+P2=NUM,"Waves softness %:",1,0,0,100,50,0
+P3=NUM,"Perspective %:",3,0,0,100,75,0
+P4=RGB,"Bottom:",0,1,0,100,0,20,60,0
+P5=RGB,"Middle:",1,1,0,100,0,80,100,0
+P6=RGB,"Surface:",2,1,0,100,100,100,100,0
+P7=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",41,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Water 5 Colors]
+P0=NUM,"Texture #:",0,0,0,32767,18173,1
+P1=NUM,"Waves density %:",2,0,0,100,47,0
+P2=NUM,"Waves softness %:",1,0,0,100,60,0
+P3=NUM,"Perspective %:",3,0,0,100,60,0
+P4=RGB,"Bottom:",0,1,0,100,0,0,40,0
+P5=RGB,"Bottom middle:",1,1,0,100,0,20,60,0
+P6=RGB,"Middle:",2,1,0,100,0,80,100,0
+P7=RGB,"Surface middle:",3,1,0,100,60,100,100,0
+P8=RGB,"Surface:",4,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",42,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Water Color]
+P0=NUM,"Texture #:",0,0,0,32767,2509,1
+P1=RGB,"Top left:",0,1,0,100,40,40,80,1
+P2=RGB,"Top right:",1,1,0,100,60,100,100,1
+P3=RGB,"Bottom left:",2,1,0,100,100,0,0,1
+P4=RGB,"Bottom right:",3,1,0,100,100,100,0,1
+P5=NUM,"Brightness ±%:",1,0,-100,+100,0,0
+F0="",11,P0,P3,P4,P2,P1,P5
+
+
+;	Verion5Styles
+
+
+[.Cdr5:Biology1 2C]
+P0=NUM,"Texture #:",0,0,0,32767,5823,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,0,0,40,0
+P4=RGB,"Light:",1,1,0,100,100,100,100,0
+P5=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",203,P0,P1,P2,P3,P4,P5
+
+
+[.Cdr5:Biology1 3C]
+P0=NUM,"Texture #:",0,0,0,32767,5823,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,0,0,0,0
+P4=RGB,"Mid-shade:",1,1,0,100,40,40,80,0
+P5=RGB,"Light:",2,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",204,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Cdr5:Biology1 5C]
+P0=NUM,"Texture #:",0,0,0,32767,5823,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,0,0,0,0
+P4=RGB,"Lower shade:",1,1,0,100,60,20,40,0
+P5=RGB,"Mid-shade:",2,1,0,100,40,60,60,0
+P6=RGB,"Upper shade:",3,1,0,100,80,100,80,0
+P7=RGB,"Light:",4,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",205,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Biology2 2C]
+P0=NUM,"Texture #:",0,0,0,32767,5823,1
+P1=NUM,"Density %:",2,0,0,100,12,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,100,0,0,0
+P4=RGB,"Light:",1,1,0,100,100,100,100,0
+P5=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",206,P0,P1,P2,P3,P4,P5
+
+
+[.Cdr5:Biology2 3C]
+P0=NUM,"Texture #:",0,0,0,32767,5823,1
+P1=NUM,"Density %:",2,0,0,100,12,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,0,0,0,0
+P4=RGB,"Mid-shade:",1,1,0,100,100,0,0,0
+P5=RGB,"Light:",2,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",207,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Cdr5:Biology2 5C]
+P0=NUM,"Texture #:",0,0,0,32767,5823,1
+P1=NUM,"Density %:",2,0,0,100,12,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,0,0,0,0
+P4=RGB,"Lower shade:",1,1,0,100,20,0,0,0
+P5=RGB,"Mid-shade:",2,1,0,100,40,0,0,0
+P6=RGB,"Upper shade:",3,1,0,100,80,0,0,0
+P7=RGB,"Light:",4,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",208,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:BubbleMania Hard 2C]
+P0=NUM,"Texture #:",0,0,0,32767,21435,1
+P1=NUM,"# of bubbles:",1,0,1,500,10,0
+P2=NUM,"Min width %:",2,0,0,100,25,0
+P3=NUM,"Max width %:",3,0,0,100,50,0
+P4=NUM,"Min height %:",4,0,0,100,0,0
+P5=NUM,"Max height %:",5,0,0,100,100,0
+P6=NUM,"Eastern light ±%:",0,1,-100,100,50,0
+P7=NUM,"Northern light ±%:",1,1,-100,100,50,0
+P8=RGB,"Shade:",2,1,0,100,0,0,40,0
+P9=RGB,"Light:",3,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",160,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+[.Cdr5:BubbleMania Hard 3C]
+P0=NUM,"Texture #:",0,0,0,32767,21435,1
+P1=NUM,"# of bubbles:",1,0,1,500,10,0
+P2=NUM,"Min width %:",2,0,0,100,25,0
+P3=NUM,"Max width %:",3,0,0,100,50,0
+P4=NUM,"Min height %:",4,0,0,100,0,0
+P5=NUM,"Max height %:",5,0,0,100,100,0
+P6=NUM,"Eastern light ±%:",0,1,-100,100,50,0
+P7=NUM,"Northern light ±%:",1,1,-100,100,50,0
+P8=RGB,"Shade:",2,1,0,100,10,50,100,0
+P9=RGB,"Mid-shade:",3,1,0,100,0,0,0,0
+P10=RGB,"Light:",4,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",161,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+[.Cdr5:BubbleMania Soft 2C]
+P0=NUM,"Texture #:",0,0,0,32767,21435,1
+P1=NUM,"# of bubbles:",1,0,1,500,10,0
+P2=NUM,"Min width %:",2,0,0,100,25,0
+P3=NUM,"Max width %:",3,0,0,100,50,0
+P4=NUM,"Min height %:",4,0,0,100,0,0
+P5=NUM,"Max height %:",5,0,0,100,100,0
+P6=NUM,"Eastern light ±%:",0,1,-100,100,50,0
+P7=NUM,"Northern light ±%:",1,1,-100,100,50,0
+P8=RGB,"Shade:",2,1,0,100,0,0,40,0
+P9=RGB,"Light:",3,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",162,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+[.Cdr5:BubbleMania Soft 3C]
+P0=NUM,"Texture #:",0,0,0,32767,21435,1
+P1=NUM,"# of bubbles:",1,0,1,500,10,0
+P2=NUM,"Min width %:",2,0,0,100,25,0
+P3=NUM,"Max width %:",3,0,0,100,50,0
+P4=NUM,"Min height %:",4,0,0,100,0,0
+P5=NUM,"Max height %:",5,0,0,100,100,0
+P6=NUM,"Eastern light ±%:",0,1,-100,100,50,0
+P7=NUM,"Northern light ±%:",1,1,-100,100,50,0
+P8=RGB,"Shade:",2,1,0,100,10,50,100,0
+P9=RGB,"Mid-shade:",3,1,0,100,0,0,0,0
+P10=RGB,"Light:",4,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",163,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Cotton 2C]
+P0=NUM,"Texture #:",0,0,0,32767,20448,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,60,0,60,0
+P4=RGB,"Light:",1,1,0,100,100,100,100,0
+P5=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",200,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Cotton 3C]
+P0=NUM,"Texture #:",0,0,0,32767,20448,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,0,0,0,0
+P4=RGB,"Mid-shade:",1,1,0,100,80,40,60,0
+P5=RGB,"Light:",2,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",201,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Cotton 5C]
+P0=NUM,"Texture #:",0,0,0,32767,20448,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=RGB,"Shade:",0,1,0,100,0,0,0,0
+P4=RGB,"Lower shade:",1,1,0,100,60,0,60,0
+P5=RGB,"Mid-shade:",2,1,0,100,80,20,40,0
+P6=RGB,"Upper shade:",3,1,0,100,100,60,40,0
+P7=RGB,"Light:",4,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",202,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Eclipse 2 Colors]
+P0=NUM,"Ripples #:",0,0,0,32767,24169,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"X origin ±%:",3,0,-100,100,0,0
+P4=NUM,"Y origin ±%:",4,0,-100,100,0,0
+P5=NUM,"Origin phase ±%:",5,0,-100,+100,0,0
+P6=RGB,"Bottom:",0,1,0,100,0,0,0,0
+P7=RGB,"Surface:",1,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",2,1,-100,+100,0,0
+F0="",106,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Fiber Embossed]
+P0=NUM,"Texture #:",0,0,0,32767,0,1
+P1=NUM,"Density %:",1,0,1,100,5,0
+P2=NUM,"Min length:",2,0,1,500,1,0
+P3=NUM,"Max length:",3,0,1,500,50,0
+P4=NUM,"Eastern light ±%:",2,1,-100,100,100,1
+P5=NUM,"Northern light ±%:",3,1,-100,100,100,1
+P6=NUM,"Volume %:",4,1,0,100,0,0
+P7=NUM,"Relief ±%:",4,0,-100,100,100,1
+P8=RGB,"Shade:",0,1,0,100,0,0,40,0
+P9=RGB,"Light:",1,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",118,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Cdr5:Hypnotic1 2 Colors]
+P0=NUM,"Ripples #:",0,0,0,32767,24169,1
+P1=NUM,"Ripples density %:",2,0,0,100,12,0
+P2=NUM,"Freq. softness %:",1,0,0,100,50,0
+P3=NUM,"X origin ±%:",3,0,-100,100,0,0
+P4=NUM,"Y origin ±%:",4,0,-100,100,0,0
+P5=NUM,"Origin phase ±%:",5,0,-100,+100,0,0
+P6=RGB,"Bottom:",0,1,0,100,0,0,0,0
+P7=RGB,"Surface:",1,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",2,1,-100,+100,0,0
+F0="",112,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Hypnotic2 2 Colors]
+P0=NUM,"Density %:",0,0,0,100,12,1
+P1=NUM,"X origin ±%:",1,0,-100,100,0,0
+P2=NUM,"Y origin ±%:",2,0,-100,100,0,0
+P3=NUM,"Origin phase ±%:",3,0,-100,+100,0,0
+P4=RGB,"Bottom:",0,1,0,100,0,0,0,0
+P5=RGB,"Surface:",1,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",100,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Cdr5:Leather 2C]
+P0=NUM,"Texture #:",0,0,0,32767,13266,1
+P1=NUM,"Density %:",2,0,0,100,50,0
+P2=NUM,"Softness %:",1,0,0,100,60,0
+P3=NUM,"Eastern light ±%:",3,0,-100,100,60,0
+P4=NUM,"Northern light ±%:",4,0,-100,100,60,0
+P5=NUM,"Volume %:",5,0,0,100,0,0
+P6=RGB,"Shade:",0,1,0,100,40,20,20,0
+P7=RGB,"Light:",1,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",191,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Leather 3C]
+P0=NUM,"Texture #:",0,0,0,32767,13266,1
+P1=NUM,"Density %:",2,0,0,100,50,0
+P2=NUM,"Softness %:",1,0,0,100,60,0
+P3=NUM,"Eastern light ±%:",3,0,-100,100,60,0
+P4=NUM,"Northern light ±%:",4,0,-100,100,60,0
+P5=NUM,"Volume %:",5,0,0,100,0,0
+P6=RGB,"Shade:",0,1,0,100,0,0,0,0
+P7=RGB,"Mid-shade:",1,1,0,100,40,20,20,0
+P8=RGB,"Light:",2,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",192,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Leather 5C]
+P0=NUM,"Texture #:",0,0,0,32767,13266,1
+P1=NUM,"Density %:",2,0,0,100,50,0
+P2=NUM,"Softness %:",1,0,0,100,60,0
+P3=NUM,"Eastern light ±%:",3,0,-100,100,60,0
+P4=NUM,"Northern light ±%:",4,0,-100,100,60,0
+P5=NUM,"Volume %:",5,0,0,100,0,0
+P6=RGB,"Shade:",0,1,0,100,0,0,0,0
+P7=RGB,"Lower shade:",1,1,0,100,40,20,20,0
+P8=RGB,"Mid-shade:",2,1,0,100,60,40,20,0
+P9=RGB,"Upper shade:",3,1,0,100,80,80,100,0
+P10=RGB,"Light:",4,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",193,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Mandel0]
+P0=NUM,"Texture #:",0,0,0,32767,2060,1
+P1=NUM,"Iterations:",0,1,0,100,20,0
+P2=NUM,"Freq. min. X ±%:",1,0,-100,+100,6,1
+P3=NUM,"Freq. max. X ±%:",1,1,-100,+100,-30,1
+P4=NUM,"Freq. min. Y ±%:",2,0,-100,+100,47,1
+P5=NUM,"Freq. max. Y ±%:",2,1,-100,+100,44,1
+P6=RGB,"Shade:",3,1,0,100,0,0,0,0
+P7=RGB,"Light:",4,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",3,0,-100,+100,0,0
+F0="",170,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Patches 2C]
+P0=NUM,"Texture #:",0,0,0,32767,1612,1
+P1=NUM,"Density %:",2,0,0,100,40,0
+P2=NUM,"Softness %:",1,0,0,100,100,0
+P3=NUM,"Contrast %:",3,0,0,100,75,0
+P4=RGB,"Background:",0,1,0,100,0,0,0,0
+P5=RGB,"Patches:",1,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",180,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Cdr5:Patches 3C]
+P0=NUM,"Texture #:",0,0,0,32767,1612,1
+P1=NUM,"Density %:",2,0,0,100,40,0
+P2=NUM,"Softness %:",1,0,0,100,100,0
+P3=NUM,"Contrast %:",3,0,0,100,50,0
+P4=RGB,"Background:",0,1,0,100,0,0,0,0
+P5=RGB,"Edges:",1,1,0,100,80,10,10,0
+P6=RGB,"Patches:",2,1,0,100,100,100,100,0
+P7=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",181,P0,P1,P2,P3,P4,P5,P6,P7
+
+
+[.Cdr5:Patches 5C]
+P0=NUM,"Texture #:",0,0,0,32767,28644,1
+P1=NUM,"Density %:",2,0,0,100,40,0
+P2=NUM,"Softness %:",1,0,0,100,100,0
+P3=NUM,"Contrast %:",3,0,0,100,25,0
+P4=RGB,"Background:",0,1,0,100,0,0,0,0
+P5=RGB,"Lower edge:",1,1,0,100,40,20,20,0
+P6=RGB,"Middle edge:",2,1,0,100,60,40,20,0
+P7=RGB,"Upper edge:",3,1,0,100,90,90,90,0
+P8=RGB,"Patches:",4,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",182,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Pottery Wheel 2 Colors]
+P0=NUM,"Ripples #:",0,0,0,32767,24169,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"X origin ±%:",3,0,-100,100,0,0
+P4=NUM,"Y origin ±%:",4,0,-100,100,0,0
+P5=NUM,"Origin phase ±%:",5,0,-100,+100,0,0
+P6=NUM,"Eastern light ±%:",2,1,-100,100,100,1
+P7=NUM,"Northern light ±%:",3,1,-100,100,100,1
+P8=NUM,"Volume %:",4,1,0,100,12,0
+P9=RGB,"Shade:",0,1,0,100,0,0,40,0
+P10=RGB,"Light:",1,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",109,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Putty 2C]
+P0=NUM,"Texture #:",0,0,0,32767,26236,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=NUM,"Ripples %:",0,1,0,+100,12,0
+P4=NUM,"Ripple phase ±%:",1,1,-100,+100,0,0
+P5=NUM,"Eastern light ±%:",3,0,-100,100,-99,1
+P6=NUM,"Northern light ±%:",4,0,-100,100,13,1
+P7=NUM,"Volume %:",5,0,0,100,12,0
+P8=RGB,"Shade:",2,1,0,100,20,0,0,0
+P9=RGB,"Light:",3,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",188,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Cdr5:Putty 3C]
+P0=NUM,"Texture #:",0,0,0,32767,26236,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=NUM,"Ripples %:",0,1,0,+100,12,0
+P4=NUM,"Ripple phase ±%:",1,1,-100,+100,0,0
+P5=NUM,"Eastern light ±%:",3,0,-100,100,-99,1
+P6=NUM,"Northern light ±%:",4,0,-100,100,13,1
+P7=NUM,"Volume %:",5,0,0,100,12,0
+P8=RGB,"Shade:",2,1,0,100,0,0,0,0
+P9=RGB,"Mid-shade:",3,1,0,100,40,40,80,0
+P10=RGB,"Light:",4,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",189,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Putty 5C]
+P0=NUM,"Texture #:",0,0,0,32767,26236,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,75,0
+P3=NUM,"Eastern light ±%:",3,0,-100,100,-99,1
+P4=NUM,"Northern light ±%:",4,0,-100,100,13,1
+P5=NUM,"Volume %:",5,0,0,100,12,0
+P6=RGB,"Shade:",0,1,0,100,0,0,0,0
+P7=RGB,"Lower shade:",1,1,0,100,40,20,20,0
+P8=RGB,"Mid shade:",2,1,0,100,50,50,60,0
+P9=RGB,"Upper shade:",3,1,0,100,90,90,90,0
+P10=RGB,"Light:",4,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",190,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rain Drops Hard 2C]
+P0=NUM,"Texture #:",0,0,0,32767,1468,1
+P1=NUM,"# of drops:",1,0,1,100,3,0
+P2=NUM,"Min drop width %:",2,0,0,500,50,0
+P3=NUM,"Max drop width %:",3,0,0,500,300,0
+P4=NUM,"Ripples density %:",5,0,0,100,25,0
+P5=NUM,"Phase offset ±%:",4,0,-100,+100,0,0
+P6=NUM,"Eastern light ±%:",0,1,-100,100,50,0
+P7=NUM,"Northern light ±%:",1,1,-100,100,50,0
+P8=RGB,"Shade:",2,1,0,100,10,10,100,0
+P9=RGB,"Light:",3,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",153,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Cdr5:Rain Drops Soft 2C]
+P0=NUM,"Texture #:",0,0,0,32767,1864,1
+P1=NUM,"# of drops:",1,0,1,100,3,0
+P2=NUM,"Min drop width %:",2,0,0,500,60,0
+P3=NUM,"Max drop width %:",3,0,0,500,300,0
+P4=NUM,"Ripples density %:",5,0,0,100,25,0
+P5=NUM,"Phase offset ±%:",4,0,-100,+100,0,0
+P6=NUM,"Eastern light ±%:",0,1,-100,100,50,0
+P7=NUM,"Northern light ±%:",1,1,-100,100,50,0
+P8=RGB,"Shade:",2,1,0,100,0,20,60,0
+P9=RGB,"Light:",3,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",154,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Cdr5:Rain Drops Hard 3C]
+P0=NUM,"Texture #:",0,0,0,32767,1468,1
+P1=NUM,"# of drops:",1,0,1,100,3,0
+P2=NUM,"Min drop width %:",2,0,0,500,50,0
+P3=NUM,"Max drop width %:",3,0,0,500,300,0
+P4=NUM,"Ripples density %:",5,0,0,100,25,0
+P5=NUM,"Phase offset ±%:",4,0,-100,+100,0,0
+P6=NUM,"Eastern light ±%:",0,1,-100,100,50,0
+P7=NUM,"Northern light ±%:",1,1,-100,100,50,0
+P8=RGB,"Shade:",2,1,0,100,30,44,68,0
+P9=RGB,"Mid-shade:",3,1,0,100,38,26,38,0
+P10=RGB,"Light:",4,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",155,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rain Drops Soft 3C]
+P0=NUM,"Texture #:",0,0,0,32767,12363,1
+P1=NUM,"# of drops:",1,0,1,100,3,0
+P2=NUM,"Min drop width %:",2,0,0,500,50,0
+P3=NUM,"Max drop width %:",3,0,0,500,300,0
+P4=NUM,"Ripples density %:",5,0,0,100,25,0
+P5=NUM,"Phase offset ±%:",4,0,-100,+100,0,0
+P6=NUM,"Eastern light ±%:",0,1,-100,100,50,0
+P7=NUM,"Northern light ±%:",1,1,-100,100,50,0
+P8=RGB,"Shade:",2,1,0,100,10,10,100,0
+P9=RGB,"Mid-shade:",3,1,0,100,0,0,0,0
+P10=RGB,"Light:",4,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",156,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rings Hard 2C]
+P0=NUM,"Texture #:",0,0,0,32767,1468,1
+P1=NUM,"# of rings:",1,0,1,100,3,0
+P2=NUM,"Min ring width %:",2,0,0,500,50,0
+P3=NUM,"Max ring width %:",3,0,0,500,300,0
+P4=NUM,"Ripples density %:",5,0,0,100,25,0
+P5=NUM,"Phase offset ±%:",4,0,-100,+100,0,0
+P6=RGB,"Shade:",0,1,0,100,10,10,100,0
+P7=RGB,"Light:",1,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",212,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Rings Soft 2C]
+P0=NUM,"Texture #:",0,0,0,32767,1864,1
+P1=NUM,"# of rings:",1,0,1,100,3,0
+P2=NUM,"Min ring width %:",2,0,0,500,60,0
+P3=NUM,"Max ring width %:",3,0,0,500,300,0
+P4=NUM,"Ripples density %:",5,0,0,100,25,0
+P5=NUM,"Phase offset ±%:",4,0,-100,+100,0,0
+P6=RGB,"Shade:",0,1,0,100,0,20,60,0
+P7=RGB,"Light:",1,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",213,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Rings Hard 3C]
+P0=NUM,"Texture #:",0,0,0,32767,1468,1
+P1=NUM,"# of rings:",1,0,1,100,3,0
+P2=NUM,"Min ring width %:",2,0,0,500,50,0
+P3=NUM,"Max ring width %:",3,0,0,500,300,0
+P4=NUM,"Ripples density %:",5,0,0,100,25,0
+P5=NUM,"Phase offset ±%:",4,0,-100,+100,0,0
+P6=RGB,"Shade:",0,1,0,100,30,44,68,0
+P7=RGB,"Mid-shade:",1,1,0,100,38,26,38,0
+P8=RGB,"Light:",2,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",214,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Rings Soft 3C]
+P0=NUM,"Texture #:",0,0,0,32767,12363,1
+P1=NUM,"# of rings:",1,0,1,100,3,0
+P2=NUM,"Min ring width %:",2,0,0,500,50,0
+P3=NUM,"Max ring width %:",3,0,0,500,300,0
+P4=NUM,"Ripples density %:",5,0,0,100,25,0
+P5=NUM,"Phase offset ±%:",4,0,-100,+100,0,0
+P6=RGB,"Shade:",0,1,0,100,10,10,100,0
+P7=RGB,"Mid-shade:",1,1,0,100,0,0,0,0
+P8=RGB,"Light:",2,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",215,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Ripples Hard Embossed 2C]
+P0=NUM,"Ripples #:",0,0,0,32767,24169,1
+P1=NUM,"Ripples density %:",2,0,0,100,12,0
+P2=NUM,"Freq. softness %:",1,0,0,100,50,0
+P3=NUM,"X origin ±%:",3,0,-100,100,0,0
+P4=NUM,"Y origin ±%:",4,0,-100,100,0,0
+P5=NUM,"Origin phase ±%:",5,0,-100,+100,0,0
+P6=NUM,"Eastern light ±%:",2,1,-100,100,100,1
+P7=NUM,"Northern light ±%:",3,1,-100,100,100,1
+P8=NUM,"Volume %:",4,1,0,100,12,0
+P9=RGB,"Shade:",0,1,0,100,0,0,40,0
+P10=RGB,"Light:",1,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",115,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Ripples Soft Embossed 2C]
+P0=NUM,"Density %:",0,0,0,100,12,1
+P1=NUM,"X origin ±%:",1,0,-100,100,0,0
+P2=NUM,"Y origin ±%:",2,0,-100,100,0,0
+P3=NUM,"Origin phase ±%:",3,0,-100,+100,0,0
+P4=NUM,"Eastern light ±%:",4,0,-100,100,100,1
+P5=NUM,"Northern light ±%:",5,0,-100,100,100,1
+P6=NUM,"Volume %:",2,1,0,100,12,0
+P7=RGB,"Shade:",0,1,0,100,0,0,40,0
+P8=RGB,"Light:",1,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",3,1,-100,+100,0,0
+F0="",103,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Rock-Cloudy-Cracked 2C]
+P0=NUM,"Texture #:",0,0,0,32767,15657,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,65,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,40,20,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,100,100,80,0
+P7=NUM,"Light intensity %:",2,1,0,100,40,0
+P8=NUM,"Eastern light ±%:",3,1,-100,100,-85,1
+P9=NUM,"Northern light ±%:",4,1,-100,100,38,1
+P10=RGB,"Light:",5,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",133,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rock-Cloudy-Eroded 2C]
+P0=NUM,"Texture #:",0,0,0,32767,15657,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,65,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,40,20,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,100,100,80,0
+P7=NUM,"Light intensity %:",2,1,0,100,40,0
+P8=NUM,"Eastern light ±%:",3,1,-100,100,100,1
+P9=NUM,"Northern light ±%:",4,1,-100,100,-100,1
+P10=RGB,"Light:",5,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",136,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rock-Fractal-Cracked 2C]
+P0=NUM,"Texture #:",0,0,0,32767,19702,1
+P1=NUM,"Density %:",2,0,0,100,12,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Color density %:",4,0,0,100,25,0
+P4=NUM,"Color softness %:",3,0,0,100,50,0
+P5=RGB,"1st mineral:",0,1,0,100,20,20,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,100,100,100,0
+P7=NUM,"Light intensity %:",2,1,0,100,40,0
+P8=NUM,"Eastern light ±%:",3,1,-100,100,-88,1
+P9=NUM,"Northern light ±%:",4,1,-100,100,-91,1
+P10=RGB,"Light:",5,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",139,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rock-Fractal-Eroded 2C]
+P0=NUM,"Texture #:",0,0,0,32767,19702,1
+P1=NUM,"Density %:",2,0,0,100,12,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Color density %:",4,0,0,100,25,0
+P4=NUM,"Color softness %:",3,0,0,100,50,0
+P5=RGB,"1st mineral:",0,1,0,100,20,20,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,100,100,100,0
+P7=NUM,"Light intensity %:",2,1,0,100,40,0
+P8=NUM,"Eastern light ±%:",3,1,-100,100,-88,1
+P9=NUM,"Northern light ±%:",4,1,-100,100,-91,1
+P10=RGB,"Light:",5,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",142,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rock-Speckled-Cracked 2C]
+P0=NUM,"Texture #:",0,0,0,32767,5499,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,25,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,0,0,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,80,60,20,0
+P7=NUM,"Light intensity %:",2,1,0,100,40,0
+P8=NUM,"Eastern light ±%:",3,1,-100,100,-88,1
+P9=NUM,"Northern light ±%:",4,1,-100,100,-91,1
+P10=RGB,"Light:",5,1,0,100,0,100,100,0
+P11=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",127,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rock-Speckled-Eroded 2C]
+P0=NUM,"Texture #:",0,0,0,32767,5499,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,25,0
+P3=NUM,"Grain %:",3,0,0,100,0,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,0,0
+P5=RGB,"1st mineral:",0,1,0,100,0,0,0,0
+P6=RGB,"2nd mineral:",1,1,0,100,80,60,20,0
+P7=NUM,"Light intensity %:",2,1,0,100,40,0
+P8=NUM,"Eastern light ±%:",3,1,-100,100,-88,1
+P9=NUM,"Northern light ±%:",4,1,-100,100,-91,1
+P10=RGB,"Light:",5,1,0,100,0,100,100,0
+P11=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",130,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Rock-Swirled-Cracked 2C]
+P0=NUM,"Texture #:",0,0,0,32767,24710,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Grain %:",3,0,0,100,3,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,3,0
+P5=RGB,"1st mineral:",0,1,0,100,80,80,100,0
+P6=RGB,"2nd mineral:",1,1,0,100,60,100,60,0
+P7=NUM,"Light intensity %:",2,1,0,100,40,0
+P8=NUM,"Eastern light ±%:",3,1,-100,100,66,1
+P9=NUM,"Northern light ±%:",4,1,-100,100,-23,1
+P10=RGB,"Light:",5,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",121,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+[.Cdr5:Rock-Swirled-Eroded 2C]
+P0=NUM,"Texture #:",0,0,0,32767,24710,1
+P1=NUM,"Density %:",2,0,0,100,25,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Grain %:",3,0,0,100,3,0
+P4=NUM,"Rainbow grain %:",4,0,0,100,3,0
+P5=RGB,"1st mineral:",0,1,0,100,80,80,100,0
+P6=RGB,"2nd mineral:",1,1,0,100,60,100,60,0
+P7=NUM,"Light intensity %:",2,1,0,100,40,0
+P8=NUM,"Eastern light ±%:",3,1,-100,100,60,1
+P9=NUM,"Northern light ±%:",4,1,-100,100,23,1
+P10=RGB,"Light:",5,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",124,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Scribbles Embossed]
+P0=NUM,"Texture #:",0,0,0,32767,14430,1
+P1=NUM,"Strokes per char:",1,0,1,10,5,0
+P2=NUM,"Line density %:",2,0,1,100,75,1
+P3=NUM,"Page density %:",3,0,1,100,75,1
+P4=NUM,"Relief ±%:",4,0,-100,100,100,0
+P5=NUM,"Eastern light ±%:",2,1,-100,100,75,1
+P6=NUM,"Northern light ±%:",3,1,-100,100,50,1
+P7=NUM,"Volume %:",4,1,0,100,0,0
+P8=RGB,"Shade:",0,1,0,100,0,20,60,0
+P9=RGB,"Light:",1,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",145,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Cdr5:Spots Hard 2C]
+P0=NUM,"Texture #:",0,0,0,32767,21435,1
+P1=NUM,"# of spots:",1,0,1,500,10,0
+P2=NUM,"Min width %:",2,0,0,100,25,0
+P3=NUM,"Max width %:",3,0,0,100,50,0
+P4=NUM,"Min height %:",4,0,0,100,0,0
+P5=NUM,"Max height %:",5,0,0,100,100,0
+P6=RGB,"Shade:",0,1,0,100,0,0,40,0
+P7=RGB,"Light:",1,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",216,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Spots Hard 3C]
+P0=NUM,"Texture #:",0,0,0,32767,21435,1
+P1=NUM,"# of spots:",1,0,1,500,10,0
+P2=NUM,"Min width %:",2,0,0,100,25,0
+P3=NUM,"Max width %:",3,0,0,100,50,0
+P4=NUM,"Min height %:",4,0,0,100,0,0
+P5=NUM,"Max height %:",5,0,0,100,100,0
+P6=RGB,"Shade:",0,1,0,100,10,50,100,0
+P7=RGB,"Mid-shade:",1,1,0,100,0,0,0,0
+P8=RGB,"Light:",2,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",217,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Spots Soft 2C]
+P0=NUM,"Texture #:",0,0,0,32767,21435,1
+P1=NUM,"# of spots:",1,0,1,500,10,0
+P2=NUM,"Min width %:",2,0,0,100,25,0
+P3=NUM,"Max width %:",3,0,0,100,50,0
+P4=NUM,"Min height %:",4,0,0,100,0,0
+P5=NUM,"Max height %:",5,0,0,100,100,0
+P6=RGB,"Shade:",0,1,0,100,0,0,40,0
+P7=RGB,"Light:",1,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",218,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+
+[.Cdr5:Spots Soft 3C]
+P0=NUM,"Texture #:",0,0,0,32767,21435,1
+P1=NUM,"# of spots:",1,0,1,500,10,0
+P2=NUM,"Min width %:",2,0,0,100,25,0
+P3=NUM,"Max width %:",3,0,0,100,50,0
+P4=NUM,"Min height %:",4,0,0,100,0,0
+P5=NUM,"Max height %:",5,0,0,100,100,0
+P6=RGB,"Shade:",0,1,0,100,10,50,100,0
+P7=RGB,"Mid-shade:",1,1,0,100,0,0,0,0
+P8=RGB,"Light:",2,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",219,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Surfaces 3C]
+P0=NUM,"Texture #:",0,0,0,32767,29,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,42,0
+P3=NUM,"Eastern light ±%:",3,0,-100,100,-27,1
+P4=NUM,"Northern light ±%:",4,0,-100,100,28,1
+P5=NUM,"Volume %:",5,0,0,100,12,0
+P6=RGB,"Shade:",0,1,0,100,0,0,0,0
+P7=RGB,"Mid-shade:",1,1,0,100,40,20,20,0
+P8=RGB,"Light:",2,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",186,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Surfaces 5C]
+P0=NUM,"Texture #:",0,0,0,32767,18419,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Eastern light ±%:",3,0,-100,100,-60,1
+P4=NUM,"Northern light ±%:",4,0,-100,100,54,1
+P5=NUM,"Volume %:",5,0,0,100,0,0
+P6=RGB,"Shade:",0,1,0,100,100,100,100,0
+P7=RGB,"Lower shade:",1,1,0,100,79,63,40,0
+P8=RGB,"Mid-shade:",2,1,0,100,0,0,40,0
+P9=RGB,"Upper shade:",3,1,0,100,60,60,100,0
+P10=RGB,"Light:",4,1,0,100,100,100,100,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",187,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Surfaces-Rainbow]
+P0=NUM,"Texture #:",0,0,0,32767,7767,1
+P1=NUM,"Density %:",4,0,0,100,0,0
+P2=NUM,"Red softness %:",1,0,0,100,50,0
+P3=NUM,"Green softness %:",2,0,0,100,50,0
+P4=NUM,"Blu softness %:",3,0,0,100,50,0
+P5=NUM,"Eastern light ±%:",0,1,-100,100,-27,1
+P6=NUM,"Northern light ±%:",1,1,-100,100,28,1
+P7=NUM,"Volume %:",2,1,0,100,12,0
+P8=RGB,"Shade:",3,1,0,100,0,0,0,0
+P9=RGB,"Light:",4,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",150,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Cdr5:Surfaces1 2C]
+P0=NUM,"Texture #:",0,0,0,32767,15049,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Contrast %:",3,0,0,100,75,0
+P4=NUM,"Eastern light ±%:",2,1,-100,100,100,1
+P5=NUM,"Northern light ±%:",3,1,-100,100,100,1
+P6=NUM,"Volume %:",4,1,0,100,0,0
+P7=RGB,"Shade:",0,1,0,100,0,0,0,0
+P8=RGB,"Light:",1,1,0,100,100,100,100,0
+P9=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",183,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9
+
+
+[.Cdr5:Surfaces1 3C]
+P0=NUM,"Texture #:",0,0,0,32767,17138,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Contrast %:",3,0,0,100,50,0
+P4=NUM,"Eastern light ±%:",3,1,-100,100,-50,1
+P5=NUM,"Northern light ±%:",4,1,-100,100,50,1
+P6=NUM,"Volume %:",5,1,0,100,0,0
+P7=RGB,"Shade:",0,1,0,100,0,0,0,0
+P8=RGB,"Mid-shade:",1,1,0,100,100,0,0,0
+P9=RGB,"Light:",2,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",4,0,-100,+100,0,0
+F0="",184,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Cdr5:Surfaces1 5C]
+P0=NUM,"Texture #:",0,0,0,32767,28644,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=NUM,"Contrast %:",3,0,0,100,25,0
+P4=NUM,"Eastern light ±%:",4,0,-100,100,100,1
+P5=NUM,"Northern light ±%:",5,0,-100,100,100,1
+P6=RGB,"Shade:",0,1,0,100,0,0,0,0
+P7=RGB,"Lower shade:",1,1,0,100,80,40,40,0
+P8=RGB,"Mid-shade:",2,1,0,100,40,20,20,0
+P9=RGB,"Upper shade:",3,1,0,100,100,100,100,0
+P10=RGB,"Light:",4,1,0,100,100,50,50,0
+P11=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",185,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11
+
+
+[.Cdr5:Swirls2 Horizontal]
+P0=NUM,"Texture #:",0,0,0,32767,2641,1
+P1=NUM,"Density %:",1,0,0,100,20,0
+P2=RGB,"1st color:",0,1,0,100,0,20,20,0
+P3=RGB,"2nd color:",1,1,0,100,100,100,100,0
+P4=NUM,"Brightness ±%:",2,0,-100,+100,0,0
+F0="",120,P0,P1,P2,P3,P4
+
+
+[.Cdr5:Threads Embossed]
+P0=NUM,"Texture #:",0,0,0,32767,0,1
+P1=NUM,"Density %:",1,0,1,100,6,0
+P2=NUM,"Min length:",2,0,0,32767,1,0
+P3=NUM,"Max length:",3,0,0,32767,50,0
+P4=NUM,"Eastern light ±%:",2,1,-100,100,82,1
+P5=NUM,"Northern light ±%:",3,1,-100,100,24,1
+P6=NUM,"Volume %:",4,1,0,100,0,0
+P7=NUM,"Relief ±%:",4,0,-100,100,100,1
+P8=RGB,"Shade:",0,1,0,100,0,0,40,0
+P9=RGB,"Light:",1,1,0,100,100,100,100,0
+P10=NUM,"Brightness ±%:",5,0,-100,+100,0,0
+F0="",119,P0,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10
+
+
+[.Cdr5:Vapor 2C]
+P0=NUM,"Texture #:",0,0,0,32767,11257,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=RGB,"Background:",0,1,0,100,0,0,40,0
+P4=RGB,"Vapor:",1,1,0,100,100,100,100,0
+P5=NUM,"Brightness ±%:",3,0,-100,+100,0,0
+F0="",194,P0,P1,P2,P3,P4,P5
+
+
+[.Cdr5:Vapor 3C]
+P0=NUM,"Texture #:",0,0,0,32767,11257,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=RGB,"Background:",0,1,0,100,0,0,40,0
+P4=RGB,"Mid-vapor:",1,1,0,100,80,80,100,0
+P5=RGB,"Vapor:",2,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",3,0,-100,+100,0,0
+F0="",195,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Cdr5:Vapor 5C]
+P0=NUM,"Texture #:",0,0,0,32767,11257,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=RGB,"Background:",0,1,0,100,0,0,40,0
+P4=RGB,"Lower vapor:",1,1,0,100,20,20,60,0
+P5=RGB,"Mid-vapor:",2,1,0,100,80,80,100,0
+P6=RGB,"Upper vapor:",3,1,0,100,80,40,40,0
+P7=RGB,"Vapor:",4,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",3,0,-100,+100,0,0
+F0="",196,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+[.Cdr5:Water Color2 2C]
+P0=NUM,"Texture #:",0,0,0,32767,14117,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=RGB,"Background:",0,1,0,100,60,19,56,0
+P4=RGB,"Foreground:",1,1,0,100,100,100,100,0
+P5=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",197,P0,P1,P2,P3,P4,P5
+
+
+[.Cdr5:Water Color2 3C]
+P0=NUM,"Texture #:",0,0,0,32767,28260,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,50,0
+P3=RGB,"Background:",0,1,0,100,2,71,86,0
+P4=RGB,"Mid-foreground:",1,1,0,100,95,46,59,0
+P5=RGB,"Foreground:",2,1,0,100,100,100,100,0
+P6=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",198,P0,P1,P2,P3,P4,P5,P6
+
+
+[.Cdr5:Water Color2 5C]
+P0=NUM,"Texture #:",0,0,0,32767,21819,1
+P1=NUM,"Density %:",2,0,0,100,0,0
+P2=NUM,"Softness %:",1,0,0,100,60,0
+P3=RGB,"Background:",0,1,0,100,100,100,100,0
+P4=RGB,"Lower foreground:",1,1,0,100,100,0,0,0
+P5=RGB,"Mid-foreground:",2,1,0,100,0,0,100,0
+P6=RGB,"Upper foreground:",3,1,0,100,68,32,65,0
+P7=RGB,"Foreground:",4,1,0,100,100,100,100,0
+P8=NUM,"Brightness ±%:",5,1,-100,+100,0,0
+F0="",199,P0,P1,P2,P3,P4,P5,P6,P7,P8
+
+

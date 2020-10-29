@@ -1,0 +1,31 @@
+--
+    File:  ISOGRK2.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOgrk2 PUBLIC
+       "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+     %ISOgrk2;
+
+  WP #    Name       Text            Description
+--
+  8,53    aacgr     "[aacgr ]"     --=small alpha, accent, Greek--
+  8,52    Aacgr     "[Aacgr ]"     --=capital Alpha, accent, Greek--
+  8,117   eacgr     "[eacgr ]"     --=small epsilon, accent, Greek--
+  8,54    Eacgr     "[Eacgr ]"     --=capital Epsilon, accent, Greek--
+  8,129   eeacgr    "[eeacgr]"     --=small eta, accent, Greek--
+  8,56    EEacgr    "[EEacgr]"     --=capital Eta, accent, Greek--
+  8,61    idigr     "[idigr ]"     --=small iota, dieresis, Greek--
+  8,60    Idigr     "[Idigr ]"     --=capital Iota, dieresis, Greek--
+  8,59    iacgr     "[iacgr ]"     --=small iota, accent, Greek--
+  8,58    Iacgr     "[Iacgr ]"     --=capital Iota, accent, Greek--
+  8,61    idiagr    "[idiagr]"     --=small iota, dieresis, accent, Greek--
+  8,63    oacgr     "[oacgr ]"     --=small omicron, accent, Greek--
+  8,62    Oacgr     "[Oacgr ]"     --=capital Omicron, accent, Greek--
+  8,67    udigr     "[udigr ]"     --=small upsilon, dieresis, Greek--
+  8,66    Udigr     "[Udigr ]"     --=capital Upsilon, dieresis, Greek--
+  8,65    uacgr     "[uacgr ]"     --=small upsilon, accent, Greek--
+  8,64    Uacgr     "[Uacgr ]"     --=capital Upsilon, accent, Greek--
+  8,183   udiagr    "[udiagr]"     --=small upsilon, dieresis, accent, Greek--
+  8,199   ohacgr    "[ohacgr]"     --=small omega, accent, Greek--
+  8,68    OHacgr    "[OHacgr]"     --=capital Omega, accent, Greek--

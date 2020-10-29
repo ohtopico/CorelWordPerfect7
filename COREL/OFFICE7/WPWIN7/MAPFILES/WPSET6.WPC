@@ -1,0 +1,252 @@
+--
+    File:  WPSET6.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset6 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 6 (Math/Scientific)//EN">
+      %wpset6;
+
+  WP #    Name        Text               Description
+-- 
+  6,0     negative   "[negative]"     -- Minus --
+  6,1     plusmin    "[plusmin ]"     -- Plus or Minus --
+  6,2     le         "[le      ]"     -- Less Than Or Equal --
+  6,3     ge         "[ge      ]"     -- Greater Than Or Equal --
+  6,4     prop       "[prop    ]"     -- Proportional --
+  6,5     notslash   "[notslash]"     -- Not (Slash) --
+  6,6     figslash   "[figslash]"     -- Figure Slash (Fraction) --
+  6,7     setmin     "[setmin  ]"     -- Figure Backslash (Set Minus) --
+  6,8     divide     "[divide  ]"     -- Division --
+  6,9     absval     "[absval  ]"     -- Absolute Value (Divides) --
+  6,10    langbra    "[langbra ]"     -- Left Angle Bracket (Bra) --
+  6,11    rangbra    "[rangbra ]"     -- Right Angle Bracket (Ket) --
+  6,12    sim        "[sim     ]"     -- Similar --
+  6,13    appreql    "[appreql ]"     -- Approximately Equal --
+  6,14    equiv      "[equiv   ]"     -- Equivalent --
+  6,15    member     "[member  ]"     -- Member (Element) --
+  6,16    intrsct    "[intrsct ]"     -- Intersection --
+  6,17    parallel   "[parallel]"     -- Parallel --
+  6,18    sum        "[sum     ]"     -- Summation --
+  6,19    infinity   "[infinity]"     -- Infinity --
+  6,20    lognot     "[lognot  ]"     -- Logical Not --
+  6,21    rtarrow    "[rtarrow ]"     -- Right Arrow --
+  6,22    ltarrow    "[ltarrow ]"     -- Left Arrow --
+  6,23    uparrow    "[uparrow ]"     -- Up Arrow --
+  6,24    dnarrow    "[dnarrow ]"     -- Down Arrow --
+  6,25    lrarrow    "[lrarrow ]"     -- Left and Right Arrow --
+  6,26    udarrow    "[udarrow ]"     -- Up and Down Arrow --
+  6,27    sotrirt    "[sotrirt ]"     -- Solid Triangle Right --
+  6,28    sotrilt    "[sotrilt ]"     -- Solid Triangle Left --
+  6,29    sotriup    "[sotriup ]"     -- Solid Triangle Up --
+  6,30    sotridn    "[sotridn ]"     -- Solid Triangle Down --
+  6,31    cntdot     "[cntdot  ]"     -- Center Dot --
+  6,32    smcntdot   "[smcntdot]"     -- Small Center Dot --
+  6,33    smcirc     "[smcirc  ]"     -- Small Circle --
+  6,34    smsocirc   "[smsocirc]"     -- Small Solid Circle --
+  6,35    angstrom   "[angstrom]"     -- Angstrom --
+  6,36    degree     "[degree  ]"     -- Degree --
+  6,37    micro      "[micro   ]"     -- Micro --
+  6,38    raiseneg   "[raiseneg]"     -- Raised Negative Sign --
+  6,39    mult       "[mult    ]"     -- Multiply (x) --
+  6,40    integ      "[integ   ]"     -- Integral --
+  6,41    product    "[product ]"     -- Product --
+  6,42    minplus    "[minplus ]"     -- Minus or Plus --
+  6,43    nabla      "[nabla   ]"     -- Nabla (Gradient) --
+  6,44    prtderiv   "[prtderiv]"     -- Partial Derivative --
+  6,45    prime      "[prime   ]"     -- Prime --
+  6,46    dblprime   "[dblprime]"     -- Double Prime --
+  6,47    vectovr    "[vectovr ]"     -- Vector --
+  6,48    error      "[error   ]"     -- Error (Script e) --
+  6,49    liter      "[liter   ]"     -- Liter (Script l) --
+  6,50    planck     "[planck  ]"     -- Planck's Constant --
+  6,51    ifraktur   "[ifraktur]"     -- Ifraktur --
+  6,52    rfraktur   "[rfraktur]"     -- Rfraktur --
+  6,53    weierstr   "[weierstr]"     -- Weierstrass --
+  6,54    rlarrows   "[rlarrows]"     -- Right and Left Arrows --
+  6,55    lrarrows   "[lrarrows]"     -- Left and Right Arrows --
+  6,56    dbart      "[dbart   ]"     -- Double Arrow Right (Implies) --
+  6,57    dbalt      "[dbalt   ]"     -- Double Arrow Left (Implied By) --
+  6,58    dbaup      "[dbaup   ]"     -- Double Arrow Up --
+  6,59    dbadn      "[dbadn   ]"     -- Double Arrow Down --
+  6,60    dbalr      "[dbalr   ]"     -- Double Arrow Left and Right (Iff) --
+  6,61    dbaud      "[dbaud   ]"     -- Double Arrow Up and Down --
+  6,62    nearrow    "[nearrow ]"     -- Northeast Arrow --
+  6,63    searrow    "[searrow ]"     -- Southeast Arrow --
+  6,64    nwarrow    "[nwarrow ]"     -- Northwest Arrow --
+  6,65    swarrow    "[swarrow ]"     -- Southwest Arrow --
+  6,66    union      "[union   ]"     -- Union --
+  6,67    propsub    "[propsub ]"     -- Proper Subset --
+  6,68    propsup    "[propsup ]"     -- Proper Superset --
+  6,69    rflsub     "[rflsub  ]"     -- Reflex Subset (Contained In or Equals) --
+  6,70    rflsup     "[rflsup  ]"     -- Reflex Superset (Contains or Equals) --
+  6,71    contains   "[contains]"     -- Contains as a Member --
+  6,72    emptyset   "[emptyset]"     -- Empty Set --
+  6,73    ltceil     "[ltceil  ]"     -- Left Ceiling --
+  6,74    rtceil     "[rtceil  ]"     -- Right Ceiling --
+  6,75    ltfloor    "[ltfloor ]"     -- Left Floor --
+  6,76    rtfloor    "[rtfloor ]"     -- Right Floor --
+  6,77    muchless   "[muchless]"     -- Much Less --
+  6,78    muchgrtr   "[muchgrtr]"     -- Much Greater --
+  6,79    angle      "[angle   ]"     -- Angle --
+  6,80    circmult   "[circmult]"     -- Circle Multiply --
+  6,81    circplus   "[circplus]"     -- Circle Plus --
+  6,82    circmin    "[circmin ]"     -- Circle Minus --
+  6,83    circdiv    "[circdiv ]"     -- Circle Divide --
+  6,84    circdot    "[circdot ]"     -- Circle Dot --
+  6,85    logand     "[logand  ]"     -- Logical And --
+  6,86    logor      "[logor   ]"     -- Logical Or --
+  6,87    logxor     "[logxor  ]"     -- Logical Exclusive Or --
+  6,88    top        "[top     ]"     -- Top --
+  6,89    bottom     "[bottom  ]"     -- Bottom --
+  6,90    arcovr     "[arcovr  ]"     -- Arc Overmark --
+  6,91    assert     "[assert  ]"     -- Assertion --
+  6,92    mirassrt   "[mirassrt]"     -- Mirrored Assertion --
+  6,93    square     "[square  ]"     -- Square --
+  6,94    solsquar   "[solsquar]"     -- Solid Square --
+  6,95    loz        "[loz     ]"     -- Lozenge --
+  6,96    solloz     "[solloz  ]"     -- Solid Lozenge --
+  6,97    ldblbra    "[ldblbra ]"     -- Left Double Bracket --
+  6,98    rdblbra    "[rdblbra ]"     -- Right Double Bracket --
+  6,99    notequal   "[notequal]"     -- Not Equal --
+  6,100   notequiv   "[notequiv]"     -- Not Equivalent --
+  6,101   because    "[because ]"     -- Because --
+  6,102   therefor   "[therefor]"     -- Therefore --
+  6,103   identicl   "[identicl]"     -- Identical (Four Dots) --
+  6,104   cntint     "[cntint  ]"     -- Contour Integral --
+  6,105   laplace    "[laplace ]"     -- Laplace Transform (Script L) --
+  6,106   cfraktur   "[cfraktur]"     -- Cfraktur --
+  6,107   zfraktur   "[zfraktur]"     -- Zfraktur --
+  6,108   oscriptp   "[oscriptp]"     -- Open Script P (Weierstrass) --
+  6,109   circop     "[circop  ]"     -- Circle (Empty, For Operator) --
+  6,110   defined    "[defined ]"     -- Defined As (Underscored Triangle) --
+  6,111   diamond    "[diamond ]"     -- Diamond (Hollow) --
+  6,112   solstar    "[solstar ]"     -- Solid Star --
+  6,113   triprime   "[triprime]"     -- Triple Prime --
+  6,114   coprod     "[coprod  ]"     -- Coproduct --
+  6,115   simoreq    "[simoreq ]"     -- Similar or Equal --
+  6,116   congr      "[congr   ]"     -- Congruent --
+  6,117   prec       "[prec    ]"     -- Precedes --
+  6,118   precoreq   "[precoreq]"     -- Precedes or Equals --
+  6,119   foll       "[foll    ]"     -- Follows --
+  6,120   folloreq   "[folloreq]"     -- Follows or Equals --
+  6,121   exists     "[exists  ]"     -- There Exists --
+  6,122   forall     "[forall  ]"     -- For All --
+  6,123   mumuless   "[mumuless]"     -- Much Much Less --
+  6,124   mumugrea   "[mumugrea]"     -- Much Much Greater --
+  6,125   mulsetun   "[mulsetun]"     -- Multiset Union (U Plus) --
+  6,126   subneq     "[subneq  ]"     -- Subset But Does Not Equal --
+  6,127   supneq     "[supneq  ]"     -- Superset But Does Not Equal --
+  6,128   sqintr     "[sqintr  ]"     -- Square Intersection --
+  6,129   squnion    "[squnion ]"     -- Square Union --
+  6,130   sqprosub   "[sqprosub]"     -- Square Proper Subset --
+  6,131   sqrflsub   "[sqrflsub]"     -- Square Reflex Subset --
+  6,132   sqsubneq   "[sqsubneq]"     -- Square Subset But Does Not Equal --
+  6,133   sqprosup   "[sqprosup]"     -- Square Proper Superset --
+  6,134   sqrflsup   "[sqrflsup]"     -- Square Reflex Superset --
+  6,135   sqsupneq   "[sqsupneq]"     -- Square Superset But Does Not Equal --
+  6,136   bigtriup   "[bigtriup]"     -- Big Triangle Up --
+  6,137   bigtridn   "[bigtridn]"     -- Big Triangle Down --
+  6,138   smtrilt    "[smtrilt ]"     -- Small Triangle Left --
+  6,139   smtrirt    "[smtrirt ]"     -- Small Triangle Right --
+  6,140   bowtie     "[bowtie  ]"     -- Bowtie --
+  6,141   smile      "[smile   ]"     -- Smile --
+  6,142   frown      "[frown   ]"     -- Frown --
+  6,143   bigcirc    "[bigcirc ]"     -- Big Circle --
+  6,144   curlrarr   "[curlrarr]"     -- Curly Right Arrow --
+  6,145   hooklarr   "[hooklarr]"     -- Hook Left Arrow --
+  6,146   hookrarr   "[hookrarr]"     -- Hook Right Arrow --
+  6,147   mapsto     "[mapsto  ]"     -- Maps To --
+  6,148   lharpup    "[lharpup ]"     -- Left Harpoon Up --
+  6,149   lharpdn    "[lharpdn ]"     -- Left Harpoon Down --
+  6,150   rharpup    "[rharpup ]"     -- Right Harpoon Up --
+  6,151   rharpdn    "[rharpdn ]"     -- Right Harpoon Down --
+  6,152   rlharps    "[rlharps ]"     -- Right and Left Harpoons --
+  6,153   lrharps    "[lrharps ]"     -- Left and Right Harpoons --
+  6,154   upharplt   "[upharplt]"     -- Up Harpoon Left --
+  6,155   upharprt   "[upharprt]"     -- Up Harpoon Right (Restriction) --
+  6,156   dnharplt   "[dnharplt]"     -- Down Harpoon Left --
+  6,157   dnharprt   "[dnharprt]"     -- Down Harpoon Right --
+  6,158   rtarrows   "[rtarrows]"     -- Two Right Arrows --
+  6,159   ltarrows   "[ltarrows]"     -- Two Left Arrows --
+  6,160   dblunion   "[dblunion]"     -- Double Union --
+  6,161   dblintr    "[dblintr ]"     -- Double Intersection --
+  6,162   dblsub     "[dblsub  ]"     -- Double Subset --
+  6,163   dblsup     "[dblsup  ]"     -- Double Superset --
+  6,164   circcirc   "[circcirc]"     -- Circle Circle --
+  6,165   circast    "[circast ]"     -- Circle Asterisk --
+  6,166   circdash   "[circdash]"     -- Circle Dash --
+  6,167   mho        "[mho     ]"     -- Mho --
+  6,168   measang    "[measang ]"     -- Measured Angle --
+  6,169   spherang   "[spherang]"     -- Spherical Angle --
+  6,170   trianglt   "[trianglt]"     -- Triangle Left --
+  6,171   triangrt   "[triangrt]"     -- Triangle Right --
+  6,172   triangup   "[triangup]"     -- Triangle Up --
+  6,173   triangdn   "[triangdn]"     -- Triangle Down --
+  6,174   dirsum     "[dirsum  ]"     -- Direct Sum (Dot Plus) --
+  6,175   equbydef   "[equbydef]"     -- Equal by Definition --
+  6,176   image      "[image   ]"     -- Image (Falling Dots Equals) --
+  6,177   revimage   "[revimage]"     -- Reverse Image (Rising Dots Equals) --
+  6,178   isomorph   "[isomorph]"     -- Isomorphic --
+  6,179   asymequi   "[asymequi]"     -- Asymptotically Equivalent --
+  6,180   perpdblr   "[perpdblr]"     -- Perpendicular Double Right (Models) --
+  6,181   corresp    "[corresp ]"     -- Corresponds To --
+  6,182   between    "[between ]"     -- Between (Quantic) --
+  6,183   wrthprod   "[wrthprod]"     -- Wreath Product --
+  6,184   lgsolstr   "[lgsolstr]"     -- Large Solid Star --
+  6,185   notless    "[notless ]"     -- Not Less Than --
+  6,186   notleseq   "[notleseq]"     -- Neither Less Than Nor Equal --
+  6,187   notgrtr    "[notgrtr ]"     -- Not Greater Than --
+  6,188   notgrteq   "[notgrteq]"     -- Neither Greater Than Nor Equal --
+  6,189   notsim     "[notsim  ]"     -- Not Similar --
+  6,190   notsimeq   "[notsimeq]"     -- Not Similar or Equal --
+  6,191   notcongr   "[notcongr]"     -- Not Congruent --
+  6,192   notappeq   "[notappeq]"     -- Not Approximately Equal --
+  6,193   notprec    "[notprec ]"     -- Does Not Precede --
+  6,194   notprceq   "[notprceq]"     -- Neither Precedes Nor Equals --
+  6,195   notfoll    "[notfoll ]"     -- Does Not Follow --
+  6,196   notfoleq   "[notfoleq]"     -- Neither Follows Nor Equals --
+  6,197   notsub     "[notsub  ]"     -- Not Subset --
+  6,198   notsup     "[notsup  ]"     -- Not Superset --
+  6,199   norflsub   "[norflsub]"     -- Not Reflex Subset --
+  6,200   norflsup   "[norflsup]"     -- Not Reflex Superset --
+  6,201   sqnotsub   "[sqnotsub]"     -- Square Not Subset --
+  6,202   sqnotsup   "[sqnotsup]"     -- Square Not Superset --
+  6,203   sqnorfsb   "[sqnorfsb]"     -- Square Not Reflex Subset --
+  6,204   sqnorfsp   "[sqnorfsp]"     -- Square Not Reflex Superset --
+  6,205   notpara    "[notpara ]"     -- Not Parallel --
+  6,206   notdiv     "[notdiv  ]"     -- Does Not Divide --
+  6,207   noasymeq   "[noasymeq]"     -- Not Asymptotically Equivalent --
+  6,208   nvrexist   "[nvrexist]"     -- There Never Exists --
+  6,209   nomember   "[nomember]"     -- Not a Member (Not an Element) --
+  6,210   nisomrph   "[nisomrph]"     -- Not Isomorphic --
+  6,211   emf        "[emf     ]"     -- EMF (Script E) --
+  6,212   fourtrns   "[fourtrns]"     -- Fourier Transform (Script F) --
+  6,213   cmplxnum   "[cmplxnum]"     -- Complex Number (Hollow C) --
+  6,214   integer    "[integer ]"     -- Integer (Hollow I) --
+  6,215   naturnum   "[naturnum]"     -- Natural Number (Hollow N) --
+  6,216   realnum    "[realnum ]"     -- Real Number (Hollow R) --
+  6,217   questeq    "[questeq ]"     -- Questioned Equality --
+  6,218   rtangle    "[rtangle ]"     -- Right Angle --
+  6,219   suchthat   "[suchthat]"     -- Such That --
+  6,220   axellips   "[axellips]"     -- Axis Ellipses --
+  6,221   bsellips   "[bsellips]"     -- Baseline Ellipses --
+  6,222   vtellips   "[vtellips]"     -- Vertical Ellipses --
+  6,223   dgellips   "[dgellips]"     -- Diagonal Ellipses --
+  6,224   trdtdiac   "[trdtdiac]"     -- Triple Dot Diacritical --
+  6,225   dyaddiac   "[dyaddiac]"     -- Dyad Diacritical --
+  6,226   plus       "[plus    ]"     -- Plus --
+  6,227   minus      "[minus   ]"     -- Minus --
+  6,228   equals     "[equals  ]"     -- Equals --
+  6,229   astmult    "[astmult ]"     -- Asterisk Multiply --
+  6,230   scrprime   "[scrprime]"     -- Script Prime --
+  6,231   scrdbpri   "[scrdbpri]"     -- Script Double Prime --
+  6,232   scrtrpri   "[scrtrpri]"     -- Script Triple Prime --
+  6,233   hamilth    "[hamilth ]"     -- Hamiltonian H --
+  6,234   scriptp    "[scriptp ]"     -- Script P --
+
+-- New as of WPWin 6.0 --
+
+  6,235   ltequiv    "[ltequiv ]"     -- Less Than Or Equivalent To --
+  6,236   gtequiv    "[gtequiv ]"     -- Greater Than Or Equivalent To --
+  6,237   bar        "[bar     ]"     -- Bar --

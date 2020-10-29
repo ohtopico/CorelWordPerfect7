@@ -1,0 +1,23 @@
+:Base bdecfg32.hlp>Overview
+:Title BDE Configuration Utility
+:Index Borland Database Engine Online Reference=BDE.HLP
+:Link bde32.hlp
+:Link datapump.hlp
+:Link localsql.hlp
+:Link sqllnk32.hlp
+1 BDE Online Configuration Guide
+2 Overview=idh_idapi_configutil>main
+2 Saving configuration information=savingconfigurationinformation>main
+1 Configuring Microsoft ODBC
+2 Configuring Microsoft Open Database Connectivity=configuringmicrosoftopendatabaseconnectivityodbc>main
+2 Configuring the ODBC configuration file=configuringtheodbcconfigurationfile>main
+2 Configuring the BDE configuration file for ODBC=configuringthebdeconfigurationfileforodbc>main
+2 ODBC socket configuration entries=odbcsocketconfigurationentries>main
+2 AutoODBC=autoodbc>main
+1 BDE Configuration Utility Parameters
+2 System page=idh_idapi_sysmgr>main
+2 Date page=idh_idapi_datemgr>main
+2 Time page=idh_idapi_timemgr>main
+2 Number page=idh_idapi_numbermgr>main
+2 Driver page=idh_idapi_drivermgr>main
+2 Alias page=idh_idapi_aliasmgr>main

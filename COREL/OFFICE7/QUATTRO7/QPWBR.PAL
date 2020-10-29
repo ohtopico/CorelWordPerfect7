@@ -1,0 +1,210 @@
+*Blends
+ 255;127;127|191;0;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 255;0;0|64;0;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 255;191;127|191;96;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 255;128;0|64;32;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 255;255;127|191;191;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 255;255;0|64;64;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 127;255;127|0;191;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 0;255;0|0;64;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 127;255;255|0;191;191|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 0;255;255|0;64;64|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 127;191;255|0;96;191|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 0;128;255|0;32;64|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 127;127;255|0;0;191|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 0;0;255|0;0;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 191;127;255|96;0;191|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 128;0;255|32;0;64|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 255;127;191|128;0;64|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 255;0;128|64;0;32|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 255;255;255|128;128;128|Aquarela;Topo para base;;|0;0;0|S0W1|
+ 191;191;191|0;0;0|Aquarela;Topo para base;;|0;0;0|S0W1|
+*ColorPatterns
+ 0;0;0|255;0;0|Padrão;Quadriculado Horizontal;;|0;0;0|S0W1|
+ 0;0;0|255;0;0|Padrão;Pepita;;|0;0;0|S0W1|
+ 0;0;0|255;255;0|Padrão;Quadriculado Horizontal;;|0;0;0|S0W1|
+ 0;0;0|255;255;0|Padrão;Pepita;;|0;0;0|S0W1|
+ 0;0;0|0;255;0|Padrão;Listras Espessas Para Cima;;|0;0;0|S0W1|
+ 0;0;0|0;255;0|Padrão;Treliça;;|0;0;0|S0W1|
+ 0;0;0|0;255;255|Padrão;Listras Espessas Para Cima;;|0;0;0|S0W1|
+ 0;0;0|0;255;255|Padrão;Treliça;;|0;0;0|S0W1|
+ 0;0;0|255;0;255|Padrão;Linhas Verticais;;|0;0;0|S0W1|
+ 0;0;0|255;0;255|Padrão;Linhas Horizontais;;|0;0;0|S0W1|
+ 0;0;0|128;0;0|Padrão;Linhas Verticais;;|0;0;0|S0W1|
+ 0;0;0|128;0;0|Padrão;Linhas Horizontais;;|0;0;0|S0W1|
+ 0;0;0|0;0;255|Padrão;Tijolos;;|0;0;0|S0W1|
+ 0;0;0|0;0;255|Padrão;Hachura 2;;|0;0;0|S0W1|
+ 0;0;0|0;128;0|Padrão;Tijolos;;|0;0;0|S0W1|
+ 0;0;0|0;128;0|Padrão;Hachura 2;;|0;0;0|S0W1|
+ 0;0;0|0;128;128|Padrão;Listras Espessas Para Baixo;;|0;0;0|S0W1|
+ 0;0;0|0;128;128|Padrão;Vertical;;|0;0;0|S0W1|
+ 0;0;0|128;0;128|Padrão;Listras Espessas Para Baixo;;|0;0;0|S0W1|
+ 0;0;0|128;0;128|Padrão;Vertical;;|0;0;0|S0W1|
+*Draw
+ 128;0;130|255;255;255|Sólido;Sólido;;|128;0;130|S0W1|
+ 255;0;128|255;255;255|Sólido;Sólido;;|255;0;128|S0W1|
+ 31;0;66|255;255;255|Sólido;Sólido;;|31;0;66|S0W1|
+ 128;0;64|0;0;128|Sólido;Sólido;;|128;0;64|S0W1|
+ 0;255;255|255;255;255|Sólido;Sólido;;|0;255;255|S0W1|
+ 0;128;128|255;0;0|Sólido;Sólido;;|0;128;128|S0W1|
+ 0;255;0|255;255;255|Sólido;Sólido;;|0;255;0|S0W1|
+ 0;128;0|255;0;0|Sólido;Sólido;;|0;128;0|S0W1|
+ 255;255;0|255;255;255|Sólido;Sólido;;|255;255;0|S0W1|
+ 255;255;64|255;255;0|Sólido;Sólido;;|255;255;64|S0W1|
+ 255;128;0|255;255;255|Sólido;Sólido;;|255;128;0|S0W1|
+ 255;0;0|0;0;0|Sólido;Sólido;;|255;0;0|S0W1|
+ 128;0;0|255;255;255|Sólido;Sólido;;|128;0;0|S0W1|
+ 0;0;128|255;0;0|Sólido;Sólido;;|0;0;128|S0W1|
+ 0;0;191|64;64;64|Sólido;Sólido;;|0;0;191|S0W1|
+ 0;0;255|255;255;255|Sólido;Sólido;;|0;0;255|S0W1|
+ 255;255;255|255;255;255|Sólido;Sólido;;|255;255;255|S0W1|
+ 191;191;191|0;255;255|Sólido;Sólido;;|191;191;191|S0W1|
+ 128;128;128|255;255;255|Sólido;Sólido;;|128;128;128|S0W1|
+ 0;0;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+*Fall
+ 255;255;127|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;128;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;128;64|0;0;128|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;128;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;64;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;0;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;0;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;0;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;0;128|255;255;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;0;64|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 32;0;64|0;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;128;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 64;128;64|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;128;128|64;64;64|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;64;64|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;191;191|0;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;128;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+*Monochrome
+ 0;0;0|255;255;255|Padrão;Pontos juntos;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Listras Espessas Para Baixo;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Listras Espessas Para Cima;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Linhas Verticais;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Linhas Horizontais;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Quadriculado Horizontal;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Hachura 1;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Diagonal 1;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Diagonal 2;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Vertical;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Horizontal;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Pontos Soltos;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Pontos Médios;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Pepita;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Escalas;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Quadriculado Diagonal;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Hachura 2;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Treliça;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Ziguezague;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Padrão;Listras Difusas Para Baixo;;|0;0;0|S0W1|
+*Spring
+ 255;127;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;127;191|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;127;127|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;128;0|0;0;128|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;191;127|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;127|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 127;255;191|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 127;255;127|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;255;0|255;255;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 127;255;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;255;255|0;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;128;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;127;255|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;0;255|64;64;64|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;0;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;191;191|0;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;128;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+*Standard
+ 128;0;130|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;0;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 31;0;66|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;0;64|0;0;128|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;255;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;128;128|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;255;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;128;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;64|255;255;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;128;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;0;0|0;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;0;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;128|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;191|64;64;64|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;191;191|0;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;128;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+*Summer
+ 255;127;127|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;0;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;128;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;127|0;0;128|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;64|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;255;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;255;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;191;96|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;255;255|255;255;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;191;191|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;128;255|0;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;127;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;0;255|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;0;128|64;64;64|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;0;96|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;191;191|0;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;128;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+*Aquarelaes
+ 255;0;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 191;0;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 255;128;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 191;96;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 255;255;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 191;191;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;255;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;191;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;255;255|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;191;191|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;128;255|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;96;191|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;0;255|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;0;191|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 128;0;255|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 96;0;191|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 255;0;128|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 191;0;96|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 64;64;64|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+ 0;0;0|255;255;255|Aquarela;Base para topo;;|0;0;0|S0W1|
+*Winter
+ 127;255;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;128;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;64;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;128|0;0;128|Sólido;Sólido;;|0;0;0|S0W1|
+ 32;0;64|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 64;0;128|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;0;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;0;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;0;0|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 64;0;0|255;255;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;191|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;64|0;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 64;0;32|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;0;64|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;191;191|64;64;64|Sólido;Sólido;;|0;0;0|S0W1|
+ 127;255;191|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 255;255;255|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 191;191;191|0;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 128;128;128|255;255;255|Sólido;Sólido;;|0;0;0|S0W1|
+ 0;0;0|255;0;0|Sólido;Sólido;;|0;0;0|S0W1|

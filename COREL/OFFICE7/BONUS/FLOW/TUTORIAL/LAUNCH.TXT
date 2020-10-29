@@ -1,0 +1,3 @@
+Congratulations! You now know how to create a Hyperlink from a CorelFLOW diagram
+to a file created by another program. To return to CorelFLOW, click File, Exit or
+click the CorelFLOW icon in the Windows Taskbar.

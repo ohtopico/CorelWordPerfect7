@@ -1,0 +1,21 @@
+--
+    File:  ISOAMSC.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOamsc PUBLIC
+       "ISO 8879-1986//ENTITIES Added Math Symbols: Delimiters//EN">
+     %ISOamsc;
+
+  WP #    Name       Text            Description
+--
+  6,74    rceil     "[rceil ]"     --/rceil C: right ceiling--
+  6,76    rfloor    "[rfloor]"     --/rfloor C: right floor--
+  0,0     rpargt    "[rpargt]"     --/rightparengtr C: right paren, gt--
+  0,0     urcorn    "[urcorn]"     --/urcorner C: upper right corner--
+  0,0     drcorn    "[drcorn]"     --/lrcorner C: downward right corner--
+  6,73    lceil     "[lceil ]"     --/lceil O: left ceiling--
+  6,75    lfloor    "[lfloor]"     --/lfloor O: left floor--
+  0,0     lpargt    "[lpargt]"     --/leftparengtr O: left parenthesis, gt--
+  0,0     ulcorn    "[ulcorn]"     --/ulcorner O: upper left corner--
+  0,0     dlcorn    "[dlcorn]"     --/llcorner O: downward left corner--

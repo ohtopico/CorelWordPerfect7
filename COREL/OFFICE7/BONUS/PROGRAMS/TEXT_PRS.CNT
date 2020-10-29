@@ -1,0 +1,86 @@
+:Base presents.hlp>main
+:Title Corel PRESENTS Help
+4 Add Text
+5 To add Artistic Text=wts02_pro2_cd>proc4
+5 To add Paragraph Text=wts03_pro2_cd>proc4
+5 To import text=wts05_pro2_cd>proc4
+5 To paste Artistic Text=wts06_pro2_cd>proc4
+5 To paste Paragraph Text=wts06a_pro2_cd>proc4
+5 To enter special characters using mnemonic keystrokes=wts15a_pro2_cd>proc4
+4 Select Text
+5 To select a text tool=wts35_pro_2_cd>proc4
+5 To select text with a text tool=wts29_pro2_cd>proc4
+5 To select text with the Pick tool=wts29a_pro2_cd>proc4
+5 To select characters with the Shape tool=wts29b_pro2_cd>proc4
+5 To deselect a character with the Shape tool=wts29c_pro2_cd>proc4
+4 Edit Text
+5 To type or edit text on screen=wts08_pro2_cd>proc4
+5 To choose a new font=wts100_pro2_cd>proc4
+5 To change font size=wts101_pro2_cd>proc4
+5 To choose a new font style=wts102_pro2_cd>proc4
+5 To edit line and strikeout thickness=wts105_pro2_cd>proc4
+5 To edit Baseline Shift=wts106_pro2_cd>proc4
+5 To edit text character angle=wts107_pro2_cd>proc4
+5 To straighten shifted or angled text=wts110_pro2_cd>proc4
+5 To find text=wts33_pro2_cd>proc4
+5 To find and replace text=wts33a_pro2_cd>proc4
+5 To cut and paste text=wts08b_pro2_cd>proc4
+5 To copy and paste text=wts08a_pro2_cd>proc4
+5 To change text case with the Change Case command=wts_08c_pro2_cd>proc4
+4 Format Text
+5 To apply character attributes to selected text=wts30_pro2_cd >proc4
+5 To apply or remove underline, overline or strikeout=wts117_pro2_cd>proc4
+5 To indent a paragraph using the mouse=wts36a_pro2_cd>proc4
+5 To change alignment=wts111_pro2_cd>proc4
+5 To copy text attributes=wts15_pro2_cd>proc4
+5 Use Bullets with Paragraph Text
+6 To change the bullet style=how_change_bulletstyle>proc4
+5 Adjust Spacing
+6 Change Spacing Numerically
+7 To adjust spacing with the Character Attributes dialog box=wts12i_pro2_cd >proc4
+7 To kern text using the Character Attributes dialog box=wts13a_pro2_cd >proc4
+6 Change Spacing On Screen
+7 To adjust character spacing on screen=wts12a_pro2_cd>proc4
+7 To kern text precisely with the Shape tool=wts13_pro2_cd>proc4
+5 Use Special Text Features
+6 To fit text to a path=wts24_pro2_cd>proc4
+6 To make changes to text shaped to a path=wts25_pro2_cd>proc4
+6 To edit the shape of a text path with the mouse=wts25a_pro2_cd>proc4
+6 To move Artistic Text along a path=wts26_pro2_cd>proc4
+6 To adjust the distance of text from a path=wts26a_pro2_cd>proc4
+6 To detach text from a path=wts27_pro2_cd>proc4
+5 Proofread Text
+6 Check Spelling
+7 To run a spelling check=wts18_pro2_cd>proc4
+7 To correct a misspelled word during a spelling check=wts19_pro2_cd>proc4
+7 To create a personal dictionary=wts20_pro2_cd>proc4
+7 To add a word to a personal dictionary=wts20a_pro2_cd>proc4
+7 To open a personal dictionary=wts21_pro2_cd>proc4
+7 To hyphenate words automatically=wts22_pro2_cd>proc4
+6 Check Grammar
+7 To check spelling and grammar=wts131_pro2_cd>proc4
+7 To set the Proofreader's formality level=wts132_pro2_cd>proc4
+6 Set Proofreading Options
+7 To set up the Rule Manager=wts134_pro2_cd>proc4
+7 To set advanced proofreading options=wts_advanced_options_cd>proc4
+7 To restore Rule Manager defaults=wts_proof_defaults_cd>proc4
+7 To choose a proofreading rule language=rule_language_choosing>proc4
+7 To turn proofreading rule types off or on=rule_types_on_off>proc4
+7 To choose proofreading language options=language_options>proc4
+7 To choose another proofreading language=new_language>proc4
+7 To install another proofreading language database=wts_proof_language>proc4
+7 To choose spelling correction options=spelling_options
+7 To choose a proofreading error language=error_language_choosing>proc4
+6 Use the Thesaurus
+7 To use the Thesaurus=wts23_pro2_cd>proc4
+6 Use Type Assist
+7 To correct consecutive capitals automatically=pwrtp_pro2_cd>proc4
+7 To change straight quotes to typographic quotes automatically=pwrtp1_pro2_cd>proc4
+7 To capitalize the first letter of sentences automatically=pwrtp3_pro2_cd>proc4
+7 To capitalize the names of the days automatically=pwrtp4_pro2_cd>proc4
+7 To replace abbreviations automatically while typing=pwrtp5_pro2_cd>proc4
+6 Set Text Options and Defaults
+7 To display the text toolbar=wts150_pro2_cd>proc4
+7 To change the default tab stops in a paragraph=wts35_pro2_cd>proc4
+7 To change the default text attributes for the current document=cc28_pro2_cd>proc4
+7 To change the default text attributes for all documents=cc28_pro3_cd>proc4

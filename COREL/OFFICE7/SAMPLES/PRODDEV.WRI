@@ -1,0 +1,81 @@
+Demonstração do Assistente de Conversão de Macros do 1-2-3
+
+***********************************************************************
+A utilização deste Utilitário de Tradução é governada pelos termos do 
+Acordo de Licenciamento de Software, Garantia Limitada e Limitação de 
+Responsabilidade que acompanha a sua cópia do Quattro Pro.
+
+O 1-2-3 é uma marca registrada da Lotus Development Corp.
+***********************************************************************
+
+Esta demonstração mostra como um aplicativo de orçamento (PRODDEV.WK1) 
+criado no 1-2-3 pela EMPRESA S.A.. pode ser modificada para executar no 
+Quattro Pro 6.0 para Windows. Este aplicativo carrega basicamente uma 
+macro iniciada automaticamente \0 que pergunta ao usuário o Nome e 
+Número do Departamento e seu Nome Completo. O aplicativo não executará 
+corretamente em versões anteriores à versão 6.02 do Quattro Pro a menos 
+que seja convertida pelo Assistente de Conversão de Macros.
+
+1.	Carregue o Quattro Pro.
+2.	Arquivo|Abrir 123TOQPW.WB2.
+3.	O quadro de diálogo do Assistente de Conversão de Macros é exibido. 
+      Clique no botão OK.
+4.	Agora o arquivo PRODDEV.WK1 será carregado. Como o arquivo possui 
+      uma macro iniciada automaticamente (\0), você deve pressionar 
+      CTRL-BREAK durante a carga do arquivo se quiser parar a execução da 
+      macro. Selecione Arquivo|Abrir PRODDEV.WK1 e, em seguida, clique no 
+      botão OK. Pressione CTRL-BREAK durante a carga do arquivo. O quadro 
+      de diálogo de interrupção de macro deve aparecer. Pressione ESC duas 
+      vezes e em seguida pressione a tecla HOME.
+5.	Selecione Arquivo|Salvar Como e digite PRODDEV.WB2 como o nome do 
+      arquivo e selecione o tipo de arquivo QPW v6 (*.WB2). Clique no 
+      botão OK. O arquivo do 1-2-3 está salvo como um caderno do 
+      Quattro Pro .WB2.
+6.	Selecione Ver|Zoom, defina o fator de zoom para 75% e clique no 
+      botão OK.
+7.	Maximize o caderno.
+8.	Selecione Ferramentas|Macro|Converter do menu. O quadro de diálogo 
+      Converter é exibido.
+	Digite B1283..I1395 como o bloco a ser convertido nesta demonstração.
+	Certifique-se de que a caixa de seleção Destacar macros não 
+      suportadas está assinalada. Clique no botão OK.
+
+O Assistente de Conversão de Macros vai percorrer o bloco selecionado e 
+converter todas as chamadas de macros do Lotus 1-2-3 em chamadas de macros 
+do Quattro Pro. O cursor será modificado para uma ampulheta e a linha de 
+status apresentará a palavra MACRO durante o processamento da conversão. 
+Dependendo do tipo de PC que você tem, isto pode levar de 30 segundos a 
+vários minutos. 
+
+Agora, algumas modificações são necessárias para que nosso aplicativo 
+utilize o caderno WB2 do Quattro Pro em vez do arquivo WK1 do 1-2-3.
+
+11.	Vá para a célula B1376 pressionando a tecla de função F5 e 
+      digitando B1376 como a referência. Clique no botão OK.
+12.	Na célula B1376, pressione F2 e substitua WK1 por WB2. Pressione 
+      Enter ao terminar.
+13.	Na célula B1377, pressione F2 e substitua WK1 por WB2. Pressione 
+      Enter ao terminar.
+14.	Pressione a tecla HOME. 
+15.	Selecione Arquivo|Salvar para gravar o caderno.
+16.	Selecione Arquivo|Fechar para fechar o caderno.
+
+E é isso !!!! O aplicativo de orçamento foi convertido com sucesso para 
+ser executado no Quattro Pro 6.0 para Windows.
+
+Vamos dar uma olhada no aplicativo convertido.
+
+1.	Selecione Arquivo|Abrir PRODDEV.WB2. Observe que a macro iniciada 
+      automaticamente ( \0) está em execução. 
+2.	Siga as instruções na tela digitando o Nome e Número do Departamento 
+      e seu Nome Completo. No final o cursor será automaticamente movido 
+      para a célula A770.
+3.	Pressione CTRL-SHIFT-M para executar a macro \M que exibe um menu 
+      na tela. Escolha algumas opções de menu e explore o fluxo de 
+      processamento do aplicativo.
+
+Observação:
+-	Existem 3 macros neste aplicativo chamadas \L, \P e \A que executam 
+uma Combinação de arquivos externos. Elas serão convertida mas não 
+funcionarão corretamente porque os arquivos externos não foram fornecidos 
+para esta demonstração.

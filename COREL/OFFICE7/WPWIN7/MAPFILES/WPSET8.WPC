@@ -1,0 +1,233 @@
+--
+    File:  WPSET8.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset8 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 8 (Greek)//EN">
+      %wpset8;
+
+  WP #    Name       Text                Description
+-- 
+  8,0     ALPHA      "[ALPHA   ]"     -- ALPHA --
+  8,1     alpha      "[alpha   ]"     -- alpha --
+  8,2     BETA       "[BETA    ]"     -- BETA --
+  8,3     beta       "[beta    ]"     -- beta --
+  8,4     BETAmt     "[BETAmt  ]"     -- BETA (Medial or Terminal) --
+  8,5     betamt     "[betamt  ]"     -- beta (Medial or Terminal) --
+  8,6     GAMMA      "[GAMMA   ]"     -- GAMMA --
+  8,7     gamma      "[gamma   ]"     -- gamma --
+  8,8     DELTA      "[DELTA   ]"     -- DELTA --
+  8,9     delta      "[delta   ]"     -- delta --
+  8,10    EPSILON    "[EPSILON ]"     -- EPSILON --
+  8,11    epsilon    "[epsilon ]"     -- epsilon --
+  8,12    ZETA       "[ZETA    ]"     -- ZETA --
+  8,13    zeta       "[zeta    ]"     -- zeta --
+  8,14    ETA        "[ETA     ]"     -- ETA --
+  8,15    eta        "[eta     ]"     -- eta --
+  8,16    THETA      "[THETA   ]"     -- THETA --
+  8,17    theta      "[theta   ]"     -- theta --
+  8,18    IOTA       "[IOTA    ]"     -- IOTA --
+  8,19    iota       "[iota    ]"     -- iota --
+  8,20    KAPPA      "[KAPPA   ]"     -- KAPPA --
+  8,21    kappa      "[kappa   ]"     -- kappa --
+  8,22    LAMBDA     "[LAMBDA  ]"     -- LAMBDA --
+  8,23    lambda     "[lambda  ]"     -- lambda --
+  8,24    MU         "[MU      ]"     -- MU --
+  8,25    mu         "[mu      ]"     -- mu --
+  8,26    NU         "[NU      ]"     -- NU --
+  8,27    nu         "[nu      ]"     -- nu --
+  8,28    XI         "[XI      ]"     -- XI --
+  8,29    xi         "[xi      ]"     -- xi --
+  8,30    OMICRON    "[OMICRON ]"     -- OMICRON --
+  8,31    omicron    "[omicron ]"     -- omicron --
+  8,32    PI         "[PI      ]"     -- PI --
+  8,33    pi         "[pi      ]"     -- pi --
+  8,34    RHO        "[RHO     ]"     -- RHO --
+  8,35    rho        "[rho     ]"     -- rho --
+  8,36    SIGMA      "[SIGMA   ]"     -- SIGMA --
+  8,37    sigma      "[sigma   ]"     -- sigma --
+  8,38    SIGMAt     "[SIGMAt  ]"     -- SIGMA (Terminal) --
+  8,39    sigmat     "[sigmat  ]"     -- sigma (Terminal) --
+  8,40    TAU        "[TAU     ]"     -- TAU --
+  8,41    tau        "[tau     ]"     -- tau --
+  8,42    UPSILON    "[UPSILON ]"     -- UPSILON --
+  8,43    upsilon    "[upsilon ]"     -- upsilon --
+  8,44    PHI        "[PHI     ]"     -- PHI --
+  8,45    phi        "[phi     ]"     -- phi --
+  8,46    CHI        "[CHI     ]"     -- CHI --
+  8,47    chi        "[chi     ]"     -- chi --
+  8,48    PSI        "[PSI     ]"     -- PSI --
+  8,49    psi        "[psi     ]"     -- psi --
+  8,50    OMEGA      "[OMEGA   ]"     -- OMEGA --
+  8,51    omega      "[omega   ]"     -- omega --
+  8,52    ALPHtono   "[ALPHtono]"     -- ALPHA Tonos --
+  8,53    alphtono   "[alphtono]"     -- alpha Tonos --
+  8,54    EPSItono   "[EPSItono]"     -- EPSILON Tonos --
+  8,55    epsitono   "[epsitono]"     -- epsilon Tonos --
+  8,56    ETAtono    "[ETAtono ]"     -- ETA Tonos --
+  8,57    etatono    "[etatono ]"     -- eta Tonos --
+  8,58    IOTAtono   "[IOTAtono]"     -- IOTA Tonos --
+  8,59    iotatono   "[iotatono]"     -- iota Tonos --
+  8,60    IOTAdia    "[IOTAdia ]"     -- IOTA Diaeresis --
+  8,61    iotadia    "[iotadia ]"     -- itota Diaresis --
+  8,62    OMICtono   "[OMICtono]"     -- OMICRON Tonos --
+  8,63    omictono   "[omictono]"     -- omicron Tonos --
+  8,64    UPSItono   "[UPSItono]"     -- UPSILON Tonos --
+  8,65    upsitono   "[upsitono]"     -- upsilon Tonos --
+  8,66    UPSIdia    "[UPSIdia ]"     -- UPSILON Diaeresis --
+  8,67    upsidia    "[upsidia ]"     -- upsilon Diaeresis --
+  8,68    OMEGtono   "[OMEGtono]"     -- OMEGA Tonos --
+  8,69    omegtono   "[omegtono]"     -- omega Tonos --
+  8,70    epsivar    "[epsivar ]"     -- epsilon (variant) --
+  8,71    thetavar   "[thetavar]"     -- theta (variant) --
+  8,72    kappavar   "[kappavar]"     -- kappa (variant) --
+  8,73    pivar      "[pivar   ]"     -- pi (variant) --
+  8,74    rhovar     "[rhovar  ]"     -- rho (variant) --
+  8,75    sigmavar   "[sigmavar]"     -- sigma (variant) --
+  8,76    UPSIvar    "[UPSIvar ]"     -- UPSILON (variant) --
+  8,77    phivar     "[phivar  ]"     -- phi (variant) --
+  8,78    omegvar    "[omegvar ]"     -- omega (variant) --
+  8,79    questmrk   "[questmrk]"     -- Question Mark --
+  8,80    semicln    "[semicln ]"     -- Semi-colon --
+  8,81    hiprime    "[hiprime ]"     -- High Prime --
+  8,82    lowprime   "[lowprime]"     -- Low Prime --
+  8,83    acutegr    "[acutegr ]"     -- Acute (Greek)--
+  8,84    diaeresi   "[diaeresi]"     -- Diaeresis --
+  8,85    acutedia   "[acutedia]"     -- Acute Diaeresis --
+  8,86    gravedia   "[gravedia]"     -- Grave Diaeresis --
+  8,87    gravegr    "[gravegr ]"     -- Grave (Greek) --
+  8,88    circumgr   "[circumgr]"     -- Circumflex (Greek) --
+  8,89    smoothbr   "[smoothbr]"     -- Smooth Breathing --
+  8,90    roughbr    "[roughbr ]"     -- Rough Breathing --
+  8,91    iotasub    "[iotasub ]"     -- Iota Subscript --
+  8,92    smbreac    "[smbreac ]"     -- Smooth Breathing Acute --
+  8,93    rgbreac    "[rgbreac ]"     -- Rough Breathing Acute --
+  8,94    smbregr    "[smbregr ]"     -- Smooth Breathing Grave --
+  8,95    rgbregr    "[rgbregr ]"     -- Rough Breathing Grave --
+  8,96    smbreci    "[smbreci ]"     -- Smooth Breathing Circumflex --
+  8,97    rgbreci    "[rgbreci ]"     -- Rough Breathing Circumflex --
+  8,98    acwisb     "[acwisb  ]"     -- Acute w/Iota Subscript --
+  8,99    grwisb     "[grwisb  ]"     -- Grave w/Iota Subscript --
+  8,100   ciwisb     "[ciwisb  ]"     -- Circumflex w/Iota Subscript --
+  8,101   smbrwisb   "[smbrwisb]"     -- Smooth Breathing w/Iota Subscript --
+  8,102   rgbrwisb   "[rgbrwisb]"     -- Rough Breathing w/Iota Subscript --
+  8,103   smbracws   "[smbracws]"     -- Smooth Breathing Acute w/Iota Subscript --
+  8,104   rgbracws   "[rgbracws]"     -- Rough Breathing Acute w/Iota Subscript --
+  8,105   smbrgrws   "[smbrgrws]"     -- Smooth Breathing Grave w/Iota Subscript --
+  8,106   rgbrgrws   "[rgbrgrws]"     -- Rough Breathing Grave w/Iota Subscript --
+  8,107   smbrciws   "[smbrciws]"     -- Smooth Breathing Circumflex w/Iota Subscript --
+  8,108   rgbrciws   "[rgbrciws]"     -- Rough Breathing Circumflex w/Iota Subscript --
+  8,109   alphgr     "[alphgr  ]"     -- alpha Grave --
+  8,110   alphci     "[alphci  ]"     -- alpha Circumflex --
+  8,111   alphwi     "[alphwi  ]"     -- alpha w/Iota --
+  8,112   alphacwi   "[alphacwi]"     -- alpha Acute w/Iota --
+  8,113   alphgrwi   "[alphacwi]"     -- alpha Grave w/Iota --
+  8,114   alphciwi   "[alphciwi]"     -- alpha Circumflex w/Iota --
+  8,115   alphsm     "[alphsm  ]"     -- alpha Smooth --
+  8,116   alphsmac   "[alphsmac]"     -- alpha Smooth Acute --
+  8,117   alphsmgr   "[alphsmgr]"     -- alpha Smooth Grave --
+  8,118   alphsmci   "[alphsmci]"     -- alpha Smooth Circumflex --
+  8,119   alphsmwi   "[alphsmwi]"     -- alpha Smooth w/Iota --
+  8,120   alsmacwi   "[alsmacwi]"     -- alpha Smooth Acute w/Iota --
+  8,121   alsmgrwi   "[alsmgrwi]"     -- alpha Smooth Grave w/Iota --
+  8,122   alsmciwi   "[alsmciwi]"     -- alpha Smooth Circumflex w/Iota --
+  8,123   alphrg     "[alphrg  ]"     -- alpha Rough --
+  8,124   alphrgac   "[alphrgac]"     -- alpha Rough Acute --
+  8,125   alphrggr   "[alphrggr]"     -- alpha Rough Grave --
+  8,126   alphrgci   "[alphrgci]"     -- alpha Rough Circumflex --
+  8,127   alphrgwi   "[alphrgwi]"     -- alpha Rough w/Iota --
+  8,128   alrgacwi   "[alrgacwi]"     -- alpha Rough Acute w/Iota --
+  8,129   alrggrwi   "[alrggrwi]"     -- alpha Rough Grave w/Iota --
+  8,130   alrgciwi   "[alrgciwi]"     -- alpha Rough Circumflex w/Iota --
+  8,131   epsigr     "[epsigr  ]"     -- epsilon Grave --
+  8,132   epsism     "[epsism  ]"     -- epsilon Smooth --
+  8,133   epsismac   "[epsismac]"     -- epsilon Smooth Acute --
+  8,134   epsismgr   "[epsismgr]"     -- epsilon Smooth Grave --
+  8,135   epsirg     "[epsirg  ]"     -- epsilon Rough --
+  8,136   epsirgac   "[epsirgac]"     -- epsilon Rough Acute --
+  8,137   epsirggr   "[epsirggr]"     -- epsilon Rough Grave --
+  8,138   etagr      "[etagr   ]"     -- eta Grave --
+  8,139   etaci      "[etaci   ]"     -- eta Circumflex --
+  8,140   etawi      "[etawi   ]"     -- eta w/Iota --
+  8,141   etaacwi    "[etaacwi ]"     -- eta Acute w/Iota --
+  8,142   etagrwi    "[etagrwi ]"     -- eta Grave w/Iota --
+  8,143   etaciwi    "[etaciwi ]"     -- eta Circumflex w/Iota --
+  8,144   etasm      "[etasm   ]"     -- eta Smooth --
+  8,145   etasmac    "[etasmac ]"     -- eta Smooth Acute --
+  8,146   etasmgr    "[etasmgr ]"     -- eta Smooth Grave --
+  8,147   etasmci    "[etasmci ]"     -- eta Smooth Circumflex --
+  8,148   etasmwi    "[etasmwi ]"     -- eta Smooth w/Iota --
+  8,149   etsmacwi   "[etsmacwi]"     -- eta Smooth Acute w/Iota --
+  8,150   etsmgrwi   "[etsmgrwi]"     -- eta Smooth Grave w/Iota --
+  8,151   etsmciwi   "[etsmciwi]"     -- eta Smooth Circumflex w/Iota --
+  8,152   etarg      "[etarg   ]"     -- eta Rough --
+  8,153   etargac    "[etargac ]"     -- eta Rough Acute --
+  8,154   etarggr    "[etarggr ]"     -- eta Rough Grave --
+  8,155   etargci    "[etargci ]"     -- eta Rough Circumflex --
+  8,156   etargwi    "[etargwi ]"     -- eta Rough w/Iota --
+  8,157   etrgacwi   "[etrgacwi]"     -- eta Rough Acute w/Iota --
+  8,158   etrggrwi   "[etrggrwi]"     -- eta Rough Grave w/Iota --
+  8,159   etrgciwi   "[etrgciwi]"     -- eta Rough Circumflex w/Iota --
+  8,160   iotagr     "[iotagr  ]"     -- iota Grave --
+  8,161   iotaci     "[iotaci  ]"     -- iota Circumflex --
+  8,162   iotaacdi   "[iotaacdi]"     -- iota Acute Diaeresis --
+  8,163   iotagrdi   "[iotagrdi]"     -- iota Grave Diaeresis --
+  8,164   iotasm     "[iotasm  ]"     -- iota Smooth --
+  8,165   iotasmac   "[iotasmac]"     -- iota Smooth Acute --
+  8,166   iotasmgr   "[iotasmgr]"     -- iota Smooth Grave --
+  8,167   iotasmci   "[iotasmci]"     -- iota Smooth Circumflex --
+  8,168   iotarg     "[iotarg  ]"     -- iota Rough --
+  8,169   iotargac   "[iotargac]"     -- iota Rough Acute --
+  8,170   iotarggr   "[iotarggr]"     -- iota Rough Grave --
+  8,171   iotargci   "[iotargci]"     -- iota Rough Circumflex --
+  8,172   omicgr     "[omicgr  ]"     -- omicron Grave --
+  8,173   omicsm     "[omicsm  ]"     -- omicron Smooth --
+  8,174   omicsmac   "[omicsmac]"     -- omicron Smooth Acute --
+  8,175   omicsmgr   "[omicsmgr]"     -- omicron Smooth Grave --
+  8,176   omicrg     "[omicrg  ]"     -- omicron Rough --
+  8,177   omicrgac   "[omicrgac]"     -- omicron Rough Acute --
+  8,178   omicrggr   "[omicrggr]"     -- omicron Rough Grave --
+  8,179   rhosm      "[rhosm   ]"     -- rho Smooth --
+  8,180   rhorg      "[rhorg   ]"     -- rho Rough --
+  8,181   upsigr     "[upsigr  ]"     -- upsilon Grave --
+  8,182   upsici     "[upsici  ]"     -- upsilon Circumflex --
+  8,183   upsiacdi   "[upsiacdi]"     -- upsilon Acute Diaeresis --
+  8,184   upsigrdi   "[upsigrdi]"     -- upsilon Grave Diaeresis --
+  8,185   upsism     "[upsism  ]"     -- upsilon Smooth --
+  8,186   upsismac   "[upsismac]"     -- upsilon Smooth Acute --
+  8,187   upsismgr   "[upsismgr]"     -- upsilon Smooth Grave --
+  8,188   upsismci   "[upsismci]"     -- upsilon Smooth Circumflex --
+  8,189   upsirg     "[upsirg  ]"     -- upsilon Rough --
+  8,190   upsirgac   "[upsirgac]"     -- upsilon Rough Acute --
+  8,191   upsirggr   "[upsirggr]"     -- upsilon Rough Grave --
+  8,192   upsirgci   "[upsirgci]"     -- upsilon Rough Circumflex --
+  8,193   omeggr     "[omeggr  ]"     -- omega Grave --
+  8,194   omegci     "[omegci  ]"     -- omega Circumflex --
+  8,195   omegwi     "[omegwi  ]"     -- omega w/Iota --
+  8,196   omegacwi   "[omegacwi]"     -- omega Acute w/Iota --
+  8,197   omeggrwi   "[omeggrwi]"     -- omega Grave w/Iota --
+  8,198   omegciwi   "[omegciwi]"     -- omega Circumflex w/Iota --
+  8,199   omegsm     "[omegsm  ]"     -- omega Smooth --
+  8,200   omegsmac   "[omegsmac]"     -- omega Smooth Acute --
+  8,201   omegsmgr   "[omegsmgr]"     -- omega Smooth Grave --
+  8,202   omegsmci   "[omegsmci]"     -- omega Smooth Circumflex --
+  8,203   omegsmwi   "[omegsmwi]"     -- omega Smooth w/Iota --
+  8,204   omsmacwi   "[omegacwi]"     -- omega Smooth Acute w/Iota --
+  8,205   omsmgrwi   "[omeggrwi]"     -- omega Smooth Grave w/Iota --
+  8,206   omsmciwi   "[omegciwi]"     -- omega Smooth Circumflex w/Iota --
+  8,207   omegrg     "[omegrg  ]"     -- omega Rough --
+  8,208   omegrgac   "[omegrgac]"     -- omega Rough Acute --
+  8,209   omegrggr   "[omegrggr]"     -- omega Rough Grave --
+
+-- New as of WPWin 6.0 --
+
+  8,210   omegrgci   "[omegrgci]"     -- omega Rough Circumflex --
+  8,211   omegrgwi   "[omegrgwi]"     -- omega Rough w/Iota --
+  8,212   omrgacwi   "[omrgacwi]"     -- omega Rough Acute w/Iota --
+  8,213   omrggrwi   "[omrggrwi]"     -- omega Rough Grave w/Iota --
+  8,214   omrgciwi   "[omrgciwi]"     -- omega Rough Circumflex w/Iota --
+  8,215   stigma     "[stigma  ]"     -- Stigma --
+  8,216   digamma    "[digamma ]"     -- Digamma --
+  8,217   koppa      "[koppa   ]"     -- Koppa --
+  8,218   sampi      "[sampi   ]"     -- Sampi --

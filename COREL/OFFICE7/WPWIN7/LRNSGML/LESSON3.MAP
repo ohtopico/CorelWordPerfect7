@@ -1,0 +1,8 @@
+PUBLIC	"-//COREL//DTD Front section of LESSON3.DTD//EN"
+DTD		front3.dtd
+
+PUBLIC	"-//COREL//DTD Chapter section of LESSON3.DTD//EN"
+DTD		chapter3.dtd
+
+PUBLIC	"-//COREL//DTD End section of LESSON3.DTD//EN"
+DTD		end3.dtd

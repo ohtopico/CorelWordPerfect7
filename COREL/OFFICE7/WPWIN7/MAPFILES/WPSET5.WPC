@@ -1,0 +1,269 @@
+--
+    File:  WPSET5.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset5 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 5 (Iconic Symbols)//EN">
+      %wpset5;
+
+  WP #    Name        Text               Description
+-- 
+  5,0     hearto     "[hearto  ]"     -- Heart Open Card Style --
+  5,1     diamondo   "[diamondo]"     -- Diamond Open Card Style --
+  5,2     clubo      "[clubo   ]"     -- Club Open Card Style --
+  5,3     spadeo     "[spadeo  ]"     -- Spade Open Card Style --
+  5,4     male       "[male    ]"     -- Male --
+  5,5     female     "[female  ]"     -- Female --
+  5,6     compass    "[compass ]"     -- Compass --
+  5,7     happy      "[happy   ]"     -- Happy Face --
+  5,8     drkhappy   "[drkhappy]"     -- Dark Happy Face --
+  5,9     note1.8    "[note1.8 ]"     -- Eighth Note --
+  5,10    note1.16   "[note1.16]"     -- Sixteenth Notes --
+  5,11    horzrect   "[horzrect]"     -- Horizontal Rectangle --
+  5,12    smhouse    "[smhouse ]"     -- Small House --
+  5,13    dblexcl    "[dblexcl ]"     -- Double Exclamation Mark --
+  5,14    radical    "[radical ]"     -- Bent Radical --
+  5,15    undudarw   "[undudarw]"     -- Underscored Up and Down Arrow --
+  5,16    begline    "[begline ]"     -- Beginning of Line --
+  5,17    ibegline   "[ibegline]"     -- Inverted Beginning of Line --
+  5,18    ibullet    "[ibullet ]"     -- Inverse Bullet --
+  5,19    ihlbul     "[ihlbul  ]"     -- Inverse Hollow Bullet --
+  5,20    newline    "[newline ]"     -- Newline //(Enter symbol) --
+  5,21    centline   "[centline]"     -- Centerline --
+  5,22    lpntindx   "[lpntindx]"     -- Left Pointing Index --
+  5,23    grphspc    "[grphspc ]"     -- Graphic Space --
+  5,24    emptybal   "[emptybal]"     -- Empty Ballot Box --
+  5,25    markbal    "[markbal ]"     -- Marked Ballot Box --
+  5,26    sadface    "[sadface ]"     -- Sad Face --
+  5,27    sharp      "[sharp   ]"     -- Sharp --
+  5,28    flat       "[flat    ]"     -- Flat --
+  5,29    natural    "[natural ]"     -- Natural --
+  5,30    phonefr    "[phonefr ]"     -- Telephone French Style --
+  5,31    clock      "[clock   ]"     -- Clock --
+  5,32    hrglass    "[hrglass ]"     -- Hourglass --
+
+-- New as of WPWin 6.0 --
+
+  5,33    scisbrbo   "[scisbrbo]"     -- Scissors Solid Broken Bottom --
+  5,34    scissors   "[scissors]"     -- Scissors Solid --
+  5,35    scisbrto   "[scisbrto]"     -- Scissors Solid Broken Top --
+  5,36    safescis   "[safescis]"     -- Safety Scissors Open --
+  5,37    phonewhi   "[phonewhi]"     -- Telephone Solid White Dial --
+  5,38    phonehnd   "[phonehnd]"     -- Telephone Handset --
+  5,39    tapereel   "[tapereel]"     -- Tape Reel --
+  5,40    airplane   "[airplane]"     -- Airplane --
+  5,41    envwaxsl   "[envwaxsl]"     -- Envelope Wax Sealed --
+  5,42    ehndsolc   "[ehndsolc]"     -- East Hand M Solid Line Cuff --
+  5,43    ehndopec   "[ehndopec]"     -- East Hand M Open Simple Cuff --
+  5,44    peacehnd   "[peacehnd]"     -- Peace Sign Hand Open --
+  5,45    hndnpenc   "[hndnpenc]"     -- Hand with Pencil --
+  5,46    sepencpt   "[sepencpt]"     -- Southeast Pencil Point --
+  5,47    epencpt    "[epencpt ]"     -- East Pencil Point --
+  5,48    nepencpt   "[nepencpt]"     -- Northeast Pencil Point --
+  5,49    epenope    "[epenope ]"     -- East Pen Nib Open --
+  5,50    epensol    "[epensol ]"     -- East Pen Nib Solid --
+  5,51    chksolme   "[chksolme]"     -- Check Mark Solid Medium Brush --
+  5,52    chksolbo   "[chksolbo]"     -- Check Mark Solid Bold Brush --
+  5,53    xsollght   "[xsollght]"     -- X Solid Light --
+  5,54    xsolbold   "[xsolbold]"     -- X Solid Bold --
+  5,55    xsolbrli   "[xsolbrli]"     -- X Solid Brush Light --
+  5,56    xsolbrme   "[xsolbrme]"     -- X Solid Brush Medium --
+  5,57    plsmeout   "[plsmeout]"     -- Plus Sign Solid Med Outline --
+  5,58    plsbold    "[plsbold ]"     -- Plus Sign Solid Bold --
+  5,59    plsmeopc   "[plsmeopc]"     -- Plus Sign Med Open Ctr Square --
+  5,60    plsboopc   "[plsboopc]"     -- Plus Sign Bold Open Ctr Square --
+  5,61    crsmed     "[crsmed  ]"     -- Cross Medium --
+  5,62    crsosesh   "[crsosesh]"     -- Cross Open S E Shadow --
+  5,63    crssomeo   "[crssomeo]"     -- Cross Solid Medium Outlined --
+  5,64    mltcrsso   "[mltcrsso]"     -- Maltese Cross Solid --
+  5,65    strdavid   "[strdavid]"     -- Star of David --
+  5,66    ast4pnt    "[ast4pnt ]"     -- Asterisk Medium 4 Points --
+  5,67    jkstrsol   "[jkstrsol]"     -- Jack Star Solid Light --
+  5,68    jkstrsob   "[jkstrsob]"     -- Jack Star Solid Bold No Dot --
+  5,69    crsso3lf   "[crsso3lf]"     -- Cross Solid 3 Leaf Clover Tips --
+  5,70    str4sol    "[str4sol ]"     -- Star 4pt Solid --
+  5,71    str4opso   "[str4opso]"     -- Star 4pt Open Stress Outline --
+  5,72    str5sol    "[str5sol ]"     -- Star 5pt Solid --
+  5,73    str5opst   "[str5opst]"     -- Star 5pt Open Stressed --
+  5,74    cr5strce   "[cr5strce]"     -- Circle Solid 5pt Star Center --
+  5,75    str5opce   "[str5opce]"     -- Star 5pt Open Center Circle --
+  5,76    str5opsc   "[str5opsc]"     -- Star 5pt Open Solid Cntr Dot --
+  5,77    str5soli   "[str5soli]"     -- Star 5pt Solid Light Outline --
+  5,78    str5sohe   "[str5sohe]"     -- Star 5pt Solid Heavy Outline --
+  5,79    str5conv   "[str5conv]"     -- Star 5pt Convex --
+  5,80    str5opse   "[str5opse]"     -- Star 5pt Open S E Cast Shadow --
+  5,81    astsolbo   "[astsolbo]"     -- Asterisk Mono Solid Bold --
+  5,82    astboopc   "[astboopc]"     -- Asterisk Mono Bold Open Center --
+  5,83    str8lift   "[str8lift]"     -- Star 8pt Light Flare Tips --
+  5,84    str8litt   "[str8litt]"     -- Star 8pt Light Taper Tips --
+  5,85    str8conv   "[str8conv]"     -- Star 8pt Convex --
+  5,86    str6soli   "[str6soli]"     -- Star 6pt Solid Light --
+  5,87    str8soli   "[str8soli]"     -- Star 8pt Solid Light --
+  5,88    str8sobo   "[str8sobo]"     -- Star 8pt Solid Bold --
+  5,89    str12sol   "[str12sol]"     -- Star 12pt Solid --
+  5,90    str16sol   "[str16sol]"     -- Star 16pt Solid Light --
+  5,91    flo6dotl   "[flo6dotl]"     -- Flower 6 Dtchd Petals Dot Lt --
+  5,92    flo6liop   "[flo6liop]"     -- Flower 6 Petal Light Open Ctr --
+  5,93    asttearc   "[asttearc]"     -- Asterisk Teardrop Ctr Dot Med --
+  5,94    flo6alt    "[flo6alt ]"     -- Flower 6 Petal Alt Blk Wht --
+  5,95    flo5soop   "[flo5soop]"     -- Flower 5 Petal Solid Open Ctr --
+  5,96    flo5opso   "[flo5opso]"     -- Flower 5 Petal Open Solid Ctr Circle --
+  5,97    flo8solo   "[flo8solo]"     -- Flower 8 Petal Solid Outlined --
+  5,98    sunopcir   "[sunopcir]"     -- Sunshine Open in Solid Circle --
+  5,99    flo6bw     "[flo6bw  ]"     -- Flower 6 Black White Petals --
+  5,100   snw6ltch   "[snw6ltch]"     -- Snowflake 6pt Lt Chevrons --
+  5,101   snw6opst   "[snw6opst]"     -- Snowflake 6pt Open Star --
+  5,102   snw6boch   "[snw6boch]"     -- Snowflake 6pt Bold Chevrons --
+  5,103   spk8some   "[spk8some]"     -- Sparkle 8pt Solid Medium --
+  5,104   spk8sobo   "[spk8sobo]"     -- Sparkle 8pt Solid Bold --
+  5,105   ast6sord   "[ast6sord]"     -- Asterisk 6pt Solid Round Ends --
+  5,106   floremld   "[floremld]"     -- Flower Remote Petals Lrg Dot --
+  5,107   ast8tear   "[ast8tear]"     -- Asterisk Solid 8pt Tear Dot --
+  5,108   cirsol     "[cirsol  ]"     -- Circle Solid --
+  5,109   ciropesh   "[ciropesh]"     -- Circle Open East Shadow --
+  5,110   sqrsol     "[sqrsol  ]"     -- Square Solid --
+  5,111   sqropsed   "[sqropsed]"     -- Square Open S E Drop Shadow --
+  5,112   sqropned   "[sqropned]"     -- Square Open N E Drop Shadow --
+  5,113   sqropsec   "[sqropsec]"     -- Square Open S E Cast Shadow --
+  5,114   sqropnec   "[sqropnec]"     -- Square Open N E Cast Shadow --
+  5,115   trisolup   "[trisolup]"     -- Triangle Solid Upright --
+  5,116   trisoldn   "[trisoldn]"     -- Triangle Solid Down --
+  5,117   diasol     "[diasol  ]"     -- Diamond Solid --
+  5,118   ornsoldx   "[ornsoldx]"     -- Ornament Solid Diamond White X --
+  5,119   hlfcirrs   "[hlfcirrs]"     -- Half Circle Right Solid --
+  5,120   recsothv   "[recsothv]"     -- Rectangle Solid Thin Vertical --
+  5,121   recsomev   "[recsomev]"     -- Rectangle Solid Med Vertical --
+  5,122   recsobov   "[recsobov]"     -- Rectangle Solid Bold Vertical --
+  5,123   sopqtsop   "[sopqtsop]"     -- Sng Open Quote Solid Pretty --
+  5,124   sclqtsop   "[sclqtsop]"     -- Sng Closed Quote Solid Pretty --
+  5,125   dopqtsop   "[dopqtsop]"     -- Dbl Open Quote Solid Pretty --
+  5,126   dclqtsop   "[dclqtsop]"     -- Dbl Closed Quote Solid Pretty --
+  5,127   dopqtsos   "[dopqtsos]"     -- Dbl Open Quote Solid Simple --
+  5,128   dclqtsos   "[dclqtsos]"     -- Dbl Closed Quote Solid Simple --
+  5,129   opbrcsob   "[opbrcsob]"     -- Open Curly Brace Solid Bold --
+  5,130   clbrcsob   "[clbrcsob]"     -- Closed Curly Brace Solid Bold --
+  5,131   opparbop   "[opparbop]"     -- Open Paren Bold Pointed --
+  5,132   clparbop   "[clparbop]"     -- Closed Paren Bold Pointed --
+  5,133   wchvsome   "[wchvsome]"     -- West Chevron Solid Medium --
+  5,134   echvsome   "[echvsome]"     -- East Chevron Solid Medium --
+  5,135   openbrkt   "[openbrkt]"     -- Open Bracket --
+  5,136   clsdbrkt   "[clsdbrkt]"     -- Closed Bracket --
+  5,137   wpencpt    "[wpencpt ]"     -- West Pencil Point --
+  5,138   wpenope    "[wpenope ]"     -- West Pen Nib Open --
+  5,139   wpensol    "[wpensol ]"     -- West Pen Nib Solid --
+  5,140   str8open   "[str8open]"     -- Star 8pt Open --
+  5,141   xopebrbo   "[xopebrbo]"     -- X Open Brush Bold --
+  5,142   chkopbrb   "[chkopbrb]"     -- Check Mark Open Brush Bold --
+  5,143   earopbal   "[earopbal]"     -- East Arrow Open Balloon Style --
+  5,144   warlishd   "[warlishd]"     -- West Arrow Light Stressed Head --
+  5,145   warbalbo   "[warbalbo]"     -- West Arrow Balloon Bold --
+  5,146   warsobos   "[warsobos]"     -- West Arrow Solid Bold Strobe --
+  5,147   warsthbb   "[warsthbb]"     -- West Arrow Stress Head Bold Body --
+  5,148   waropesh   "[waropesh]"     -- West Arrow Open East Shadow --
+  5,149   warsoswt   "[warsoswt]"     -- West Arrow Solid Swept Tail --
+  5,150   earopmbo   "[earopmbo]"     -- East Arrow Open Mono Bold --
+  5,151   waropmbo   "[waropmbo]"     -- West Arrow Open Mono Bold --
+  5,152   earxboms   "[earxboms]"     -- East Arrow Ex Bold Mono Stroke --
+  5,153   warxboms   "[warxboms]"     -- West Arrow Ex Bold Mono Stroke --
+  5,154   earso3ft   "[earso3ft]"     -- East Arrow Solid 3 Feather Lt --
+  5,155   warso3ft   "[warso3ft]"     -- West Arrow Solid 3 Feather Lt --
+  5,156   earso5ft   "[earso5ft]"     -- East Arrow Solid 5 Feather --
+  5,157   warso5ft   "[warso5ft]"     -- West Arrow Solid 5 Feather --
+  5,158   hlfcirls   "[hlfcirls]"     -- Half Circle Left Solid --
+  5,159   lipsorpu   "[lipsorpu]"     -- Lips Solid Right Puckered --
+  5,160   pilcsolg   "[pilcsolg]"     -- Pilcrow Solid Large --
+  5,161   pilcsofr   "[pilcsofr]"     -- Pilcrow Solid French Style --
+  5,162   excsobo    "[excsobo ]"     -- Exclamation Mark Solid Bold --
+  5,163   hrtexcso   "[hrtexcso]"     -- Heart Exclamation Mark Solid --
+  5,164   hrtsoext   "[hrtsoext]"     -- Heart Solid Extended --
+  5,165   lipsolpu   "[lipsolpu]"     -- Lips Solid Left Puckered --
+  5,166   flohtsov   "[flohtsov]"     -- Floral Heart Solid Vertical --
+  5,167   flohtsoh   "[flohtsoh]"     -- Floral Heart Solid Horizontal --
+  5,168   clubs      "[clubs   ]"     -- Club Solid Card Style --
+  5,169   diamonds   "[diamonds]"     -- Diamond Solid Card Style --
+  5,170   hearts     "[hearts  ]"     -- Heart Solid Card Style --
+  5,171   spades     "[spades  ]"     -- Spade Solid Card Style --
+  5,172   cir1ops    "[cir1ops ]"     -- No 1 Circle Open Serif --
+  5,173   cir2ops    "[cir2ops ]"     -- No 2 Circle Open Serif --
+  5,174   cir3ops    "[cir3ops ]"     -- No 3 Circle Open Serif --
+  5,175   cir4ops    "[cir4ops ]"     -- No 4 Circle Open Serif --
+  5,176   cir5ops    "[cir5ops ]"     -- No 5 Circle Open Serif --
+  5,177   cir6ops    "[cir6ops ]"     -- No 6 Circle Open Serif --
+  5,178   cir7ops    "[cir7ops ]"     -- No 7 Circle Open Serif --
+  5,179   cir8ops    "[cir8ops ]"     -- No 8 Circle Open Serif --
+  5,180   cir9ops    "[cir9ops ]"     -- No 9 Circle Open Serif --
+  5,181   cir10ops   "[cir10ops]"     -- No 10 Circle Open Serif --
+  5,182   cir1sos    "[cir1sos ]"     -- No 1 Circle Solid Serif Bold --
+  5,183   cir2sos    "[cir2sos ]"     -- No 2 Circle Solid Serif Bold --
+  5,184   cir3sos    "[cir3sos ]"     -- No 3 Circle Solid Serif Bold --
+  5,185   cir4sos    "[cir4sos ]"     -- No 4 Circle Solid Serif Bold --
+  5,186   cir5sos    "[cir5sos ]"     -- No 5 Circle Solid Serif Bold --
+  5,187   cir6sos    "[cir6sos ]"     -- No 6 Circle Solid Serif Bold --
+  5,188   cir7sos    "[cir7sos ]"     -- No 7 Circle Solid Serif Bold --
+  5,189   cir8sos    "[cir8sos ]"     -- No 8 Circle Solid Serif Bold --
+  5,190   cir9sos    "[cir9sos ]"     -- No 9 Circle Solid Serif Bold --
+  5,191   cir10sos   "[cir10sos]"     -- No 10 Circle Solid Serif Bold --
+  5,192   cir1oss    "[cir1oss ]"     -- No 1 Circle Open Sans Serif --
+  5,193   cir2oss    "[cir2oss ]"     -- No 2 Circle Open Sans Serif --
+  5,194   cir3oss    "[cir3oss ]"     -- No 3 Circle Open Sans Serif --
+  5,195   cir4oss    "[cir4oss ]"     -- No 4 Circle Open Sans Serif --
+  5,196   cir5oss    "[cir5oss ]"     -- No 5 Circle Open Sans Serif --
+  5,197   cir6oss    "[cir6oss ]"     -- No 6 Circle Open Sans Serif --
+  5,198   cir7oss    "[cir7oss ]"     -- No 7 Circle Open Sans Serif --
+  5,199   cir8oss    "[cir8oss ]"     -- No 8 Circle Open Sans Serif --
+  5,200   cir9oss    "[cir9oss ]"     -- No 9 Circle Open Sans Serif --
+  5,201   cir10oss   "[cir10oss]"     -- No 10 Circle Open Sans Serif --
+  5,202   cir1sss    "[cir1sss ]"     -- No 1 Circle Solid Sans Serif --
+  5,203   cir2sss    "[cir2sss ]"     -- No 2 Circle Solid Sans Serif --
+  5,204   cir3sss    "[cir3sss ]"     -- No 3 Circle Solid Sans Serif --
+  5,205   cir4sss    "[cir4sss ]"     -- No 4 Circle Solid Sans Serif --
+  5,206   cir5sss    "[cir5sss ]"     -- No 5 Circle Solid Sans Serif --
+  5,207   cir6sss    "[cir6sss ]"     -- No 6 Circle Solid Sans Serif --
+  5,208   cir7sss    "[cir7sss ]"     -- No 7 Circle Solid Sans Serif --
+  5,209   cir8sss    "[cir8sss ]"     -- No 8 Circle Solid Sans Serif --
+  5,210   cir9sss    "[cir9sss ]"     -- No 9 Circle Solid Sans Serif --
+  5,211   cir10sss   "[cir10sss]"     -- No 10 Circle Solid Sans Serif --
+  5,212   earmohtm   "[earmohtm]"     -- East Arrow Mono Horz Term Med --
+  5,213   earlishd   "[earlishd]"     -- East Arrow Light Stress Head --
+  5,214   ewarlist   "[ewarlist]"     -- East West Arrow Lt Strsd Head  --
+  5,215   uparlist   "[uparlist]"     -- Up Down Arrow Lt Stress Head --
+  5,216   searthtb   "[searthtb]"     -- S E Arrow Tri Head Taper Body --
+  5,217   eardhdtb   "[eardhdtb]"     -- East Arrow Delta Hd Taper Body --
+  5,218   nearthtb   "[nearthtb]"     -- N E Arrow Tri Head Taper Body --
+  5,219   earsodhd   "[earsodhd]"     -- East Arrow Solid Delta Head --
+  5,220   earbalbo   "[earbalbo]"     -- East Arrow Balloon Bold --
+  5,221   earsxlth   "[earsxlth]"     -- East Arrow Solid X Lt Tri Head --
+  5,222   earsomth   "[earsomth]"     -- East Arrow Solid Med Tri Head --
+  5,223   earsomst   "[earsomst]"     -- East Arrow Solid Med Strobe --
+  5,224   earsobst   "[earsobst]"     -- East Arrow Solid Bold Strobe --
+  5,225   earsobth   "[earsobth]"     -- East Arrow Solid Bold Tri Head --
+  5,226   edelcvdb   "[edelcvdb]"     -- East Delta Convex Dark Bottom --
+  5,227   edelcvdt   "[edelcvdt]"     -- East Delta Convex Dark Top --
+  5,228   edelsol    "[edelsol ]"     -- East Delta Solid --
+  5,229   dnrarsol   "[dnrarsol]"     -- Down Right Arrow Solid --
+  5,230   uprarsol   "[uprarsol]"     -- Up Right Arrow Solid --
+  5,231   earsoboc   "[earsoboc]"     -- East Arrow Solid Bold Condensed --
+  5,232   earsthbb   "[earsthbb]"     -- East Arrow Stress Head Bold Body --
+  5,233   earopesh   "[earopesh]"     -- East Arrow Open East Shadow --
+  5,234   earopwsh   "[earopwsh]"     -- East Arrow Open West Shadow --
+  5,235   earoesss   "[earoesss]"     -- East Arrow Open E Slant S Shadow --
+  5,236   earowsns   "[earowsns]"     -- East Arrow Open W Slant N Shadow --
+  5,237   earopses   "[earopses]"     -- East Arrow Open S E Shadow --
+  5,238   earopnes   "[earopnes]"     -- East Arrow Open N E Shadow --
+  5,239   earvtses   "[earvtses]"     -- East Arrow V Tail S E Shadow --
+  5,240   earopboc   "[earopboc]"     -- East Arrow Open Bold Condensed --
+  5,241   warvtnes   "[warvtnes]"     -- West Arrow V Tail N E Shadow --
+  5,242   earinsel   "[earinsel]"     -- East Arrow in Solid Ellipse --
+  5,243   ear4opch   "[ear4opch]"     -- East Arrow 4 Open Chevron Tail --
+  5,244   searshdt   "[searshdt]"     -- S E Arrow Strsd Hd Dtchd Tail --
+  5,245   earshdt    "[earshdt ]"     -- East Arrow Strsd Hd Dtchd Tail --
+  5,246   nearshdt   "[nearshdt]"     -- N E Arrow Strsd Hd Dtchd Tail --
+  5,247   searsst    "[searsst ]"     -- S E Arrow Solid Swept Tail --
+  5,248   earsost    "[earsost ]"     -- East Arrow Solid Swept Tail --
+  5,249   nearsost   "[nearsost]"     -- N E Arrow Solid Swept Tail --
+  5,250   eartearb   "[eartearb]"     -- East Arrow Teardrop Style Bold --
+  5,251   eartulb    "[eartulb ]"     -- East Arrow Tulip Style Bold --
+  5,252   earbocht   "[earbocht]"     -- East Arrow Bold Chevron Tail --
+  5,253   earbocct   "[earbocct]"     -- East Arrow Bold Cond Chevron Tail --
+  5,254   earopope   "[earopope]"     -- East Arrow Open Open Ends --

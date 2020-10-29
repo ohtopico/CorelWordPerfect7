@@ -1,0 +1,51 @@
+:Base dmodeler.hlp>topics
+:Title Ajuda do Módulo de Análise de Dados
+:Index Data Modeling Desktop Help=dmodeler.hlp
+:Link DMODELER.HLP
+1 Conceitos Básicos
+2 Visão geral do Módulo de Análise de Dados=DataModelingDesktopOverview
+2 Requisitos de dados do Módulo de Análise de Dados=DataRequirements
+2 Ligações DDE e intercâmbio de dados
+3 Intercâmbio de dados através de ligações ativas DDE=DDEHot
+3 Intercâmbio de dados sem ligações=DDECold
+1 Como...
+2 Abrir um novo relatório
+3 Enviar um bloco de dados 2-D para o Módulo de Análise de Dados=SendingDataToDataModelingDesktop
+3 Enviar um bloco de dados 3-D para o Módulo de Análise de Dados=Sending3DNotebookDataToDataModelingDesktop
+2 Elaborar um relatório
+3 Criar uma barra com etiquetas no topo=CreatingaTopLabelBar
+3 Criar uma barra com etiquetas laterais=CreatingaSideLabelBar
+3 Preencher dados de relatório=FillingInTheReportData
+3 Girar uma barra de etiquetas=PivotingALabelBar
+3 Reorganizar uma etiqueta=RearrangingLevels
+3 Remover barras de etiquetas=RemovingExtraLabelBars
+3 Criar um total=CreatingTotals
+3 Agrupar etiquetas dentro de uma barra de etiquetas=GroupingLabelsWithinALabelBar
+3 Adicionar etiquetas a um grupo existente=GroupElements
+3 Desagrupar etiquetas=UngroupElements
+3 Alterar o nome de uma etiqueta de relatório=UsingTheNameGadget
+3 Copiar um relatório para um caderno do Quattro Pro =CopyingTheReportToTheNotebook
+2 Personalisar um relatório
+3 Ocultar etiquetas=HidingLabels
+3 Restaurar etiquetas=RestoringLabels
+3 Exibir linhas de grade=UsingtheDisplayGadget
+3 Definir formatos numéricos=UsingtheFormatGadget
+3 Criar formatos numéricos=CreateFormats
+3 Excluir formatos numéricos=DeleteFormats
+3 Alterar uma fórmula para dados de relatório=UsingtheFormulaGadget
+3 Selecionar todos os dados de relatório=SelectingReportData
+3 Selecionar etiquetas=SelectLabels
+3 Selecionar uma coluna de dados de relatório=SelectColumns
+3 Selecionar uma fileira de dados de relatório=SelectRows
+3 Alterar os tamanhos de fonte=ChangeFonts
+3 Filtrar dados de origem usando o dispositivo Limite=UsingtheLimitGadget
+3 Redimensionar uma fileira=ResizingRows
+3 Redimensionar uma coluna=ResizingColumns
+2 Salvar, abrir e fechar relatórios
+3 Salvar um relatório=SaveReport
+3 Abrir um relatório=OpenReport
+3 Fechar um relatório=CloseReport
+1 Referência
+2 Comandos de menu=Menus_topics
+2 Barra de Ferramentas=FDSpeedbar
+2 Glossário=GLOSSARY

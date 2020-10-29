@@ -1,0 +1,95 @@
+--
+    File:  ISOAMSR.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOamsr PUBLIC
+       "ISO 8879-1986//ENTITIES Added Math Symbols: Relations//EN">
+     %ISOamsr;
+
+  WP #    Name       Text            Description
+--
+  0,0     ape       "[ape   ]"     --/approxeq R: approximate, equals--
+  6,179   asymp     "[asymp ]"     --/asymp R: asymptotically equal to--
+  0,0     bcong     "[bcong ]"     --/backcong R: reverse congruent--
+  0,0     bepsi     "[bepsi ]"     --/backepsilon R: such that--
+  6,140   bowtie    "[bowtie]"     --/bowtie R:--
+  6,189   bsim      "[bsim  ]"     --/backsim R: reverse similar--
+  0,0     bsime     "[bsime ]"     --/backsimeq R: reverse similar, eq--
+  6,178   bump      "[bump  ]"     --/Bumpeq R: bumpy equals--
+  0,0     bumpe     "[bumpe ]"     --/bumpeq R: bumpy equals, equals--
+  0,0     cire      "[cire  ]"     --/circeq R: circle, equals--
+  0,0     colone    "[colone]"     --/coloneq R: colon, equals--
+  0,0     cuepr     "[cuepr ]"     --/curlyeqprec R: curly eq, precedes--
+  0,0     cuesc     "[cuesc ]"     --/curlyeqsucc R: curly eq, succeeds--
+  0,0     cupre     "[cupre ]"     --/curlypreceq R: curly precedes, eq--
+  6,92    dashv     "[dashv ]"     --/dashv R: dash, vertical--
+  0,0     ecir      "[ecir  ]"     --/eqcirc R: circle on equals sign--
+  0,0     ecolon    "[ecolon]"     --/eqcolon R: equals, colon--
+  0,0     eDot      "[eDot  ]"     --/doteqdot /Doteq R: eq, even dots--
+  6,175   esdot     "[esdot ]"     --/doteq R: equals, single dot above--
+  6,176   efDot     "[efDot ]"     --/fallingdotseq R: eq, falling dots--
+  0,0     egs       "[egs   ]"     --/eqslantgtr R: equal-or-gtr, slanted--
+  0,0     els       "[els   ]"     --/eqslantless R: eq-or-less, slanted--
+  6,177   erDot     "[erDot ]"     --/risingdotseq R: eq, rising dots--
+  0,0     fork      "[fork  ]"     --/pitchfork R: pitchfork--
+  6,142   frown     "[frown ]"     --/frown R: down curve--
+  0,0     gap       "[gap   ]"     --/gtrapprox R: greater, approximate--
+  0,0     gsdot     "[gsdot ]"     --/gtrdot R: greater than, single dot--
+  0,0     gE        "[gE    ]"     --/geqq R: greater, double equals--
+  0,0     gel       "[gel   ]"     --/gtreqless R: greater, equals, less--
+  0,0     gEl       "[gEl   ]"     --/gtreqqless R: gt, dbl equals, less--
+  0,0     ges       "[ges   ]"     --/geqslant R: gt-or-equal, slanted--
+  6,124   Gg        "[Gg    ]"     --/ggg /Gg /gggtr R: triple gtr-than--
+  0,0     gl        "[gl    ]"     --/gtrless R: greater, less--
+  0,0     gsim      "[gsim  ]"     --/gtrsim R: greater, similar--
+  6,78    Gt        "[Gt    ]"     --/gg R: dbl greater-than sign--
+  0,0     lap       "[lap   ]"     --/lessapprox R: less, approximate--
+  0,0     ldot      "[ldot  ]"     --/lessdot R: less than, with dot--
+  0,0     lE        "[lE    ]"     --/leqq R: less, double equals--
+  0,0     lEg       "[lEg   ]"     --/lesseqqgtr R: less, dbl eq, greater--
+  0,0     leg       "[leg   ]"     --/lesseqgtr R: less, eq, greater--
+  0,0     les       "[les   ]"     --/leqslant R: less-than-or-eq, slant--
+  0,0     lg        "[lg    ]"     --/lessgtr R: less, greater--
+  6,123   Ll        "[Ll    ]"     --/Ll /lll /llless R: triple less-than--
+  0,0     lsim      "[lsim  ]"     --/lesssim R: less, similar--
+  6,77    Lt        "[Lt    ]"     --/ll R: double less-than sign--
+  0,0     ltrie     "[ltrie ]"     --/trianglelefteq R: left triangle, eq--
+  0,0     mid       "[mid   ]"     --/mid R:--
+  6,180   models    "[models]"     --/models R:--
+  6,117   pr        "[pr    ]"     --/prec R: precedes--
+  0,0     prap      "[prap  ]"     --/precapprox R: precedes, approximate--
+  6,118   pre       "[pre   ]"     --/preceq R: precedes, equals--
+  0,0     prsim     "[prsim ]"     --/precsim R: precedes, similar--
+  0,0     rtrie     "[rtrie ]"     --/trianglerighteq R: right tri, eq--
+  0,0     samalg    "[samalg]"     --/smallamalg R: small amalg--
+  6,119   sc        "[sc    ]"     --/succ R: succeeds--
+  0,0     scap      "[scap  ]"     --/succapprox R: succeeds, approximate--
+  0,0     sccue     "[sccue ]"     --/succcurlyeq R: succeeds, curly eq--
+  6,120   sce       "[sce   ]"     --/succeq R: succeeds, equals--
+  0,0     scsim     "[scsim ]"     --/succsim R: succeeds, similar--
+  0,0     sfrown    "[sfrown]"     --/smallfrown R: small down curve--
+  0,0     smid      "[smid  ]"     --/shortmid R:--
+  6,141   smile     "[smile ]"     --/smile R: up curve--
+  0,0     spar      "[spar  ]"     --/shortparallel R: short parallel--
+  6,130   sqsub     "[sqsub ]"     --/sqsubset R: square subset--
+  6,131   sqsube    "[sqsube]"     --/sqsubseteq R: square subset, equals--
+  6,133   sqsup     "[sqsup ]"     --/sqsupset R: square superset--
+  6,134   sqsupe    "[sqsupe]"     --/sqsupseteq R: square superset, eq--
+  0,0     ssmile    "[ssmile]"     --/smallsmile R: small up curve--
+  6,162   Sub       "[Sub   ]"     --/Subset R: double subset--
+  0,0     subE      "[subE  ]"     --/subseteqq R: subset, dbl equals--
+  6,163   Sup       "[Sup   ]"     --/Supset R: dbl superset--
+  0,0     supE      "[supE  ]"     --/supseteqq R: superset, dbl equals--
+  0,0     thkap     "[thkap ]"     --/thickapprox R: thick approximate--
+  0,0     thksim    "[thksim]"     --/thicksim R: thick similar--
+  6,181   trie      "[trie  ]"     --/triangleq R: triangle, equals--
+  6,182   twixt     "[twixt ]"     --/between R: between--
+  0,0     vdash     "[vdash ]"     --/vdash R: vertical, dash--
+  0,0     Vdash     "[Vdash ]"     --/Vdash R: dbl vertical, dash--
+  0,0     vDash     "[vDash ]"     --/vDash R: vertical, dbl dash--
+  6,87    veebar    "[veebar]"     --/veebar R: logical or, bar below--
+  0,0     vltri     "[vltri ]"     --/vartriangleleft R: l tri, open, var--
+  0,0     vprop     "[vprop ]"     --/varpropto R: proportional, variant--
+  0,0     vrtri     "[vrtri ]"     --/vartriangleright R: r tri, open, var--
+  0,0     Vvdash    "[Vvdash]"     --/Vvdash R: triple vertical, dash--

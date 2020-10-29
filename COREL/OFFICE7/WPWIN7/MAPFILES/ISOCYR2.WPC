@@ -1,0 +1,37 @@
+--
+    File:  ISOCYR2.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOcyr2 PUBLIC
+       "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+     %ISOcyr2;
+
+  WP #    Name       Text            Description
+--
+  10,75   djcy      "[djcy  ]"     --=small dje, Serbian--
+  10,74   DJcy      "[DJcy  ]"     --=capital DJE, Serbian--
+  10,69   gjcy      "[gjcy  ]"     --=small gje, Macedonian--
+  10,68   GJcy      "[GJcy  ]"     --=capital GJE Macedonian--
+  10,79   jukcy     "[jukcy ]"     --=small je, Ukrainian--
+  10,78   Jukcy     "[Jukcy ]"     --=capital JE, Ukrainian--
+  10,83   dscy      "[dscy  ]"     --=small dse, Macedonian--
+  10,82   DScy      "[DScy  ]"     --=capital DSE, Macedonian--
+  10,89   iukcy     "[iukcy ]"     --=small i, Ukrainian--
+  10,88   Iukcy     "[Iukcy ]"     --=capital I, Ukrainian--
+  10,91   yicy      "[yicy  ]"     --=small yi, Ukrainian--
+  10,90   YIcy      "[YIcy  ]"     --=capital YI, Ukrainian--
+  10,95   jsercy    "[jsercy]"     --=small je, Serbian--
+  10,94   Jsercy    "[Jsercy]"     --=capital JE, Serbian--
+  10,105  ljcy      "[ljcy  ]"     --=small lje, Serbian--
+  10,104  LJcy      "[LJcy  ]"     --=capital LJE, Serbian--
+  10,109  njcy      "[njcy  ]"     --=small nje, Serbian--
+  10,108  NJcy      "[NJcy  ]"     --=capital NJE, Serbian--
+  10,115  tshcy     "[tshcy ]"     --=small tshe, Serbian--
+  10,114  TSHcy     "[TSHcy ]"     --=capital TSHE, Serbian--
+  10,97   kjcy      "[kjcy  ]"     --=small kje Macedonian--
+  10,96   KJcy      "[KJcy  ]"     --=capital KJE, Macedonian--
+  10,117  ubrcy     "[ubrcy ]"     --=small u, Byelorussian--
+  10,116  Ubrcy     "[Ubrcy ]"     --=capital U, Byelorussian--
+  10,93   dzcy      "[dzcy  ]"     --=small dze, Serbian--
+  10,92   DZcy      "[DZcy  ]"     --=capital dze, Serbian--

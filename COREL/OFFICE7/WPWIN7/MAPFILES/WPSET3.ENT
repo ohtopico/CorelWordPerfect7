@@ -1,0 +1,99 @@
+<!--
+    File:  WPSET3.ENT
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset3 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 3 (Box Drawing)//EN">
+      %wpset3;
+
+         Name            Text          WP#   Description
+--> 
+<!ENTITY boxshad1 SDATA "[boxshad1]" --3,0   Box [Shade 1] -->
+<!ENTITY boxshad2 SDATA "[boxshad2]" --3,1   Box [Shade 2] -->
+<!ENTITY boxshad3 SDATA "[boxshad3]" --3,2   Box [Shade 3] -->
+<!ENTITY boxshad4 SDATA "[boxshad4]" --3,3   Box [Shade 4] -->
+<!ENTITY boxlshad SDATA "[boxlshad]" --3,4   Box [Left Shade] -->
+<!ENTITY boxtshad SDATA "[boxtshad]" --3,5   Box [Top Shade] -->
+<!ENTITY boxrshad SDATA "[boxrshad]" --3,6   Box [Right Shade] -->
+<!ENTITY boxbshad SDATA "[boxbshad]" --3,7   Box [Bottom Shade] -->
+<!ENTITY box.lr   SDATA "[box.lr  ]" --3,8   Box [left right] -->
+<!ENTITY box.tb   SDATA "[box.tb  ]" --3,9   Box [top bottom] -->
+<!ENTITY box.rb   SDATA "[box.rb  ]" --3,10  Box [right bottom] -->
+<!ENTITY box.lb   SDATA "[box.lb  ]" --3,11  Box [left bottom] -->
+<!ENTITY box.lt   SDATA "[box.lt  ]" --3,12  Box [left top] -->
+<!ENTITY box.tr   SDATA "[box.tr  ]" --3,13  Box [top right] -->
+<!ENTITY box.trb  SDATA "[box.trb ]" --3,14  Box [top right bottom] -->
+<!ENTITY box.lrb  SDATA "[box.lrb ]" --3,15  Box [left right bottom] -->
+<!ENTITY box.ltb  SDATA "[box.ltb ]" --3,16  Box [left top bottom] -->
+<!ENTITY box.ltr  SDATA "[box.ltr ]" --3,17  Box [left top right] -->
+<!ENTITY box.ltrb SDATA "[box.ltrb]" --3,18  Box [left top right bottom] -->
+<!ENTITY box.LR   SDATA "[box.LR  ]" --3,19  Box [LEFT RIGHT] -->
+<!ENTITY box.TB   SDATA "[box.TB  ]" --3,20  Box [TOP BOTTOM] -->
+<!ENTITY box.RB   SDATA "[box.RB  ]" --3,21  Box [RIGHT BOTTOM] -->
+<!ENTITY box.LB   SDATA "[box.LB  ]" --3,22  Box [LEFT BOTTOM] -->
+<!ENTITY box.LT   SDATA "[box.LT  ]" --3,23  Box [LEFT TOP] -->
+<!ENTITY box.TR   SDATA "[box.TR  ]" --3,24  Box [TOP RIGHT] -->
+<!ENTITY box.TRB  SDATA "[box.TRB ]" --3,25  Box [TOP RIGHT BOTTOM] -->
+<!ENTITY box.LRB  SDATA "[box.LRB ]" --3,26  Box [LEFT RIGHT BOTTOM] -->
+<!ENTITY box.LTB  SDATA "[box.LTB ]" --3,27  Box [LEFT TOP BOTTOM] -->
+<!ENTITY box.LTR  SDATA "[box.LTR ]" --3,28  Box [LEFT TOP RIGHT] -->
+<!ENTITY box.LTRB SDATA "[box.LTRB]" --3,29  Box [LEFT TOP RIGHT BOTTOM] -->
+<!ENTITY box.Rb   SDATA "[box.Rb  ]" --3,30  Box [RIGHT bottom] -->
+<!ENTITY box.Lb   SDATA "[box.Lb  ]" --3,31  Box [LEFT bottom] -->
+<!ENTITY box.Lt   SDATA "[box.Lt  ]" --3,32  Box [LEFT top] -->
+<!ENTITY box.tR   SDATA "[box.tR  ]" --3,33  Box [top RIGHT] -->
+<!ENTITY box.rB   SDATA "[box.rB  ]" --3,34  Box [right BOTTOM] -->
+<!ENTITY box.lB   SDATA "[box.lB  ]" --3,35  Box [left BOTTOM] -->
+<!ENTITY box.lT   SDATA "[box.lT  ]" --3,36  Box [left TOP] -->
+<!ENTITY box.Tr   SDATA "[box.Tr  ]" --3,37  Box [TOP right] -->
+<!ENTITY box.tRb  SDATA "[box.tRb ]" --3,38  Box [top RIGHT bottom] -->
+<!ENTITY box.lrB  SDATA "[box.lrB ]" --3,39  Box [left right BOTTOM] -->
+<!ENTITY box.Ltb  SDATA "[box.Ltb ]" --3,40  Box [LEFT top bottom] -->
+<!ENTITY box.lTr  SDATA "[box.lTr ]" --3,41  Box [left TOP right] -->
+<!ENTITY box.TrB  SDATA "[box.TrB ]" --3,42  Box [TOP right BOTTOM] -->
+<!ENTITY box.LRb  SDATA "[box.LRb ]" --3,43  Box [LEFT RIGHT bottom] -->
+<!ENTITY box.lTB  SDATA "[box.lTB ]" --3,44  Box [left TOP BOTTOM] -->
+<!ENTITY box.LtR  SDATA "[box.LtR ]" --3,45  Box [LEFT top RIGHT] -->
+<!ENTITY box.lTrB SDATA "[box.lTrB]" --3,46  Box [left TOP right BOTTOM] -->
+<!ENTITY box.LtRb SDATA "[box.LtRb]" --3,47  Box [LEFT top RIGHT bottom] -->
+<!ENTITY box.l    SDATA "[box.l   ]" --3,48  Box [left] -->
+<!ENTITY box.t    SDATA "[box.t   ]" --3,49  Box [top] -->
+<!ENTITY box.r    SDATA "[box.r   ]" --3,50  Box [right] -->
+<!ENTITY box.b    SDATA "[box.b   ]" --3,51  Box [bottom] -->
+<!ENTITY box.L    SDATA "[box.L   ]" --3,52  Box [LEFT] -->
+<!ENTITY box.T    SDATA "[box.T   ]" --3,53  Box [TOP] -->
+<!ENTITY box.R    SDATA "[box.R   ]" --3,54  Box [RIGHT] -->
+<!ENTITY box.B    SDATA "[box.B   ]" --3,55  Box [BOTTOM] -->
+<!ENTITY box.lR   SDATA "[box.lR  ]" --3,56  Box [left RIGHT] -->
+<!ENTITY box.Lr   SDATA "[box.Lr  ]" --3,57  Box [LEFT right] -->
+<!ENTITY box.tB   SDATA "[box.tB  ]" --3,58  Box [top BOTTOM] -->
+<!ENTITY box.Tb   SDATA "[box.Tb  ]" --3,59  Box [TOP bottom] -->
+<!ENTITY box.trB  SDATA "[box.trB ]" --3,60  Box [top right BOTTOM] -->
+<!ENTITY box.tRB  SDATA "[box.tRB ]" --3,61  Box [top RIGHT BOTTOM] -->
+<!ENTITY box.Trb  SDATA "[box.Trb ]" --3,62  Box [TOP right bottom] -->
+<!ENTITY box.TRb  SDATA "[box.TRb ]" --3,63  Box [TOP RIGHT bottom] -->
+<!ENTITY box.lRb  SDATA "[box.lRb ]" --3,64  Box [left RIGHT bottom] -->
+<!ENTITY box.lRB  SDATA "[box.lRB ]" --3,65  Box [left RIGHT BOTTOM] -->
+<!ENTITY box.Lrb  SDATA "[box.Lrb ]" --3,66  Box [LEFT right bottom] -->
+<!ENTITY box.LrB  SDATA "[box.LrB ]" --3,67  Box [LEFT right BOTTOM] -->
+<!ENTITY box.ltB  SDATA "[box.ltB ]" --3,68  Box [left top BOTTOM] -->
+<!ENTITY box.lTb  SDATA "[box.lTb ]" --3,69  Box [left TOP bottom] -->
+<!ENTITY box.LtB  SDATA "[box.LtB ]" --3,70  Box [LEFT top BOTTOM] -->
+<!ENTITY box.LTb  SDATA "[box.LTb ]" --3,71  Box [LEFT TOP bottom] -->
+<!ENTITY box.ltR  SDATA "[box.ltR ]" --3,72  Box [left top RIGHT] -->
+<!ENTITY box.lTR  SDATA "[box.lTR ]" --3,73  Box [left TOP RIGHT] -->
+<!ENTITY box.Ltr  SDATA "[box.Ltr ]" --3,74  Box [LEFT top right] -->
+<!ENTITY box.LTr  SDATA "[box.LTr ]" --3,75  Box [LEFT TOP right] -->
+<!ENTITY box.ltrB SDATA "[box.ltrB]" --3,76  Box [left top right BOTTOM] -->
+<!ENTITY box.ltRB SDATA "[box.ltRB]" --3,77  Box [left top RIGHT BOTTOM] -->
+<!ENTITY box.ltRb SDATA "[box.ltRb]" --3,78  Box [left top RIGHT bottom] -->
+<!ENTITY box.lTrb SDATA "[box.lTrb]" --3,79  Box [left TOP right bottom] -->
+<!ENTITY box.lTRb SDATA "[box.lTRb]" --3,80  Box [left TOP RIGHT bottom] -->
+<!ENTITY box.lTRB SDATA "[box.lTRB]" --3,81  Box [left TOP RIGHT BOTTOM] -->
+<!ENTITY box.Ltrb SDATA "[box.Ltrb]" --3,82  Box [LEFT top right bottom] -->
+<!ENTITY box.LtrB SDATA "[box.LtrB]" --3,83  Box [LEFT top right BOTTOM] -->
+<!ENTITY box.LtRB SDATA "[box.LtRB]" --3,84  Box [LEFT top RIGHT BOTTOM] -->
+<!ENTITY box.LTrb SDATA "[box.LTrb]" --3,85  Box [LEFT TOP right bottom] -->
+<!ENTITY box.LTrB SDATA "[box.LTrB]" --3,86  Box [LEFT TOP right BOTTOM] -->
+<!ENTITY box.LTRb SDATA "[box.LTRb]" --3,87  Box [LEFT TOP RIGHT bottom] -->

@@ -1,0 +1,94 @@
+<!--
+     File:  CALS_TBL.DTD        (DTD Declaration Subset)
+
+     DISCLAIMER:  This declaration subset contains the CALS table
+     information that is considered relevant by the SGML features of
+     WordPerfect for Windows 7.  This file is NOT a complete DTD, and
+     cannot be compiled into an LGC file without modification.
+     
+     Although this file can be included in an arbitrary DTD to add some
+     level of CALS table support, it does not include all of the elements,
+     entities, and attributes found in the complete DTDs in MIL-M-28001.
+     It is intended primarily for your information, and is NOT for use in
+     CALS-compliant environments.
+-->
+
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+  <!-- Many attributes have a Boolean value. They are uniformly given
+  the declared value "%yesorno;" rather than NUMBER to indicate this
+  intent. 0 is interpreted as false; all other numbers as true. -->
+
+  <!ENTITY % yesorno   "NUMBER" >
+
+
+
+  <!ELEMENT table      - -  (title?, tgroup) >
+  <!ATTLIST table      frame          (top | bottom |
+                                       topbot | all |
+                                       sides | none)         #IMPLIED
+                       colsep         %yesorno;              #IMPLIED
+                       rowsep         %yesorno;              #IMPLIED >
+
+  <!ELEMENT title      - O  (#PCDATA) >
+
+  <!ELEMENT tgroup     - O  (colspec*, spanspec*, thead?, tfoot?, tbody) >
+  <!ATTLIST tgroup     cols           NUMBER                 #REQUIRED
+                       colsep         %yesorno;              #IMPLIED
+                       rowsep         %yesorno;              #IMPLIED
+                       align          (left | right |
+                                       center | justify |
+                                       char)                 "left" >
+
+  <!ELEMENT colspec    - O  EMPTY >
+  <!ATTLIST colspec    colnum         NUMBER                 #IMPLIED
+                       colname        NMTOKEN                #IMPLIED
+                       align          (left | right |
+                                       center | justify |
+                                       char)                 #IMPLIED
+                       colwidth       CDATA                  #IMPLIED
+                       colsep         %yesorno;              #IMPLIED
+                       rowsep         %yesorno;              #IMPLIED >
+
+  <!ELEMENT spanspec   - O  EMPTY >
+  <!ATTLIST spanspec   namest         NMTOKEN                #REQUIRED
+                       nameend        NMTOKEN                #REQUIRED
+                       spanname       NMTOKEN                #REQUIRED
+                       align          (left | right |
+                                       center | justify
+                                       | char )              "center"
+                       colsep         %yesorno;              #IMPLIED
+                       rowsep         %yesorno;              #IMPLIED   >
+
+  <!ELEMENT thead      - O  (colspec*, row+) >
+  <!ATTLIST thead      valign         (top | middle |
+                                       bottom)               "bottom" >
+
+  <!ELEMENT tfoot      - O  (colspec*, row+) >
+  <!ATTLIST tfoot      valign         (top | middle |
+                                       bottom)               "top" >
+
+  <!ELEMENT tbody      - O  (row+) >
+  <!ATTLIST tbody      valign         (top | middle |
+                                       bottom)               "top" >
+
+  <!ELEMENT row        - O  (entry+) >
+  <!ATTLIST row        rowsep         %yesorno;              #IMPLIED
+                       valign         (top | bottom |
+                                       middle)               #IMPLIED >
+
+  <!ELEMENT entry      - O  (#PCDATA ) >
+  <!ATTLIST entry      colname        NMTOKEN                #IMPLIED
+                       namest         NMTOKEN                #IMPLIED
+                       nameend        NMTOKEN                #IMPLIED
+                       spanname       NMTOKEN                #IMPLIED
+                       morerows       NUMBER                 "0"
+                       colsep         %yesorno;              #IMPLIED
+                       rowsep         %yesorno;              #IMPLIED
+                       valign         (top | bottom |
+                                       middle)               "top"
+                       align          (left | right |
+                                       center | justify |
+                                       char )                #IMPLIED >

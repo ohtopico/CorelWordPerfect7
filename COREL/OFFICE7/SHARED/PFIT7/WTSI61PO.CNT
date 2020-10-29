@@ -1,0 +1,30 @@
+:Base WTSI61po.hlp>TOPICS
+:Title Ajuda do Corretor Ortográfico
+:Link sputl61.hlp
+:Link wtwi61po.hlp
+1 Como Usar o Corretor Ortográfico
+2 Corrigindo a Ortografia
+3 Iniciando a Correção Ortográfica=6232
+3 Substituindo uma Palavra com Grafia Incorreta=6222
+3 Adicionando uma Palavra de Substituição à Lista de Palavras do Usuário=6758@wtwi61po.hlp>topics
+3 Substituindo Automaticamente uma Palavra com Grafia Incorreta=6208
+3 Pulando uma Palavra com Grafia Incorreta uma Vez=6223
+3 Sempre Pulando uma Palavra Específica=6224
+3 Adicionando Palavras a Serem Puladas à Lista de Palavras do Usuário=6757@wtwi61po.hlp>topics
+3 Visualizando Sugestões Adicionais=6238
+3 Editando o Texto Manualmente=6236
+2 Definindo o Escopo do Corretor Ortográfico
+3 Verificando uma Parte do Documento=6239
+3 Verificando o Texto Selecionado=6230
+3 Fechando o Corretor Ortográfico Antes de Terminar a Correção=6232
+3 Reiniciando uma Correção Ortográfica Interrompida=6226
+2 Personalizando o Corretor Ortográfico
+3 Iniciando Automaticamente o Corretor Ortográfico=6209
+3 Emitindo um Som ao Encontrar Palavra com Grafia Incorreta=6235
+3 Verificando Uso Irregular de Maiúsculas e Minúsculas=6206
+3 Consultar Sugestões Fonéticas=6234
+3 Verificando Palavras com Números=6204
+3 Verificando Palavras Duplicadas=6205
+3 Solicitando Antes da Substituição Automática=6207
+3 Corrigindo o Texto Novamente=6233
+3 Selecionando um Idioma=6240

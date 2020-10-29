@@ -1,0 +1,60 @@
+--
+    File:  ISOGRK1.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOgrk1 PUBLIC
+       "ISO 8879-1986//ENTITIES Greek Letters//EN">
+     %ISOgrk1;
+
+  WP #    Name       Text            Description
+--
+  8,1     agr       "[agr   ]"     --=small alpha, Greek--
+  8,0     Agr       "[Agr   ]"     --=capital Alpha, Greek--
+  8,3     bgr       "[bgr   ]"     --=small beta, Greek--
+  8,2     Bgr       "[Bgr   ]"     --=capital Beta, Greek--
+  8,7     ggr       "[ggr   ]"     --=small gamma, Greek--
+  8,6     Ggr       "[Ggr   ]"     --=capital Gamma, Greek--
+  8,9     dgr       "[dgr   ]"     --=small delta, Greek--
+  8,8     Dgr       "[Dgr   ]"     --=capital Delta, Greek--
+  8,11    egr       "[egr   ]"     --=small epsilon, Greek--
+  8,10    Egr       "[Egr   ]"     --=capital Epsilon, Greek--
+  8,13    zgr       "[zgr   ]"     --=small zeta, Greek--
+  8,12    Zgr       "[Zgr   ]"     --=capital Zeta, Greek--
+  8,15    eegr      "[eegr  ]"     --=small eta, Greek--
+  8,14    EEgr      "[EEgr  ]"     --=capital Eta, Greek--
+  8,17    thgr      "[thgr  ]"     --=small theta, Greek--
+  8,16    THgr      "[THgr  ]"     --=capital Theta, Greek--
+  8,19    igr       "[igr   ]"     --=small iota, Greek--
+  8,18    Igr       "[Igr   ]"     --=capital Iota, Greek--
+  8,21    kgr       "[kgr   ]"     --=small kappa, Greek--
+  8,20    Kgr       "[Kgr   ]"     --=capital Kappa, Greek--
+  8,23    lgr       "[lgr   ]"     --=small lambda, Greek--
+  8,22    Lgr       "[Lgr   ]"     --=capital Lambda, Greek--
+  8,25    mgr       "[mgr   ]"     --=small mu, Greek--
+  8,24    Mgr       "[Mgr   ]"     --=capital Mu, Greek--
+  8,27    ngr       "[ngr   ]"     --=small nu, Greek--
+  8,26    Ngr       "[Ngr   ]"     --=capital Nu, Greek--
+  8,29    xgr       "[xgr   ]"     --=small xi, Greek--
+  8,28    Xgr       "[Xgr   ]"     --=capital Xi, Greek--
+  8,31    ogr       "[ogr   ]"     --=small omicron, Greek--
+  8,30    Ogr       "[Ogr   ]"     --=capital Omicron, Greek--
+  8,33    pgr       "[pgr   ]"     --=small pi, Greek--
+  8,32    Pgr       "[Pgr   ]"     --=capital Pi, Greek--
+  8,35    rgr       "[rgr   ]"     --=small rho, Greek--
+  8,34    Rgr       "[Rgr   ]"     --=capital Rho, Greek--
+  8,37    sgr       "[sgr   ]"     --=small sigma, Greek--
+  8,36    Sgr       "[Sgr   ]"     --=capital Sigma, Greek--
+  8,39    sfgr      "[sfgr  ]"     --=final small sigma, Greek--
+  8,41    tgr       "[tgr   ]"     --=small tau, Greek--
+  8,40    Tgr       "[Tgr   ]"     --=capital Tau, Greek--
+  8,43    ugr       "[ugr   ]"     --=small upsilon, Greek--
+  8,42    Ugr       "[Ugr   ]"     --=capital Upsilon, Greek--
+  8,45    phgr      "[phgr  ]"     --=small phi, Greek--
+  8,44    PHgr      "[PHgr  ]"     --=capital Phi, Greek--
+  8,47    khgr      "[khgr  ]"     --=small chi, Greek--
+  8,46    KHgr      "[KHgr  ]"     --=capital Chi, Greek--
+  8,49    psgr      "[psgr  ]"     --=small psi, Greek--
+  8,48    PSgr      "[PSgr  ]"     --=capital Psi, Greek--
+  8,51    ohgr      "[ohgr  ]"     --=small omega, Greek--
+  8,50    OHgr      "[OHgr  ]"     --=capital Omega, Greek--

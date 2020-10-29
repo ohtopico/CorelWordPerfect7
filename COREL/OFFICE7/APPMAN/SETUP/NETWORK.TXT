@@ -1,0 +1,833 @@
+NETWORK.TXT
+Notas da Versão de Rede do Corel WordPerfect Suite 7
+Rev. 96-10-16
+=================================================================
+
+Estas notas da versão destinam-se ao administrador da rede ou
+gerente de aplicativos responsável pela instalação e manutenção
+do Corel(R) WordPerfect(R) Suite 7 na rede.
+
+
+
+CONTEÚDO
+========
+1 NOTAS PARA OS USUÁRIOS DOS SERVIÇOS BETA 3 E NDS
+
+2 DOCUMENTAÇÃO DE ADMINISTRAÇÃO DE REDE E PÁGINA NA WEB
+
+3 NOTAS DA VERSÃO EM CD-ROM
+
+4 COMPREENDENDO O CONTRATO DE LICENÇA DO SOFTWARE
+
+5 INSTALANDO O COREL WORDPERFECT SUITE EM UMA REDE
+  5.1 Conceitos
+  5.2 Preparando-se para Instalar
+  5.3 Escolhendo os Aplicativos a Serem Instalados
+  5.4 Instalando em um Servidor de Rede
+  5.5 Instalando em uma Estação de Trabalho
+
+6 OPÇÕES DA LINHA DE COMANDO
+
+7 ESTRUTURA DE DIRETÓRIO DO COREL WORDPERFECT SUITE
+  7.1 Estrutura de Diretório da Rede: Suite
+  7.2 Estrutura de Diretório da Estação de Trabalho: Suite
+  7.3 Estrutura de Diretório: Aplicativos Adicionais
+
+8 NOTAS PARA OS USUÁRIOS DE VLMs
+
+9 OUTRAS QUESTÕES A RESPEITO DO WINDOWS NT
+  9.1  Cliente Banyan Enterprise
+  9.2  Editor de Configurações do Corel Office e NT 3.51
+
+
+
+1 NOTAS PARA OS USUÁRIOS DOS SERVIÇOS BETA 3 E NDS
+==================================================
+
+Se tiver instalado uma cópia para rede do Corel WordPerfect
+Suite 7 beta 3 a partir de uma estação de trabalho dotada do
+Serviço NDS da Microsoft, exclua a seguinte entrada de registro
+ANTES de instalar esta versão do Corel WordPerfect Suite 7:
+
+     HKEY_LOCAL_MACHINE\SOFTWARE\COREL\NAMADMIN.DIR
+
+
+
+2  DOCUMENTAÇÃO DE ADMINISTRAÇÃO DE REDE E PÁGINA NA WEB
+========================================================
+
+Uma cópia do Guia do Administrador de Rede de Aplicativos para 
+Negócios da Corel, no formato WordPerfect, se encontra no CD 
+do Corel WordPerfect Suite 7.  O arquivo, CO7ADMIN.WPD, é 
+copiado para o diretório Corel\Office7\AppMan\Admin durante 
+a instalação em rede.
+
+A Corel decidiu usar a World Wide Web e outros serviços eletrônicos 
+para distribuir informações e utilitários para a administração de 
+redes e gerência de aplicativos.  Para obter a versão mais recente 
+do Guia do Administrador de Rede e atualizações periódicas do 
+Editor de Configurações do Corel Office, veja a seção Service and
+Support em nosso site www.wordperfect.com na Web.
+
+
+
+3  NOTAS DA VERSÃO EM CD-ROM
+============================
+
+Notas da versão adicionais se encontram no CD do Corel WordPerfect
+Suite 7.  Consulte as notas de versão da suite, WPWIN7.TXT, 
+para obter mais informações.
+
+
+
+4  COMPREENDENDO O CONTRATO DE LICENÇA DO SOFTWARE
+==================================================
+
+Em qualquer um dos casos listados a seguir, se instalar o Corel
+WordPerfect Suite, apenas o Corel WordPerfect, ou os aplicativos
+adicionais em um servidor de rede, em estações de trabalho
+individuais, ou usando uma combinação destes métodos, o número 
+total de cópias de um aplicativo em uso não deverá exceder o 
+número impresso em seu comprovante de compra.  Você deve ter 
+recebido este comprovante ao comprar o Corel WordPerfect Suite.  
+O Contrato de Licença do Software contido no programa de 
+Configuração explica mais sobre o uso de várias cópias dos 
+aplicativos.
+
+
+
+5  INSTALANDO O COREL WORDPERFECT SUITE EM UMA REDE
+===================================================
+
+O programa de Configuração foi completamente revisado desde a
+versão WordPerfect 6.1.  Um dos principais objetivos desta
+revisão foi tornar mais fácil a instalação e gerenciamento do
+Corel WordPerfect Suite 7 em uma rede.
+
+Existem duas versões do programa de Configuração no CD-ROM do
+Corel WordPerfect Suite 7:
+
+     NETSETUP.EXE   Configuração da Rede -- instala o Corel
+                    WordPerfect Suite em um servidor de rede.
+                    Use Configuração da Rede para criar uma
+                    instalação compartilhada dos aplicativos.
+
+     SETUP.EXE      Configuração da Estação de Trabalho -- instala
+                    o Corel WordPerfect Suite em uma estação de
+                    trabalho (computador de cliente de rede) ou em
+                    um computador independente.
+
+Somente o administrador da rede ou o gerente de aplicativos pode
+executar o arquivo NETSETUP.EXE.
+
+
+5.1  Conceitos
+--------------
+Os conceitos explicados abaixo se aplicam tanto ao programa de Configuração
+da Rede (NETSETUP.EXE), quanto ao programa de Configuração da Estação de
+Trabalho (SETUP.EXE), se estiver instalando o Corel WordPerfect Suite,
+apenas o Corel WordPerfect, ou os aplicativos adicionais.  Para
+simplificar, "Configuração" refere-se aos arquivos NETSETUP.EXE e
+SETUP.EXE, exceto nos casos em que se fizer menção contrária.
+
+5.1.1  Como Funciona a Configuração
+
+Os arquivos SETUP.EXE e NETSETUP.EXE iniciam a versão apropriada
+do programa de Configuração e, em seguida, acessam um arquivo de
+configuração (arquivo .SET), para determinar qual o programa de
+configuração específico ao produto deverá ser descompactado e
+executado.
+
+WPI7.EXE é o programa de configuração específico ao produto para
+todos os aplicativos no Corel WordPerfect Suite 7.  WPI7.EXE exibe
+os quadros de diálogo da Configuração, reúne dados sobre o tipo de
+instalação desejada, copia arquivos para o servidor de rede ou
+para a estação de trabalho e (no caso de SETUP.EXE) configura a
+estação de trabalho.
+
+WPI7.EX_ é o nome da versão compactada do programa de configuração
+específico ao produto.
+
+Ao se executar a Configuração, é criado um arquivo .IP no servidor
+ou estação de trabalho.  O arquivo .IP, ou perfil de instalação,
+é um banco de dados que contém definições dos produtos instalados
+pela Configuração.
+
+É criado um arquivo .LOG (de registro) do processo de instalação.
+
+O diretório APPMAN é criado.  Este diretório armazena arquivos
+relacionados ao gerenciamento e instalação de aplicativos.
+
+5.1.2 Arquivo de Configuração
+
+Cada conjunto de aplicativos do Office do Windows 95 (Corel
+WordPerfect Suite e Corel Office Professional) dispõe de seu
+próprio arquivo de configuração (.SET).  Para a versão em inglês
+americano do Corel WordPerfect Suite, o arquivo .SET é denominado
+WPI7US.SET. O arquivo .SET determina qual o programa de configuração
+específico ao produto deverá ser executado, e contém seqüências de
+texto específicas ao idioma, usadas pela Configuração.
+
+Quando a execução da Configuração estiver terminada, o arquivo .SET
+estará localizado no diretório COREL\OFFICE7\APPMAN\SETUP.  Não é
+necessário se preocupar com os arquivos .SET, a não ser que seja
+instalado mais de um conjunto de aplicativos do Corel Office no
+sistema.  Neste caso, você deverá usar a opção /SETFILE ao executar
+a Configuração para especificar o arquivo .SET a ser usado (e, com
+isso, qual conjunto de aplicativos instalar). As opções de linha de
+comando são explicadas mais abaixo.
+
+IMPORTANTE:  Não se deve editar ou modificar de qualquer maneira
+um arquivo .SET.
+
+5.1.3 Perfil de Instalação
+
+A Configuração cria um perfil de instalação (arquivo .IP) no servidor
+ou estação de trabalho onde forem instalados os aplicativos.  O perfil
+de instalação é um banco de dados que contém definições dos aplicativos
+e componentes instalados no sistema.
+
+Em cada sistema existe somente um perfil de instalação.  As instalações
+subseqüentes mesclam novos dados com o perfil existente.  Se você
+instalar aplicativos em servidores múltiplos, cada servidor terá o
+seu próprio perfil de instalação.  O perfil de instalação é armazenado
+no diretório COREL\OFFICE7\APPMAN\PROFILE.
+
+No caso de uma instalação compartilhada (servidor de rede), o perfil
+de instalação no servidor será NAMADMIN.IP.  No caso de instalações
+de estações de trabalho e computadores independentes, o perfil de
+instalação na máquina local será NAM.IP.  Quando um usuário realiza
+uma instalação em estação de trabalho, a Configuração usa o arquivo
+NAMADMIN.IP do servidor para determinar quais os aplicativos e
+componentes estão disponíveis para a instalação.
+
+IMPORTANTE:  Não se deve editar ou modificar de qualquer maneira
+             um perfil de instalação.
+
+5.1.4 Arquivo de Registro da Instalação
+
+A Configuração cria um arquivo de registro do processo de instalação.
+É possível usar o arquivo de registro para solucionar problemas que
+podem ocorrer durante a instalação. O arquivo de registro grava
+diferentes níveis de erros ou atividades na Configuração, dependendo
+do valor especificado pela opção /LOGLEVEL ao se executar a
+Configuração. As opções de linha de comando são explicadas
+mais abaixo.
+
+O arquivo de registro para o Corel WordPerfect Suite 7 é
+COREL\OFFICE7\APPMAN\SETUP\WPI7.LOG.
+
+5.1.5  Diretório APPMAN
+
+A Configuração cria o diretório APPMAN para arquivos relacionados
+ao gerenciamento e instalação de aplicativos.  O diretório APPMAN é
+criado no diretório COREL\OFFICE7, ou em outro diretório especificado
+como Caminho Principal dos Aplicativos do Corel Office ao se executar
+a Configuração.
+
+Abaixo do diretório APPMAN, o diretório PROFILE contém o perfil de
+instalação.  O diretório SETUP contém o arquivo de registro de
+instalação e os arquivos exigidos para a execução dos programas de
+Configuração e Remover.  O diretório WKSFILES contém arquivos que
+são copiados para o diretório WINDOWS e WINDOWS\SYSTEM de uma estação
+de trabalho durante a instalação da mesma.
+
+5.1.6 Indicador para o Diretório APPMAN
+
+No caso de uma instalação compartilhada (servidor de rede), a
+Configuração cria um "indicador" para o diretório APPMAN do servidor.
+O indicador é um arquivo ou entrada de Registro que contém a localização
+do diretório APPMAN do servidor.
+
+     5.1.6.1 Servidores NetWare e Windows NT
+
+     Em um servidor NetWare ou Windows NT, o indicador é um
+     arquivo denominado NAMADMIN.DIR.  Ele é criado no diretório
+     SYS\PUBLIC ou na porção NETLOGON do servidor na qual estiverem
+     instalados os aplicativos.  Especifique este servidor no diálogo
+     Escolher Servidor, na Configuração.
+
+     O arquivo NAMADMIN.DIR está no formato de arquivo .INI.  A
+     sua aparência aproximada é:
+
+          [Instalações do Servidor]
+          Default=\\appserver\apps\corel\office7\appman
+
+     Neste exemplo, \\APPSERVER\APPS\COREL\OFFICE7\APPMAN é o
+     diretório APPMAN do servidor.
+
+     IMPORTANTE: Ao instalar os aplicativos pela primeira vez em
+                 um servidor NetWare ou Windows NT (ou quando
+                 remover os aplicativos do servidor), você deve ter
+                 acesso de LEITURA (READ) e GRAVAÇÃO (WRITE) ao
+                 diretório SYS\PUBLIC ou à porção NETLOGON. Caso
+                 contrário, você não poderá criar (ou remover) o
+                 arquivo NAMADMIN.DIR e não conseguirá completar a
+                 instalação (ou remoção).
+
+     IMPORTANTE: O indicador e o diretório APPMAN devem coincidir.
+                 Certifique-se de escolher o mesmo servidor ou
+                 unidade no diálogo Escolher Servidor e no diálogo
+                 Escolher Destino, na Configuração.
+
+     5.1.6.2 Outros Servidores
+
+     Para instalações em servidores diferentes de NetWare e
+     Windows NT, o indicador do diretório APPMAN é criado como a
+     seguinte entrada de Registro no computador a partir do qual se
+     executa a Configuração:
+
+
+         HKEY_LOCAL_MACHINE\SOFTWARE\COREL\APPMAN\NAMADMIN.DIR\<nome do servidor>
+
+     O valor desta entrada de Registro é o nome do diretório
+     APPMAN. Por exemplo: \\APPSERVER\APPS\COREL\OFFICE7\APPMAN.
+
+
+5.2 Preparando-se para Instalar
+-------------------------------
+Antes de executar a Configuração da Rede (NETSETUP.EXE) para
+criar uma instalação compartilhada dos aplicativos, note que:
+
+-    É necessário executar o programa Configuração da Rede no
+     Windows 95. Os melhores resultados são obtidos ao se executar o
+     arquivo NETSETUP.EXE a partir de uma estação de trabalho.
+
+-    Verifique as exigências do sistema (consulte WPWIN7.TXT) e
+     certifique-se de ter espaço suficiente na unidade da rede para a
+     qual deseja instalar.  Por default, a Configuração da Rede
+     instala todos os componentes.
+
+-    Você deve dispor de direitos ou privilégios suficientes para
+     copiar, renomear, gravar, excluir, ler e criar arquivos e
+     diretórios na unidade da rede.
+
+-    Os usuários necessitam de direitos ou privilégios para ler
+     arquivos e diretórios nesta unidade.
+
+-    Você deve determinar como deseja organizar os arquivos dos
+     aplicativos.  Recomenda-se instalá-los nos diretórios fornecidos
+     pela Configuração da Rede para auxiliá-lo a organizar arquivos e
+     proteger arquivos individuais ou grupos de arquivos  
+     relacionados. A estrutura de diretório default é ilustrada mais 
+     abaixo.
+
+-    A Configuração aceita instalações locais a partir de uma
+     instalação em rede.  Você decidirá se os usuários executarão
+     somente instalações locais, executarão os aplicativos somente a
+     partir da instalação compartilhada em rede, ou farão suas
+     próprias escolhas.
+
+-    Se estiver instalando os aplicativos em uma rede não hierarquizada,
+     instale para o recurso (ou unidade) de destino, a partir do ponto de
+     referência do usuário.  Por exemplo: se o recurso de destino for
+     \\MY_PC1\F\COREL\OFFICE7, especifique \\MY_PC1 no diálogo Escolher
+     Servidor, e \\MY_PC1\F\COREL\OFFICE7 como Caminho Principal dos
+     Aplicativos do Corel Office, no diálogo Escolher Destino.  Os melhores
+     resultados são obtidos ao se instalar a partir de uma estação de
+     trabalho para o servidor.
+
+IMPORTANTE: Só é possível dispor de um Caminho Principal dos
+            Aplicativos do Corel Office por servidor.  Execute a
+            Configuração , mais de uma vez, por exemplo, para
+            instalar o conjunto de aplicativos para, em seguida,
+            instalar os aplicativos adicionais.  No entanto, é
+            necessário especificar, para cada servidor, o mesmo Nome
+            de Servidor ou Unidade (no diálogo Escolher Servidor) e o
+            mesmo Caminho Principal dos Aplicativos do Corel Office
+            (no diálogo Escolher Destino) a cada vez que se instalar
+            naquele servidor.
+
+
+5.3 Escolhendo os Aplicativos a Serem Instalados
+------------------------------------------------
+A cada vez que se executa a Configuração da Rede a partir do CD-
+ROM, o diálogo Escolher Configuração oferece as seguintes opções:
+
+  - Corel WordPerfect Suite 7  Inclui o Corel WordPerfect, Corel
+                               Presentations(TM), Corel Quattro
+                               Pro(R), Corel Desktop Application
+                               Director(TM) (DAD(TM)), e Envoy(TM).
+
+  - Corel WordPerfect 7        Somente o processador de textos
+                               WordPerfect da Corel.
+
+  - Aplicativos Adicionais     Inclui o CorelFLOW(TM), Corel
+                               Screen Saver e as Fontes 
+                               TrueType.
+
+A sua escolha determina o que será visto pelos usuários quando 
+eles executarem a Configuração a partir da instalação no servidor. Se 
+você instalar apenas uma destas opções de configuração, os usuários 
+pularão o diálogo Escolher Configuração ao executarem a Configuração 
+a partir da instalação no servidor.  Se desejar instalar o Corel 
+WordPerfect Suite e os aplicativos adicionais, por exemplo, será 
+necessário executar duas vezes a Configuração da Rede.
+
+IMPORTANTE: Se instalar mais de uma destas opções em um servidor,
+            certifique-se de selecionar a cada vez o mesmo Nome de
+            Servidor ou Unidade (no diálogo Escolher Servidor) e o
+            mesmo Caminho Principal dos Aplicativos do Corel Office
+            (no diálogo Escolher Destino).  Se desejar, especifique
+            uma Opção de Instalação de Estação de Trabalho diferente
+            (no diálogo Opções do Administrador de Rede) para cada
+            opção de configuração.
+
+
+5.4 Instalando em um Servidor de Rede
+-------------------------------------
+Embora os arquivos de programa não estão compactados no CD-ROM,
+deve-se usar o programa de Configuração de Rede (NETSETUP.EXE)
+para instalar os aplicativos em um servidor de rede.  Caso contrário,
+o produto não será configurado de maneira apropriada.
+
+IMPORTANTE: Se a sua rede tive um ambiente de clientes misto (por
+            exemplo, Windows NT 3.51, Windows NT 4.0 e/ou
+            Windows 95), recomendamos NÃO executar a Configuração de 
+            Rede a partir de uma estação de trabalho do Windows 
+            NT 3.51.  Porque o Windows NT 3.51 não oferece suporte 
+            aos atalhos do Windows 95 (arquivos .LNK), nenhum atalho 
+            da Configuração serão criados no servidor quando a 
+            Configuração de Rede for executada sob o NT 3.51. 
+            Consequentemente, os clientes Windows 95 e Windows NT 4.0 
+            não poderão executar a Configuração a partir do servidor 
+            como recomendado.  Em um ambiente de clientes misto, nós
+            recomendamos executar a Configuração de Rede apenas a 
+            partir de um cliente Windows 95 ou Windows NT 4.0.
+
+NOTA:  Não é necessário remover versões anteriores do programa, tais 
+       como o WordPerfect 6.1 ou PerfectOffice 3.0, antes de instalar 
+       o Corel WordPerfect Suite 7.  O programa de Configuração não 
+       sobrescreve ou remove versões mais antigas dos aplicativos.
+
+Para instalar os aplicativos em um servidor de rede,
+
+1    Certifique-se de que a unidade da rede na qual será feita a 
+     instalação está disponível.
+
+2    Insira o CD-ROM do Corel WordPerfect Suite 7 na unidade 
+     de CD-ROM.
+
+     Se a janela da Execução Automática for iniciada, clique no 
+     botão Sair.
+
+3    Clique em Iniciar > Executar, na Barra de Tarefas do 
+     Windows.
+
+4    Digite o nome da unidade de CD-ROM, seguido de NETSETUP. 
+     Em seguida, clique em OK.
+
+     Por exemplo: para instalar a partir da unidade D, digite o 
+     seguinte:
+
+          D:\NETSETUP
+
+5    Siga os avisos na tela para terminar de instalar
+     os aplicativos.
+
+
+5.5 Instalando em uma Estação de Trabalho
+-----------------------------------------
+Uma vez instalado o Corel WordPerfect ou o conjunto de
+aplicativos em um servidor de rede, os usuários podem realizar
+a instalação a partir de suas próprias estações de trabalho.
+Uma instalação de estação de trabalho (também denominada
+instalação Executada a partir da Rede) configura a área de
+trabalho do usuário do Windows para executar os aplicativos a
+partir do servidor de rede.
+
+5.5.1  Instalando em uma Estação de Trabalho NT 4.0 ou Windows 95
+
+Os usuários instalam o Corel WordPerfect Suite 7 nas estações
+de trabalho NT 4.0 ou Windows 95 ao executar o atalho da
+Configuração (arquivo .LNK) que foi criado pela Configuração
+de Rede.  Este atalho é nomeado Configuração do Corel WordPerfect
+Suite 7 (ou ConfiWP7 em sistemas  que não oferecem suporte a
+nomes longos de arquivos) e está localizado por default no
+caminho principal dos aplicativos do Corel Office (COREL\OFFICE7)
+no servidor.
+
+NOTA:  As etapas abaixo destinam-se ao usuário da estação de
+trabalho.
+
+A partir de sua estação de trabalho,
+
+1    Conecte-se com a localização na rede especificada pelo
+     administrador da rede.  (Tome nota da localização na rede. Ela
+     será necessária na etapa 4.)
+
+2    Clique em Iniciar > Configurações > Painel de Controle, na Barra
+     de Tarefas do Windows.
+
+3    Clique duas vezes em Adicionar/Remover Programas e, em
+     seguida, clique em Instalar > Próximo.
+
+4    Clique em Procurar e, em seguida, procure a localização na rede
+     à qual se conectou na etapa 1 (por exemplo: M:\COREL\OFFICE7).
+
+5    Clique em Configuração do Corel WordPerfect Suite 7 (ou
+     ConfiWP7, em sistemas que não aceitam nomes longos de arquivos)
+     e, em seguida, clique em Abrir.
+
+6    Clique em Terminar e, em seguida, siga os avisos na tela para
+     terminar de instalar os aplicativos.
+
+5.5.2  Instalando em uma Estação de Trabalho NT 3.51
+
+O Windows NT 3.51 não oferece suporte à atalhos do Windows 95 (arquivos
+.LNK).  Antes que os usuários façam a instalação em estações de trabalho
+em cliente de rede que executam o NT 3.51, nós recomendamos que você
+crie um arquivo .CMD ou .PIF no servidor de rede que executa o programa de
+Configuração.  Os usuários do NT 3.51 devem executar este arquivo .CMD
+ou .PIF ao invés do arquivo .LNK criado pela Configuração de Rede.
+
+Por exemplo, se você instalou o Corel WordPerfect Suite 7 em
+\\APPSRVER\APPS\COREL\OFFICE7, crie um arquivo denominado
+WP7-NT35.CMD naquele local que contém a seguinte linha de comando:
+
+\\appsrver\apps\corel\office7\appman\setup\setup.exe /setfile=\\appsrver\apps\corel\office7\appman\setup\wpi7us.set
+
+Neste exemplo, um usuário faria o seguinte para executar uma instalação na
+estação de trabalho sob o NT 3.51:
+
+1    No Gerenciador de Programas, clique em Arquivo > Executar.
+
+2    Digite o seguinte:
+
+     \\appsrver\apps\corel\office7\wp7-nt35
+
+3    Clique em OK e, em seguida siga os avisos na tela para terminar a
+     instalação dos aplicativos.
+
+
+
+6 OPÇÕES DE LINHA DE COMANDO
+============================
+
+Existem diversas opções de linha de comando que podem ser usados
+com os arquivos NETSETUP.EXE e SETUP.EXE.
+
+/ILA=código do idioma
+
+Identifica o idioma a ser usado para a interface (quadros de
+diálogo) do programa de Configuração.
+
+/LOGLEVEL=nível
+
+Especifica o nível de registro a ser efetuado pelo programa de
+Configuração. Especifique um dos seguintes níveis:
+
+     Nível     Descrição
+     -----     ---------
+     0         Erros fatais
+     1         Erros críticos
+     2         Avisos
+     3         Mensagens de informação
+     4         Mensagens de êxito
+
+Cada nível inclui as mensagens de erro dos níveis inferiores.
+
+O nível de registro default é 2, que registra avisos, erros
+críticos e erros fatais.
+
+/NOICONS
+
+Para SETUP.EXE somente.  Suprime a criação de ícones durante uma
+instalação em estação de trabalho ou em computador independente.  
+Por exemplo: use esta opção quando estiver instalando com o Novell
+Application Launcher (NAL), de forma que o NAL possa controlar os
+ícones.
+
+/SETFILE=arquivo de configuração
+
+Identifica o arquivo .SET a ser usado para esta instalação. Use
+esta chave se você tiver mais de um aplicativo da suite da Corel
+instalado na mesma unidade. Especifique o nome do caminho completo do
+arquivo .SET, delimitando-o por aspas.
+
+Por exemplo: se dispuser tanto do Corel WordPerfect Suite como do
+Corel Office Professional instalados na unidade X: da rede,
+especifique /SETFILE="X:\COREL\OFFICE7\APPMAN\SETUP\WPI7US.SET"
+para executar o programa de Configuração do Corel WordPerfect
+Suite 7.
+
+/RSPFile=arquivo de resposta
+
+Identifica o arquivo de resposta usado para controlar a instalação
+/SILENT.  Especifique o nome de caminho completo para o arquivo
+de resposta.
+
+Os arquivos de resposta (.RSP) são arquivos de texto criados a
+cada vez que a Configuração é executada.  Quando usado com a opção
+/SILENT, um arquivo de resposta automaticamente responde aos
+diálogos da Configuração sem solicitar a entrada de dados por parte
+do usuário.
+
+Para criar um arquivo de resposta, execute a Configuração de
+Estação de Trabalho e selecione as opções desejadas.  No diálogo
+Pronto para Instalar, clique em Sair > Sim > OK.  Um arquivo
+denominado WPI7.RSP é criado no diretório Windows\Temp (ou %TMP).
+Renomeie este arquivo se desejar que ele não seja sobregravado
+na próxima vez em que executar a Configuração.
+
+/SILENT
+
+Suprime os diálogos da Configuração.  Requer a opção /RSPFile.
+Use esta opção para executar a Configuração sem a interação do
+usuário.
+
+/WORKSTATION
+
+Para SETUP.EXE somente.  Executa o programa de Configuração de
+Estação de Trabalho para configurar os aplicativos em uma estação de
+trabalho (computador de cliente da rede).  Normalmente, o usuário não
+usará esta opção diretamente.  Ao invés disso, ele deverá seguir as
+etapas listadas acima em Instalando em uma Estação de Trabalho, ou
+clicar duas vezes no ícone da Configuração do Corel WordPerfect
+Suite 7, no diretório Office7 do servidor.  (Se o servidor não
+aceitar nomes longos de arquivos, o ícone será denominado ConfiWP7.)
+
+
+
+7  ESTRUTRA DE DIRETÓRIO DO COREL WORDPERFECT SUITE
+===================================================
+
+É recomendável instalar os aplicativos na estrutura de diretório
+default porque isto o auxilia a organizar arquivos e permite
+proteger arquivos individuais ou grupos de arquivos relacionados.
+
+A estrutura de diretório default para o Corel WordPerfect Suite 7
+e os aplicativos adicionais é ilustrada nas seções seguintes.
+
+
+
+7.1 Estrutura de Diretório de Rede : Suite
+------------------------------------------
+A estrutura de diretório default para uma instalação do Corel 
+WordPerfect Suite em rede inclui os seguintes sub-diretórios 
+abaixo de Corel\Office7:
+
+AppMan---+-Admin
+         +-Profile
+         +-Setup
+         +-Wksfiles-+-Fonts----+-Symbols
+                    +-ShellNew
+                    +-Template
+
+Bonus----+-Programs
+         +-VisDTD---+-Iso------+-Ent1986
+                               +-Ent1991
+                               +-Ent1992
+                               +-Entisocs
+
+Dad7-----+-Tasks
+
+Envoy7---+-Samples
+         +-Spool
+         +-System
+
+Graphics-+-Backgnds-+-Advrtise
+         |          +-Agrcltre
+         |          +-Beverage
+         |          +-Cmnicate
+         |          +-Computer
+         |          +-Constrct
+         |          +-Engineer
+         |          +-Entrtain
+         |          +-Fashion
+         |          +-Finance
+         |          +-Fitness
+         |          +-Food
+         |          +-Industry
+         |          +-Medical
+         |          +-Mrchndis
+         |          +-Pharmacy
+         |          +-Retail
+         |          +-Science
+         |          +-Soaps
+         |          +-Tourism
+         |          +-Transprt
+         +-Borders
+         +-Pictures-+-Business
+         |          +-Commodit
+         |          +-Finance
+         |          +-FoodProd
+         |          +-Governme
+         |          +-Nature
+         +-QuickArt
+         +-Textures-+-Design
+                    +-Fabrics
+                    +-Food
+                    +-Nature
+                    +-Objects
+                    +-Oil
+                    +-Organic
+                    +-Paper
+                    +-Stone
+                    +-Wood
+
+Macros---+-PRWin
+         +-WPWin
+
+PRWin7---+-Masters--+-35mm
+         |          +-Business
+         |          +-Color
+         |          +-Design
+         |          +-Nature
+         |          +-Printout
+         |          +-Theme
+         +- System
+
+Quattro7-+-DataMaps
+         +-DBDPriv
+         +-Private
+         +-System
+         +-Working
+
+Samples
+
+Shared---+-Address7-+-Database
+         +-Barista--+-Corel----+-CGEGraph
+         |                     +-Graphics-+-Fill
+         |                     +-Text
+         |                     +-Ui
+         |                     +-Util
+         +-Help7
+         +-Idapi3
+         +-PFit7----+-RegIcons
+         +-QFinder7
+         +-Speech---+-IBMvtc95-+-Bin------+-Map
+         |                     +-Doc
+         |                     +-Model----+-US_Eng---+-Medium
+         |                                           +-Rules
+         +-TextArt7
+         +-TrueDoc--+-Bin
+         |          +-BitStrm
+         |          +-Sun------+-Awt------+-Win32
+         +-WPDraw7
+
+Soms
+
+Template-+-Business
+         +-Educate
+         +-Legal
+         +-Personal
+         +-Publish
+         +-Web
+
+WPWin7---+-Lgcfiles
+         +-LrnSGML
+         +-Mapfiles
+         +-System
+
+
+7.2 Estrutura de Diretório de Estação de Trabalho: Suite
+--------------------------------------------------------
+A estrutura de diretório default--na estação de trabalho--para 
+uma instalação em estação de trabalho do Corel WordPerfect Suite 
+(também denominada instalação Executada a partir da Rede) inclui os 
+seguintes sub-diretórios abaixo de Corel\Office7:
+
+AppMan---+-Profile
+         +-Setup
+
+Bonus----+-VisDTD
+
+Envoy7---+-Spool
+
+Macros
+
+Quattro7-+-DBDPriv
+         +-Private
+         +-Working
+
+Shared---+-Address7-+-Database
+         +-Barista--+-Corel----+-CGEGraph
+         |                     +-Graphics-+-Fill
+         |                     +-Text
+         |                     +-Ui
+         |                     +-Util
+         +-Help7
+         +-Idapi3
+         +-PFit7
+         +-QFinder7
+         +-TrueDoc--+-Bin
+                    +-BitStrm
+                    +-Sun------+-Awt------+-Win32
+
+
+7.3 Estrutura de Diretório: Aplicativos Adicionais
+--------------------------------------------------
+Estando instalados no servidor de rede ou na estação de trabalho,
+os aplicativos adicionais incluem os seguintes sub-diretórios
+abaixo de Corel\Office7:
+
+AppMan---+-Profile
+         +-Setup
+
+Bonus----+-Config
+         +-Custom
+         +-Filters
+         +-Flow-----+-Diagrams
+         |          +-SmartLib
+         |          +-Template
+         |          +-Tutorial
+         |
+         +-Programs-+-Data
+         +-Scripts
+         +-Symbols
+
+
+
+8  NOTA PARA OS USUÁRIOS DE VLMs
+================================
+
+É possível que você se depare com problemas ao executar os aplicativos do
+Corel WordPerfect Suite 7 no Cliente v1.2 do NetWare(R) para DOS e Windows
+(VLMs).  De acordo com a "Declaração NTS de tópicos sobre o Suporte ao
+Sistema relacionados ao Windows 95" da Novell:
+
+     "Como o Cliente v1.2 do NetWare para DOS e Windows é considerado 
+      uma solução temporária ao Cliente 32(TM) do NetWare para 
+      Windows 95, a Novell não fornecerá suporte de engenharia 
+      (solução de problemas) para estes produtos."
+
+Se você tiver problemas ao executar estes aplicativos com o 
+Cliente v1.2 do NetWare para DOS e Windows, a Novell recomenda a 
+atualização para o Cliente 32 do NetWare para Windows 95.
+
+
+
+9 OUTRAS QUESTÕES A RESPEITO DO WINDOWS NT
+==========================================
+
+Várias notas sobre o Windows NT estão incluídas nas seções 
+acima.  Se estiver instalando os aplicativos sob o Windows NT, 
+esteja ciente das seguintes questões.
+
+
+9.1  Cliente Banyan Enterprise
+------------------------------
+Um Cliente Banyan Enterprise para Windows NT 3.51 não funciona 
+sob o Windows NT 4.0.  Caso esteja usando o NT 4.0, a Banyan 
+Systems Inc. recomenda atualizar o Cliente Banyan Enterprise 
+para a versão 4.  Pode-se fazer o download da nova versão a
+partir do site na web no seguinte endereço:
+
+     http://www.banyan.com/platforms/nt4download.html
+
+
+9.2  Editor de Configurações do Corel Office e NT 3.51
+------------------------------------------------------
+Não é possível distribuir configurações em um servidor NT 3.51.  
+Se estiver usando planos de sistema, o(s) arquivo(s) de plano 
+tem que ficar em um servidor NT 4.0.
+
+Os recursos do Editor de Configurações que não se aplicam ao 
+NT 3.51 são esmaecidos quando o Editor de Configuração do 
+Corel Office for executado em um cliente NT 3.51.
+
+
+
+
+FIM

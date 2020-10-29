@@ -1,0 +1,73 @@
+--
+    File:  ISOLAT1.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOlat1 PUBLIC
+       "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+     %ISOlat1;
+
+  WP #    Name       Text            Description
+--
+  1,27    aacute    "[aacute]"     --=small a, acute accent--
+  1,26    Aacute    "[Aacute]"     --=capital A, acute accent--
+  1,29    acirc     "[acirc ]"     --=small a, circumflex accent--
+  1,28    Acirc     "[Acirc ]"     --=capital A, circumflex accent--
+  1,33    agrave    "[agrave]"     --=small a, grave accent--
+  1,32    Agrave    "[Agrave]"     --=capital A, grave accent--
+  1,35    aring     "[aring ]"     --=small a, ring--
+  1,34    Aring     "[Aring ]"     --=capital A, ring--
+  1,77    atilde    "[atilde]"     --=small a, tilde--
+  1,76    Atilde    "[Atilde]"     --=capital A, tilde--
+  1,31    auml      "[auml  ]"     --=small a, dieresis or umlaut mark--
+  1,30    Auml      "[Auml  ]"     --=capital A, dieresis or umlaut mark--
+  1,37    aelig     "[aelig ]"     --=small ae diphthong (ligature)--
+  1,36    AElig     "[AElig ]"     --=capital AE diphthong (ligature)--
+  1,39    ccedil    "[ccedil]"     --=small c, cedilla--
+  1,38    Ccedil    "[Ccedil]"     --=capital C, cedilla--
+  1,87    eth       "[eth   ]"     --=small eth, Icelandic--
+  1,86    ETH       "[ETH   ]"     --=capital Eth, Icelandic--
+  1,41    eacute    "[eacute]"     --=small e, acute accent--
+  1,40    Eacute    "[Eacute]"     --=capital E, acute accent--
+  1,43    ecirc     "[ecirc ]"     --=small e, circumflex accent--
+  1,42    Ecirc     "[Ecirc ]"     --=capital E, circumflex accent--
+  1,47    egrave    "[egrave]"     --=small e, grave accent--
+  1,46    Egrave    "[Egrave]"     --=capital E, grave accent--
+  1,45    euml      "[euml  ]"     --=small e, dieresis or umlaut mark--
+  1,44    Euml      "[Euml  ]"     --=capital E, dieresis or umlaut mark--
+  1,49    iacute    "[iacute]"     --=small i, acute accent--
+  1,48    Iacute    "[Iacute]"     --=capital I, acute accent--
+  1,51    icirc     "[icirc ]"     --=small i, circumflex accent--
+  1,50    Icirc     "[Icirc ]"     --=capital I, circumflex accent--
+  1,55    igrave    "[igrave]"     --=small i, grave accent--
+  1,54    Igrave    "[Igrave]"     --=capital I, grave accent--
+  1,53    iuml      "[iuml  ]"     --=small i, dieresis or umlaut mark--
+  1,52    Iuml      "[Iuml  ]"     --=capital I, dieresis or umlaut mark--
+  1,57    ntilde    "[ntilde]"     --=small n, tilde--
+  1,56    Ntilde    "[Ntilde]"     --=capital N, tilde--
+  1,59    oacute    "[oacute]"     --=small o, acute accent--
+  1,58    Oacute    "[Oacute]"     --=capital O, acute accent--
+  1,61    ocirc     "[ocirc ]"     --=small o, circumflex accent--
+  1,60    Ocirc     "[Ocirc ]"     --=capital O, circumflex accent--
+  1,65    ograve    "[ograve]"     --=small o, grave accent--
+  1,64    Ograve    "[Ograve]"     --=capital O, grave accent--
+  1,81    oslash    "[oslash]"     --=small o, slash--
+  1,80    Oslash    "[Oslash]"     --=capital O, slash--
+  1,83    otilde    "[otilde]"     --=small o, tilde--
+  1,82    Otilde    "[Otilde]"     --=capital O, tilde--
+  1,63    ouml      "[ouml  ]"     --=small o, dieresis or umlaut mark--
+  1,62    Ouml      "[Ouml  ]"     --=capital O, dieresis or umlaut mark--
+  1,23    szlig     "[szlig ]"     --=small sharp s, German (sz ligature)--
+  1,89    thorn     "[thorn ]"     --=small thorn, Icelandic--
+  1,88    THORN     "[THORN ]"     --=capital THORN, Icelandic--
+  1,67    uacute    "[uacute]"     --=small u, acute accent--
+  1,66    Uacute    "[Uacute]"     --=capital U, acute accent--
+  1,69    ucirc     "[ucirc ]"     --=small u, circumflex accent--
+  1,68    Ucirc     "[Ucirc ]"     --=capital U, circumflex accent--
+  1,73    ugrave    "[ugrave]"     --=small u, grave accent--
+  1,72    Ugrave    "[Ugrave]"     --=capital U, grave accent--
+  1,71    uuml      "[uuml  ]"     --=small u, dieresis or umlaut mark--
+  1,70    Uuml      "[Uuml  ]"     --=capital U, dieresis or umlaut mark--
+  1,85    yacute    "[yacute]"     --=small y, acute accent--
+  1,84    Yacute    "[Yacute]"     --=capital Y, acute accent--
+  1,75    yuml      "[yuml  ]"     --=small y, dieresis or umlaut mark--

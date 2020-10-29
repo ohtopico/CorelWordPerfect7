@@ -1,0 +1,60 @@
+[General Information]
+User Name=
+Company Name=
+License Number=
+InstallLocType=Network
+InstallType=Custom
+Language=BR
+Driver ID=BRBASuite701CDOEM
+Network Windows Directory=
+Network Files Read-only=True
+Network Admin Server=c:
+Allow Local Setup=True
+Allow Workstation Setup=True
+
+[Products]
+Corel Office Screen Saver=3
+CorelFLOW=3.01
+OEM BonusAppsSuite=7
+
+[Modules]
+PF Setup=7
+WordPerfect OEM Setup=7
+Corel Office Screen Saver=3
+Flow=3.01
+GuideDemoTutor=7
+RequiredWithAll=7
+Fonts=3
+
+[Locations]
+AppMan,7=d:\Corel\Office7\AppMan\
+AppManAdmin,7=d:\Corel\Office7\AppMan\Admin\
+AppManSetup,7=d:\Corel\Office7\AppMan\Setup\
+Office7,0=d:\Corel\Office7\
+WinSys,0=d:\Corel\Office7\AppMan\WkSFiles\
+Bonus,0=d:\Corel\Office7\Bonus\
+FLDIAGRAMSLoc,3=d:\Corel\Office7\Bonus\Flow\Diagrams\
+FLFLOWLoc,3=d:\Corel\Office7\Bonus\Flow\
+FLLERNPROGLoc,3=d:\Corel\Office7\Bonus\Flow\Tutorial\
+FLPhySMARTLIBLoc,3=d:\Corel\Office7\Bonus\Flow\SmartLib\
+FLSMARTLIBLoc,3=d:\Corel\Office7\Bonus\Flow\SmartLib\
+FLTEMPLATELoc,3=d:\Corel\Office7\Bonus\Flow\Template\
+FLTUTORIALLoc,3=d:\Corel\Office7\Bonus\Flow\Tutorial\
+OCONFIGLoc,0=d:\Corel\Office7\Bonus\Config\
+OCUSTOMLoc,0=d:\Corel\Office7\Bonus\Custom\
+ODATALoc,0=d:\Corel\Office7\Bonus\Programs\Data\
+Office7Fonts,0=d:\Corel\Office7\AppMan\WkSFiles\Fonts\
+Office7Help,7=d:\Corel\Office7\Shared\Help7\
+Office7Shared,0=d:\Corel\Office7\Shared\
+OFILTERSLoc,0=d:\Corel\Office7\Bonus\Filters\
+OPROGRAMSLoc,0=d:\Corel\Office7\Bonus\Programs\
+OSCRIPTSLoc,0=d:\Corel\Office7\Bonus\Scripts\
+OSYMBOLSLoc,0=d:\Corel\Office7\Bonus\Symbols\
+Windows,0=d:\Corel\Office7\AppMan\WkSFiles\
+Office7Demo,7=d:\Demos\
+Office7Root,0=d:\
+PerfectFit,7=d:\Corel\Office7\Shared\PFit7\
+
+[Added File Groups]
+Flow3.01,Win95 Fonts=
+Flow3.01,TUTORIAL=

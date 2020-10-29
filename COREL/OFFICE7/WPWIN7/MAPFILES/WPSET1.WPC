@@ -1,0 +1,256 @@
+--
+    File:  WPSET1.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset1 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 1 (Multinational)//EN">
+      %wpset1;
+
+  WP #    Name        Text               Description
+-- 
+  1,0     grave      "[grave   ]"     -- Grave --
+  1,1     centdot    "[centdot ]"     -- Centered Dot --
+  1,2     tilde      "[tilde   ]"     -- Tilde --
+  1,3     circum     "[circum  ]"     -- Circumflex --
+  1,4     horzbar    "[horzbar ]"     -- Horizontal Bar --
+  1,5     fwdslash   "[fwdslash]"     -- Forward Slash --
+  1,6     acute      "[acute   ]"     -- Acute --
+  1,7     umlaut     "[umlaut  ]"     -- Diaeresis (Umlaut) --
+  1,8     macron     "[macron  ]"     -- Macron --
+  1,9     apacab     "[apacab  ]"     -- Apostrophe Accent Above --
+  1,10    apacafab   "[apacafab]"     -- Apostrophe Accent After and Above --
+  1,11    apacbeab   "[apacbeab]"     -- Apostrophe Accent Before and Above --
+  1,12    apacblw    "[apacblw ]"     -- Apostrophe Accent Below --
+  1,13    apacbsid   "[apacbsid]"     -- Apostrophe Accent Beside --
+  1,14    ring       "[ring    ]"     -- Ring --
+  1,15    dot        "[dot     ]"     -- Dot Above --
+  1,16    dblac      "[dblac   ]"     -- Double Acute (Hungarian Umlaut) --
+  1,17    cedilla    "[cedilla ]"     -- Cedilla --
+  1,18    ogonek     "[ogonek  ]"     -- Ogonek (Polish Hook) --
+  1,19    caron      "[caron   ]"     -- Caron (Hachek) --
+  1,20    stroke     "[stroke  ]"     -- Stroke --
+  1,21    overline   "[overline]"     -- Overline (Long Mark) --
+  1,22    breve      "[breve   ]"     -- Breve --
+  1,23    germdbls   "[germdbls]"     -- German Double s --
+  1,24    greenk     "[greenk  ]"     -- Lowercase Greenlandic k --
+  1,25    dotlessj   "[dotlessj]"     -- Dotless j --
+  1,26    Aacute     "[Aacute  ]"     -- A Acute --
+  1,27    aacute     "[aacute  ]"     -- a Acute --
+  1,28    Acircum    "[Acircum ]"     -- A Circumflex --
+  1,29    acircum    "[acircum ]"     -- a Circumflex --
+  1,30    Aumlaut    "[Aumlaut ]"     -- A Diaeresis (Umlaut) --
+  1,31    aumlaut    "[aumlaut ]"     -- a Diaeresis (Umlaut) --
+  1,32    Agrave     "[Agrave  ]"     -- A Grave --
+  1,33    agrave     "[agrave  ]"     -- a Grave --
+  1,34    Aring      "[Aring   ]"     -- A Ring --
+  1,35    aring      "[aring   ]"     -- a Ring --
+  1,36    AEdigrph   "[AEdigrph]"     -- AE Digraph --
+  1,37    aedigrph   "[aedigrph]"     -- ae Digraph --
+  1,38    Ccedilla   "[Ccedilla]"     -- C Cedilla --
+  1,39    ccedilla   "[ccedilla]"     -- c Cedilla --
+  1,40    Eacute     "[Eacute  ]"     -- E Acute --
+  1,41    eacute     "[eacute  ]"     -- e Acute --
+  1,42    Ecircum    "[Ecircum ]"     -- E Circumflex --
+  1,43    ecircum    "[ecircum ]"     -- e Circumflex --
+  1,44    Eumlaut    "[Eumlaut ]"     -- E Diaeresis (Umlaut) --
+  1,45    eumlaut    "[eumlaut ]"     -- e Diaeresis (Umlaut) --
+  1,46    Egrave     "[Egrave  ]"     -- E Grave --
+  1,47    egrave     "[egrave  ]"     -- e Grave --
+  1,48    Iacute     "[Iacute  ]"     -- I Acute --
+  1,49    iacute     "[iacute  ]"     -- i Acute --
+  1,50    Icircum    "[Icircum ]"     -- I Circumflex --
+  1,51    icircum    "[icircum ]"     -- i Circumflex --
+  1,52    Iumlaut    "[Iumlaut ]"     -- I Diaeresis (Umlaut) --
+  1,53    iumlaut    "[iumlaut ]"     -- i Diaeresis (Umlaut) --
+  1,54    Igrave     "[Igrave  ]"     -- I Grave --
+  1,55    igrave     "[igrave  ]"     -- i Grave --
+  1,56    Ntilde     "[Ntilde  ]"     -- N Tilde --
+  1,57    ntilde     "[ntilde  ]"     -- n Tilde --
+  1,58    Oacute     "[Oacute  ]"     -- O Acute --
+  1,59    oacute     "[oacute  ]"     -- o Acute --
+  1,60    Ocircum    "[Ocircum ]"     -- O Circumflex --
+  1,61    ocircum    "[ocircum ]"     -- o Circumflex --
+  1,62    Oumlaut    "[Oumlaut ]"     -- O Diaeresis (Umlaut) --
+  1,63    oumlaut    "[oumlaut ]"     -- o Diaeresis (Umlaut) --
+  1,64    Ograve     "[Ograve  ]"     -- O Grave --
+  1,65    ograve     "[ograve  ]"     -- o Grave --
+  1,66    Uacute     "[Uacute  ]"     -- U Acute --
+  1,67    uacute     "[uacute  ]"     -- u Acute --
+  1,68    Ucircum    "[Ucircum ]"     -- U Circumflex --
+  1,69    ucircum    "[ucircum ]"     -- u Circumflex --
+  1,70    Uumlaut    "[Uumlaut ]"     -- U Diaeresis (Umlaut) --
+  1,71    uumlaut    "[uumlaut ]"     -- u Diaeresis (Umlaut) --
+  1,72    Ugrave     "[Ugrave  ]"     -- U Grave --
+  1,73    ugrave     "[ugrave  ]"     -- u Grave --
+  1,74    Yumlaut    "[Yumlaut ]"     -- Y Diaeresis (Umlaut) --
+  1,75    yumlaut    "[yumlaut ]"     -- y Diaeresis (Umlaut) --
+  1,76    Atilde     "[Atilde  ]"     -- A Tilde --
+  1,77    atilde     "[atilde  ]"     -- a Tilde --
+  1,78    Dcross     "[Dcross  ]"     -- D Cross Bar --
+  1,79    dcross     "[dcross  ]"     -- d Cross Bar --
+  1,80    Oslash     "[Oslash  ]"     -- O Slash --
+  1,81    oslash     "[oslash  ]"     -- o Slash --
+  1,82    Otilde     "[Otilde  ]"     -- O Tilde --
+  1,83    otilde     "[otilde  ]"     -- o Tilde --
+  1,84    Yacute     "[Yacute  ]"     -- Y Acute --
+  1,85    yacute     "[yacute  ]"     -- y Acute --
+  1,86    ETH        "[ETH     ]"     -- Uppercase Eth --
+  1,87    eth        "[eth     ]"     -- Lowercase Eth --
+  1,88    Thorn      "[Thorn   ]"     -- Uppercase Thorn --
+  1,89    thorn      "[thorn   ]"     -- Lowercase Thorn --
+  1,90    Abreve     "[Abreve  ]"     -- A Breve --
+  1,91    abreve     "[abreve  ]"     -- a Breve --
+  1,92    Amacron    "[Amacron ]"     -- A Macron --
+  1,93    amacron    "[amacron ]"     -- a Macron --
+  1,94    Aogonek    "[Aogonek ]"     -- A Ogonek --
+  1,95    aogonek    "[aogonek ]"     -- a Ogonek --
+  1,96    Cacute     "[Cacute  ]"     -- C Acute --
+  1,97    cacute     "[cacute  ]"     -- c Acute --
+  1,98    Ccaron     "[Ccaron  ]"     -- C Caron (Hachek) --
+  1,99    ccaron     "[ccaron  ]"     -- c Caron (Hachek) --
+  1,100   Ccircum    "[Ccircum ]"     -- C Circumflex --
+  1,101   ccircum    "[ccircum ]"     -- c Circumflex --
+  1,102   Cdotab     "[Cdotab  ]"     -- C Dot Above --
+  1,103   cdotab     "[cdotab  ]"     -- c Dot Above --
+  1,104   Dcaron     "[Dcaron  ]"     -- D Caron (Hachek) --
+  1,105   dcaron     "[dcaron  ]"     -- d Caron (Hachek) --
+  1,106   Ecaron     "[Ecaron  ]"     -- E Caron (Hachek) --
+  1,107   ecaron     "[ecaron  ]"     -- e Caron (Hachek) --
+  1,108   Edotab     "[Edotab  ]"     -- E Dot Above --
+  1,109   edotab     "[edotab  ]"     -- e Dot Above --
+  1,110   Emacron    "[Emacron ]"     -- E Macron --
+  1,111   emacron    "[emacron ]"     -- e Macron --
+  1,112   Eogonek    "[Eogonek ]"     -- E Ogonek --
+  1,113   eogonek    "[eogonek ]"     -- e Ogonek --
+  1,114   Gacute     "[Gacute  ]"     -- G Acute --
+  1,115   gacute     "[gacute  ]"     -- g Acute --
+  1,116   Gbreve     "[Gbreve  ]"     -- G Breve --
+  1,117   gbreve     "[gbreve  ]"     -- g Breve --
+  1,118   Gcaron     "[Gcaron  ]"     -- G Caron (Hachek) --
+  1,119   gcaron     "[gcaron  ]"     -- g Caron (Hachek) --
+  1,120   Gcedilla   "[Gcedilla]"     -- G Cedilla --
+  1,121   gcedilla   "[gcedilla]"     -- g Cedilla (Apostrophe Above) --
+  1,122   Gcircum    "[Gcircum ]"     -- G Circumflex --
+  1,123   gcircum    "[gcircum ]"     -- g Circumflex --
+  1,124   Gdotab     "[Gdotab  ]"     -- G Dot Above --
+  1,125   gdotab     "[gdotab  ]"     -- g Dot Above --
+  1,126   Hcircum    "[Hcircum ]"     -- H Circumflex --
+  1,127   hcircum    "[hcircum ]"     -- h Circumflex --
+  1,128   Hcross     "[Hcross  ]"     -- H Cross Bar --
+  1,129   hcross     "[hcross  ]"     -- h Cross Bar --
+  1,130   Idotab     "[Idotab  ]"     -- I Dot Above --
+  1,131   idotab     "[idotab  ]"     -- i Dot Above --
+  1,132   Imacron    "[Imacron ]"     -- I Macron --
+  1,133   imacron    "[imacron ]"     -- i Macron --
+  1,134   Iogonek    "[Iogonek ]"     -- I Ogonek --
+  1,135   iogonek    "[iogonek ]"     -- i Ogonek --
+  1,136   Itilde     "[Itilde  ]"     -- I Tilde --
+  1,137   itilde     "[itilde  ]"     -- i Tilde --
+  1,138   IJdigrph   "[IJdigrph]"     -- IJ Digraph --
+  1,139   ijdigrph   "[ijdigrph]"     -- ij Digraph --
+  1,140   Jcircum    "[Jcircum ]"     -- J Circumflex --
+  1,141   jcircum    "[jcircum ]"     -- j Circumflex --
+  1,142   Kcedilla   "[Kcedilla]"     -- K Cedilla --
+  1,143   kcedilla   "[kcedilla]"     -- k Cedilla --
+  1,144   Lacute     "[Lacute  ]"     -- L Acute --
+  1,145   lacute     "[lacute  ]"     -- l Acute --
+  1,146   Lapbsid    "[Lapbsid ]"     -- L Apostrophe Beside --
+  1,147   lapbsid    "[lapbsid ]"     -- l Apostrophe Beside --
+  1,148   Lcedilla   "[Lcedilla]"     -- L Cedilla --
+  1,149   lcedilla   "[lcedilla]"     -- l Cedilla --
+  1,150   Lcentdot   "[Lcentdot]"     -- L Center Dot --
+  1,151   lcentdot   "[lcentdot]"     -- l Center Dot --
+  1,152   Lstroke    "[Lstroke ]"     -- L Stroke --
+  1,153   lstroke    "[lstroke ]"     -- l Stroke --
+  1,154   Nacute     "[Nacute  ]"     -- N Acute --
+  1,155   nacute     "[nacute  ]"     -- n Acute --
+  1,156   Napost     "[Napost  ]"     -- N Apostrophe --
+  1,157   napost     "[napost  ]"     -- n Apostrophe --
+  1,158   Ncaron     "[Ncaron  ]"     -- N Caron (Hachek) --
+  1,159   ncaron     "[ncaron  ]"     -- n Caron (Hachek) --
+  1,160   Ncedilla   "[Ncedilla]"     -- N Cedilla --
+  1,161   ncedilla   "[ncedilla]"     -- n Cedilla --
+  1,162   Odblac     "[Odblac  ]"     -- O Double Acute --
+  1,163   odblac     "[odblac  ]"     -- o Double Acute --
+  1,164   Omacron    "[Omacron ]"     -- O Macron --
+  1,165   omacron    "[omacron ]"     -- o Macron --
+  1,166   OEdigrph   "[OEdigrph]"     -- OE Digraph --
+  1,167   oedigrph   "[oedigrph]"     -- oe Digraph --
+  1,168   Racute     "[Racute  ]"     -- R Acute --
+  1,169   racute     "[racute  ]"     -- r Acute --
+  1,170   Rcaron     "[Rcaron  ]"     -- R Caron (Hachek) --
+  1,171   rcaron     "[rcaron  ]"     -- r Caron (Hachek) --
+  1,172   Rcedilla   "[Rcedilla]"     -- R Cedilla --
+  1,173   rcedilla   "[rcedilla]"     -- r Cedilla --
+  1,174   Sacute     "[Sacute  ]"     -- S Acute --
+  1,175   sacute     "[sacute  ]"     -- s Acute --
+  1,176   Scaron     "[Scaron  ]"     -- S Caron (Hachek) --
+  1,177   scaron     "[scaron  ]"     -- s Caron (Hachek) --
+  1,178   Scedilla   "[Scedilla]"     -- S Cedilla --
+  1,179   scedilla   "[scedilla]"     -- s Cedilla --
+  1,180   Scircum    "[Scircum ]"     -- S Circumflex --
+  1,181   scircum    "[scircum ]"     -- s Circumflex --
+  1,182   Tcaron     "[Tcaron  ]"     -- T Caron (Hachek) --
+  1,183   tapbsid    "[tapbsid ]"     -- t Apostrophe Beside --
+  1,184   Tcedilla   "[Tcedilla]"     -- T Cedilla --
+  1,185   tcedilla   "[tcedilla]"     -- t Cedilla --
+  1,186   Tcross     "[Tcross  ]"     -- T Cross Bar --
+  1,187   tcross     "[tcross  ]"     -- t Cross Bar --
+  1,188   Ubreve     "[Ubreve  ]"     -- U Breve --
+  1,189   ubreve     "[ubreve  ]"     -- u Breve --
+  1,190   Udblac     "[Udblac  ]"     -- U Double Acute --
+  1,191   udblac     "[udblac  ]"     -- u Double Acute --
+  1,192   Umacron    "[Umacron ]"     -- U Macron --
+  1,193   umacron    "[umacron ]"     -- u Macron --
+  1,194   Uogonek    "[Uogonek ]"     -- U Ogonek --
+  1,195   uogonek    "[uogonek ]"     -- u Ogonek --
+  1,196   Uring      "[Uring   ]"     -- U Ring --
+  1,197   uring      "[uring   ]"     -- u Ring --
+  1,198   Utilde     "[Utilde  ]"     -- U Tilde --
+  1,199   utilde     "[utilde  ]"     -- u Tilde --
+  1,200   Wcircum    "[Wcircum ]"     -- W Circumflex --
+  1,201   wcircum    "[wcircum ]"     -- w Circumflex --
+  1,202   Ycircum    "[Ycircum ]"     -- Y Circumflex --
+  1,203   ycircum    "[ycircum ]"     -- y Circumflex --
+  1,204   Zacute     "[Zacute  ]"     -- Z Acute --
+  1,205   zacute     "[zacute  ]"     -- z Acute --
+  1,206   Zcaron     "[Zcaron  ]"     -- Z Caron (Hachek) --
+  1,207   zcaron     "[zcaron  ]"     -- z Caron (Hachek) --
+  1,208   Zdotab     "[Zdotab  ]"     -- Z Dot Above --
+  1,209   zdotab     "[zdotab  ]"     -- z Dot Above --
+  1,210   ENG        "[ENG     ]"     -- Uppercase Eng --
+  1,211   eng        "[eng     ]"     -- Lowercase Eng --
+  1,212   Dmacron    "[Dmacron ]"     -- D Macron --
+  1,213   dmacron    "[dmacron ]"     -- d Macron --
+  1,214   Lmacron    "[Lmacron ]"     -- L Macron --
+  1,215   lmacron    "[lmacron ]"     -- l Macron --
+  1,216   Nmacron    "[Nmacron ]"     -- N Macron --
+  1,217   nmacron    "[nmacron ]"     -- n Macron --
+  1,218   Rgrave     "[Rgrave  ]"     -- R Grave --
+  1,219   rgrave     "[rgrave  ]"     -- r Grave --
+  1,220   Smacron    "[Smacron ]"     -- S Macron --
+  1,221   smacron    "[smacron ]"     -- s Macron --
+  1,222   Tmacron    "[Tmacron ]"     -- T Macron --
+  1,223   tmacron    "[tmacron ]"     -- t Macron --
+  1,224   Ybreve     "[Ybreve  ]"     -- Y Breve --
+  1,225   ybreve     "[ybreve  ]"     -- y Breve --
+  1,226   Ygrave     "[Ygrave  ]"     -- Y Grave --
+  1,227   ygrave     "[ygrave  ]"     -- y Grave --
+  1,228   Dapbsid    "[Dapbsid ]"     -- D Apostrophe Beside --
+  1,229   dapbsid    "[dapbsid ]"     -- d Apostrophe Beside --
+  1,230   Oapbsid    "[Oapbsid ]"     -- O Apostrophe Beside --
+  1,231   oapbsid    "[oapbsid ]"     -- o Apostrophe Beside --
+  1,232   Uapbsid    "[Uapbsid ]"     -- U Apostrophe Beside --
+  1,233   uapbsid    "[uapbsid ]"     -- u Apostrophe Beside --
+
+-- New as of WPWin 6.0 --
+ 
+  1,234   Ebreve     "[Ebreve  ]"     -- E Breve --
+  1,235   ebreve     "[ebreve  ]"     -- e Breve --
+  1,236   Ibreve     "[Ibreve  ]"     -- I Breve --
+  1,237   ibreve     "[ibreve  ]"     -- i Breve --
+  1,238   dotlessI   "[dotlessI]"     -- Dotless I --
+  1,239   dotlessi   "[dotlessi]"     -- Dotless i --
+  1,240   Obreve     "[Obreve  ]"     -- O Breve --
+  1,241   obreve     "[obreve  ]"     -- o Breve --

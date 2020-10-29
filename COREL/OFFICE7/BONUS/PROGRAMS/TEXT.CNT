@@ -1,0 +1,142 @@
+:Base cdrtxt.hlp>main
+:Title CorelDRAW Help
+3 Add Text
+4 To add Artistic Text=wts02_pro2_cd@cdrtxt.hlp>proc4
+4 To add Paragraph Text=wts03_pro2_cd@cdrtxt.hlp>proc4
+4 To import text=wts05_pro2_cd@cdrtxt.hlp>proc4
+4 To paste Artistic Text=wts06_pro2_cd@cdrtxt.hlp>proc4
+4 To paste Paragraph Text=wts06a_pro2_cd@cdrtxt.hlp>proc4
+4 To flow Paragraph Text to another frame on the same page=wts32_pro2_cd>proc4
+4 To link Paragraph Text in frames on different pages=wts32a_pro2_cd>proc4
+4 To change text flow between frames=wts32b_pro2_cd@cdrtxt.hlp>proc4
+4 To enter special characters using mnemonic keystrokes=wts15a_pro2_cd@cdrtxt.hlp>proc4
+4 To merge a text file with a drawing=h_pt_merge@cdrgfx.hlp>proc4
+4 Add and Create Symbols
+5 To add a symbol to a document=wts04_pro2_cd@cdrtxt.hlp>proc4
+5 To create a pattern from a symbol=wts04a_pro2_cd@cdrtxt.hlp>proc4
+5 To add a symbol to a symbol set=wts39_pro2_cd@cdrtxt.hlp>proc4
+3 Select Text
+4 To select a text tool=wts35_pro_2_cd@cdrtxt.hlp>proc4
+4 To select text with a text tool=wts29_pro2_cd@cdrtxt.hlp>proc4
+4 To select text with the Pick tool=wts29a_pro2_cd@cdrtxt.hlp>proc4
+4 To select characters with the Shape tool=wts29b_pro2_cd@cdrtxt.hlp>proc4
+4 To deselect a character with the Shape tool=wts29c_pro2_cd@cdrtxt.hlp>proc4
+3 Edit Text
+4 To type or edit text on screen=wts08_pro2_cd@cdrtxt.hlp>proc4
+4 To edit text in the Edit Text dialog box=wts07_pro2_cd@cdrtxt.hlp>proc4
+4 To choose a new font=wts100_pro2_cd@cdrtxt.hlp>proc4
+4 To change font size=wts101_pro2_cd@cdrtxt.hlp>proc4
+4 To choose a new font style=wts102_pro2_cd@cdrtxt.hlp>proc4
+4 To edit font placement=wts104_pro2_cd@cdrtxt.hlp>proc4
+4 To change font effect=wts103_pro2_cd@cdrtxt.hlp>proc4
+4 To edit line and strikeout thickness=wts105_pro2_cd@cdrtxt.hlp>proc4
+4 To edit Baseline Shift=wts106_pro2_cd@cdrtxt.hlp>proc4
+4 To edit text character angle =wts107_pro2_cd@cdrtxt.hlp>proc4
+4 To straighten shifted or angled text=wts110_pro2_cd@cdrtxt.hlp>proc4
+4 To convert Artistic Text to Paragraph Text=wts108_pro2_cd@cdrtxt.hlp>proc4
+4 To convert Paragraph Text to Artistic Text=wts109_pro2_cd@cdrtxt.hlp>proc4
+4 To find text=wts33_pro2_cd@cdrtxt.hlp>proc4
+4 To find and replace text=wts33a_pro2_cd@cdrtxt.hlp>proc4
+4 To cut and paste text=wts08b_pro2_cd@cdrtxt.hlp>proc4
+4 To copy and paste text=wts08a_pro2_cd@cdrtxt.hlp>proc4
+4 To change text case with the Change Case command=wts_08c_pro2_cd@cdrtxt.hlp>proc4
+3 Format Text
+4 To apply character attributes to selected text=wts30_pro2_cd@cdrtxt.hlp >proc4
+4 To apply or remove underline, overline or strikeout=wts117_pro2_cd@cdrtxt.hlp>proc4
+4 To format text in equal columns=wts09_pro2_cd@cdrtxt.hlp>proc4
+4 To format text in columns of different sizes=wts09a_pro2_cd@cdrtxt.hlp>proc4
+4 To add a tab=wts35a_pro2_cd@cdrtxt.hlp>proc4
+4 To move a tab=wts35i_pro2_cd@cdrtxt.hlp>proc4
+4 To clear a tab=wts35ii_pro2_cd@cdrtxt.hlp>proc4
+4 To indent a paragraph=wts36_pro2_cd@cdrtxt.hlp>proc4
+4 To indent a paragraph using the mouse=wts36a_pro2_cd@cdrtxt.hlp>proc4
+4 To change alignment=wts111_pro2_cd>proc4
+4 To copy text attributes=wts15_pro2_cd@cdrtxt.hlp>proc4
+4 To set automatic hyphenation=wts22_pro2_cd@cdrtxt.hlp>proc4
+4 Use Bullets with Paragraph Text
+5 To add a bullet=wts37_pro2_cd@cdrtxt.hlp >proc4
+5 To remove a bullet=how_remove_bullet@cdrtxt.hlp>proc4
+5 To change the bullet style=how_change_bullet_style@cdrtxt.hlp>proc4
+4 Adjust Spacing
+5 Change Spacing Numerically
+6 To edit spacing with the Paragraph, Spacing dialog box=wts12j_pro2_cd@cdrtxt.hlp >proc4
+6 To adjust spacing with the Character Attributes dialog box=wts12i_pro2_cd@cdrtxt.hlp >proc4
+6 To kern text using the Character Attributes dialog box=wts13a_pro2_cd@cdrtxt.hlp >proc4
+5 Change Spacing On Screen
+6 To adjust character spacing on screen=wts12a_pro2_cd@cdrtxt.hlp>proc4
+6 To kern text precisely with the Shape tool=wts13_pro2_cd@cdrtxt.hlp>proc4
+6 To adjust word spacing on screen=wts12b_pro2_cd@cdrtxt.hlp>proc4
+6 To adjust line spacing on screen=wts12c_pro2_cd@cdrtxt.hlp>proc4
+6 To adjust paragraph spacing on screen=wts12d_pro2_cd@cdrtxt.hlp>proc4
+3 Use Text Styles
+4 To create a new Artistic Text style=us03_4_pro2_cd@cdrtxt.hlp>proc4
+4 To create a new Paragraph Text style=us03_5_pro2_cd@cdrtxt.hlp>proc4
+4 To apply a style to text=us03_1_pro2_cd@cdrtxt.hlp>proc4
+4 To apply a Paragraph Text style with a hotkey=us03b_pro2_cd@cdrtxt.hlp>proc4
+4 To assign and change hotkeys for Paragraph Text styles=us10_pro2_cd@cdrtxt.hlp>proc4
+4 To sort Paragraph Text styles=us11_pro2_cd@cdrtxt.hlp>proc4
+3 Use Special Text Features
+4 To fit text to a path=wts24_pro2_cd@cdrtxt.hlp>proc4
+4 To make changes to text shaped to a path=wts25_pro2_cd@cdrtxt.hlp>proc4
+4 To edit the shape of a text path with the mouse=wts25a_pro2_cd@cdrtxt.hlp>proc4
+4 To move Artistic Text along a path=wts26_pro2_cd@cdrtxt.hlp>proc4
+4 To adjust the distance of text from a path=wts26a_pro2_cd@cdrtxt.hlp>proc4
+4 To detach text from a path=wts27_pro2_cd@cdrtxt.hlp>proc4
+4 To convert Artistic Text to curves=wts17_pro2_cd@cdrtxt.hlp>proc4
+4 To shape Paragraph Text with an envelope=wts40_pro2_cd@cdrtxt.hlp>proc4
+4 To extract text from a document=wts28_pro2_cd@cdrtxt.hlp>proc4
+4 To merge extracted text back into a document=wts28a_pro2_cd@cdrtxt.hlp>proc4
+4 To prepare a drawing for print merge=h_pt_preparedrawing@cdrgfx.hlp>proc4
+4 To prepare a text file for print merge=h_pt_preparetext@cdrgfx.hlp>proc4
+3 Proofread Text
+4 Check Statistics
+5 To check document statistics for selected objects=wts114_pro2_cd@cdrtxt.hlp>proc4
+5 To check statistics for your entire document =wts120_pro2_cd@cdrtxt.hlp>proc4
+4 Check Spelling
+5 To run a spelling check=wts18_pro2_cd@cdrtxt.hlp>proc4
+5 To correct a misspelled word during a spelling check=wts19_pro2_cd@cdrtxt.hlp>proc4
+5 To create a personal dictionary=wts20_pro2_cd@cdrtxt.hlp>proc4
+5 To add a word to a personal dictionary=wts20a_pro2_cd@cdrtxt.hlp>proc4
+5 To open a personal dictionary=wts21_pro2_cd@cdrtxt.hlp>proc4
+4 Check Grammar
+5 To use Quick Proofreading Mode=wts130_pro2_cd@cdrtxt.hlp>proc4
+5 To use Full Proofreading Mode=wts131_pro2_cd@cdrtxt.hlp>proc4
+5 To set the Proofreader's formality level=wts132_pro2_cd@cdrtxt.hlp>proc4
+4 Set Proofreading Options
+5 To set up the Rule Manager=wts134_pro2_cd@cdrtxt.hlp>proc4
+5 To set advanced proofing options=wts_advanced_options_cd@cdrtxt.hlp>proc4
+5 To restore Rule Manager defaults=wts_proof_defaults_cd@cdrtxt.hlp>proc4
+5 To choose a rule language=rule_language_choosing>proc4
+5 To turn rule types off or on=rule_types_on_off>proc4
+5 To choose language options=language_options>proc4
+5 To choose another language=new_language>proc4
+5 To choose spelling correction options=spelling_options
+5 To choose an error language=error_language_choosing>proc4
+4 Use Type Assist
+5 To correct consecutive capitals automatically=pwrtp_pro2_cd@cdrtxt.hlp>proc4
+5 To change straight quotes to typographic quotes automatically=pwrtp1_pro2_cd@cdrtxt.hlp>proc4
+5 To capitalize the first letter of sentences automatically=pwrtp3_pro2_cd@cdrtxt.hlp>proc4
+5 To capitalize the names of the days automatically=pwrtp4_pro2_cd@cdrtxt.hlp>proc4
+5 To replace abbreviations automatically while typing=pwrtp5_pro2_cd@cdrtxt.hlp>proc4
+4 Use the Thesaurus
+5 To use the Thesaurus=wts23_pro2_cd@cdrtxt.hlp>proc4
+3 Set Text Options and Defaults
+4 To display the text toolbar=wts150_pro2_cd@cdrtxt.hlp>proc4
+4 To edit text in the Edit Text dialog box only =cc98_pro2_cd@cdrtxt.hlp>proc4
+4 To disable the font sample in the text toolbar=cc97_pro2_cd@cdrtxt.hlp>proc4
+4 To set Minimum Line Width=cc91_pro2_cd@cdrtxt.hlp>proc4
+4 To increase the redraw speed of text using greeking=cc96_pro2_cd@cdrtxt.hlp>proc4
+4 To copy calligraphic outlines to the Clipboard=cc95_pro2_cd@cdrtxt.hlp>proc4
+4 To paste text as text or curves=cc88_pro2_cd@cdrtxt.hlp>proc4
+4 To change the default tab stops in a paragraph=wts35_pro2_cd@cdrtxt.hlp>proc4
+4 To change the default text attributes for the current document=cc28_pro2_cd@cdrtxt.hlp>proc4
+4 To change the default text attributes for all documents=cc28_pro3_cd@cdrtxt.hlp>proc4
+4 To apply formatting to linked text frames=wts112_pro2_cd@cdrtxt.hlp>proc4
+4 To set up display of non-printing characters =wts113_pro2_cd@cdrtxt.hlp>proc4
+4 To display non-printing characters =wts115_pro2_cd@cdrtxt.hlp>proc4
+3 Work with Fonts
+4 To convert an object to a font character=wts38_pro2_cd@cdrtxt.hlp>proc4
+4 To match missing fonts automatically=ccpan01_pro2_cd@cdrtxt.hlp>proc4
+4 To change the match on missing fonts=ccpan01a_pro2_cd@cdrtxt.hlp>proc4
+4 To build a list of missing font match preferences=ccpan01b_pro2_cd@cdrtxt.hlp>proc4
+4 To edit the list of font spellings=ccpan01c_pro2_cd@cdrtxt.hlp>proc4

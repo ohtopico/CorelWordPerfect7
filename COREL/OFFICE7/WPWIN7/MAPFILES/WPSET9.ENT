@@ -1,0 +1,133 @@
+<!--
+    File:  WPSET9.ENT
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset9 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 9 (Hebrew)//EN">
+      %wpset9;
+
+         Name           Text                 Description
+-->
+<!ENTITY aleph    SDATA "[aleph   ]" --9,0   Aleph -->
+<!ENTITY bet      SDATA "[bet     ]" --9,1   Bet -->
+<!ENTITY gimel    SDATA "[gimel   ]" --9,2   Gimel -->
+<!ENTITY dalet    SDATA "[dalet   ]" --9,3   Dalet -->
+<!ENTITY he       SDATA "[he      ]" --9,4   He -->
+<!ENTITY vav      SDATA "[vav     ]" --9,5   Vav -->
+<!ENTITY zayin    SDATA "[zayin   ]" --9,6   Zayin -->
+<!ENTITY het      SDATA "[het     ]" --9,7   Het -->
+<!ENTITY tet      SDATA "[tet     ]" --9,8   Tet -->
+<!ENTITY yod      SDATA "[yod     ]" --9,9   Yod -->
+<!ENTITY kaffinal SDATA "[kaffinal]" --9,10  Kaf (final) -->
+<!ENTITY kaf      SDATA "[kaf     ]" --9,11  Kaf -->
+<!ENTITY lamed    SDATA "[lamed   ]" --9,12  Lamed -->
+<!ENTITY memfinal SDATA "[memfinal]" --9,13  Mem (final) -->
+<!ENTITY mem      SDATA "[mem     ]" --9,14  Mem -->
+<!ENTITY nunfinal SDATA "[nunfinal]" --9,15  Nun (final) -->
+<!ENTITY nun      SDATA "[nun     ]" --9,16  Nun -->
+<!ENTITY samekh   SDATA "[samekh  ]" --9,17  Samekh -->
+<!ENTITY ayin     SDATA "[ayin    ]" --9,18  Ayin -->
+<!ENTITY pefinal  SDATA "[pefinal ]" --9,19  Pe (final) -->
+<!ENTITY pe       SDATA "[pe      ]" --9,20  Pe -->
+<!ENTITY tsadifin SDATA "[tsadifin]" --9,21  Tsadi (final) -->
+<!ENTITY tsadi    SDATA "[tsadi   ]" --9,22  Tsadi -->
+<!ENTITY qof      SDATA "[qof     ]" --9,23  Qof -->
+<!ENTITY resh     SDATA "[resh    ]" --9,24  Resh -->
+<!ENTITY shin     SDATA "[shin    ]" --9,25  Shin -->
+<!ENTITY tav      SDATA "[tav     ]" --9,26  Tav -->
+<!ENTITY maqaf    SDATA "[maqaf   ]" --9,27  Maqaf -->
+<!ENTITY paseq    SDATA "[paseq   ]" --9,28  Paseq -->
+<!ENTITY sofpasuq SDATA "[sofpasuq]" --9,29  Sof Pasuq -->
+<!ENTITY geresh   SDATA "[geresh  ]" --9,30  Geresh -->
+<!ENTITY gershaym SDATA "[gershaym]" --9,31  Gershayim -->
+<!ENTITY sheva    SDATA "[sheva   ]" --9,32  Sheva -->
+<!ENTITY hatafseg SDATA "[hatafseg]" --9,33  Hataf Segol -->
+<!ENTITY hatafpat SDATA "[hatafpat]" --9,34  Hataf Patah -->
+<!ENTITY hatafqam SDATA "[hatafqam]" --9,35  Hataf Qamats -->
+<!ENTITY hiriq    SDATA "[hiriq   ]" --9,36  Hiriq -->
+<!ENTITY tsere    SDATA "[tsere   ]" --9,37  Tsere -->
+<!ENTITY segol    SDATA "[segol   ]" --9,38  Segol -->
+<!ENTITY patah    SDATA "[patah   ]" --9,39  Patah -->
+<!ENTITY qamats   SDATA "[qamats  ]" --9,40  Qamats -->
+<!ENTITY holem    SDATA "[holem   ]" --9,41  Holem -->
+<!ENTITY holemlt  SDATA "[holemlt ]" --9,42  Holem Left -->
+<!ENTITY qubuts   SDATA "[qubuts  ]" --9,43  Qubuts -->
+
+<!-- New as of WPWin 6.0 -->
+
+<!ENTITY dagesh   SDATA "[dagesh  ]" --9,44  Dagesh -->
+<!ENTITY meteg    SDATA "[meteg   ]" --9,45  Meteg -->
+<!ENTITY rafe     SDATA "[rafe    ]" --9,46  Rafe -->
+<!ENTITY patahfur SDATA "[patahfur]" --9,47  Patah Furtive -->
+<!ENTITY varika   SDATA "[varika  ]" --9,48  Varika -->
+<!ENTITY dblvav   SDATA "[dblvav  ]" --9,49  Double Vav -->
+<!ENTITY vavyod   SDATA "[vavyod  ]" --9,50  Vav Yod -->
+<!ENTITY dblyod   SDATA "[dblyod  ]" --9,51  Double Yod -->
+<!ENTITY dblyodpt SDATA "[dblyodpt]" --9,52  Double Yod Patah -->
+<!ENTITY etnahta  SDATA "[etnahta ]" --9,53  Etnahta -->
+<!ENTITY tipeha   SDATA "[tipeha  ]" --9,54  Tipeha -->
+<!ENTITY dehi     SDATA "[dehi    ]" --9,55  Dehi -->
+<!ENTITY mahapakh SDATA "[mahapakh]" --9,56  Mahapakh -->
+<!ENTITY yetiv    SDATA "[yetiv   ]" --9,57  Yetiv -->
+<!ENTITY tevir    SDATA "[tevir   ]" --9,58  Tevir -->
+<!ENTITY munah    SDATA "[munah   ]" --9,59  Munah -->
+<!ENTITY merkha   SDATA "[merkha  ]" --9,60  Merkha -->
+<!ENTITY merkhakf SDATA "[merkkefu]" --9,61  Merkha Kefula -->
+<!ENTITY darga    SDATA "[darga   ]" --9,62  Darga -->
+<!ENTITY yerbenym SDATA "[yerbenym]" --9,63  Yerah Ben Yomo -->
+<!ENTITY segolhaf SDATA "[segol   ]" --9,64  Segol Hafuh -->
+<!ENTITY shalshel SDATA "[shalshel]" --9,65  Shalshelet -->
+<!ENTITY zagefqat SDATA "[zagefqat]" --9,66  Zagef Qatan -->
+<!ENTITY zagefgad SDATA "[zagefgad]" --9,67  Zagef Gadol -->
+<!ENTITY revia    SDATA "[revia   ]" --9,68  Revia -->
+<!ENTITY zarqa    SDATA "[zarqa   ]" --9,69  Zarqa -->
+<!ENTITY pashta   SDATA "[pashta  ]" --9,70  Pashta -->
+<!ENTITY qadma    SDATA "[qadma   ]" --9,71  Qadma -->
+<!ENTITY germasor SDATA "[geresh  ]" --9,72  Geresh Masorti -->
+<!ENTITY germasmq SDATA "[germuq  ]" --9,73  Geresh Masorti Muqdam -->
+<!ENTITY gershayi SDATA "[gershayi]" --9,74  Gershayim -->
+<!ENTITY pazer    SDATA "[pazer   ]" --9,75  Pazer -->
+<!ENTITY teliqeta SDATA "[teliqeta]" --9,76  Telisha Qetana -->
+<!ENTITY teligedo SDATA "[teligedo]" --9,77  Telisha Gedola -->
+<!ENTITY qarnpara SDATA "[qarnpara]" --9,78  Qarne Para -->
+<!ENTITY ole      SDATA "[ole     ]" --9,79  Ole -->
+<!ENTITY iluy     SDATA "[iluy    ]" --9,80  Iluy -->
+<!ENTITY masocirc SDATA "[masocirc]" --9,81  Masora Circellus -->
+<!ENTITY upperdot SDATA "[upperdot]" --9,82  Upper Dot -->
+<!ENTITY galgal   SDATA "[galgal  ]" --9,83  Galgal -->
+<!ENTITY alefdag  SDATA "[alefdag ]" --9,84  Alef Dagesh -->
+<!ENTITY betdag   SDATA "[betdag  ]" --9,85  Bet Dagesh -->
+<!ENTITY vez      SDATA "[vez     ]" --9,86  Vez -->
+<!ENTITY gimeldag SDATA "[gimeldag]" --9,87  Gimel Dagesh -->
+<!ENTITY daletdag SDATA "[daletdag]" --9,88  Dalet Dagesh -->
+<!ENTITY hedag    SDATA "[hedag   ]" --9,89  He Dagesh -->
+<!ENTITY vavdag   SDATA "[vavdag  ]" --9,90  Vav Dagesh -->
+<!ENTITY vavholem SDATA "[vavholem]" --9,91  Vav Holem -->
+<!ENTITY zayindag SDATA "[zayindag]" --9,92  Zayin Dagesh -->
+<!ENTITY hetdag   SDATA "[hetdag  ]" --9,93  Het Dagesh -->
+<!ENTITY tetdag   SDATA "[tetdag  ]" --9,94  Tet Dagesh -->
+<!ENTITY yoddag   SDATA "[yoddag  ]" --9,95  Yod Dagesh -->
+<!ENTITY yodhiriq SDATA "[yodhiriq]" --9,96  Yod Hiriq -->
+<!ENTITY kafdag   SDATA "[kafdag  ]" --9,97  Kaf Dagesh -->
+<!ENTITY kafdagfl SDATA "[kafdagfl]" --9,98  Kaf Dagesh (final) -->
+<!ENTITY kafshefl SDATA "[kafshefl]" --9,99  Kaf Sheva (final) -->
+<!ENTITY kaftsefl SDATA "[kartsefl]" --9,100 Kaf Tsere (final) -->
+<!ENTITY kafsegfl SDATA "[kafsegfl]" --9,101 Kaf Segol (final) -->
+<!ENTITY kafpatfl SDATA "[kafpatfl]" --9,102 Kaf Patah (final) -->
+<!ENTITY kafqamfl SDATA "[kafqamfl]" --9,103 Kaf Qamats (final) -->
+<!ENTITY kfdgqafl SDATA "[kfdgqafl]" --9,104 Kaf Dagesh Qamats (final) -->
+<!ENTITY lameddag SDATA "[lameddag]" --9,105 Lamed Dagesh -->
+<!ENTITY memdag   SDATA "[memdag  ]" --9,106 Mem Dagesh -->
+<!ENTITY nundag   SDATA "[nundag  ]" --9,107 Nun Dagesh -->
+<!ENTITY nunqamfl SDATA "[nunqamfl]" --9,108 Nun Qamats (final) -->
+<!ENTITY samekhdg SDATA "[samekhdg]" --9,109 Samekh Dagesh -->
+<!ENTITY pedagesh SDATA "[pedagesh]" --9,110 Pe Dagesh -->
+<!ENTITY fe       SDATA "[fe      ]" --9,111 Fe -->
+<!ENTITY tsadidag SDATA "[tsadidag]" --9,112 Tsadi Dagesh -->
+<!ENTITY qofdag   SDATA "[qofdag  ]" --9,113 Qof Dagesh -->
+<!ENTITY sinsindt SDATA "[sinwsidt]" --9,114 Sin (with Sin dot) -->
+<!ENTITY sindgsin SDATA "[sindgsin]" --9,115 Sin Dagesh (with Sin dot) -->
+<!ENTITY shinshin SDATA "[shinshin]" --9,116 Shin (with Shin dot) -->
+<!ENTITY shindgsh SDATA "[shindgsh]" --9,117 Shin Dagesh (with Shin dot) -->
+<!ENTITY tavdag   SDATA "[tavdag  ]" --9,118 Tav Dagesh -->

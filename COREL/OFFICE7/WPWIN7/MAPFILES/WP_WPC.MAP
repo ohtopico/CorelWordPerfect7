@@ -1,0 +1,64 @@
+--
+    File:  WP_WPC.MAP     (External Entity Mapping File)
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    This external entity mapping file can be used to add support for WP
+    extended character entity sets in your DTD.  Each WP character set
+    (1-11, 13-14) has a matching character mapping file that maps each
+    character in the set to a unique entity name.
+    
+    The SGML "mode" of WordPerfect for Windows 7 treats an extended character
+    mapped in this manner as an implicit text (entity) reference.  When a
+    file is saved in SGML format these extended characters are translated
+    into standard SGML entity references.  When an SGML file is retrieved
+    using File:Open each reference to an entity mapped in this manner is
+    converted to its matching WP extended character.
+--
+
+PUBLIC     "ISO Registration Number 100//CHARSET
+            ECMA-94 Right Part of Latin Alphabet Nr. 1//ESC 2/13 4/1"
+CHARSET     ecma94.set
+
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 1 (Multinational)//EN"
+WPCHARS  wpset1.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 2 (Phonetic)//EN"
+WPCHARS  wpset2.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 3 (Box Drawing)//EN"
+WPCHARS  wpset3.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 4 (Typographic Symbols)//EN"
+WPCHARS  wpset4.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 5 (Iconic Symbols)//EN"
+WPCHARS  wpset5.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 6 (Math/Scientific)//EN"
+WPCHARS  wpset6.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 7 (Math/Scientific Extension)//EN"
+WPCHARS  wpset7.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 8 (Greek)//EN"
+WPCHARS  wpset8.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 9 (Hebrew)//EN"
+WPCHARS  wpset9.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 10 (Cyrillic)//EN"
+WPCHARS  wpset10.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 11 (Japanese)//EN"
+WPCHARS  wpset11.wpc
+
+
+-- Character Set 12 is for user-definable characters --
+
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 13 (Arabic)//EN"
+WPCHARS  wpset13.wpc
+
+PUBLIC   "-//COREL//ENTITIES WP 6.1 Character Set 14 (Arabic Script)//EN"
+WPCHARS  wpset14.wpc

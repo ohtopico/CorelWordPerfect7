@@ -1,0 +1,39 @@
+:Base cset70br.hlp>topics
+:Title Corel Office Settings Editor Help
+:Index Corel Office Settings Editor Help=cset70br.hlp
+:Link Corel Office Settings Editor Help
+;:Link cset70br.hlp            ; Corel Office Settings Editor Help
+;	:Tab Show Me=pfht70nl.dll            ; Remove if not having a Show Me Tab.
+;       :Index PerfectFit Help=wpsh70br.hlp ; For macros "shared" help use PerfectScript Help, ps70br.hlp.
+;       :Index File System Help=pfod70br.hlp ; For macros "shared" command help use PerfectScript Help, psmh70br.hlp.
+;       :Index Print System Help=pfpi70br.hlp
+;       :Link wpsh70br.hlp ; For macros help use ps70br.hlp.
+;       :Link pfod70br.hlp ; For macros help use psmh70br.hlp.
+;       :Link pfpi70br.hlp ; Remove if not needed.
+1 Using the Corel Settings Editor
+2 About Corel Application Settings and the Registry=9505
+2 About Creating Policies with the Corel Settings Editor=9531
+2 About Backing up and Restoring the Registry Files=9536
+2 About the Windows 95 Registry=9504
+1 How Do I
+2 Back up the System before I Start=9536
+2 Connect to the Network Registry=9506
+2 Create a Corel Policy File=9554
+2 Prevent Users from Changing Their Setup=9548
+2 Allow Users to Change Their Setup=9547
+2 Find a String, Value, or Key=9529
+2 Create a New String, Value, or Key=9530
+2 View the Full Registry=9509
+2 Find the Latest Information Regarding Corel Applications=9553
+2 Print All Topics=9539
+1 Troubleshooting
+2 How Can I Restore the Registry When No Backup File Exists?=9526
+2 Why Can't I Distribute Settings for Corel Quattro Pro?=9534
+2 Why Can't I Connect to a Network Registry?=9535
+1 Corel Support Services
+2 CorelNET Independent Web Site=8050@support.hlp
+2 Product Support in North America=8037@support.hlp
+2 Product Support WorldWide=8038@support.hlp
+2 Reference Center=1@wprc70br.hlp>envoy
+1 Copyrights and Trademarks
+2 Copyrights and Trademarks=8020@support.hlp

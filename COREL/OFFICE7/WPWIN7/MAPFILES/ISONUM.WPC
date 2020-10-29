@@ -1,0 +1,87 @@
+--
+    File:  ISONUM.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOnum PUBLIC
+       "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+     %ISOnum;
+
+  WP #    Name       Text            Description
+--
+  4,17    half      "[half  ]"     --=fraction one-half--
+  4,17    frac12    "[frac12]"     --=fraction one-half--
+  4,18    frac14    "[frac14]"     --=fraction one-quarter--
+  4,25    frac34    "[frac34]"     --=fraction three-quarters--
+  4,66    frac18    "[frac18]"     --=fraction one-eighth--
+  4,67    frac38    "[frac38]"     --=fraction three-eighths--
+  4,68    frac58    "[frac58]"     --=fraction five-eighths--
+  4,69    frac78    "[frac78]"     --=fraction seven-eighths--
+  4,78    sup1      "[sup1  ]"     --=superscript one--
+  4,20    sup2      "[sup2  ]"     --=superscript two--
+  4,26    sup3      "[sup3  ]"     --=superscript three--
+  0,43    plus      "[plus  ]"     --=plus sign B:-- 
+  6,1     plusmn    "[plusmn]"     --/pm B: =plus-or-minus sign--
+  0,60    lt        "[lt    ]"     --=less-than sign R:--
+  0,61    equals    "[equals]"     --=equals sign R:--
+  0,62    gt        "[gt    ]"     --=greater-than sign R:--
+  6,8     divide    "[divide]"     --/div B: =divide sign--
+  6,39    times     "[times ]"     --/times B: =multiply sign--
+  4,24    curren    "[curren]"     --=general currency sign--
+  4,11    pound     "[pound ]"     --=pound sign--
+  4,57    dollar    "[dollar]"     --=dollar sign--
+  4,19    cent      "[cent  ]"     --=cent sign--
+  4,12    yen       "[yen   ]"     --/yen =yen sign--
+  0,35    num       "[num   ]"     --=number sign--
+  0,37    percnt    "[percnt]"     --=percent sign--
+  0,38    amp       "[amp   ]"     --=ampersand--
+  0,42    ast       "[ast   ]"     --/ast B: =asterisk--
+  0,64    commat    "[commat]"     --=commercial at--
+  0,91    lsqb      "[lsqb  ]"     --/lbrack O: =left square bracket--
+  0,92    bsol      "[bsol  ]"     --/backslash =reverse solidus--
+  0,93    rsqb      "[rsqb  ]"     --/rbrack C: =right square bracket--
+  0,123   lcub      "[lcub  ]"     --/lbrace O: =left curly bracket--
+  1,4     horbar    "[horbar]"     --=horizontal bar--
+  0,124   verbar    "[verbar]"     --/vert =vertical bar--
+  0,125   rcub      "[rcub  ]"     --/rbrace C: =right curly bracket--
+  6,37    micro     "[micro ]"     --=micro sign--
+  8,50    ohm       "[ohm   ]"     --=ohm sign--
+  6,36    deg       "[deg   ]"     --=degree sign--
+  4,16    ordm      "[ordm  ]"     --=ordinal indicator, masculine--
+  4,15    ordf      "[ordf  ]"     --=ordinal indicator, feminine--
+  4,6     sect      "[sect  ]"     --=section sign--
+  4,5     para      "[para  ]"     --=pilcrow (paragraph sign)--
+  6,31    middot    "[middot]"     --/centerdot B: =middle dot--
+  6,22    larr      "[larr  ]"     --/leftarrow /gets A: =leftward arrow--
+  6,21    rarr      "[rarr  ]"     --/rightarrow /to A: =rightward arrow--
+  6,23    uarr      "[uarr  ]"     --/uparrow A: =upward arrow--
+  6,24    darr      "[darr  ]"     --/downarrow A: =downward arrow--
+  4,23    copy      "[copy  ]"     --=copyright sign--
+  4,22    reg       "[reg   ]"     --/circledR =registered sign--
+  4,41    trade     "[trade ]"     --=trade mark sign--
+  0,124   brvbar    "[brvbar]"     --=broken (vertical) bar--
+  6,20    not       "[not   ]"     --/neg /lnot =not sign--
+  5,9     sung      "[sung  ]"     --=music note (sung text sign)--
+  0,33    excl      "[excl  ]"     --=exclamation mark--
+  4,7     iexcl     "[iexcl ]"     --=inverted exclamation mark--
+  0,39    quot      "[quot  ]"     --=quotation mark--
+  2,5     apos      "[apos  ]"     --=apostrophe--
+  0,40    lpar      "[lpar  ]"     --O: =left parenthesis--
+  0,41    rpar      "[rpar  ]"     --C: =right parenthesis--
+  0,44    comma     "[comma ]"     --P: =comma--
+  0,95    lowbar    "[lowbar]"     --=low line--
+  0,45    hyphen    "[hyphen]"     --=hyphen--
+  0,46    period    "[period]"     --=full stop, period--
+  0,47    sol       "[sol   ]"     --=solidus--
+  0,58    colon     "[colon ]"     --/colon P:--
+  0,59    semi      "[semi  ]"     --=semicolon P:--
+  0,63    quest     "[quest ]"     --=question mark--
+  4,8     iquest    "[iquest]"     --=inverted question mark--
+  4,9     laquo     "[laquo ]"     --=angle quotation mark, left--
+  4,10    raquo     "[raquo ]"     --=angle quotation mark, right--
+  4,29    lsquo     "[lsquo ]"     --=single quotation mark, left--
+  4,28    rsquo     "[rsquo ]"     --=single quotation mark, right--
+  4,30    ldquo     "[ldquo ]"     --=double quotation mark, left--
+  4,31    rdquo     "[rdquo ]"     --=double quotation mark, right--
+  0,0     nbsp      "[nbsp  ]"     --=no break (required) space--
+  0,45    shy       "[shy   ]"     --=soft hyphen--

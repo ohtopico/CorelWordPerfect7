@@ -1,0 +1,144 @@
+:Base SCEDIT.HLP>MAIN
+2 Corel SCRIPT Intrinsic Statements
+3 Using Operators
+4 Using operators=Using_operators
+4 Operator precedence in Corel SCRIPT=Operator_precedence_in_Corel_SCRIPT
+4 Arithmetic Operators=Arithmetic_Operators
+4 Bitwise Operators=Bitwise_Operators
+4 Concatenation Operators=Concatenation_Operators
+4 Logical Operators=Logical_Operators
+4 Relational Operators=Relational_Operators
+4 Unary Operators=Unary_Operators
+4 Examples of Arithmetic Operators=Examples_of_Arithmetic_Operators>proc4
+4 Examples of Bitwise Operators=Examples_of_Bitwise_Operators>proc4
+4 Examples of Concatenation Operators=Examples_of_Concatenation_Operators>proc4
+4 Examples of Logical Operators=Examples_of_Logical_Operators>proc4
+4 Examples of Relational Operators=Examples_of_Relational_Operators>proc4
+4 Examples of Unary Operators=Examples_of_Unary_Operators>proc4
+3 Using variables
+4 Using Variables=Using_Variables
+4 Variable availability=Variable_availability
+4 Explicitly declaring and assigning values to a variable=Explicitly_declaring
+4 Implicitly declaring and assigning values to a variable=Implicitly_declaring
+4 Corel SCRIPT data type summary=Corel_SCRIPT_data_type_summary
+4 CONST statement=CONST
+4 DECLARE statement=DECLARE
+4 DECLARE...LIB statement=DECLARE_LIB
+4 DIM statement=DIM
+4 FUNCTION...END FUNCTION statements=FUNCTION_END_FUNCTION
+4 LBOUND statement=LBOUND
+4 LET statement=LET
+4 STATIC statement=STATIC
+4 SUB...END statements=SUB_end_sub
+4 UBOUND statement=UBOUND
+4 Example for DECLARE and FUCTION statements=example_declare_function
+4 Example of DECLARE...LIB statement=example_declare_lib
+4 Example for DECLARE, SUB, and CALL statements=example_declare_sub
+4 Examples for DIM statement=example_DIM
+4 Example for STATIC statement=Example_STATIC
+3 Using strings and string functions
+4 Using strings and string functions=using_strings
+4 ASC function=ASC
+4 BOOL function=bool
+4 CHR function=CHR
+4 FORMAT function=FORMAT
+4 INSTR function=INSTR
+4 LCASE function=LCASE
+4 LEFT function=LEFT
+4 LEN function=LEN
+4 LTRIM function=LTRIM
+4 MID function=MID
+4 RIGHT function=RIGHT
+4 RTRIM function=RTRIM
+4 SPACE function=SPACE
+4 STR function=STR
+4 UCASE function=UCASE
+4 VAL function=VAL
+3 Using constants
+4 Using constants=Using_constants
+3 Using arrays
+4 Using arrays=Using_arrays
+4 Multi-dimensional arrays=multi_dimensional_arrays
+4 Example for multi-dimensional arrays=example_multi_array>proc4
+3 Using user-defined functions and subroutines
+4 Using user-defined functions and subroutines=Using_functions_subroutines
+3 Using flow controls statements
+4 Using flow control statements=Using_flow_control_statements
+4 CALL statement=CALL
+4 DO...LOOP statement=DO_LOOP
+4 END STATEMENT=END
+4 EXIT statement=EXIT
+4 FOR...NEXT statement=FOR_NEXT
+4 GOSUB statement=GOSUB
+4 GOTO statement=GOTO
+4 IF...THEN...ELSE...ENDIF statements=IF_THEN_ELSE_ENDIF
+4 REM statement=rem
+4 SELECT CASE statement=SELECT_CASE
+4 STOP statement=STOP
+4 WAIT FOR statement=WAIT_FOR
+4 WAIT UNTIL statement=WAIT_UNTIL
+4 WHILE...WEND statements=WHILE_WEND
+4 WITH Corel Application statement=WITH_Corel_Application
+4 Example for SELECT CASE=Example_SELECT_CASE>proc4
+4 Examples for DO...LOOP=Examples_DO_LOOP>proc4
+4 Examples for FOR...LOOP=Examples_FOR_LOOP>proc4
+4 Examples for IF...THEN...ELSE...ENDIF=Examples_IF>proc4
+3 Using operating system and file commands
+4 Using operating system and file commands=Using_operating_system
+4 CHFOLDER statement=CHFOLDER
+4 CLOSE statement=CLOSE
+4 EOF function=EOF
+4 FILEATTR function=FILEATTR
+4 FILEPOS function=FILEPOS
+4 FINDNEXTFOLDER=FINDNEXTFOLDER
+4 FREEFILE function=FREEFILE
+4 GETCURRFOLDER function=GetCurrfolder
+4 INPUT statement=INPUT
+4 KILL statement=KILL
+4 LINE INPUT statement=LINE_INPUT
+4 LOF function=LOF
+4 MKFOLDER statement=MKFOLDER
+4 OPEN...APPEND statement=OPEN_APPEND
+4 OPEN...INPUT statement=OPEN_INPUT
+4 OPEN...OUTPUT statement=OPEN_OUTPUT
+4 PRINT statement=PRINT
+4 RMFOLDER statement=RMDIR
+4 SEEK statement=SEEK
+4 SETCURRFOLDER statement=SETCURRFOLDER
+4 SETFOLDERFIND=SETFOLDERFIND
+4 WRITE statement=WRITE
+3 Math functions
+4 ABS Function=ABS
+4 COS Function=COS
+4 EXP Function=EXP
+4 LOG Function=LOG
+4 SIN Function=SIN
+4 TAN Function=TAN
+3 User interface Statements and Functions
+4 Using user-interface statements and commands=User_Interface
+4 BEEP statement=BEEP
+4 GETFILEBOX statement=GETFILEBOX
+4 INPUTBOX statement=INPUTBOX
+4 MESSAGE statement=MESSAGE
+4 MESSAGEBOX statement=MESSAGEBOX
+4 GETHANDLE statement=GETHANDLE
+3 Dialog Control Statements
+4 BEGIN DIALOG...END DIALOG statements=BEGIN_END_DIALOG
+4 CANCELBUTTON statement=CANCELBUTTON
+4 CHECKBOX statement=CHECKBOX
+4 COMBOBOX statement=COMBOBOX
+4 DDCOMBOBOX statement=DDCOMBOBOX
+4 DDLISTBOX statement=DDLISTBOX
+4 DIALOG statement=DIALOG
+4 GROUPBOX statement=GROUPBOX
+4 HELPBUTTON statement=HELPBUTTON
+4 IMAGE statement=IMAGE
+4 IMAGELISTBOX statement=IMAGELISTBOX
+4 LISTBOX statement=LISTBOX
+4 OKBUTTON statement=OKBUTTON
+4 OPTIONBUTTON statement=OPTIONBUTTON
+4 OPTIONGROUP statement=OPTIONGROUP
+4 PUSHBUTTON statement=PUSHBUTTON
+4 SPINCONTROL statement=SPINCONTROL
+4 TEXT statement=TEXT
+4 TEXTBOX statement=TEXTBOX

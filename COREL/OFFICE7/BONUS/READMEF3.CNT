@@ -1,0 +1,50 @@
+:Base readmef3.hlp>proc4
+:Title CorelFLOW Read Me - F3
+1 O que está neste documento?=What_is_in_this_file
+1 Informações de instalação=Installation_Information
+1 CorelFLOW 3=CorelFLOW_3
+1 Biblioteca de Símbolos
+2 Atualizações por categoria
+3 Animais=Animals
+3 Basebol=Baseball
+3 Basquetebol=c13
+3 Biologia-Anatomia=c16
+3 Células de Biologia=c17
+3 Engenharia Elétrica-Alta Voltagem=c50
+3 Jardim 2=Garden_2
+3 Golfe=c90
+3 Pessoas-Roupas-Masculinas=c98
+3 Pessoas-Face-Bigode=c109
+3 Engenharia Industrial=c117
+3 Engenharia Mecânica-Diversos=c144
+3 Engenharia Mecânica-Guarnições de Tubulações-Linhas=c145
+3 Símbolos de Mapa 3=c134
+3 Música=Music
+3 Rede=Network
+3 Gerenciamento da Qualidade=Quality_Management
+3 Planejamento Espacial-Mobília Modular=c201
+3 Estrutura=c210
+3 Máximo=Ultimate
+3 Voleibol 1=Volleyball_1
+3 Weather 2=Weather_2
+2 Atualizações por número
+3 Página C13 (Basquetebol)=c13
+3 Página C16 to C17 (Biologia - Anatomia)=c16
+3 Página C17 to C18 (Biologia - Células)=c17
+3 Página C50 (Engenharia Elétrica-Alta Voltagem)=c50
+3 Página C90 (Golfe)=c90
+3 Página C98 (Pessoas-Roupas-Masculinas)=c98
+3 Página C109 (Pessoas-Face-Bigode)=c109
+3 Página C117 (Engenharia Industrial)=c117
+3 Página C134 (Símbolos de Mapa 3)=c134
+3 Página C144 (Engenharia Mecânica-Diversos)=c144
+3 Página C145 (Engenharia Mecânica-Tubulações-Linhas)=c145
+3 Página C201 to C202 (Planejamento de Espaço-Mobília Modular)=c201
+3 Página C210 (Estrutura)=c210
+1 Imprimindo
+2 Texto em sobreposição a gráficos=Text_overlapping_graphics
+2 Impressoras Postscript=Postscript_Printers
+2 Impressoras NÃO Postscript=NON_Postscript_Printers
+1 Entrando em contato conosco
+2 Lembrete de documentação=Documentation
+2 Sugestões e comentários sobre o software=Software_Suggestions_and_Comments

@@ -1,0 +1,142 @@
+--
+    File:  ISO_WPC.MAP     (External Entity Mapping File)
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    This external entity mapping file can be used when incorporating ISO
+    8879 character entity sets in your DTD.  Each set has a matching
+    character mapping file that maps as many as possible of the ISO 8879
+    entities to WordPerfect extended characters.
+    
+    The SGML "mode" of WordPerfect for Windows 7 treats an extended character
+    mapped in this manner as an implicit text (entity) reference.  When a
+    file is saved in SGML format these extended characters are translated
+    into standard SGML entity references.  When an SGML file is retrieved
+    using File:Open each reference to an entity mapped in this manner is
+    converted to its matching WP extended character.
+
+    The members of each referenced set that do not map to a WordPerfect
+    6.X extended character will be added to the SDATA list in the "Text
+    References" dialog.
+--
+
+PUBLIC     "ISO Registration Number 100//CHARSET
+            ECMA-94 Right Part of Latin Alphabet Nr. 1//ESC 2/13 4/1"
+CHARSET     ecma94.set
+
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Latin 1//EN" 
+WPCHARS    isolat1.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Latin 2//EN" 
+WPCHARS    isolat2.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Greek Letters//EN"
+WPCHARS    isogrk1.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Monotoniko Greek//EN"
+WPCHARS    isogrk2.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Russian Cyrillic//EN"
+WPCHARS    isocyr1.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN"
+WPCHARS    isocyr2.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN"
+WPCHARS    isonum.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Diacritical Marks//EN"
+WPCHARS    isodia.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Publishing//EN"
+WPCHARS    isopub.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Box and Line Drawing//EN"
+WPCHARS    isobox.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES General Technical//EN"
+WPCHARS    isotech.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Greek Symbols//EN"
+WPCHARS    isogrk3.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Alternative Greek Symbols//EN"
+WPCHARS    isogrk4.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Math Symbols: Ordinary//EN"
+WPCHARS    isoamso.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Math Symbols: Binary Operators//EN"
+WPCHARS    isoamsb.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Math Symbols: Relations//EN"
+WPCHARS    isoamsr.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Math Symbols: Negated Relations//EN"
+WPCHARS    isoamsn.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Math Symbols: Arrow Relations//EN"
+WPCHARS    isoamsa.wpc
+
+PUBLIC    "ISO 8879-1986//ENTITIES Added Math Symbols: Delimiters//EN"
+WPCHARS    isoamsc.wpc
+
+
+-- Same entity sets, using the newer ISO naming conventions --
+
+PUBLIC    "ISO 8879:1986//ENTITIES Added Latin 1//EN" 
+WPCHARS    isolat1.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Added Latin 2//EN" 
+WPCHARS    isolat2.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Greek Letters//EN"
+WPCHARS    isogrk1.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Monotoniko Greek//EN"
+WPCHARS    isogrk2.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Russian Cyrillic//EN"
+WPCHARS    isocyr1.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Non-Russian Cyrillic//EN"
+WPCHARS    isocyr2.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN"
+WPCHARS    isonum.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Diacritical Marks//EN"
+WPCHARS    isodia.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Publishing//EN"
+WPCHARS    isopub.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Box and Line Drawing//EN"
+WPCHARS    isobox.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES General Technical//EN"
+WPCHARS    isotech.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Greek Symbols//EN"
+WPCHARS    isogrk3.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Alternative Greek Symbols//EN"
+WPCHARS    isogrk4.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Added Math Symbols: Ordinary//EN"
+WPCHARS    isoamso.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN"
+WPCHARS    isoamsb.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Added Math Symbols: Relations//EN"
+WPCHARS    isoamsr.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Added Math Symbols: Negated Relations//EN"
+WPCHARS    isoamsn.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN"
+WPCHARS    isoamsa.wpc
+
+PUBLIC    "ISO 8879:1986//ENTITIES Added Math Symbols: Delimiters//EN"
+WPCHARS    isoamsc.wpc

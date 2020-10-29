@@ -1,0 +1,563 @@
+:Base scedit.hlp>main
+:Title Ajuda do Corel SCRIPT
+:Index Corel SCRIPT=cad_scr.hlp
+:Index Corel SCRIPT=draw_scr.hlp
+:Index Corel SCRIPT=flow_scr.hlp
+:Index Corel SCRIPT=pp_scr.hlp
+:Index Corel SCRIPT=tag_scr.hlp
+:Index Corel SCRIPT=vent_scr.hlp
+1 Corel SCRIPT
+2 Introdução aos scripts e ao Corel SCRIPT
+3 Introdução aos scripts e ao Corel SCRIPT =Introduction_Scripts_Corel_script
+3 O que é o Corel SCRIPT?=What_is_Corel_SCRIPT
+3 Linguagem de programação do Corel SCRIPT=Corel_SCRIPT_programming_language
+3 Scripts do Corel SCRIPT=Corel_SCRIPT_scripts
+3 Executar scripts=Executing_script_files
+3 Utilitários do Corel SCRIPT=Corel_SCRIPT_Utilities
+3 Convenções da sintaxe da documentação=Documentation_syntax_conventions
+3 Corel SCRIPT não é sensível a maiúsculas nem a minúsculas=cs_case_sensitive
+3 Arquivos de script =script_files
+2 Princípios fundamentais do Corel SCRIPT
+3 Quando é que devo escrever um script?=When_should_write_script
+3 Sugestões de planeamento e de design de scripts=Script_planning_designing
+3 Depuração e erros de programação de scripts=Script_programming_errors
+3 Formatar um script=Formatting_a_script
+3 Parâmetros
+4 Parâmetros de script=Script_Parameters
+3 Operadores
+4 Utilizar operadores=Using_operators
+4 Precedência de operadores no Corel SCRIPT=Operator_precedence_in_Corel_SCRIPT
+3 Constantes
+4 Utilizar constantes=Using_constants
+3 Variáveis
+4 Utilizar variáveis=Using_Variables
+4 Disponibilidade de variáveis=Variable_availability
+4 Declarar e atribuir explicitamente valores para uma variável=Explicitly_declaring
+4 Declarar e atribuir implicitamente valores para uma variável=Implicitly_declaring
+4 Resumo dos tipos de dados do Corel SCRIPT=Corel_SCRIPT_data_type_summary
+3 Matrizes
+4 Utilizar matrizes=Using_arrays
+4 Matrizes multi-dimensionais=multi_dimensional_arrays
+4 Exemplo de matrizes multi-direcionais=example_multi_array>proc4
+3 Cadeias
+4 Utilizar cadeias e funções de cadeias=using_strings
+3 Funções e subrotinas
+4 Utilizar funções e subrotinas definidas pelo utilizador=Using_functions_subroutines
+4 Procedimentos de script=Script_procedures
+3 Controle de fluxo
+4 Utilizar instruções de controle de fluxo=Using_flow_control_statements
+3 Scripts e o sistema operativo
+4 Utilizar os comandos do sistema operativo e de arquivo=Using_operating_system
+3 Interface do utilizador
+4 Utilizar instruções e comandos do interface do utilizador=User_Interface
+3 Data e Hora
+4 Utilizar data e hora=Using_date_and_time
+4 Atribuir valores às variáveis de datas=Assigning_values_to_date_variables
+2 Funções de programação avançada do Corel SCRIPT
+3 Bibliotecas Ligadas Dinâmicas
+4 Utilizar Bibliotecas Ligadas Dinâmicas=Using_Dynamic_Link_Libraries
+3 Automação OLE
+4 Automação do Corel SCRIPT e OLE=ole_automation
+4 Utilizar os aplicativos do Corel com os controladores de automação OLE  =using_ole
+4 Utilizar os comandos dos aplicativos do Corel SCRIPT: um exemplo=ole_automation_example
+4 Editor do Corel SCRIPT: controlador de automação OLE=Editor_ole
+2 Instruções e funções do Corel SCRIPT
+3 Operatodores
+4 Operadores Aritméticos=Arithmetic_Operators
+4 Operadores Bit a Bit=Bitwise_Operators
+4 Operadores de Concatenação=Concatenation_Operators
+4 Operadores Lógicos=Logical_Operators
+4 Operadores Relacionais=Relational_Operators
+4 Operadores Unários=Unary_Operators
+3 Constantes, variáveis e instruções de matrizes
+4 Instrução CBOL=cbool
+4 Instrução CCUR=ccurr
+4 Instrução CDAT=cdate
+4 Instrução CDBL=cdouble
+4 Instrução CINT=cint
+4 Instrução CLNG=clong
+4 Instrução CONST=CONST
+4 Instrução CSNG=cfloat
+4 Instrução CSTR=cstring
+4 Instrução DIM=DIM
+4 Instrução GLOBAL=GLOBAL
+4 Instrução LBOUND=LBOUND
+4 Instrução LET=LET
+4 Instrução STATIC=STATIC
+4 Instrução UBOUND=UBOUND
+3 Funções e subrotinas
+4 Instrução DECLARE=DECLARE
+4 Instruções DECLARE...LIB=DECLARE_LIB
+4 Instruções FUNCTION...END FUNCTION=FUNCTION_END_FUNCTION
+4 Instruções SUB...END=SUB_end_sub
+3 Instruções de controlo de fluxo
+4 Instrução CALL=CALL
+4 Instrução DO...LOOP=DO_LOOP
+4 Instrução END=END
+4 Instrução EXIT=EXIT
+4 Instrução FAIL=FAIL
+4 Instrução FOR...NEXT=FOR_NEXT
+4 Instrução GOTO=GOTO
+4 Instruções IF...THEN...ELSE...ENDIF=IF_THEN_ELSE_ENDIF
+4 Instrução ON ERROR=ONERROR
+4 Instrução REM=rem
+4 Instruções SELECT CASE...END SELECT=SELECT_CASE
+4 Instrução STOP=STOP
+4 Instruções WHILE...WEND=WHILE_WEND
+4 Instruções WITHOBJECT...END WITHOBJECT=WITH_end_with
+3 Funções de cadeia
+4 Função ASC=ASC
+4 Função CHR=CHR
+4 Função INSTR=INSTR
+4 Função LCASE=LCASE
+4 Função LEFT=LEFT
+4 Função LEN=LEN
+4 Função LTRIM=LTRIM
+4 Função MID=MID
+4 Função RIGHT=RIGHT
+4 Função RTRIM=RTRIM
+4 Função SPACE=SPACE
+4 Função STR=STR
+4 Função UCASE=UCASE
+4 Função VAL=VAL
+3 Funções Matemáticas
+4 Função ABS=ABS
+4 Função ACOS=ACOS
+4 Função ASIN=ASIN
+4 Função ATAN=ATAN
+4 Função COS=COS
+4 Função DEC=DEC
+4 Função EXP=EXP
+4 Função FIX=FIX
+4 Função HEX=HEX
+4 Função INT=INT
+4 Função LN=LN
+4 Função LOG=LOG
+4 Função RANDOMIZE=RANDOMIZE
+4 Função RND=RND
+4 Função SGN=sgn
+4 Função SIN=SIN
+4 Função SQR=SQR
+4 Função TAN=TAN
+3 Funções de conversão de medidas
+4 Função ANGLECONVERT=ANGLECONVERT>main
+4 Função LENGTHCONVERT=LENGTHCONVERT>main
+4 Função FROMINCHES=FROMINCHES>main
+4 Função FROMDIDOTS=FROMDIDOTS>main
+4 Função FROMPICAS=FROMPICAS>main
+4 Função FROMCICEROS=FROMCICEROS>main
+4 Função FROMPOINTS=FROMPOINTS>main
+4 Função FROMCENTIMETERS=FROMCENTIMETERS>main
+4 Função TOINCHES=TOINCHES>main
+4 Função TODIDOTS=TODIDOTS>main
+4 Função TOPICAS=TOPICAS>main
+4 Função TOCICEROS=TOCICEROS>main
+4 Função TOPOINTS=TOPOINTS>main
+4 Função TOCENTIMETERS=TOCENTIMETERS>main
+3 Comandos de Data e Hora
+4 Instrução CURRDATE=Currdate>main
+4 Instrução WAIT FOR=WAIT_FOR>main
+4 Instrução WAIT UNTIL=WAIT_UNTIL
+3 Comandos do sistema operativo e de arquivo
+4 Instrução CLOSE=CLOSE>main
+4 Instrução COPY=COPY>main
+4 Instrução CURRFOLDER=currfolder>main
+4 Função EOF=EOF>main
+4 Função FILEATTR=FILEATTR
+4 Função FILEDATE=FILEDATE
+4 Função FILEMODE=FILEMODE>main
+4 Função FILEPOS=FILEPOS>main
+4 Função FILESIZE=FILESIZE
+4 Função FINDFIRSTFOLDER, FINDNEXTFOLDER=FINDFIRSTFOLDER_FINDNEXTFOLDER>main
+4 Função FREEFILE=FREEFILE>main
+4 Função GETAPPHANDLE=GETAPPHANDLE
+4 Função GETWINHANDLE=GETWINHANDLE
+4 Função INPUT=input_dollar
+4 Instrução INPUT #=INPUT
+4 Instrução KILL=KILL>main
+4 Instrução LINE INPUT=LINE_INPUT>main
+4 Função LOF=LOF>main
+4 Instrução MKFOLDER=MKFOLDER>main
+4 Instrução OPEN...APPEND=OPEN_APPEND>main
+4 Instrução OPEN...INPUT=OPEN_INPUT>main
+4 Instrução OPEN...OUTPUT=OPEN_OUTPUT>main
+4 Instrução PRINT=PRINT>main
+4 Instrução RENAME=RENAME>main
+4 Instrução RMFOLDER=RMFOLDER>main
+4 Instrução SEEK=SEEK>main
+4 Instrução WRITE=WRITE>main
+3 Instruções e funções do interface do utilizador
+4 Instrução BEEP=BEEP
+4 Instrução GETFILEBOX=GETFILEBOX
+4 Instrução INPUTBOX=INPUTBOX
+4 Instrução MESSAGE=MESSAGE
+4 Instrução MESSAGEBOX=MESSAGEBOX
+3 Instruções de controlo de diálogo
+4 Instruções BEGIN DIALOG...END DIALOG=BEGIN_END_DIALOG
+4 Instrução CANCELBUTTON=CANCELBUTTON
+4 Instrução CHECKBOX=CHECKBOX
+4 Instrução COMBOBOX=COMBOBOX
+4 Instrução DDCOMBOBOX=DDCOMBOBOX
+4 Instrução DDLISTBOX=DDLISTBOX
+4 Instrução DIALOG=DIALOG
+4 Instrução GROUPBOX=GROUPBOX
+4 Instrução HELPBUTTON=HELPBUTTON
+4 Instrução IMAGE=IMAGE
+4 Instrução IMAGELISTBOX=IMAGELISTBOX
+4 Instrução LISTBOX=LISTBOX
+4 Instrução OKBUTTON=OKBUTTON
+4 Instrução OPTIONBUTTON=OPTIONBUTTON
+4 Instrução OPTIONGROUP=OPTIONGROUP
+4 Instrução PUSHBUTTON=PUSHBUTTON
+4 Instrução SPINCONTROL=SPINCONTROL
+4 Instrução TEXT=TEXT
+4 Instrução TEXTBOX=TEXTBOX
+3 Instruções e funções do Corel SCRIPT por ordem alfabética
+4 Função ABS=ABS
+4 Função ACOS=ACOS
+4 Função ANGLECONVERT=ANGLECONVERT>main
+4 Função ASC=ASC
+4 Função ASIN=ASIN
+4 Função ATAN=ATAN
+4 Instrução BEEP=BEEP
+4 Instruções BEGIN DIALOG...END DIALOG=BEGIN_END_DIALOG
+4 Instrução CALL=CALL
+4 Instrução CANCELBUTTON=CANCELBUTTON
+4 Instrução CBOL=cbool
+4 Instrução CCUR=ccurr
+4 Instrução CDAT=cdate
+4 Instrução CDBL=cdouble
+4 Instrução CHECKBOX=CHECKBOX
+4 Função CHR=CHR
+4 Instrução CINT=cint
+4 Instrução CLNG=clong
+4 Instrução CLOSE=CLOSE>main
+4 Instrução COMBOBOX=COMBOBOX
+4 Instrução CONST=CONST
+4 Instrução COPY=COPY>main
+4 Função COS=COS
+4 Instrução CSNG=cfloat
+4 Instrução CSTR=cstring
+4 Instrução CURRDATE=Currdate>main
+4 Instrução CURRFOLDER=currfolder>main
+4 Instrução DDCOMBOBOX=DDCOMBOBOX
+4 Instrução DDLISTBOX=DDLISTBOX
+4 Função DEC=DEC
+4 Instrução DECLARE=DECLARE
+4 Instrução DECLARE...LIB=DECLARE_LIB
+4 Instrução DIALOG=DIALOG
+4 Instrução DIM=DIM
+4 Instrução DO...LOOP=DO_LOOP
+4 Instrução END=END
+4 Função EOF=EOF>main
+4 Instrução EXIT=EXIT
+4 Função EXP=EXP
+4 Instrução FAIL=FAIL
+4 Função FILEATTR=FILEATTR
+4 Função FILEDATE=FILEDATE
+4 Função FILEMODE=FILEMODE>main
+4 Função FILEPOS=FILEPOS>main
+4 Função FILESIZE=FILESIZE
+4 Função FINDFIRSTFOLDER, FINDNEXTFOLDER=FINDFIRSTFOLDER_FINDNEXTFOLDER>main
+4 Função FIX=FIX
+4 Instrução FOR...NEXT=FOR_NEXT
+4 Função FREEFILE=FREEFILE>main
+4 Função FROMCENTIMETERS=FROMCENTIMETERS>main
+4 Função FROMCICEROS=FROMCICEROS>main
+4 Função FROMDIDOTS=FROMDIDOTS>main
+4 Função FROMINCHES=FROMINCHES>main
+4 Função FROMPICAS=FROMPICAS>main
+4 Função FROMPOINTS=FROMPOINTS>main
+4 Instruções FUNCTION...END FUNCTION=FUNCTION_END_FUNCTION
+4 Função GETAPPHANDLE=GETAPPHANDLE
+4 Instrução GETFILEBOX=GETFILEBOX
+4 Função GETWINHANDLE=GETWINHANDLE
+4 Instrução GLOBAL=GLOBAL
+4 Instrução GOTO=GOTO
+4 Instrução GROUPBOX=GROUPBOX
+4 Instrução HELPBUTTON=HELPBUTTON
+4 Função HEX=HEX
+4 Instruções IF...THEN...ELSE...ENDIF=IF_THEN_ELSE_ENDIF
+4 Instrução IMAGE=IMAGE
+4 Instrução IMAGELISTBOX=IMAGELISTBOX
+4 Instrução INPUT=input_dollar
+4 Instrução INPUT #=INPUT
+4 Instrução INPUTBOX=INPUTBOX
+4 Função INSTR=INSTR
+4 Função INT=INT
+4 Instrução KILL=KILL>main
+4 Instrução LBOUND=LBOUND
+4 Função LCASE=LCASE
+4 Função LEFT=LEFT
+4 Função LEN=LEN
+4 Função LENGTHCONVERT=LENGTHCONVERT>main
+4 Instrução LET=LET
+4 Instrução LINE INPUT=LINE_INPUT>main
+4 Instrução LISTBOX=LISTBOX
+4 Função LN=LN
+4 Função LOF=LOF>main
+4 Função LOG=LOG
+4 Função LTRIM=LTRIM
+4 Instrução MESSAGE=MESSAGE
+4 Instrução MESSAGEBOX=MESSAGEBOX
+4 Função MID=MID
+4 Instrução MKFOLDER=MKFOLDER>main
+4 Instrução OKBUTTON=OKBUTTON
+4 Instrução ON ERROR=ONERROR
+4 Instrução OPEN...APPEND=OPEN_APPEND>main
+4 Instrução OPEN...INPUT=OPEN_INPUT>main
+4 Instrução OPEN...OUTPUT=OPEN_OUTPUT>main
+4 Instrução OPTIONBUTTON=OPTIONBUTTON
+4 Instrução OPTIONGROUP=OPTIONGROUP
+4 Instrução PRINT=PRINT>main
+4 Instrução PUSHBUTTON=PUSHBUTTON
+4 Função RANDOMIZE=RANDOMIZE
+4 Instrução REM=rem
+4 Instrução RENAME=RENAME>main
+4 Função RIGHT=RIGHT
+4 Instrução RMFOLDER=RMFOLDER>main
+4 Função RND=RND
+4 Função RTRIM=RTRIM
+4 Instrução SEEK=SEEK>main
+4 Instruções SELECT CASE...END SELECT=SELECT_CASE
+4 Função SGN=sgn
+4 Função SIN=SIN
+4 Função SPACE=SPACE
+4 Instrução SPINCONTROL=SPINCONTROL
+4 Função SQR=SQR
+4 Instrução STATIC=STATIC
+4 Instrução STOP=STOP
+4 Função STR=STR
+4 Instruções SUB...END=SUB_end_sub
+4 Função TAN=TAN
+4 Instrução TEXT=TEXT
+4 Instrução TEXTBOX=TEXTBOX
+4 Função TOCENTIMETERS=TOCENTIMETERS>main
+4 Função TOCICEROS=TOCICEROS>main
+4 Função TODIDOTS=TODIDOTS>main
+4 Função TOINCHES=TOINCHES>main
+4 Função TOPICAS=TOPICAS>main
+4 Função TOPOINTS=TOPOINTS>main
+4 Instrução UBOUND=UBOUND
+4 Função UCASE=UCASE
+4 Função VAL=VAL
+4 Instrução WAIT FOR=WAIT_FOR>main
+4 Instrução WAIT UNTIL=WAIT_UNTIL
+4 WHILE...WEND statements=WHILE_WEND
+4 Instruções WITHOBJECT...END WITHOBJECT=WITH_end_with
+4 Instrução WRITE=WRITE>main
+2 Comandos e funções dos aplicativos do Corel SCRIPT
+:include cad_scr.cnt
+:include draw_scr.cnt
+:include flow_scr.cnt
+:include pp_scr.cnt
+:include tag_scr.cnt
+:include vent_scr.cnt
+2 Editor do Corel SCRIPT
+3 Editor do Corel SCRIPT=Corel_SCRIPT_Editor
+3 Princípios básicos sobre o Editor do Corel SCRIPT=Corel_SCRIPT_Editor_Basics
+3 Janelas do Editor do Corel SCRIPT=Corel_SCRIPT_Editor_windows
+3 Funções de depuração do Editor do Corel SCRIPT=Corel_SCRIPT_Editor_Debugging_Features
+3 Editor do Corel SCRIPT: controlador de automação OLE=Editor_ole
+2 Caixas de diálogo e Editor de Diálogos do Corel SCRIPT
+3 Corel SCRIPT e as caixas de diálogo=Corel_SCRIPT_and_dialog_boxes
+3 controles de diálogo do Corel SCRIPT=Corel_SCRIPT_dialog_controls
+3 Resumo dos controles de diálogo=Dialog_controls_summary
+3 Devolver as configurações de diálogo e as seleções para um script=Returning_dialog_settings_and_choices
+3 Editor de Diálogos do Corel SCRIPT
+4 Editor de Diálogos do Corel SCRIPT=Corel_SCRIPT_Dialog_Editor
+4 Trabalhar com o Editor de Diálogos=Working_with_dialog_controls
+4 Inserir e excluir controles de diálogo=Inserting_and_deleting_dialog_controls
+4 Editar diálogos e controles=Editing_dialogs_and_controls
+4 Alinhar e distribuir controles de diálogo=Aligning_and_distributing_dialog_controls
+4 Utilizar unidades de diálogo para dimensionar e posicionar diálogos e controles =Sizing_and_placing_dialogs_and_controls
+4 Tamanhos e etiquetas de controle padrão=Default_control_sizes_and_labels
+4 Visualizar uma caixa de diálogo de instruções do Corel SCRIPT=Viewing_a_dialog_boxs_Corel_SCRIPT_statements
+4 Mudar o foco das caixas de diálogo=Changing_focus_in_dialog_boxes
+4 Testar diálogos=Testing_dialogs
+4 Transferir e salvar as definições do Corel SCRIPT=Transferring_and_saving_Corel_SCRIPT_statements
+3 Sugestões de Diálogo do Corel SCRIPT=Corel_SCRIPT_Dialog_Tips
+3 Convenções das caixas de diálogo=Dialog_box_conventions
+3 Exemplos de scripts de diálogo do Corel SCRIPT
+4 Exemplo da caixa de verificação=checkbox_example>proc4
+4 Exemplo da caixa de combinada=combobox_example>proc4
+4 Exemplo da caixa combinada descer=dropdown_combobox_example>proc4
+4 Exemplo da caixa de lista descer=dropdown_listbox_example>proc4
+4 Exemplo de todas os controles de diálogo=dialog_controls_all>proc4
+4 Exemplo da caixa de lista de imagens=Image_listbox_example>proc4
+4 Exemplo da caixa de lista=listbox_example>proc4
+4 Exemplo dos botões OK, Cancelar, Ajuda e Botão=pushbutton_example>proc4
+4 Exemplo do botão de opção, do grupo de opção e da caixa de grupo=option_button_example>proc4
+4 Exemplo do controle giratório=spin_control_example>proc4
+4 Exemplo de texto e da caixa de texto=textbox_example>proc4
+3 Controles de Diálogo do Corel SCRIPT
+4 Controle do botão Cancelar=control_cancel>main
+4 Controle da caixa de verificação=control_checkbox>main
+4 Controle da caixa combinada=control_combo_box>main
+4 Controle da caixa combinada descer=control_dropdown_combobox>main
+4 Controle da caixa de lista descer=control_dropdown_listbox>main
+4 Controle da caixa de grupo=control_group_box>main
+4 Controle do botão Ajuda=control_helpbutton>main
+4 Controle de imagem=control_image>main
+4 Controle da caixa de lista de imagens=control_imagelistbox
+4 Controle da caixa de lista=control_listbox>main
+4 Controle do botão OK=control_okbutton>main
+4 Controle do botão Opção=control_option_button>main
+4 Controle do grupo de opção=control_option_group>main
+4 Controle do botão Botão=control_pushbutton>main
+4 Controle giratório=control_spin_control>main
+4 Controle da caixa de texto=control_text_box>main
+4 Controle de texto=control_text>main
+2 Como...
+3 Utilizar o Corel SCRIPT
+4 Para executar um script do Corel SCRIPT a partir de um aplicativo do Corel=app_play_script>proc4
+4 Para executar um script do Corel SCRIPT a partir do Editor do Corel SCRIPT=ht_play_script_cse>proc4
+4 Para iniciar o Editor do Corel SCRIPT Editor a partir de um aplicativo do Corel=ht_start_cse_app>proc4
+4 Para iniciar o Editor de Diálogos do Corel SCRIPT a partir do Editor do Corel SCRIPT=htde_start_cse>Proc4
+4 Para criar um script novo com o Editor do Corel SCRIPT=ht_new_file_cse>proc4
+3 Utilizar o Editor do Corel SCRIPT
+4 Iniciar o Editor do Corel SCRIPT
+5 Para iniciar o Editor do Corel SCRIPT Editor a partir de um aplicativo do Corel=ht_start_cse_app>proc4
+5 Para iniciar o Editor do Corel SCRIPT Editor a partir do Windows=ht_start_cse_win>proc4
+5 Para iniciar o Editor do Corel SCRIPT Editor, utilizando o comando Executar=ht_start_run>proc4
+5 Para fechar o Editor do Corel SCRIPT=ht_exit_cse>proc4
+5 Para criar um script novo com o Editor do Corel SCRIPT=ht_new_file_cse>proc4
+5 Para abrir um script do Corel SCRIPT=ht_open_file_cse>proc4
+5 Para fechar um script do Corel SCRIPT=ht_close_file_cse>proc4
+5 Para executar um script do Corel SCRIPT a partir do Editor do Corel SCRIPT=ht_play_script_cse>proc4
+5 Para salvar um script do Corel SCRIPT=ht_save_file_cse>proc4
+5 Para imprimir um script do Corel SCRIPT=ht_print_file_cse>proc4
+5.Para exibir a forma como um script do Corel SCRIPT aparece quando é impresso=ht_print_preview_cse>proc4
+4 Editar scripts do Corel SCRIPT
+5 Para copiar texto para outra localização=ht_copy_cse>proc4
+5 Para cortar texto para mover para outra localização=ht_cut_cse>proc4
+5 Para excluir texto=ht_delete_text_cse>proc4
+5 Para desfazer operações de edição=ht_cse_undo>proc4
+5 Para restaurar mudanças invertidas pelo comando Desfazer=ht_cse_redo>proc4
+5 Para procurar texto=ht_find_text_cse>proc4
+5 Para procurar e substituir texto=ht_find_replace_cse>proc4
+5 Para ir para uma linha do Editor do Corel SCRIPT=ht_goto_line_cse>proc4
+5 Para ir para o erro seguinte de um script=ht_goto_next_cse>proc4
+5 Para ir para o erro anterior de um script=ht_goto_prev_cse>proc4
+5 Para iniciar o Editor de Diálogos do Corel SCRIPT a partir do Editor Corel SCRIPT=htde_start_cse>proc4
+5 Para colocar as instruções REM no início das linhas do script=ht_comment>proc4
+5 Para remover instruções REM do início das linhas de script=ht_uncomment>proc4
+4 Depurar scripts do Corel SCRIPT
+5 Para verificar um Script do Corel SCRIPT Script à procura de erros de sintaxe=ht_syntax_cse>proc4
+5 Para parar a execução de um script=ht_reset_cse>proc4
+5 Para interromper um script de execução=ht_interrupt_cse>proc4
+5 Para reiniciar um script durante a depuração=ht_restart_cse>proc4
+5 Para executar um script uma linha de cada vez (Passar Para Dentro)=ht_step_cse>proc4
+5 Para executar um script uma linha de cada vez passando por cima dos procedimentos (Passar Por Cima)=ht_trace_cse>proc4
+5 Para executar um script para a primeira linha após a chamada do procedimento actual (Passar Para Fora)=ht_stepout_cse>proc4
+5 Para adicionar uma variável à janela Relógio / Observar=ht_add_watch_cse>proc4
+5 Para excluir uma variável da janela Relógio / Observar=ht_delete_watch_cse>proc4
+5 Para exibir o valor de uma variável, utilizando o QuickWatch=ht_display_variable_cse>proc4
+5 Para adicionar ou remover um ponto de separação=ht_breakpoint_cse>proc4
+5 Para limpar todos os pontos de separação=ht_breakpoint_clear_cse>proc4
+5 Para executar um script para o cursor=ht_cursor_cse>proc4
+4 Visualizar scripts do Corel SCRIPT
+5 Para visualizar todas as janelas de script=ht_view_windows_cse>proc4
+5 Para colocar em cascata as janelas de script do Editor do Corel SCRIPT=ht_view_cascade_cse>proc4
+5 Para organizar as janelas de script minimizadas=htcse_arrange_icons>proc4
+5 Para manter a janela do Editor do Corel SCRIPT visível=ht_view_ontop_cse>proc4
+5 Para visualizar uma janela de script aberta no Editor do Corel SCRIPT=ht_view_open_cse>proc4
+4 Mudar as configurações do Editor do Corel SCRIPT
+5 Para mudar as cores de exibição do Editor do Corel SCRIPT=ht_change_colors_cse>proc4
+5 Para mudar as fontes de exibição e de impressão do Editor do Corel SCRIPT=ht_change_fonts_cse>proc4
+5 Para mudar a largura dos tab do Editor do Corel SCRIPT=ht_change_tab_cse>proc4
+5 Para definir o salvar automático do Editor do Corel SCRIPT=ht_change_save_cse>proc4
+5 Para vizualizar ou ocultar as barra de status=ht_statusbar>proc4
+5 Para mover uma barra de ferramentas=To_move_a_toolbar>proc4
+5 Para dimensionar uma barra de ferramentas=To_re_size_a_toolbar>proc4
+5 Para exibir e ocultar uma barra de ferramentas existente=To_display_an_existing_toolbar>proc4
+4 Transferir as definições das caixas de diálogo
+5 Para mover ou copiar a definição de uma caixa de diálogo do Editor de Diálogos para o Editor do Corel SCRIPT=htde_move_de_cse>Proc4
+5 Para mover ou copiar a definição de uma caixa de diálogo do Editor do Corel SCRIPT para o Editor de Diálogos=htde_move_cse_de>Proc4
+4 Abrir a Ajuda on-line do Editor do Corel SCRIPT
+5 Para iniciar a Ajuda do Editor do Corel SCRIPT=ht_cse_open_help>proc4
+5 Para abrir a Ajuda on-line do Corel SCRIPT para obter uma referência de sintaxe de uma palavra-chave=ht_help_control>proc4
+3 Utilizar o Editor de Diálogos do Corel SCRIPT
+4 Iniciar o Editor de Diálogos do Corel SCRIPT
+5 Para iniciar o Editor de Diálogos do Corel SCRIPT a partir do Windows desktop=htde_start_windows>Proc4
+5 Para iniciar o Editor de Diálogos do Corel SCRIPT, utilizando o comando Executar=htde_start_run>Proc4
+5 Para iniciar o Editor de Diálogos do Corel SCRIPT a partir do Editor do Corel SCRIPT=htde_start_cse>Proc4
+5 Para criar uma caixa de diálogo nova=htde_new>Proc4
+5 Para abrir um script do Corel SCRIPT que contém a definição de uma caixa de diálogo=htde_open>Proc4
+5 Para fechar uma janela do Editor de Diálogos do Corel SCRIPT=htde_close>Proc4
+5 Para salvar uma caixa de diálogo do Corel SCRIPT=htde_save>Proc4
+5 Para fechar o Editor de Diálogos do Corel SCRIPT=htde_exit>Proc4
+4 Transferir as definições da caixa de diálogo
+5 Para mover ou copiar a definição de uma caixa de diálogo do Editor de Diálogos para o Editor do Corel SCRIPT=htde_move_de_cse>Proc4
+5 Para mover ou copiar a definição de uma caixa de diálogo do Editor do Corel SCRIPT para o Editor de Diálogos=htde_move_cse_de>Proc4
+4 Editar e testar uma caixa de diálogo
+5 Para editar os atributos de uma caixa de diálogo=htde_dialog_attributes>Proc4
+5 Para redimensionar uma caixa de diálogo utilizando o mouse=htde_dialog_mouse>Proc4
+5 Para mover uma caixa de diálogo utilizando o mouse=htde_dialog_move_mouse>Proc4
+5 Para testar uma caixa de diálogo =htde_test_dialog>Proc4
+4 Introduzir controles
+5 Para inserir um controle numa caixa de diálogo utilizando o método de clique=htde_control_insert_click>Proc4
+5 Para inserir um controle numa caixa de diálogo utilizando o método de clique e arrastar=htde_control_insert_drag>Proc4
+4 Editar controles
+5 Para excluir controles=htde_delete_control>Proc4
+5 Para cortar controles para a Área de Transferência=htde_controls_cut>Proc4
+5 Para copiar controles para a Área de Transferência=htde_control_copy>Proc4
+5 Para colar uma cópia de um controle numa caixa de diálogo=htde_paste_controls>Proc4
+5 Para mover um controle de uma caixa de diálogo utilizando o mouse=htde_move_controls_mouse>Proc4
+5 Para mover um controle de uma caixa de diálogo utilizando a caixa de atributos=htde_move_controls_box>Proc4
+5 Para mover um controle de uma caixa de diálogo para outra=htde_move_controls_another>Proc4
+5 Para redimensionar um controle de uma caixa de diálogo utilizando o mouse=htde_resize_control_mouse>Proc4
+5 Para redimensionar um controle de uma caixa de diálogo utilizando a caixa de atributos=htde_controls_resize_box>Proc4
+5 Para editar os atributos de um controle utilizando a caixa de atributos=htde_edit_controls_attributes>Proc4
+5 Para duplicar um controle=htde_control_duplicate>Proc4
+4 Selecionar diálogos e controles
+5 Para selecionar um controle=htde_select_control>Proc4
+5 Para selecionar uma caixa de diálogo=htde_select_dialog_box>Proc4
+5 Para selecionar vários controles=htde_select_multiple_controls>Proc4
+5 Para selecionar as marcas dos controles=htde_controls_select_marquee>Proc4
+5 Para adicionar ou remover controles para um grupo de controles selecionados=htde_controls_select_add_remove>Proc4
+5 Para desselecionar todos os controles=htde_controls_deselect>Proc4
+5 Para selecionar todos os controles de um diálogo=htde_select_controls_all>Proc4
+4 Alinhar, distribuir e centralizar controles
+5 Para alinhar controles ao longo do limite esquerdo=htde_align_left>Proc4
+5 Para alinhar controles ao longo do limite direito=htde_align_right>Proc4
+5 Para alinhar controles ao longo do limite superior=htde_align_top>Proc4
+5 Para alinhar controles ao longo do limite inferior=htde_align_bottom>Proc4
+5 Para alinhar o espaço entre os controles horizontais dentro da caixa diálogo =htde_controls_across>Proc4
+5 Para uniformizar verticalmente o espaçamento entre controles dentro de uma caixa de diálogo=htde_controls_down>Proc4
+5 Para centralizar verticalmente os controles dentro de uma caixa de diálogo=htde_center_vert>Proc4
+5 Para centralizar horizontalmente os controles dentro de uma caixa de diálogo=htde_center_horz>Proc4
+5 Para dar a mesma largura aos controles=htde_controls_width>Proc4
+5 Para dar a mesma altura aos controles=htde_controls_height>Proc4
+5 Para dar a mesma largura e altura aos controles=htde_controls_height_width>Proc4
+5 Para dimensionar um controle para ajustá-lo à sua etiqueta=htde_control_size_label>Proc4
+4 Mudar as configurações do Editor de Diálogos do Corel SCRIPT
+5 Para ativar e desativar a função Alinhar pela Grelha=htde_snap_grid>Proc4
+5 Para visualizar ou ocultar a grelha=htde_view_grid>Proc4
+5 Para definir o espaçamento da grelha=htde_grid_spacing>Proc4
+5 Para mover uma barra de ferramentas=To_move_a_toolbar>proc4
+5 Para redimensionar uma barra de ferramentas=To_re_size_a_toolbar>proc4
+5 Para exibir e ocultar uma barra de ferramentas existente=To_display_an_existing_toolbar>proc4
+4 Trabalhar com janelas
+5 Para visualizar todas as janelas do editor de diálogos=htde_view_windows>Proc4
+5 Para colocar em cascata as janelas do editor de diálogos=htde_cascade_windows>Proc4
+5 Para organizar as janelas minimizadas dos editor de diálogos=htde_arrange_icons>Proc4
+5 Para visualizar uma janela de script aberta no Editor de Diálogos do Corel SCRIPT=htde_view_open>Proc4
+5 Para visualizar ou ocultar a barra de status=ht_statusbar_de>proc4
+4 Dar tabs, mudar o foco e criar teclas de atalho
+5 Para adicionar uma tecla de atalho a um comando que tem uma etiqueta=htde_control_shortcut>Proc4
+5 Para adicionar uma tecla de atalho a um comando que não tem uma etiqueta=htde_shortcut_no_label>Proc4
+5 Para mudar a ordem de tabs de diálogo=htde_tab_order>Proc4
+5 Para redimensionar a janela Script=htde_script_window>Proc4
+4 Obter Ajuda
+5 Para iniciar a Ajuda a partir do Editor de Diálogos do Corel SCRIPT=htde_open_help>Proc4
+5 Para abrir a Ajuda on-line para um erro de sintaxe de um controle selecionado=de_help_control>proc4
+3 Atribuir scripts
+4 Para atribuir um script do Corel SCRIPT a uma tecla aceleradora (atalho)=To_assign_an_accelerator_key_to_a_command>proc4
+4 Para atribuir um script do Corel SCRIPT a um menu=To_add_a_command_to_a_menu>proc4
+4 Para atribuir um script do Corel SCRIPT a um botão da barra de ferramentas=To_add_a_button_to_a_toolbar>proc4
+2 Referência do Corel SCRIPT
+3 Mapa de caracteres do Corel SCRIPT=CS_Character_Map
+3 Palavras Reservadas=reserved_words
+3 Funções matemáticas=math_paste
+3 Códigos de erros detectáveis=Trappable_error_codes

@@ -1,0 +1,30 @@
+--
+    File:  ISOAMSO.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOamso PUBLIC
+       "ISO 8879-1986//ENTITIES Added Math Symbols: Ordinary//EN">
+     %ISOamso;
+
+  WP #    Name       Text            Description
+--
+  6,79    ang       "[ang   ]"     --/angle - angle--
+  6,168   angmsd    "[angmsd]"     --/measuredangle - angle-measured--
+  9,1     beth      "[beth  ]"     --/beth - beth, Hebrew--
+  0,0     bprime    "[bprime]"     --/backprime - reverse prime--
+  0,0     comp      "[comp  ]"     --/complement - complement sign--
+  9,3     daleth    "[daleth]"     --/daleth - daleth, Hebrew--
+  6,49    ell       "[ell   ]"     --/ell - cursive small l--
+  6,72    empty     "[empty ]"     --/emptyset /varnothing =small o, slash--
+  9,2     gimel     "[gimel ]"     --/gimel - gimel, Hebrew--
+  0,0     image     "[image ]"     --/Im - imaginary--
+  1,239   inodot    "[inodot]"     --/imath =small i, no dot--
+  1,25    jnodot    "[jnodot]"     --/jmath - small j, no dot--
+  6,208   nexist    "[nexist]"     --/nexists - negated exists--
+  0,0     oS        "[oS    ]"     --/circledS - capital S in circle--
+  6,50    planck    "[planck]"     --/hbar /hslash - Planck's over 2pi--
+  6,216   real      "[real  ]"     --/Re - real--
+  0,0     sbsol     "[sbsol ]"     --/sbs - short reverse solidus--
+  0,0     vprime    "[vprime]"     --/varprime - prime, variant--
+  6,53    weierp    "[weierp]"     --/wp - Weierstrass p--

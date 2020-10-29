@@ -1,0 +1,54 @@
+--
+    File:  ISOGRK4.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOgrk4 PUBLIC
+       "ISO 8879-1986//ENTITIES Alternative Greek Symbols//EN">
+     %ISOgrk4;
+
+  WP #    Name       Text            Description
+--
+  8,1     b.alpha   "[b.alpha ]"   --=small alpha, Greek--
+  8,3     b.beta    "[b.beta  ]"   --=small beta, Greek--
+  8,7     b.gamma   "[b.gamma ]"   --=small gamma, Greek--
+  8,6     b.Gamma   "[b.Gamma ]"   --=capital Gamma, Greek--
+  8,216   b.gammad  "[b.gammad]"   --/digamma--
+  8,9     b.delta   "[b.delta ]"   --=small delta, Greek--
+  8,8     b.Delta   "[b.Delta ]"   --=capital Delta, Greek--
+  8,11    b.epsi    "[b.epsi  ]"   --=small epsilon, Greek--
+  8,70    b.epsiv   "[b.epsiv ]"   --/varepsilon--
+  0,0     b.epsis   "[b.epsis ]"   --/straightepsilon--
+  8,13    b.zeta    "[b.zeta  ]"   --=small zeta, Greek--
+  8,15    b.eta     "[b.eta   ]"   --=small eta, Greek--
+  8,17    b.thetas  "[b.thetas]"   --straight theta--
+  8,16    b.Theta   "[b.Theta ]"   --=capital Theta, Greek--
+  8,71    b.thetav  "[b.thetav]"   --/vartheta - curly or open theta--
+  8,19    b.iota    "[b.iota  ]"   --=small iota, Greek--
+  8,21    b.kappa   "[b.kappa ]"   --=small kappa, Greek--
+  8,72    b.kappav  "[b.kappav]"   --/varkappa--
+  8,23    b.lambda  "[b.lambda]"   --=small lambda, Greek--
+  8,22    b.Lambda  "[b.Lambda]"   --=capital Lambda, Greek--
+  8,25    b.mu      "[b.mu    ]"   --=small mu, Greek--
+  8,27    b.nu      "[b.nu    ]"   --=small nu, Greek--
+  8,29    b.xi      "[b.xi    ]"   --=small xi, Greek--
+  8,28    b.Xi      "[b.Xi    ]"   --=capital Xi, Greek--
+  8,33    b.pi      "[b.pi    ]"   --=small pi, Greek--
+  8,32    b.Pi      "[b.Pi    ]"   --=capital Pi, Greek--
+  8,73    b.piv     "[b.piv   ]"   --/varpi--
+  8,35    b.rho     "[b.rho   ]"   --=small rho, Greek--
+  8,74    b.rhov    "[b.rhov  ]"   --/varrho--
+  8,37    b.sigma   "[b.sigma ]"   --=small sigma, Greek--
+  8,36    b.Sigma   "[b.Sigma ]"   --=capital Sigma, Greek--
+  8,39    b.sigmav  "[b.sigmav]"   --/varsigma--
+  8,41    b.tau     "[b.tau   ]"   --=small tau, Greek--
+  8,43    b.upsi    "[b.upsi  ]"   --=small upsilon, Greek--
+  8,42    b.Upsi    "[b.Upsi  ]"   --=capital Upsilon, Greek--
+  8,45    b.phis    "[b.phis  ]"   --/strightphi - straight phi--
+  8,44    b.Phi     "[b.Phi   ]"   --=capital Phi, Greek--
+  8,77    b.phiv    "[b.phiv  ]"   --/varphi - curly or open phi--
+  8,47    b.chi     "[b.chi   ]"   --=small chi, Greek--
+  8,49    b.psi     "[b.psi   ]"   --=small psi, Greek--
+  8,48    b.Psi     "[b.Psi   ]"   --=capital Psi, Greek--
+  8,51    b.omega   "[b.omega ]"   --=small omega, Greek--
+  8,50    b.Omega   "[b.Omega ]"   --=capital Omega, Greek--

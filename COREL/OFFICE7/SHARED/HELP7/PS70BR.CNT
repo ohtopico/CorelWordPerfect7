@@ -1,0 +1,125 @@
+:Base ps70br.hlp>topics
+:Title Ajuda do Corel PerfectScript
+:Index Ajuda do Corel PerfectScript=ps70br.hlp
+:Index Ajuda do Serviços de Suporte da Corel=support.hlp
+:Link ps70br.hlp
+:Link support.hlp
+1 Copyrights e Marcas registradas=8020@support.hlp>topics
+1 Como...
+2 Fundamentos
+3 Saindo do Corel PerfectScript=9020>topics
+3 Abrindo o editor de diálogos do Corel PerfectScript no Corel WordPerfect=9057>topics
+3 Selecionando macros e diálogos para edição=9061>topics
+2 Usando e editando macros
+3 Gravando e executando macros
+4 Escolhendo as opções de gravação para macros=9022>topics
+4 Iterrompendo e reiniciando macros=9014>topics
+4 Executando macros=9013>topics
+4 Gravando macros=9016>topics
+4 Selecionando os defaults de gravação de macro=9088>topics
+4 Parando macros=9015>topics
+4 Dicas para localizar aplicativos=9093>topics
+3 Editando macros
+4 Escolhendo um editor de macro=9023>topics
+4 Escolhendo as configurações default de macro=9021>topics
+4 Compilando macros=9017>topics
+4 Convertendo uma macro para o formato Corel WordPerfect=9092>topics
+4 Criando e editando variáveis em macros=9097>topics
+4 Editando macros=9018>topics
+4 Inserindo comandos de macros=9094>topics
+4 Selecionando configurações gerais de macros=9086>topics
+4 Dicas sobre comandos e sintaxe de macros=9012>topics
+4 Solucionando problemas de macros=9010>topics
+3 Depurando macros
+4 Escolhendo as opções de depuração de macros=9024>topics
+4 Criando novas variáveis=9026>topics
+4 Depurando macros=9019>topics
+4 Eliminando variáveis=9099>topics
+4 Gerando um arquivo de lista para depurar macros=9089>topics
+4 Fazendo um arquivo de registro do compilador=9101>topics
+4 Selecionando opções de depuração=9090>topics
+4 Especificando onde parar a depuração durante a execução de macros=9096>topics
+2 Usando o editor de diálogos
+3 Criando e editando diálogos
+4 Escolhendo as propriedades de diálogos=9070>topics
+4 Escolhendo as fontes de diálogos=9071>topics
+4 Copiando diálogos=9065>topics
+4 Criando novos diálogos=9063>topics
+4 Eliminando diálogos=9066>topics
+4 Editando diálogos=9064>topics
+4 Renomeando diálogos=9067>topics
+4 Salvando e fechando diálogos=9068>topics
+4 Testando diálogos=9069>topics
+3 Criando e editando controles
+4 Adicionando e editando itens de lista=9082>topics
+4 Adicionando controles=9073>topics
+4 Escolhendo propriedades do controle=9078>topics
+4 Copiando controles=9081>topics
+4 Excluindo controles=9074>topics
+4 Editando controles=9075>topics
+3 Posicionando controles em um diálogo
+4 Controles de alinhamento e espaçamento=9085>topics
+4 Posicionando controles com a grade=9084>topics
+4 Posicionando múltiplos controles=9076>topics
+4 Posicionando controles únicos=9077>topics
+4 Configurando diálogos=9079>topics
+3 Ligando diálogos a macros
+4 Descartando um diálogo se estiver usando uma rechamada=9059>topics
+4 Exibindo um diálogo dentro da macro=9058>topics
+4 Exemplo de dialogShow e dialogDismiss=9060>topics
+4 Dicas sobre como ligar diálogos a macros=9025>topics
+1 Sobre os recursos
+2 Controles de alinhamento=9053>topics
+2 Bitmap=9035>topics
+2 Pontos de interrupção=9095>topics
+2 Botões=9036>topics
+2 Centralizando=9054>topics
+2 Quadro de seleção=9037>topics
+2 Roda de cores=9038>topics
+2 Quadro combinação=9039>topics
+2 Compilando macros=9005>topics
+2 Grupos de controle=9031>topics
+2 Ordem de controle=9030>topics
+2 Convertendo uma macro para o formato Corel WordPerfect=9091>topics
+2 Corel PerfectScript=9000>topics
+2 Comandos do Corel PerfectScript=9001>topics
+2 Editor de diálogos Corel PerfectScript=9002>topics
+2 Contador=9040>topics
+2 Criando uma nova variável=9008>topics
+2 Criando/editando listas=9083>topics
+2 Personalizando=9041>topics
+2 Data=9042>topics
+2 Macros de depuração=9007>topics
+2 Botão default=9032>topics
+2 Descartando variável=9098>topics
+2 Quadro de edição=9043>topics
+2 Editando macros=9006>topics
+2 Registro de eventos=9100>topics
+2 Quadro do nome de arquivo=9044>topics
+2 Fonte=9029>topics
+2 Moldura=9045>topics
+2 Quadro de grupo=9046>topics
+2 Foco inicial=9033>topics
+2 Linhas=9047>topics
+2 Quadro de listagem=9048>topics
+2 Igualando tamanho=9055>topics
+2 Executando macros=9003>topics
+2 Preferências=9009>topics
+2 Indicador de andamento=9049>topics
+2 Propriedades=9080>topics
+2 Gravando macros=9004>topics
+2 Barras de rolamento=9050>topics
+2 Configurando diálogos=9062>topics
+2 Espaçando por igual=9056>topics
+2 Texto estático=9051>topics
+2 Marcas de tabulação=9034>topics
+2 Testando um diálogo=9028>topics
+2 A barra de ferramentas de controles=9072>topics
+2 Linguagem PerfectScript=9011>topics
+2 Usando a grade para criar diálogos=9027>topics
+2 Visor=9052>topics
+1 Serviços de suporte da Corel
+2 O web site independente CorelNET=8050@support.hlp>topics
+2 Suporte do produto na América do Norte=8037@support.hlp>topics
+2 Suporte internacional do produto=8038@support.hlp>topics
+

@@ -1,0 +1,133 @@
+--
+    File:  WPSET9.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset9 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 9 (Hebrew)//EN">
+      %wpset9;
+
+  WP #    Name       Text                Description
+--
+  9,0     aleph      "[aleph   ]"     -- Aleph --
+  9,1     bet        "[bet     ]"     -- Bet --
+  9,2     gimel      "[gimel   ]"     -- Gimel --
+  9,3     dalet      "[dalet   ]"     -- Dalet --
+  9,4     heh        "[heh     ]"     -- Heh --
+  9,5     vav        "[vav     ]"     -- Vav --
+  9,6     zayin      "[zayin   ]"     -- Zayin --
+  9,7     het        "[het     ]"     -- Het --
+  9,8     tet        "[tet     ]"     -- Tet --
+  9,9     yod        "[yod     ]"     -- Yod --
+  9,10    kaffinal   "[kaffinal]"     -- Kaf (final) --
+  9,11    kaf        "[kaf     ]"     -- Kaf --
+  9,12    lamed      "[lamed   ]"     -- Lamed --
+  9,13    memfinal   "[memfinal]"     -- Mem (final) --
+  9,14    mem        "[mem     ]"     -- Mem --
+  9,15    nunfinal   "[nunfinal]"     -- Nun (final) --
+  9,16    nun        "[nun     ]"     -- Nun --
+  9,17    samekh     "[samekh  ]"     -- Samekh --
+  9,18    ayin       "[ayin    ]"     -- Ayin --
+  9,19    pefinal    "[pefinal ]"     -- Pe (final) --
+  9,20    pe         "[pe      ]"     -- Pe --
+  9,21    tsadifin   "[tsadifin]"     -- Tsadi (final) --
+  9,22    tsadi      "[tsadi   ]"     -- Tsadi --
+  9,23    qof        "[qof     ]"     -- Qof --
+  9,24    resh       "[resh    ]"     -- Resh --
+  9,25    shin       "[shin    ]"     -- Shin --
+  9,26    tav        "[tav     ]"     -- Tav --
+  9,27    maqaf      "[maqaf   ]"     -- Maqaf --
+  9,28    paseq      "[paseq   ]"     -- Paseq --
+  9,29    sofpasuq   "[sofpasuq]"     -- Sof Pasuq --
+  9,30    geresh     "[geresh  ]"     -- Geresh --
+  9,31    gershaym   "[gershaym]"     -- Gershayim --
+  9,32    sheva      "[sheva   ]"     -- Sheva --
+  9,33    hatafseg   "[hatafseg]"     -- Hataf Segol --
+  9,34    hatafpat   "[hatafpat]"     -- Hataf Patah --
+  9,35    hatafqam   "[hatafqam]"     -- Hataf Qamats --
+  9,36    hiriq      "[hiriq   ]"     -- Hiriq --
+  9,37    tsere      "[tsere   ]"     -- Tsere --
+  9,38    segol      "[segol   ]"     -- Segol --
+  9,39    patah      "[patah   ]"     -- Patah --
+  9,40    qamats     "[qamats  ]"     -- Qamats --
+  9,41    holem      "[holem   ]"     -- Holem --
+  9,42    holemlt    "[holemlt ]"     -- Holem Left --
+  9,43    qubuts     "[qubuts  ]"     -- Qubuts --
+
+-- New as of WPWin 6.0 --
+
+  9,44    dagesh     "[dagesh  ]"     -- Dagesh --
+  9,45    meteg      "[meteg   ]"     -- Meteg --
+  9,46    rafe       "[rafe    ]"     -- Rafe --
+  9,47    patahfur   "[patahfur]"     -- Patah Furtive --
+  9,48    varika     "[varika  ]"     -- Varika --
+  9,49    dblvav     "[dblvav  ]"     -- Double Vav --
+  9,50    vavyod     "[vavyod  ]"     -- Vav Yod --
+  9,51    dblyod     "[dblyod  ]"     -- Double Yod --
+  9,52    dblyodpt   "[dblyodpt]"     -- Double Yod Patah --
+  9,53    etnahta    "[etnahta ]"     -- Etnahta --
+  9,54    tipeha     "[tipeha  ]"     -- Tipeha --
+  9,55    dehi       "[dehi    ]"     -- Dehi --
+  9,56    mahapakh   "[mahapakh]"     -- Mahapakh --
+  9,57    yetiv      "[yetiv   ]"     -- Yetiv --
+  9,58    tevir      "[tevir   ]"     -- Tevir --
+  9,59    munah      "[munah   ]"     -- Munah --
+  9,60    merkha     "[merkha  ]"     -- Merkha --
+  9,61    merkhakf   "[merkhakf]"     -- Merkha Kefula --
+  9,62    darga      "[darga   ]"     -- Darga --
+  9,63    yerbenym   "[yerbenym]"     -- Yerah Ben Yomo --
+  9,64    segolhaf   "[segolhaf]"     -- Segol Hafuh --
+  9,65    shalshel   "[shalshel]"     -- Shalshelet --
+  9,66    zagefqat   "[zagefqat]"     -- Zagef Qatan --
+  9,67    zagefgad   "[zagefgad]"     -- Zagef Gadol --
+  9,68    revia      "[revia   ]"     -- Revia --
+  9,69    zarqa      "[zarqa   ]"     -- Zarqa --
+  9,70    pashta     "[pashta  ]"     -- Pashta --
+  9,71    qadma      "[qadma   ]"     -- Qadma --
+  9,72    germasor   "[germasor]"     -- Geresh Masorti --
+  9,73    germasmq   "[germasmq]"     -- Geresh Masorti Muqdam --
+  9,74    gershayi   "[gershayi]"     -- Gershayim --
+  9,75    pazer      "[pazer   ]"     -- Pazer --
+  9,76    teliqeta   "[teliqeta]"     -- Telisha Qetana --
+  9,77    teligedo   "[teligedo]"     -- Telisha Gedola --
+  9,78    qarnpara   "[qarnpara]"     -- Qarne Para --
+  9,79    ole        "[ole     ]"     -- Ole --
+  9,80    iluy       "[iluy    ]"     -- Iluy --
+  9,81    masocirc   "[masocirc]"     -- Masora Circellus --
+  9,82    upperdot   "[upperdot]"     -- Upper Dot --
+  9,83    galgal     "[galgal  ]"     -- Galgal --
+  9,84    alefdag    "[alefdag ]"     -- Alef Dagesh --
+  9,85    betdag     "[betdag  ]"     -- Bet Dagesh --
+  9,86    vez        "[vez     ]"     -- Vez --
+  9,87    gimeldag   "[gimeldag]"     -- Gimel Dagesh --
+  9,88    daletdag   "[daletdag]"     -- Dalet Dagesh --
+  9,89    hedag      "[hedag   ]"     -- He Dagesh --
+  9,90    vavdag     "[vavdag  ]"     -- Vav Dagesh --
+  9,91    vavholem   "[vavholem]"     -- Vav Holem --
+  9,92    zayindag   "[zayindag]"     -- Zayin Dagesh --
+  9,93    hetdag     "[hetdag  ]"     -- Het Dagesh --
+  9,94    tetdag     "[tetdag  ]"     -- Tet Dagesh --
+  9,95    yoddag     "[yoddag  ]"     -- Yod Dagesh --
+  9,96    yodhiriq   "[yodhiriq]"     -- Yod Hiriq --
+  9,97    kafdag     "[kafdag  ]"     -- Kaf Dagesh --
+  9,98    kafdagfl   "[kafdagfl]"     -- Kaf Dagesh (final) --
+  9,99    kafshefl   "[kafshefl]"     -- Kaf Sheva (final) --
+  9,100   kaftsefl   "[kaftsefl]"     -- Kaf Tsere (final) --
+  9,101   kafsegfl   "[kafsegfl]"     -- Kaf Segol (final) --
+  9,102   kafpatfl   "[kafpatfl]"     -- Kaf Patah (final) --
+  9,103   kafqamfl   "[kafqamfl]"     -- Kaf Qamats (final) --
+  9,104   kfdgqafl   "[kfdgqafl]"     -- Kaf Dagesh Qamats (final) --
+  9,105   lameddag   "[lameddag]"     -- Lamed Dagesh --
+  9,106   memdag     "[memdag  ]"     -- Mem Dagesh --
+  9,107   nundag     "[nundag  ]"     -- Nun Dagesh --
+  9,108   nunqamfl   "[nunqamfl]"     -- Nun Qamats (final) --
+  9,109   samekhdg   "[samekhdg]"     -- Samekh Dagesh --
+  9,110   pedagesh   "[pedagesh]"     -- Pe Dagesh --
+  9,111   fe         "[fe      ]"     -- Fe --
+  9,112   tsadidag   "[tsadidag]"     -- Tsadi Dagesh --
+  9,113   qofdag     "[qofdag  ]"     -- Qof Dagesh --
+  9,114   sinsindt   "[sinsindt]"     -- Sin (with Sin dot ) --
+  9,115   sindgsin   "[sindgsin]"     -- Sin Dagesh (with Sin dot) --
+  9,116   shinshin   "[shinshin]"     -- Shin (with Shin dot) --
+  9,117   shindgsh   "[shindgsh]"     -- Shin Dagesh (with Shin dot) --
+  9,118   tavdag     "[tavdag  ]"     -- Tav Dagesh --

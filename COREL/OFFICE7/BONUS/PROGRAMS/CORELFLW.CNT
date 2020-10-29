@@ -1,0 +1,743 @@
+:Base corelflw.hlp>main
+:Title Ajuda do CorelFLOW
+1 Bem-Vindo ao CorelFLOW 3
+3 Apresentando o CorelFLOW 3=flow_intro
+1 Primeiros Passos
+2 Selecionando um ponto de partida=getting_started
+2 Obtendo ajuda=getting_help
+1 Recursos do CorelFLOW
+2 Gerenciando os arquivos de trabalho
+3 Gerenciando arquivos=manage_overview
+2 Construindo diagramas
+3 Organizando a página
+4 Configurando seu diagrama=page_setup_overview
+3 Fazendo os auxiliares de desenho do CorelFLOW trabalharem para você
+4 Trabalhando com grades e réguas=grid_and_ruler_overview
+4 trabalhando com guias=guidelines_overview
+3 Desenhando formas e linhas
+4 Desenhando formas e linhas=draw_overview
+3 Diagramando com Arrastar e Soltar
+4 Usando Bibliotecas Inteligentes=smartlib_overview
+3 Selecionando objetos
+4 Selecionando objetos=select_overview
+3 Conectando objetos
+4 Conectando objetos=connect_overview
+3 Organizando objetos na página de desenho
+4 Trabalhando com camadas=layer_overview
+4 Ordenando objetos em uma camada=order_overview
+4 Copiando objetos=copy_overview
+4 Removendo objetos=remove_overview
+4 Colando objetos=paste_overview
+4 Movendo e posicionando objetos=position_overview
+4 Alinhando objetos=align_overview
+4 Distribuindo objetos=distribute_overview
+4 Agrupando e desagrupando objetos=group_overview
+3 Alterando os atributos dos objetos
+4 Preenchendo objetos=fill_overview
+4 Formatando contornos de objetos=symbol_overview
+4 Aplicando efeitos de sombra=symbol_shadow_overview
+4 Definindo atributos avançados de objetos=advanced_overview
+3 Transformando objetos
+4 Escalonando e esticando objetos=scalestretch_overview
+4 Espelhando objetos=mirror_overview
+4 Girando objetos=rotate_overview
+4 Combinando objetos=combine_overview
+4 Interseptando objetos =intersect_overview
+4 Aparando objetos=trim_overview
+4 Soldando objetos=weld_overview
+3 Alterando os atributos de linha
+4 Formatando linhas=line_format_overview
+3 Trabalhando com texto
+4 Adicionando texto
+5 Adicionando texto =add_text_overview
+4 Selecionando texto
+5 Selecionando texto =select_text_overview
+4 Formatando caracteres
+5 Mudando os atributos do caractere=change_text_attributes_overview
+4 Formatando parágrafos
+5 Mudando os atributos do parágrafo=paragraph_change_attributes_overview
+5 Usando hifenização automática=hyphenation_overview
+5 Definindo paradas de tabulação=tab_overview
+5 Definindo indentações=indent_overview
+5 Adicionando tópicos aos parágrafos=bullet_overview
+4 Localizando e substituindo texto
+5 Localizando e substituindo texto=text_find_and_replace_overview
+4 Revisando texto
+5 Verificando a ortografia=spellcheck_overview
+5 Usando o Thesaurus=thesaurus_overview
+5 Usando o Assistente de Digitação=typeassist_overview
+4 Usando texto de campo
+5 Usando texto de campo=using_field_text
+2 Trabalhando com Hiperlink
+3 Criando e gerenciando Hiperlinks=hyperlink_overview
+2 Trabalhando com projetos
+3 Criando e gerenciando projetos=project_overview
+2 Trocando informações com outros programas
+4 Importando e exportando informações=import_export_overview
+4 Ligando e incorporando objetos=ole_overview
+2 Desfazendo e refazendo operações
+3 Para desfazer uma operação=operation_undo_overview
+2 Visualizando seus diagramas
+3 Ajustando o ponto de observação=view_overview
+2 Imprimindo seu trabalho
+3 Imprimindo seu trabalho =a_pt_layout
+3 Imprimindo texto e gráficos=a_pt_textgraphics
+3 PostScript=a_pt_postscript
+2 Personalizando seu ambiente de trabalho
+3 Personalizando teclas de atalho=customize_shortcut_overview
+3 Personalizando menus=customize_menus_overview
+3 Personalizando barras de ferramentas=customize_toolbars_overview
+3 Personalizando paletas de cores=customize_palette_overview
+3 Criando e selecionando cores personalizadas=color_overview
+3 Personalizando a barra de status=customize_status_bar_overview
+3 Manipulando janelas no CorelFLOW=window_overview
+2 Visualizando as informações sobre seu computador e o CorelFLOW
+3 Visualizando informações do sistema e do programa=proginfo_overview
+1 Como fazer...
+2 Criar e abrir arquivos de trabalho
+3 Para criar um novo diagrama=diagram_new>proc4
+3 Para criar um novo diagrama usando um modelo=diagram_new_from_template>proc4
+3 Para criar um novo modelo de diagrama=diagram_create_template>proc4
+3 Para criar uma nova Biblioteca Inteligente=smartlib_create>proc4
+3 Para criar um novo projeto=project_new>proc4
+3 Para abrir um arquivo=diagram_open>proc4
+2 Configurar a página de desenho
+3 Para configurar a orientação da página=page_orientation>proc4
+3 Para selecionar um tamanho de página predefinido=page_choose_preset_size>proc4
+3 Para definir um tamanho de página personalizado=page_define_custom_size>proc4
+3 Para definir as margens da página=page_set_margins>proc4
+3 Para selecionar uma cor de papel simulada=page_choose_color>proc4
+2 Usar grades, réguas e guias
+3 Trabalhando com réguas
+4 Para definir uma origem de régua precisa=ruler_set_precise_origin>proc4
+4 Para mudar as unidades de medida nas réguas=ruler_change_units>proc4
+4 Para definir a unidade padrão=preferences_set_default_unit>proc4
+4 Para definir o número de marcas de divisão de escala=ruler_tick_divisions>proc4
+4 Para reposicionar uma régua=ruler_reposition>proc4
+3 Definindo a escala de desenho
+4 Para escolher uma escala de desenho predefinida=ruler_choose_preset_scale>proc4
+4 Para definir uma escala de desenho personalizada=ruler_set_custom_scale>proc4
+3 Definindo a grade
+4 Para exibir a grade=grid_display>proc4
+4 Para ocultar a grade=grid_hide>proc4
+4 Para definir a freqüência da grade=grid_set_frequency>proc4
+4 Para alinhar objetos pela grade=grid_enable_snap_to_grid>proc4
+4 Para exibir a grade somente na página de desenho=grid_display_on_page_only>proc4
+3 Trabalhando com guias
+4 Para adicionar uma guia horizontal=guideline_add_horizontal>proc4
+4 Para mover uma guia horizontal=guideline_move_horizontal>proc4
+4 Para excluir uma guia horizontal=guideline_delete_horizontal>proc4
+4 Para excluir todas as guias=guideline_delete_all_horizontal>proc4
+4 Para adicionar uma guia horizontal=guideline_add_horizontal>proc4
+4 Para mover uma guia vertical=guideline_move_vertical>proc4
+4 Para excluir uma guia vertical=guideline_delete_vertical>proc4
+4 Para excluir todas as guias verticais=guideline_delete_all_vertical>proc4
+4 Para excluir todas as guias=guideline_delete_all>proc4
+4 Para exibir guias=guidelines_display>proc4
+4 Para ocultar guias=guideline_hide>proc4
+2 Desenhando formas e linhas
+3 Desenhando formas
+4 Para desenhar um retângulo=draw_rectangle>proc4
+4 Para desenhar um quadrado=draw_square>proc4
+4 Para desenhar uma elipse=draw_ellipse>proc4
+4 Para desenhar um círculo=draw_circle>proc4
+4 Para desenhar um polígono=draw_polygon>proc4
+4 Para alterar a forma de um polígono=set_polygon_props>proc4
+3 Desenhando linhas e curvas
+4 Para desenhar uma curva à mão livre=draw_freehand_curve>proc4
+4 Para desenhar uma curva=draw_curve>proc4
+4 Para desenhar uma linha reta=draw_straight_line>proc4
+4 Para desenhar linhas retas conectadas=draw_connected_line>proc4
+4 Para desenhar curvas conectadas=draw_connected_curves>proc4
+4 Para desenhar um caminho fechado de linhas retas=draw_closedpath_straightline>proc4
+4 Para desenhar um caminho fechado com a ferramenta Curva=draw_closedpath_curve_tool>proc4
+4 Para desenhar um caminho fechado de mão livre=draw_closedpath_freehand>proc4
+2 Desenhando com Bibliotecas Inteligentes
+3 Para abrir uma Biblioteca Inteligente=smartlib_open>proc4
+3 Para adicionar um objeto da Biblioteca Inteligente ao seu diagrama=smartlib_use_symbol>proc4
+3 Para adicionar várias cópias de um objeto da Biblioteca Inteligente=smartlib_use_symbol_multiple>proc4
+3 Para ver informações sobre qualquer objeto de uma Biblioteca Inteligente=smartlib_see_information>proc4
+2 Selecionando objetos
+3 Para selecionar um objeto=select_object>proc4
+3 Para selecionar um grupo=select_group>proc4
+3 Para selecionar vários objetos=select_multiple_objects>proc4
+3 Para selecionar vários grupos=select_multiple_groups>proc4
+3 Para selecionar um objeto com uma marca de seleção=select_object_marquee>proc4
+3 Para selecionar um grupo com uma marca de seleção=select_group_marquee>proc4
+3 Para selecionar vários objetos com uma marca de seleção=select_multiple_objects_marquee>proc4
+3 Para selecionar objetos com base em propriedades compartilhadas=select_by_properties>proc4
+2 Desselecionando objetos
+3 Para desselecionar todos os objetos=select_deselect_all>proc4
+3 Para desselecionar um objeto específico=select_deselect_object>proc4
+2 Conectando objetos
+3 Trabalhando com pontos de conexão e pinos conectores
+4 Para adicionar um ponto de conexão a um objeto=add_connection_point>proc4
+4 Para mover um ponto de conexão=move_connection_point>proc4
+4 Para excluir um ponto de conexão=delete_connection_point>proc4
+4 Para desativar os pontos de conexão de um objeto=advanced_disable_connection_points>proc4
+4 Para ativar os pontos de conexão de um objeto=advanced_enable_connectors>proc4
+4 Para excluir todos os pontos de conexão de um objeto=delete_all_connnection_points>proc4
+4 Para mover o pino conector de um objeto=move_connector_pin>proc4
+4 Para desativar o pino conector de um objeto=advanced_disable_pin>proc4
+4 Para fazer um pino conector de um objeto atrair pontos de conexão e outros pinos=advanced_snap_to_connection_points>proc4
+4 Para alterar o comportamento do pino conector de um objeto=advanced_stick_to_object_underneath>proc4
+3 Conectando objetos e linhas
+4 Para criar uma conexão dinâmica entre uma linha e um objeto=to_create_a_dynamic_connection_between_a_line_and_an_object>proc4
+4 Para criar uma conexão fixa entre uma linha e um objeto=to_create_a_stationary_connection_between_a_line_and_an_object>proc4
+4 Para fazer o CorelFLOW desenhar linhas de conexão entre objetos=connect_objects_automatically>proc4
+4 Para conectar dois objetos utilizando uma linha de Roteamento Automático=connect_with_autorouted_line>proc4
+3 Conectando objetos diretamente
+4 Para conectar objetos diretamente utilizando um ponto de conexão e um pino conector=connect_directly_with_connector_and_pin>proc4
+4 Para conectar objetos diretamente utilizando pinos conectores=connect_directly_using_connector_pins>proc4
+3 Selecionando preferências de roteamento automático de linhas
+4 Para ativar o roteamento automático da linha=enable_autorouting>proc4
+4 Para desativar o roteamento automático da linha=disable_autorouting>proc4
+4 Para definir a distância mínima permitida entre linhas e símbolos=autorouting_line_distance>proc4
+4 Para definir inteligência no roteamento automático da linha=set_autorouting_intelligence>proc4
+4 Para ativar o roteamento automático para um objeto específico=advanced_enable_autorouting>proc4
+4 Para desativar o roteamento automático para um objeto específico=advanced_disable_autorouting>proc4
+2 Copiando, cortando e colando objetos
+3 Para copiar um objeto=copy_object>proc4
+3 Para duplicar um objeto=duplicate_object>proc4
+3 Para alterar o incremento de deslocamento de duplicatas=change_duplicate_offset_increment>proc4
+3 Para cortar um objeto=cut_object>proc4
+3 Para excluir um objeto=delete_object>proc4
+3 Para colar o conteúdo da Área de Transferência=paste_contents_clipboard>proc4
+2 Arranjando e organizando objetos
+3 Movendo e posicionado objetos
+4 Para mover um objeto usando o mouse=move_objects_using_mouse>proc4
+4 Para mover um objeto usando o teclado=move_objects_using_keyboard>proc4
+4 Para definir o incremento de deslocamento=preferences_set_nudge_increment>proc4
+4 Para posicionar um objeto em uma localização precisa=position_objects_precisely>proc4
+4 Para posicionar um objeto em relação a sua localização atual=position_relative>proc4
+3 Alinhando objetos
+4 Para alinhar objetos em uma coluna=align_column>proc4
+4 Para alinhar objetos em uma fileira=align_row>proc4
+4 Para alinhar objetos horizontalmente=align_objects_horizontally>proc4
+4 Para alinhar objetos verticalmente=align_objects_vertically>proc4
+4 Para alinhar objetos na horizontal e na vertical=align_objects_horizontally_and_vertically>proc4
+3 Distribuindo objetos
+4 Para distribuir objetos na horizontal=distribute_horizontally>proc4
+4 Para distribuir objetos na vertical =distribute_vertically>proc4
+4 Para distribuir objetos na horizontal e na vertical=distribute_objects_horizontally_and_vertically>proc4
+3 Agrupando e desagrupando objetos
+4 Para agrupar objetos=objects_group>proc4
+4 Para separar objetos agrupados=objects_ungroup>proc4
+3 Girando objetos
+4 Girando objetos com o mouse
+5 Para girar um objeto com o mouse=rotate_object_manually>proc4
+5 Para alterar o centro de rotação de um objeto com o mouse=rotate_change_center_manually>proc4
+5 Para definir o incremento de rotação do objeto=rotate_set_increment>proc4
+4 Girando objetos com exatidão
+5 Para girar um objeto com base em um valor preciso=rotate_precisely>proc4
+5 Para especificar um centro de rotação preciso=rotate_precise_center>proc4
+5 Para mover o centro de rotação até determinada posição=rotate_precise_relative_position>proc4
+2 Usando camadas para organizar seu diagrama
+3 Ordenando objetos em uma camada
+4 Para mover um objeto para a frente de uma camada=order_to_front>proc4
+4 Para mover um objeto para trás de uma camada=order_to_back>proc4
+4 Para mover um objeto para trás de outro objeto=order_behind>proc4
+4 Para mover um objeto para a frente de outro objeto=order_in_front_of>proc4
+3 Gerenciando camadas
+4 Para adicionar uma nova camada=layer_add>proc4
+4 Para renomear uma camada=layer_rename>proc4
+4 Para excluir uma camada=layer_delete>proc4
+4 Para alterar a camada ativa=layer_change_active>proc4
+4 Para alterar a ordem das camadas=layer_change_order>proc4
+3 Alterando as propriedades das camadas
+4 Para bloquear uma camada=layer_lock>proc4
+4 Para desbloquear uma camada=layer_unlock>proc4
+4 Para tornar uma camada visível=layer_make_visible>proc4
+4 Para tornar uma camada invisível=layer_make_invisible>proc4
+4 Para ativar a impressão de uma camada=layer_make_printable>proc4
+4 Para desativar a impressão de uma camada=layer_make_nonprintable>proc4
+4 Para codificar uma camada por cor=layer_color_override>proc4
+4 Para ativar a codificação por cor=layer_enable_colorcode>proc4
+4 Para desativar a codificação por cor=layer_disable_colorcode>proc4
+4 Para criar guias a partir de objetos=layer_create_guides>proc4
+3 Movendo e copiando objetos entre camadas
+4 Para mover um objeto para outra camada=layer_move_object_to>proc4
+4 Para copiar um objeto para outra camada=layer_copy_object_to>proc4
+2 Alterando os atributos do objetos
+3 Preenchendo objetos
+4 Para aplicar um preenchimento uniforme=fill_uniform>proc4
+4 Para remover o preenchimento de um objeto=fill_remove>proc4
+4 Para aplicar um preenchimento gradiente=fill_apply_fountain>proc4
+4 Para alterar a orientação de um preenchimento gradiente=fountain_fill_change_orientation>proc4
+4 Para ajustar a qualidade de um preenchimento gradiente=fountain_fill_adjust_quality>proc4
+4 Para alterar o preenchimento de superfícies definidas para um preenchimento gradiente=fountain_fill_change_edge_pad>proc4
+4 Para ajustar as cores intermediárias em um preenchimento gradiente=fountain_fill_adjust_intermediate_colors>proc4
+4 Para alterar o ponto médio de um preenchimento gradiente=to_change_the_midpoint_of_a_fountain_fill>proc4
+4 Para aplicar um preenchimento padrão=fill_apply_pattern>proc4
+4 Para alterar a densidade de um preenchimento padrão=fill_change_pattern_fill_tile_size>proc4
+4 Para criar o seu próprio padrão de preenchimento=create_fill_pattern>proc4
+3 Alterando as propriedades do contorno
+4 Para alterar a largura do contorno de um objeto=object_change_outline_width>proc4
+4 Para redesenhar um objeto usando um contorno em linha cheia, tracejada ou pontilhada=object_apply_line_style>proc4
+4 Para alterar a cor do contorno de um objeto=object_change_outline_color>proc4
+4 Para alterar o raio do canto de um objeto=object_change_corner_radius>proc4
+3 Aplicando Linhas Flow a contornos
+4 Para aplicar uma Linha Flow não preenchida ao contorno de um objeto=apply_unfilled_powerpath_to_outline>proc4
+4 Para aplicar uma Linha Flow cheia ao contorno de um objeto=apply_solid_powerpath_to_outline>proc4
+4 Para aplicar uma Linha Flow padronizada ao contorno de um objeto=apply_patterned_powerpath_to_outline>proc4
+4 Para aplicar uma Linha Flow de preenchimento gradiente a um contorno=apply_fountain_powerpath_to_outline>proc4
+4 Para criar o seu próprio padrão de Linha Flow=create_flowline_pattern>proc4
+3 Formatando Linhas Flow
+4 Para alterar a largura total de uma Linha Flow=powerpath_change_total_width>proc4
+4 Para alterar a largura de um contorno de Linha Flow=powerpath_change_outline_width>proc4
+4 Para alterar o estilo de um contorno de Linha Flow=powerpath_change_outline_style>proc4
+4 Para alterar a cor do contorno de uma Linha Flow=powerpath_change_outline_color>proc4
+4 Para remover uma Linha Flow=powerpath_remove>proc4
+3 Aplicando sombras
+4 Para definir a direção da sombra de um objeto=object_set_shadow_direction>proc4
+4 Para aplicar várias sombras a um objeto=object_apply_multiple_shadows>proc4
+4 Para definir o deslocamento da sombra=object_set_shadow_offset>proc4
+4 Para definir a cor do contorno de uma sombra=object_shadow_outline_color>proc4
+4 Para aplicar uma sombra com preenchimento uniforme=object_apply_uniform_shadow>proc4
+4 Para aplicar uma sombra com preenchimento gradiente=object_apply_fountain_shadow>proc4
+4 Para aplicar uma sombra com preenchimento padrão=object_apply_patterned_shadow>proc4
+3 Configurando atributos avançados de objeto
+4 Para atribuir um nome a um objeto=advanced_assign_name>proc4
+4 Para ocultar um objeto específico=advanced_hide_object>proc4
+4 Para tornar visível um objeto oculto=advanced_make_visible>proc4
+4 Para ativar a impressão de um objeto específico=advanced_enable_printing>proc4
+4 Para desativar a impressão de um objeto específico=advanced_disable_printing>proc4
+4 Para impedir a exclusão de um objeto=advanced_prevent_deletion>proc4
+4 Para permitir a exclusão de um objeto=advanced_allow_deletion>proc4
+3 Copiando os atributos de objetos
+4 Para copiar atributos de preenchimento de um objeto para outro=copy_fill_attributes>proc4
+4 Para copiar atributos de contorno de um objeto para outro=copy_outline_attributes>proc4
+4 Para copiar todos os atributos de um objeto para outro=copy_all_attributes>proc4
+2 Transformando objetos
+3 Redimensionando objetos
+4 Para escalonar um objeto de acordo com um valor preciso=scale_precisely>proc4
+4 Para escalonar um objeto usando o mouse=scale_object_manually>proc4
+4 Para esticar um objeto de acordo com um valor preciso=stretch_precise>proc4
+4 Para esticar um objeto usando o mouse=stretch_with_mouse>proc4
+4 Para redimensionar um objeto fornecendo dimensões exatas=scale_precise_dimensions>proc4
+4 Para alterar um ponto de ancoragem de escalonamento de objeto=scale_change_anchor_point>proc4
+4 Para alterar a forma de redimensionamento de objetos=advanced_change_resize>proc4
+3 Espelhando objetos
+4 Para espelhar um objeto na horizontal=mirror_object_horizontally>proc4
+4 Para espelhar um objeto na vertical=mirror_object_vertically>proc4
+4 Para espelhar um objeto na diagonal=mirror_object_horizontally_and_vertically>proc4
+4 Para espelhar um objeto usando o mouse=mirror_object_using_mouse>proc4
+3 Combinando objetos
+4 Para combinar objetos=combine_objects>proc4
+4 Para separar objetos combinados=combine_break_apart>proc4
+3 Interseptando objetos
+4 Para interseptar objetos=intersect_objects>proc4
+3 Aparando objetos
+4 Para aparar um objeto=trim_object>proc4
+3 Soldando objetos
+4 Para soldar objetos=weld_objects>proc4
+3 Convertendo objetos em segmentos de curva
+4 Para converter um objeto em uma série de segmentos de curvas=convert_to_curves>proc4
+4 Para converter segmentos de curvas de volta a um único objeto=convert_to_symbol>proc4
+2 Alterando os atributos de linha
+3 Formatando linhas
+4 Para alterar a largura de uma linha=line_change_width>proc4
+4 Para redesenhar uma linha usando estilo de linha diferente=line_new_type>proc4
+4 Para alterar a cor de uma linha=line_change_color>proc4
+4 Para converter linhas retas em curvas=line_change_line_to_curve>proc4
+4 Para alterar curvas para linhas retas=line_change_curve_to_line>proc4
+4 Para arredondar os cantos de uma linha=line_change_corner_radius>proc4
+4 Para aplicar roteamento automático a uma linha específica=line_apply_autorouting_to_specific>proc4
+4 Para alterar as pontas de seta de uma linha=line_change_arrowhead>proc4
+4 Para adicionar pontas de seta em qualquer ponto de uma linha multisegmentada=line_repeating_arrowheads>proc4
+4 Para criar suas próprias pontas de seta=create_arrowheads>proc4
+4 Para copiar os atributos de uma linha para outra linha=copy_line_attributes>proc4
+3 Aplicando Linhas Flow a linhas
+4 Para aplicar uma Linha Flow não preenchida em uma linha=line_apply_unfilled_powerpath>proc4
+4 Para aplicar uma Linha Flow sólida a uma linha=line_apply_solid_powerpath>proc4
+4 Para aplicar uma Linha Flow padronizada em uma linha=line_apply_patterned_powerpath>proc4
+4 Para aplicar uma Linha Flow de preenchimento gradiente em uma linha=line_apply_fountain_filled_powerpath>proc4
+4 Para criar o seu próprio padrão de Linha Flow=create_flowline_pattern>proc4
+3 Manipulando nós de linha
+4 Para excluir um nó de linha=to_delete_a_line_node>proc4
+4 Para adicionar um nó a uma linha=to_add_a_node_to_a_line>proc4
+4 Junção de nós de linhas para criar um caminho fechado=to_join_line_nodes_to_create_a_closed_path>proc4
+2 Trabalhando com texto
+3 Adicionando texto
+4 Para adicionar um texto sem molduras a um diagrama=text_add_unframed_text>proc4
+4 Para adicionar texto em um símbolo=text_add_inside_shape>proc4
+4 Para adicionar um texto com moldura=text_add_inside_frame>proc4
+3 Selecionando texto
+4 Para selecionar uma entrada de texto inteira=text_select_entire_entry>proc4
+4 Para selecionar caracteres específicos de um texto=text_select_specific_characters>proc4
+3 Copiando texto
+4 Para copiar uma entrada de texto inteira=text_copy_entire_entry>proc4
+4 Para copiar caracteres de texto específicos=text_copy_specific_characters>proc4
+3 Excluindo texto
+4 Para apagar uma entrada de texto inteira=text_delete_entire_entry>proc4
+4 Para excluir caracteres de texto específicos=text_delete_specific_characters>proc4
+3 Cortando texto
+4 Para cortar uma entrada de texto inteira=text_cut_entire_entry>proc4
+4 Para cortar caracteres de texto específicos=text_cut_specific_characters>proc4
+3 Colando texto
+4 Para colar o texto a partir da Área de Transferência=text_paste>proc4
+3 Protegendo texto
+4 Para proteger uma entrada de texto=protect_text>proc4
+3 Formatando texto
+4 Alterando a aparência dos caracteres
+5 Para mudar as fontes=text_change_fonts>proc4
+5 Para mudar os estilos de fonte=text_change_font_styles>proc4
+5 Para mudar o tamanho da fonte=text_change_font_sizes>proc4
+5 Para mudar as cores do texto=text_change_color>proc4
+4 Alterando a colocação e o espaçamento de caracteres
+5 Para mudar a colocação do caractere em um texto=text_change_character_placement>proc4
+5 Para mudar o espaçamento entre caracteres=text_change_character_spacing>proc4
+5 Para mudar o espaçamento entre palavras=text_change_word_spacing>proc4
+5 Para mudar a altura da linha=text_change_line_height>proc4
+5 Para mudar o alinhamento de caractere=text_change_character_alignment>proc4
+5 Para mudar os efeitos do caractere de texto=text_change_character_effects>proc4
+4 Adicionando sublinhados, linhas por cima e traçados
+5 Para adicionar sublinhados ao texto=text_add_underlines>proc4
+5 Para mudar a espessura e a colocação de sublinhados=text_change_underline_thickness_and_placement>proc4
+5 Para adicionar linhas por cima do texto=text_add_overlines>proc4
+5 Para mudar a espessura e a colocação de linhas por cima do texto=text_change_overline_thickness_and_placement>proc4
+5 Para adicionar linhas de traçado ao texto=text_add_strikeouts>proc4
+5 Para mudar a espessura e a colocação de linhas de traçado no texto=text_change_strikeout_thickness_and_placement>proc4
+4 Alterando os atributos de parágrafo
+5 Para mudar o espaçamento entre caracteres do parágrafo=paratext_change_character_spacing>proc4
+5 Para mudar o espaçmento entre palavras=paratext_change_word_spacing>proc4
+5 Para mudar a altura da linha do parágrafo=paratext_change_line_height>proc4
+5 Para mudar o espaço antes e depois de um parágrafo=paratext_change_paragraph_spacing>proc4
+5 Para mudar o alinhamento do parágrafo=paratext_change_alignment>proc4
+5 Para definir o espaçamento máximo entre palavras em parágrafos justificados=paratext_set_max_word_spacing>proc4
+5 Para definir o espaçamento mínimo entre palavras em parágrafos justificados=paratext_set_minimum_word_spacing>proc4
+5 Para definir o espaçamento máximo entre caracteres=paratext_set_maximum_character_spacing>proc4
+4 Usando a Hifenização Automática
+5 Para aplicar hifenização automática=text_apply_automatic_hyphenation>proc4
+5 Para desativar a hifenização automática=text_disable_automatic_hyphenation>proc4
+5 Para permitir a hifenização de palavras em maiúscula=text_allow_hyphenation_of_capitalized>proc4
+5 Para impedir a hifenização de palavras em maiúscula=text_prevent_hyphenation_of_capitalized>proc4
+5 Para definir a zona de ativação de hifenização=text_set_hot_zone>proc4
+5 Para especificar regras sobre a colocação de hífens=text_hyphenation_placement_rules>proc4
+4 Configurando as paradas de tabulação
+5 Para adicionar uma parada de tabulação=text_add_tab>proc4
+5 Para definir paradas de tabulação em incrementos consistentes=text_set_incremented_tabs>proc4
+5 Para mudar o alinhamento de uma parada de tabulação=text_change_tab_alignment>proc4
+5 Para mover uma parada de tabulação=text_move_tab>proc4
+5 Para aplicar caracteres de pontilhado antes de uma parada de tabulação=text_apply_leader_before_tab>proc4
+5 Para excluir uma parada de tabulação=text_delete_tab>proc4
+5 Para excluir todas as paradas de tabulação em um parágrafo=text_delete_all_tabs>proc4
+4 Configurando indentações
+5 Para definir indentações de parágrafo=text_set_paragraph_indents>proc4
+4 Adicionando tópicos
+5 Para adicionar um tópico a um parágrafo=paratext_add_bullet>proc4
+5 Para mudar os tópicos=paratext_change_bullets>proc4
+5 Para mudar o tamanho de um tópico=paratext_change_size_of_bullet>proc4
+5 Para definir a indentação de um parágrafo com tópico=paratext_set_bullet_indent>proc4
+5 Para definir a colocação vertical de um tópico=paratext_set_vertical_placement_of_bullet>proc4
+5 Para remover um tópico de um parágrafo=paratext_remove_bullet>proc4
+3 Localizando e substituindo texto
+4 Para localizar texto=text_find>proc4
+4 Para localizar e substituir texto=text_replace>proc4
+3 Verificando a ortografia
+4 Para executar uma verificação ortográfica=text_run_spell_check>proc4
+4 Para definir o nível de formalidade de uma verificação ortográfica=text_set_spell_check_formality>proc4
+4 Para desfazer uma mudança no Revisor Ortográfico=text_spell_check_undo_change>proc4
+4 Para criar um novo dicionário pessoal=text_spell_check_create_dictionary>proc4
+4 Para selecionar um dicionário pessoal=text_spell_check_choose_dictionary>proc4
+4 Para adicionar uma palavra a um dicionário pessoal=text_spell_check_add_word>proc4
+4 Para ver uma explicação sobre um erro de ortografia=text_spell_check_explanation>proc4
+4 Para definir opções avançadas de verificação ortográfica=text_spell_check_set_advanced_options>proc4
+4 Para mudar os critérios de revisão do Revisor Ortográfico=text_spell_check_change_criteria>proc4
+3 Usando o thesaurus
+4 Para usar o thesaurus=text_use_thesaurus>proc4
+3 Usando o Assistente de Digitação
+4 Para fazer com que o FLOW coloque automaticamente a primeira letra das frases em maiúscula=text_capitalize_first_letter>proc4
+4 Para fazer com que o FLOW mude as aspas retas para aspas tipográficas=text_replace_straight_quotes>proc4
+4 Para fazer com que o FLOW corrija iniciais maiúsculas consecutivas=text_correct_consecutive_initial_caps>proc4
+4 Para fazer com que o FLOW coloque os nomes dos dias em maiúscula=text_capitalize_names_of_days>proc4
+4 Para fazer com que o FLOW substitua automaticamente o texto durante a digitação=text_automatic_replacement>proc4
+3 Usando campo de texto
+4 Para adicionar texto de campo a uma moldura de texto=add_field_text_to_frame>proc4
+4 Para adicionar texto de campo a uma forma=add_field_text_to_shape>proc4
+4 Para ativar um texto de campo=enable_field_text>proc4
+2 Criando e gerenciando Hiperlinks
+3 Para criar um Hiperlink para outro diagrama=create_hyperlink_to_existing>proc4
+3 Para criar um Hiperlink para um novo diagrama=create_hyperlink_to_new>proc4
+3 Para criar um Hiperlink para um arquivo produzido usando outro programa=create_hyperlink_to_other>proc4
+3 Para ativar um Hiperlink a partir de um diagrama=hyperlink_activate_from_diagram>proc4
+3 Para Visualizar uma estrutura Hiperlink de diagrama=view_hyperlink_structure>proc4
+3 Para ativar um Hiperlink a partir do Browser de Hiperlink=activate_hyperlink_within_browser>proc4
+3 Para remover um Hiperlink=remove_link>proc4
+3 Para remover uma ramificação de Hiperlinks=remove_all_links>proc4
+2 Criando e gerenciando projetos
+3 Para criar um novo projeto=project_new>proc4
+3 Para adicionar uma pasta de grupo a um projeto=project_add_folder>proc4
+3 Para adicionar um novo diagrama a um projeto=project_add_new_diagram>proc4
+3 Para adicionar um diagrama existente a um projeto=project_add_existing_diagram>proc4
+3 Para adicionar um arquivo criado usando outro programa=add_other_to_project>proc4
+3 Para remover uma pasta ou arquivo de um projeto=project_remove_file>proc4
+3 Para renomear uma pasta de grupo=project_rename_group_folder>proc4
+3 Para abrir um arquivo de um projeto=project_open_file_from_project>proc4
+2 Gerenciando informações com outros programas
+3 Importando e exportando informações
+4 Para exportar arquivos para uso em outros programas=export_graphics>proc4
+4 Para exportar objetos específicos=export_selected_only>proc4
+4 Para importar um arquivo=import_graphics_in_other_formats>proc4
+4 Para importar arquivos usando arrastar e soltar=import_using_drag_and_drop>proc4
+3 Ligando objetos e arquivos
+4 Para ligar um novo objeto iniciando do CorelFLOW=link_new_starting_from_flow>proc4
+4 Para ligar um objeto existente iniciando do CorelFLOW=link_existing_starting_from_flow>proc4
+4 Para ligar um objeto a partir do aplicativo de origem=link_from_source>proc4
+4 Para especificar atualização de ligação automática ou manual=specify_auto_or_manual_link_updating>proc4
+4 Para atualizar uma ligação manualmente=update_link_manually>proc4
+4 Para atualizar todas as ligações de um arquivo=update_all_links>proc4
+4 Para pular para um arquivo de origem de objeto ligado=jump_to_linked_object_source>proc4
+4 Para alterar uma ligação=link_change>proc4
+4 Para interromper uma ligação=link_break>proc4
+3 Incorporando objetos e arquivos
+4 Para incorporar um novo objeto iniciando do CorelFLOW=embed_new_starting_from_flow>proc4
+4 Para incorporar um objeto existente iniciando do CorelFLOW=embed_existing_starting_from_flow>proc4
+4 Para incorporar um objeto iniciando do programa de origem=embed_starting_from_source_program>proc4
+4 Para incorporar um arquivo=embed_file>proc4
+4 Para editar um objeto incorporado=edit_embedded_object>proc4
+2 Operações de fazer e refazer
+3 Para desfazer uma operação=operation_undo>proc4
+3 Para refazer uma operação=redo_operation>proc4
+3 Para definir o limite do Desfazer=operation_set_undo_limit>proc4
+2 Visualizando seus diagramas
+3 Ajustando seu ponto de vantagem
+4 Para ampliar a área do seu desenho=view_zoom_in>proc4
+4 Para visualizar mais o seu diagrama=view_zoom_out>proc4
+4 Para visualizar o seu desenho no tamanho real=view_zoom_actual>proc4
+4 Para ampliar objetos selecionados=view_zoom_selected>proc4
+4 Para visualizar todos os objetos no seu diagrama=view_zoom_all>proc4
+4 Para visualizar toda a página de impressão=view_zoom_page>proc4
+3 Movendo seu trabalho dentro da janela de desenho
+4 Para percorrer a janela de desenho=view_scroll_window>proc4
+4 Para atualizar a tela=view_refresh_screen>proc4
+4 Para arrastar seu diagrama pela janela de desenho=view_pan_window>proc4
+4 Para ativar o enquadramento automático=preference_enable_autopan>proc4
+4 Para desativar o enquadramento automático=preference_disable_automatic_panning>proc4
+2 Construindo uma Biblioteca Inteligente
+3 Criando uma Biblioteca Inteligente
+4 Para criar uma nova Biblioteca Inteligente=smartlib_create>proc4
+3 Personalizando o conteúdo de uma Biblioteca Inteligente
+4 Para adicionar um objeto a uma Biblioteca Inteligente=smartlib_add_symbol>proc4
+4 Para mover uma Biblioteca Inteligente=smartlib_move_symbol>proc4
+4 Para mudar os atributos de um objeto de uma Biblioteca Inteligente=smartlib_edit_symbol>proc4
+4 Para renomear um objeto da Biblioteca Inteligente=smartlib_rename_symbol>proc4
+4 Para excluir um objeto da Biblioteca Inteligente=smartlib_delete_symbol>proc4
+4 Para salvar mudanças em uma Biblioteca Inteligente=smartlib_save>proc4
+3 Manipulando Bibliotecas Inteligentes
+4 Para mover uma Biblioteca Inteligente=smartlib_move>proc4
+4 Para fechar ou abrir cortinas em uma Biblioteca Inteligente=smartlib_roll>proc4
+4 Para organizar todas as Bibliotecas Inteligentes abertas=smartlib_arrange>proc4
+4 Para mudar o tamanho de exibição de uma Biblioteca Inteligente=smartlib_change_display_size>proc4
+4 Para imprimir o conteúdo de uma Biblioteca Inteligente=smartlib_print_contents>proc4
+3 Selecionando Bibliotecas Inteligentes padrão
+4 Para definir a biblioteca de pontas de seta predefinidas=set_default_arrowhead_library>proc4
+4 Para definir a biblioteca de padrões de linha predefinidos=set_default_line_pattern_library>proc4
+4 Para definir a biblioteca de padrões de preenchimento predefinidos=set_default_fill_pattern_library>proc4
+3 Obtendo ajuda nas Bibliotecas Inteligentes
+4 Para ativar a Ajuda sobre a Biblioteca Inteligente=preferences_enable_smartlib_help>proc4
+4 Para desativar a Ajuda sobre a Biblioteca Inteligente=preferences_disable_smartlib_help>proc4
+2 Protegendo seu trabalho
+3 Salvando e fechando arquivos
+4 Para salvar um arquivo=file_save>proc4
+4 Para salvar um arquivo usando um novo nome ou diretório=file_save_as>proc4
+4 Para salvar todos os arquivos abertos=manage_save_all>proc4
+4 Para fechar um arquivo=file_close>proc4
+3 Fazendo cópia de segurança de seu trabalho
+4 Para ativar a cópia de segurança automática=preference_enable_auto_backup>proc4
+4 Para definir o incremento de tempo de cópia de segurança automática=preferences_set_autobackup_time>proc4
+4 Para selecionar um diretório de cópia de segurança=preference_choose_backup_directory>proc4
+2 Imprimindo seu trabalho
+3 Especificando o que imprimir
+4 Para imprimir um documento=h_pt_allpages>proc4
+4 Para imprimir somente objetos selecionados=h_pt_selectedobjects>proc4
+4 Para imprimir somente vetores, bitmaps ou texto=h_pt_vectorbitmaptext>proc4
+4 Para imprimir somente certas camadas=h_pt_certainlayers>proc4
+4 Para imprimir a página que está sendo visualizada=h_pt_printsheetnow>proc4
+4 Para imprimir um CorelMEMO=print_memo_proc>proc4
+3 Configurando o serviço de impressão
+4 Para selecionar um dispositivo=h_pt_device>proc4
+4 Para definir propriedades de dispositivo=h_pt_properties>proc4
+4 Para imprimir para arquivo=h_pt_tofile>proc4
+4 Para imprimir um trabalho em preto ou em tons de cinza=h_pt_colortoblack>proc4
+4 Para imprimir múltiplas cópias=h_pt_copies>proc4
+3 Pré-visualizando seu serviço de impressão
+4 Para pré-visualizar seu trabalho de impressão=h_pt_preview>proc4
+4 Para especificar uma pré-visualização de impressão em cores ou em tons de cinza=h_pt_grayscalepreview>proc4
+4 Para especificar arrastar imagem completa ou marca de seleção na pré-visualização da impressão=h_pt_drag>proc4
+3 Configurando seu trabalho de arte
+4 Dimensionando e Posicionando seu trabalho de arte
+5 Para dimensionar seu trabalho ao imprimir=h_pt_size>proc4
+5 Para ajustar seu trabalho na página ao imprimir=h_pt_fittopage>proc4
+5 Para manter as proporções de seu trabalho ao dimensioná-lo=h_pt_aspect>proc4
+5 Para posicionar seu trabalho manualmente para impressão=h_pt_position>proc4
+5 Para centralizar seu trabalho para impressão=h_pt_center>proc4
+4 Configurando a página
+5 Para definir  um limite de transbordamento=h_pt_bleed>proc4
+5 Para imprimir um trabalho grande como ladrilhos=h_pt_tile>proc4
+3 Trabalhando com dispositivos de PostScript
+4 Para usar o PostScript Nível 2=h_pt_level2>proc4
+4 Controlando objetos complexos
+5 Para testar objetos complexos=h_pt_complexobjects>proc4
+5 Para reduzir a complexidade da curva através do aumento do nivelamento=h_pt_flatness>proc4
+5 Para reduzir a complexidade da curva limitando os pontos de controle=h_pt_controlpoints>proc4
+4 Controlando preenchimentos gradiente
+5 Para verificar preenchimentos gradientes com bandas=h_pt_verifybanding>proc4
+5 Para aumentar as etapas de gradiente automaticamente=h_pt_autofountainsteps>proc4
+5 Para otimizar preenchimentos gradientes a fim de reduzir a complexidade=h_pt_optimizefountain>proc4
+4 Controlando fontes
+5 Para baixar fontes Type 1=h_pt_fonts>proc4
+5 Para limitar o número de fontes bitmap criadas=h_pt_bitmapfontnumber>proc4
+5 Para definir o limite de tamanho de fonte bitmap=h_pt_bitmapfontsize>proc4
+4 Controlando bitmaps
+5 Para controlar a conversão de bitmap em tons de cinza=h_pt_bitmaptograyscale>proc4
+5 Para fazer a saída de bitmaps coloridos em RGB=h_pt_bitmapsrgb>proc4
+5 Para definir a freqüência da tela de meio tom=h_pt_screenfrequency>proc4
+3 Definindo opções avançadas
+4 Para especificar etapas do gradiente=h_pt_fountainsteps>proc4
+4 Para imprimir uma folha de informações do trabalho=h_pt_jobinfosheet>proc4
+4 Para definir configurações especiais=h_pt_specialsettings>proc4
+4 Para imprimir bitmaps em pequenos segmentos=h_pt_bitmapchunks>proc4
+4 Para atribuir controle sobre as bandas da impressora=h_pt_printerbands>proc4
+4 Para atribuir o controle sobre o corte de preenchimento=h_pt_fillclipping>proc4
+2 Personalizando seu ambiente de trabalho
+3 Personalizando as atribuições de teclado
+4 Para atribuir uma tecla de atalho a um comando=shortcut_assign>proc4
+4 Para excluir um atalho=shortcut_delete>proc4
+4 Para salvar a configuração de uma tecla de atalho=shortcut_save_configuration>proc4
+4 Para carregar a configuração de um atalho=shortcut_load_configuration>proc4
+4 Para restaurar a configuração padrão de teclas de atalho=shortcut_restore>proc4
+3 Personalizando os menus e comandos de menus
+4 Personalizando comandos de menus
+5 Para adicionar um menu=menu_add_command>proc4
+5 Para remover um menu=menu_remove_command>proc4
+5 Para renomear um comando de menu=menu_rename_command>proc4
+5 Para adicionar um separador de comando de menu=menu_add_separator>proc4
+5 Para remover um separador de comando de menu=menu_remove_separator>proc4
+5 Para mover um comando em direção ao topo de um menu=menu_move_command_up>proc4
+5 Para mover um comando em direção à base de um menu=menu_command_move_down>proc4
+4 Personalizando menus
+5 Para adicionar um menu=menu_add>proc4
+5 Para remover um menu=menu_remove>proc4
+5 Para renomenar um menu=menu_rename>proc4
+5 Para mover um menu para a esquerda da barra de menu=menu_move_left>proc4
+5 Para mover um menu para a direita da barra de menu=menu_move_right>proc4
+3 Personalizando barras de ferramentas
+4 Para adicionar um botão à uma barra de ferramentas=toolbar_button_add>proc4
+4 Para remover um botão de uma barra de ferramentas=toolbar_button_remove>proc4
+4 Para adicionar uma nova barra de ferramentas=toolbar_add_new>proc4
+4 Para excluir uma barra de ferramentas=toolbar_delete>proc4
+4 Para mover uma barra de ferramentas=toolbar_move>proc4
+4 Para alterar o tamanho de uma barra de ferramentas flutuante=toolbar_resize>proc4
+4 Para exibir uma barra de ferramentas existente=toolbar_display>proc4
+4 Para renomear um barra de ferramentas=toolbar_rename>proc4
+4 Para mover um botão da barra de ferramentas=toolbar_move_button>proc4
+4 Para restaurar a configuração original de uma barra de ferramentas interna=toolbar_reset>proc4
+3 Personalizando a paleta na tela
+4 Alterando a aparência e posição da paleta
+5 Para exibir a paleta de cores=preferences_display_palette>proc4
+5 Para ocultar a paleta de cores=preference_hide_palette>proc4
+5 Para exibir uma paleta diferente=palette_display_different>proc4
+5 Para mover a paleta na tela=palette_move>proc4
+5 Para alterar o tamanho de uma paleta flutuante=palette_resize>proc4
+5 Para exibir amostras de cores utilizando amostras de cores tridimensionais=palette_display_3d_wells>proc4
+5 Para exibir amostras de cores utilizando amostras de cores bidimensionais=palette_display_2d_wells>proc4
+5 Para exibir grandes amostras de cores=palette_display_large_swatches>proc4
+5 Para exibir pequenas amostras de cores=palette_display_small_swatches>proc4
+5 Para exibir amostra Nenhuma Cor=palette_display_no_color>proc4
+5 Para ocultar a amostra Nenhuma Cor=palette_hide_no_color>proc4
+5 Para exibir muitas ou poucas cores=palette_number_of_rows>proc4
+5 Para reorganizar a ordem das cores na paleta=palette_rearrange_colors>proc4
+4 Trabalhando com paletas personalizadas
+5 Para excluir uma cor=palette_delete_color>proc4
+5 Para alterar a função do botão direito do mouse relacionada à paleta=palette_assign_right_mouse_button_function>proc4
+5 Para salvar uma paleta personalizada=palette_save_custom_configuration>proc4
+5 Para salvar uma paleta utilizando um novo nome de arquivo=palette_save_configuration_as>proc4
+5 Para abrir uma paleta personalizada=palette_open_configuration>proc4
+5 Para criar uma nova paleta personalizada=palette_new_configuration>proc4
+3 Criando e selecionando cores personalizadas
+4 Criando cores e usando Modelos de Cor
+5 Para criar uma cor utilizando um modelo de cor=color_create_using_color_model>proc4
+4 Criando cores e usando Modelos de Cor
+5 Para criar uma cor utilizando o misturador Combinação de Cores=color_create_using_color_blend>proc4
+5 Para alterar o modelo de cor utilizado para combinar cores=change_color_blend_color_model>proc4
+5 Para criar uma cor na Área de Mistura=color_create_using_mixing_area>proc4
+5 Para alterar o modelo de cor utilizado na Área de Mistura=color_change_mixing_area_color_model>proc4
+5 Para alterar o tamanho e o tipo de pincel utilizado na Área de Mistura=color_change_mix_brush_size>proc4
+5 Para salvar o conteúdo da cor da Área de Mistura=color_save_mixing_area>proc4
+5 Para carregar uma mistura de cores=color_load_mixing_area>proc4
+5 Para limpar a Área de Mistura=color_clear_mixing_area>proc4
+4 Criando cores usando uma paleta de correspondência
+5 Para selecionar uma cor a partir da paleta de correspondência de cor=color_pick_from_matching_palette>proc4
+5 Para exibir os nomes das cores das paletas=color_show_palette_color_names>proc4
+5 Para procurar uma cor da paleta pelo nome=color_search_by_name>proc4
+4 Usando as cores que você criou
+5 Para adicionar uma cor à paleta personalizada=color_add_to_palette>proc4
+5 Para renomear uma cor=color_rename_color>proc4
+3 Personalizando a barra de status
+4 Para exibir a barra de status=statusbar_display>proc4
+4 Para ocultar a barra de status=statusbar_hide>proc4
+4 Para mover a barra de status=customize_statusbar_move>proc4
+4 Para alterar o tamanho da barra de status=customize_resize_statusbar>proc4
+4 Para alterar o número de áreas de exibição da barra de status=customize_statusbar_display_regions>proc4
+4 Para alterar o que é exibido na barra de status=customize_statusbar_change_display>proc4
+3 Organizando as janelas do CorelFLOW
+4 Para visualizar todas as janelas de desenho abertas=window_view_all>proc4
+4 Para organizar em cascata todas as janelas abertas de desenho=window_cascade>proc4
+4 Para organizar janelas de desenho minimizadas=window_arrange_minimized>proc4
+4 Para mover uma janela de desenho=window_drawing_move_manually>proc4
+4 Para redimensionar a janela no CorelFLOW usando o mouse=window_resize_main_using_mouse>proc4
+4 Para redimensionar uma janela no CorelFLOW usando o teclado=window_resize_main_with_keyboard>proc4
+4 Para mover a janela no CorelFLOW =window_move_manually>proc4
+3 Definindo preferências gerais
+4 Para bloquear um atributo=lock_attribute>proc4
+4 Para desbloquear um atributo=attribute_unlock>proc4
+4 Para alterar as unidades exibidas em uma caixa de números=numbox_change_unit>proc4
+4 Para definir a pasta ativa padrão=set_default_working_folder>proc4
+4 Para especificar como os objetos aparecem durante a manipulação=preferences_manipulation_view>proc4
+4 Para definir o modo de início do CorelFLOW=set_startup_mode>proc4
+4 Para fazer o FLOW avisar quando um padrão de ferramenta é definido=notify_upon_setting_default>proc4
+4 Para exibir objetos ocultos=display_hidden_objects>proc4
+4 Para ativar o realce de um objeto=enable_object_highlighting>proc4
+4 Para desativar o realce de um objeto=disable_object_highlighting>proc4
+4 Para ignorar a proteção de um objeto=override_object_protection>proc4
+4 Para deixar cópias dos objetos originais durante a solda, apara ou interseção=weld_leave_original>proc4
+2 Obtendo ajuda no CorelFLOW
+3 Para obter ajuda sobre a utilização do CorelFLOW=help_help_topics>proc4
+3 Para iniciar o tutorial=help_tutorial>proc4
+3 Para obter ajuda sobre um comando de menu=help_menu_command>proc4
+3 Para obter ajuda sobre ferramentas e controles=help_tools_and_controls>proc4
+3 Para obter ajuda em uma caixa de diálogo=help_dialog_box>proc4
+3 Para ativar Dicas sobre ferramentas=preference_enable_popup_help>proc4
+3 Para desativar Dicas sobre Ferramentas=preference_disable_popup_help>proc4
+2 Visualizando e introduzindo informações sobre um arquivo
+3 Para visualizar informações gerais sobre o arquivo=to_view_general_file_information>proc4
+3 Para visualizar informações resumidas sobre o arquivo=to_view_file_summary_information>proc4
+3 Para visualizar estatísticas sobre o arquivo=to_view_file_statistics>proc4
+3 Para visualizar propriedades personalizadas do arquivo=to_view_custom_file_properties>proc4
+3 Para digitar informações resumidas sobre o arquivo=to_enter_file_summary_information>proc4
+3 Para digitar propriedades personalizadas do arquivo=to_enter_custom_file_properties>proc4
+2 Visualizando informações sobre o seu computador e o CorelFLOW
+3 Para visualizar informações sobre o seu sistema computacional.=system_info>proc4
+3 Para salvar as informações do sistema=infoview_save_sysinfo>proc4
+3 Para visualizar informações sobre o CorelFLOW =program_info_view>proc4
+2 Saindo do CorelFLOW
+3 Para sair do CorelFLOW=exit_flow>proc4
+1 Referência
+2 Gravações e o Corel SCRIPT
+3 Gravando comandos do CorelFLOW=Recording_CorelFLOW_commands
+3 Limitações de gravação e de criação de scripts do CorelFLOW=CorelFLOW_recording_limitations
+3 Introdução a Scripts e ao Corel SCRIPT =app_Introduction_Scripts_Corel_script
+3 Assistentes do CorelFLOW=corelflow_wizards
+3 CorelFLOW e automação OLE=CorelFLOW_and_OLE_automation
+3 Como fazer
+4 Como gravar comandos do CorelFLOW=ht_record_flow>proc4
+4 Como parar a gravação de comandos do CorelFLOW=ht_stop_flow>proc4
+4 Como reproduzir uma gravação=ht_play_flow>proc4
+4 Como salvar uma gravação=ht_save_flow>proc4
+4 Como iniciar um Editor do Corel SCRIPT=ht_start_cse_flow>proc4
+4 Como executar um script do Corel SCRIPT (ou uma gravação salva)=ht_run_script_flow>proc4
+4 Como executar uma assistente do CorelFLOW=ht_run_wizard_flow>proc4
+4 Como acessar a ajuda em linha do Corel SCRIPT=ht_access_help_script>proc4
+1 Glossário
+2 Glossário=a_flow

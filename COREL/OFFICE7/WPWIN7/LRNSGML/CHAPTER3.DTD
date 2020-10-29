@@ -1,0 +1,6 @@
+<!-- This is the "chapter" section of LESSON3.DTD -->
+
+<!ELEMENT  chapter       - O  (title, p+) +(biblio) >
+<!ELEMENT    p           - O  (#PCDATA | quote)+    >
+<!ELEMENT     quote      - -  (p1 | p2)+            >
+<!ELEMENT      (p1, p2)  - -  CDATA                 >

@@ -1,0 +1,48 @@
+:Title Corel SCRIPT Editor Help
+2 Corel SCRIPT Editor
+3 Corel SCRIPT Editor=Corel_SCRIPT_Editor
+3 Corel SCRIPT Editor basics=Corel_SCRIPT_Editor_Basics
+3 Corel SCRIPT Editor debugging features=Corel_SCRIPT_Editor_Debugging_Features
+3 Corel SCRIPT Editor windows=Corel_SCRIPT_Editor_windows
+3 Other Corel SCRIPT Editor features=Other_Corel_SCRIPT_Editor_features
+3 How to...
+4 Using the Corel SCRIPT Editor
+5 To start the Corel SCRIPT Editor from a Corel application=ht_start_cse_app>proc4
+5 To start the Corel SCRIPT Editor from Windows=ht_start_cse_win>proc4
+5 To close the Corel SCRIPT Editor=ht_exit_cse>proc4
+5 To open a recording in the Corel SCRIPT Editor from a Corel application=ht_open_recording_cse>proc4
+5 To create a new script from the Corel SCRIPT Editor=ht_new_file_cse>proc4
+5 To open a Corel SCRIPT script=ht_open_file_cse>proc4
+5 To close a Corel SCRIPT script=ht_close_file_cse>proc4
+5 To play a Corel SCRIPT script from the Corel SCRIPT Editor=ht_play_script_cse>proc4
+5 To save a Corel SCRIPT script=ht_save_file_cse>proc4
+5 To print a Corel SCRIPT script=ht_print_file_cse>proc4
+4 Editing Corel SCRIPT scripts
+5 To copy text to another location=ht_copy_cse>proc4
+5 To cut text to move to another location=ht_cut_cse>proc4
+5 To delete text=ht_delete_text_cse>proc4
+5 To open the Corel SCRIPT Dialog Editor from the Corel SCRIPT Editor=ht_open_csde_cse>proc4
+5 To find text=ht_find_text_cse>proc4
+5 To find and replace text=ht_find_replace_cse>proc4
+5 To go to a line in the Corel SCRIPT Editor=ht_goto_line_cse>proc4
+5 To change display colors in the Corel SCRIPT Editor=ht_change_colors_cse>proc4
+4 Debugging Corel SCRIPT scripts
+5 To check a Corel SCRIPT Script for syntax errors=ht_syntax_cse>proc4
+5 To reset variables to their default values while debugging=ht_reset_cse>proc4
+5 To set the current line to the script's first line=ht_reset_current_line_cse>proc4
+5 To step through lines of custom functions and subroutines=ht_step_cse>proc4
+5 To trace through lines of the main body of a script=ht_trace_cse>proc4
+5 To add a watch=ht_add_watch_cse>proc4
+5 To delete a watch=ht_delete_watch_cse>proc4
+5 To display a variable's value while debugging=ht_display_variable_cse>proc4
+5 To add or remove a breakpoint=ht_breakpoint_cse>proc4
+5 To clear all breakpoints=ht_breakpoint_clear_cse>proc4
+5 To get information about a statement's syntax=ht_syntax_help_cse>proc4
+4 Viewing Corel SCRIPT scripts
+5 To view all script windows=ht_view_windows_cse>proc4
+5 To stack script windows horizontally in the Corel SCRIPT Editor=ht_view_horizontal_cse>proc4
+5 To stack script windows vertically in the Corel SCRIPT Editor=ht_view_vertical_cse>proc4
+5 To cascade script windows in the Corel SCRIPT Editor=ht_view_cascade_cse>proc4
+5 To close all script windows in the Corel SCRIPT Editor=ht_view_close_cse>proc4
+5 To keep the Corel SCRIPT Editor window visible=ht_view_ontop_cse>proc4
+5 To view an open script window in the Corel SCRIPT Editor=ht_view_open_cse>proc4

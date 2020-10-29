@@ -1,0 +1,743 @@
+:Base wpwp7br.hlp>topics
+:Title Ajuda do WordPerfect
+:Tab Mostre-me=pfht70br.DLL
+:Index Ajuda do PerfectFit=wpsh70br.hlp
+:Index Ajuda de Sistema de Abertura de Arquivo=pfod70br.hlp
+:Index Ajuda do Sistema de Impressão=pfpi70br.hlp
+:Index Ajuda do TextArt=wpta7br.hlp
+:Index Ajuda do Caderno de Endereços=poab70br.hlp
+:Index Ajuda do Corretor Ortográfico=wtsi61br.hlp
+:Index Ajuda do Thesaurus=wtti61br.hlp
+:Index Ajuda da Lista de Palavras do Usuário=wtwi61br.hlp
+:Index Ajuda do Serviço de Suporte da Corel=support.hlp
+:Link support.hlp
+:Link ps70br.hlp
+:Link wpsh70br.hlp
+:Link pfod70br.hlp
+:Link pfpi70br.hlp
+:Link wpta7br.hlp
+:Link poab70br.hlp
+:Link wtsi61br.hlp
+:Link wtti61br.hlp
+:Link wtwi61br.hlp
+1 Copyrights e Marcas Registradas=8020@support.hlp>topics
+1 Exemplos=536>visual
+1 Como...
+2 Criar Documentos
+3 Meus Primeiros Documentos
+4 Sobre os Fundamentos do Documento=535>topics
+4 Documentos Prontos para Serem Usados (Modelos)=486>topics
+4 Exibir Contagem de Palavras=979>topics
+4 Numerar Páginas=349>topics
+3 Correspondência
+4 Listas de Endereços (Caderno de Endereços)=6801@poab70br.hlp>topics
+4 Cartas=508>topics
+4 Cabeçalho=2125>topics
+4 Cartas Comerciais=589>topics
+4 Memos=515>topics
+4 Envelopes=266>topics
+4 Etiquetas=306>topics
+4 Malas Diretas (Mesclagem)=330>topics
+4 Boletins=510>topics
+4 Folhetos e Símbolos=2365>topics
+4 Brochuras e Programas de Correio Eletrônico=2533>topics
+4 Currículos=509>topics
+4 Formulários para Fax=515>topics
+3 Papéis, Livros, Relatórios
+4 Artigos Especializados e Documentos Acadêmicos=511>topics
+4 Livros e Outros Documentos Longos=2367>topics
+4 Relatórios Comerciais=2368>topics
+4 Bibliografia (Endentado Flutuante)=1285>topics
+4 Esboços Numerados=1449>topics
+4 Notas de Rodapé=60>topics
+4 Notas Finais=60>topics
+4 Índice Remissivo=234>topics
+4 Índice=234>topics
+4 Tabela de Autoridades=327>topics
+4 Cabeçalhos e Rodapés=294>topics
+4 Documentos Dobrados e Encadernados=514>topics
+3 Formulários
+4 Formulários para Fax=515>topics
+4 Formulários para a Manutenção de Registros=516>topics
+4 Certificados de Premiações=512>topics
+4 Mesclar para Formar Cartas=330>topics
+4 Endereços nas Etiquetas=1557>topics
+4 Criar um Formulário (Estilo Inicial)=939>topics
+4 Formulários Prontos para Serem Usados (Modelos)=486>topics
+4 Formulários a serem Preenchidos no Computador=534>topics
+4 Calendários=2154>topics
+4 Cabeçalho=2125>topics
+3 Listas
+4 Listas de Endereços (Caderno de Endereços)=6801@poab70br.hlp>topics
+4 Listas Telefônicas=6801@poab70br.hlp>topics
+4 Listas de Bullets=1351>topics
+4 Listas=2366>topics
+4 Construir uma Lista (Ilustrações em um Livro)=531>topics
+4 Listas Numeradas=1351>topics
+4 Para criar uma lista numerada ou de bullets em um documento da Web=1259>topics
+3 Documentos Legais
+4 Criar uma Tabela de Autoridades=327>topics
+4 Usar Modelos Legais=486>topics
+4 Criar Modelos para Documentos Reutilizados=956>topics
+2 Trabalhar com Documentos
+3 Visualizar Documentos
+4 Visualizar Documentos Antes de Abrir=7067@pfod70br.hlp>topics
+4 Visualizar Arquivo de Fax=7072@pfod70br.hlp>topics
+4 Visualizar Imagem Gráfica ou Ícone=7073@pfod70br.hlp>topics
+4 Visualizar Informações Sobre Arquivos (Propriedades)=7037@pfod70br.hlp>topics
+3 Abrir um Documento
+4 Iniciar Novos Documentos=339>topics
+4 Abrir Documentos Existentes=7027@pfod70br.hlp>topics
+4 Consultar uma Lista de Arquivos Recentemente Abertos=7028@pfod70br.hlp>topics
+4 Inserir um Arquivo no Documento Atual=1013>topics
+4 Abrir Como uma Cópia (Para Não Danificar o Original)=7042@pfod70br.hlp>topics
+4 Abrir um Documento Pronto para Ser Usado (Modelo)=486>topics
+4 Abrir um Arquivo Criado em Outro Formato=759>topics
+4 Consultar uma Lista de Formatos Aceitos=7047@pfod70br.hlp>topics
+4 Abrir Arquivos Protegidos por Senha=7115@pfod70br.hlp>topics
+3 Abrir Documentos Múltiplos
+4 Abrir e Fechar Janelas=172>topics
+4 Organizar Janelas=172>topics
+4 Mover Janelas=993>topics
+4 Para dimensionar uma janela de documento=1183>topics
+3 Salvar e Fechar Arquivos
+4 Salvar Arquivos=7059@pfod70br.hlp>topics
+4 Bloquear Arquivos com uma Senha=2035>topics
+4 Fechar e Sair=97>topics
+4 Salvar um Documento como um Formulário (Estilo Inicial)=939>topics
+4 Salvar um Arquivo em um Outro Formato=7045@pfod70br.hlp>topics
+4 Consultar uma Lista de Formatos Aceitos=7047@pfod70br.hlp>topics
+3 Gerenciar Arquivos
+4 Aprender Sobre o Gerenciamento de Arquivos=7026@pfod70br.hlp>topics
+4 Copiar Arquivos=7029@pfod70br.hlp>topics
+4 Mover Arquivos=7030@pfod70br.hlp>topics
+4 Renomear Arquivos=7060@pfod70br.hlp>topics
+4 Excluir Arquivos=7031@pfod70br.hlp>topics
+4 Recuperar Itens da Lixeira=7058@pfod70br.hlp>topics
+4 Criar uma Nova Pasta=7062@pfod70br.hlp>topics
+4 Criar um Atalho de Arquivo/Pasta=7036@pfod70br.hlp>topics
+4 Aprender Sobre as Convenções de Nomeação=7056@pfod70br.hlp>topics
+4 Aprender Sobre os Caminhos de Arquivo=7051@pfod70br.hlp>topics
+4 Aprender Sobre as Extensões de Nomes do Arquivo=7052@pfod70br.hlp>topics
+4 Aprender Sobre o Uso de Curingas=7055@pfod70br.hlp>topics
+3 Localizar Documentos Salvos
+4 Localizar os Arquivos Usados com Maior Freqüência=7018@pfod70br.hlp>topics
+4 Localizar os Arquivos Por Conteúdo=7099@pfod70br.hlp>topics
+4 Localizar os Arquivos Usando Sinônimos=7100@pfod70br.hlp>topics
+4 Localizar os Arquivos Usando Significados de Palavras=7105@pfod70br.hlp>topics
+4 Aprender Sobre a BuscaRápida=7000@pfod70br.hlp>topics
+3 Fazer o Backup do Documento Atual à Medida que Trabalho
+4 Fazer uma Cópia de Backup à Medida que Trabalho=19>topics
+4 Fazer o Backup do Original ao Salvar as Alterações=19>topics
+4 Alterar o Intervalo de Tempo de Backup=19>topics
+4 Alterar a Localização dos Arquivos de Backup=123>topics
+3 Converter Arquivos
+4 Aprender Sobre a Conversão de Arquivos=7044@pfod70br.hlp>topics
+4 Abrir um Arquivo Criado em Outro Formato=759>topics
+4 Salvar os Arquivos em Outro Formato=7045@pfod70br.hlp>topics
+2 Criar e Editar Texto
+3 Selecionar, Mover, Excluir
+4 Selecionar o Texto a ser Alterado=74>topics
+4 Mover Texto com o Mouse=720>topics
+4 Mover Texto com Recortar, Copiar, Colar=72>topics
+4 Mover para uma Localização Exata (Ir Para)=834>topics
+4 Mover para um Marcador=183>topics
+4 Excluindo=735>topics
+4 Recuperando=962>topics
+4 Recuperar Exclusões e Alterações=648>topics
+4 Acelerar a Entrada de Texto com a CorreçãoRápida=487>topics
+3 Alterar a Aparência do Texto
+4 Alterar a Aparência e Tamanho do Texto=278>topics
+4 Moldar o Texto (TextArt)=5801@wpta7br.hlp>topics
+4 Ampliar a Primeira Letra (Capitular Descida)=1036>topics
+4 Alterar entre Maiúscula (ABC) e Minúscula (abc)=644>topics
+4 Criar Texto em Branco sobre Preto=352>topics
+4 Automatizar as Alterações do Texto (Estilos)=543>topics
+4 Tornar a Aparência de Todos os Cabeçalhos Idêntica (FormataçãoRápida)=374>topics
+4 Copiar a Aparência do Texto=374>topics
+4 Adicionar Caracteres (Símbolos, Outros Idiomas)=8001@wpsh70br.hlp>topics
+3 Procurar Texto
+4 Localizar e Substituir Texto=551>topics
+4 Localizar os Arquivos Por Conteúdo=7099@pfod70br.hlp>topics
+4 Localizar os Arquivos Usando Significados de Palavras=7105@pfod70br.hlp>topics
+3 Ordenar Texto
+4 Ordenar Palavras=933>topics
+4 Ordenar Linhas e Parágrafos=933>topics
+4 Ordenar Registros de Dados de Mesclagem=1804>topics
+4 Ordenar em Tabelas e Colunas=933>topics
+3 Corrigir Erros (Ortografia, Pontuação)
+4 Corrigindo a Ortografia=6202@wtsi61br.hlp>topics
+4 Corrigir a Ortografia à Medida que Digito=1892>topics
+4 Corrigir a Pontuação à Medida que Digito (CorreçãoRápida)=487>topics
+3 Aprimorar o Fraseado
+4 Corrigir o Estilo de Escrita (Grammatik)=6537@wtgi61br.hlp>topics
+4 Localizar uma Palavra Melhor (Thesaurus)=6402@wtti61br.hlp>topics
+4 Procurar Palavras Similares=2056>topics
+4 Expandir Palavras Abreviadas à Medida que Digito=487>topics
+4 Contar Palavras=442>topics
+3 Anexar Informações aos Documentos
+4 Criar Texto Oculto=734>topics
+4 Criar um Resumo do Documento (Autor, Datilógrafo, Data)=1138>topics
+4 Imprimir um Resumo de Documento=1140>topics
+4 Inserir Comentários na Tela=757>topics
+4 Ocultar/Visualizar Comentários=1227>topics
+4 Converter Texto em Comentários=1226>topics
+4 Converter Comentários em Texto=977>topics
+3 Trabalhar com Documentos Grandes
+4 Criar um Documento-mestre que Inclua Outros Arquivos=121>topics
+4 Comparar Documentos=158>topics
+4 Criar um Marcador para Marcar o Local=1198>topics
+4 Anexar um Resumo Não-Imprimível=1138>topics
+3 Trabalhar em Colaboração (Edição de Grupos)
+4 Editar Grupos de um Documento=1715>topics
+4 Distribuir Documentos On-line para Visualização (Envoy)=1686>topics
+4 Comparar um Documento com uma Versão Anterior=158>topics
+4 Enviar Correspondência=466>topics
+4 Visualizar o Resumo de um Documento (Autor, Datilógrafo, Data)=979>topics
+4 Visualizar as Informações sobre o Documento (Contagem de Palavras/Páginas)=979>topics
+4 Destacar o Texto=1679>topics
+4 Criar Texto Diferenciado em Vermelho (Lápis Vermelho)=154>topics
+4 Criar um Caractere de Sobreposição=889>topics
+4 Criar Texto Oculto=154>topics
+4 Exibir ou Ocultar Símbolos de Edição=650>topics
+3 Alterar a Forma de Exibição do Documento
+4 Alterar o Modo de Visualização=76>topics
+4 Use o Zoom para Editar ou Visualizar um Documento=970>topics
+4 Exibir ou Ocultar Símbolos de Edição=650>topics
+2 Organizar Texto na Página (Formatar)
+3 Alterar Tabulações, Margens e Espaçamento
+4 Aprender Sobre a Formatação=517>topics
+4 Ajustar o Texto à Página=552>topics
+4 Manter o Texto Junto=304>topics
+4 Configurar Tabulações (Barra da Régua)=1404>topics
+4 Configurar Tabulações=953>topics
+4 Configurar Margens=323>topics
+4 Criar uma Margem para Encadernação=6036@pfpi70br.hlp
+4 Espaçar o Texto Entre as Margens (Justificar)=104>topics
+4 Alterar o Espaçamento de Linhas=859>topics
+4 Adicionar Espaço Entre Parágrafos=1922>topics
+4 Alterar a Altura da Linha=855>topics
+4 Alterar o Espaçamento de Palavras/Letras=967>topics
+3 Centralizar, Alinhar e Endentar
+4 Centralizar o Texto=94>topics
+4 Centralizar à Medida que Digita=667>topics
+4 Centralizar Diversas Linhas=1967>topics
+4 Centralizar no Ponto de Inserção=1118>topics
+4 Centralizar a Página do Topo para a Base=754>topics
+4 Centralizar com Linhas Pontilhadas=1119>topics
+4 Alinhar Texto na Margem Direita=668>topics
+4 Alinhar Texto em um Ponto Decimal (Tabulação)=1942>topics
+4 Criar uma Linha Pontilhada=1936>topics
+4 Endentar Um Parágrafo=670>topics
+4 Endentar Cada Parágrafo=1921>topics
+3 Numerar Páginas
+4 Numerar Páginas em um Documento=349>topics
+4 Inserir Números de Página, Capítulo ou Volume em Documentos=1180>topics
+4 Redefinir a Numeração de Páginas=82>topics
+4 Personalizar a Numeração de Páginas=891>topics
+3 Ajustar o Texto para Encaixar na Página
+4 Encaixar o Text na Página=1038>topics
+4 Manter o Texto Junto=850>topics
+4 Imprimir Lateralmente (Horizontal, Girar Texto)=6051@pfpi70br.hlp
+4 Ajustar Onde o Texto for Impresso na Página=6030@pfpi70br.hlp>topics
+4 Ajustar para a Largura da Encadernação=6036@pfpi70br.hlp>topics
+3 Copiar ou Editar o Formato
+4 Copiar o Formato Atual=374>topics
+4 Criar um Estilo ou Format Atual=776>topics
+4 Fazer Modificações para uma Página Posterior=790>topics
+4 Definir a Formatação para Todos os Documentos (Códigos Iniciais)=939>topics
+3 Reutilizar uma Aparência (Estilos)
+4 Tornar a Aparência de Todos os Cabeçalhos Idêntica (FormataçãoRápida)=374>topics
+4 Sobre os Estilos=543>topics
+4 Selecionar um Estilo=940>topics
+4 Criar/Editar um Estilo=943>topics
+4 Usar Estilos de Esboço=1449>topics
+4 Usar Estilos de Imagem Gráfica=192>topics
+4 Usar Estilos de Tabela=1045>topics
+4 Alterar a Aparência de um Parágrafo=351>topics
+3 Criar uma Aparência de Publicação (Composição)
+4 Alterar o Espaçamento entre Palavras e Letras=1839>topics
+4 Sobre o Espaçamento entre Letras=1840>topics
+4 Ajustar o Espaçamento Entre Duas Letras (Kerning)=87>topics
+4 Espaçar o Texto Entre as Margens (Justificar)=104>topics
+4 Alterar a Altura da Linha=309>topics
+4 Ajustar o Espaçamento Entre as Linhas (Entrelinhas)=86>topics
+4 Ajustar o Texto na Linha de Base=88>topics
+4 Avançar uma Distância Especificada=180>topics
+2 Alterar o Tamanho da Página
+3 Selecionar um Tamanho de Página=6027@pfpi70br.hlp>topics
+3 Criar um Tamanho de Página=6028@pfpi70br.hlp>topics
+3 Criar Etiquetas=306>topics
+3 Criar Envelopes=266>topics
+3 Subdividir uma Página em Páginas Menores=406>topics
+3 Terminar a Página em uma Posição Exata (Quebra de Página)=1969>topics
+2 Criar Colunas
+3 Usar Tabulações para Colunas Simples=983>topics
+3 Criar Colunas=756>topics
+3 Criar Colunas e Fileiras (Tabelas)=518>topics
+3 Usar Endentamento para Alinhar Parágrafos em uma Coluna=670>topics
+3 Criar uma Lista de Bullets=1351>topics
+3 Criar Relatórios Comerciais=2368>topics
+3 Criar Boletins=510>topics
+3 Criar Brochuras e Programas de Correio Eletrônico=514>topics
+3 Criar Folhetos e Sinais=2365>topics
+2 Criar Tabelas (Colunas e Fileiras)
+3 Criar Tabelas
+4 Sobre Tabelas=518>topics
+4 Criar Tabelas=777>topics
+4 Excluir Tabelas=2064>topics
+4 Criar uma Fileira de Título=1498>topics
+4 Inserir Colunas e Fileiras=845>topics
+4 Combinar Tabelas=107>topics
+4 Transformar uma Tabela em um Arquivo de Mesclagem=1400>topics
+3 Alterar a Aparência da Tabela (Formato)
+4 Aprender Sobre o Formato de uma Tabela=416>topics
+4 Selecionar uma Tabela para Efetuar Alterações=1042>topics
+4 Selecionar Fileiras e Colunas=1042>topics
+4 Alterar Linhas e Borda=558>topics
+4 Adicionar Sombreado=558>topics
+4 Tornar Sofisticada a Aparência da Tabela (FormataçãoRápida)=1045>topics
+4 Adicionar Linhas Diagonais=1494>topics
+4 Dividir uma Fileira Por Duas Páginas=1499>topics
+4 Ajustar a Largura de Colunas=1316>topics
+4 Fileiras de Números em uma Tabela=727>topics
+4 Alterar o Espaçamento em uma Célula=1501>topics
+3 Alterar a Aparência do Texto
+4 Selecionar uma Tabela para Efetuar Alterações=1042>topics
+4 Selecionar Fileiras e Colunas=1042>topics
+4 Girar o Texto em uma Tabela=1495>topics
+4 Bloquear uma Célula Para que Não Seja Alterada=1496>topics
+4 Desbloquear uma Célula para Editá-la=1496>topics
+3 Realizar Operações Matemáticas em Tabelas
+4 Aprender Sobre as Operações Matemáticas em Tabelas=199>topics
+4 Realizar Operações Matemáticas na Tabela Atual=752>topics
+4 Escrever Fórmulas para Cálculos Matemáticos=1061>topics
+4 Adicionar uma Linha ou Coluna de Números=728>topics
+4 Repetir um Padrão Incremental (Números, Dias)=727>topics
+4 Alinhar Números na Casa Decimal=1493>topics
+4 Ignorar uma Célula Durante os Cálculos=1497>topics
+3 Mesclar Informações em uma Tabela
+4 Mesclar para uma Tabela em Expansão=1020>topics
+3 Usar uma Tabela para Criar um Gráfico (de Torta, Barras, Linhas)
+4 Criar um Gráfico a partir de uma Tabela=587>topics
+2 Repetir o Texto em Cada Página (Cabeçalhos/Rodapés/Marcas-d'água)
+4 Aprender Sobre Cabeçalhos/Rodapés=294>topics
+4 Criar Cabeçalhos/Rodapés=840>topics
+4 Criar Cabeçalhos/Rodapés em Páginas Alternadas=899>topics
+4 Criar Dois Cabeçalhos/Rodapés Diferentes=294>topics
+4 Aprender Sobre as Marcas-d'água=427>topics
+4 Criar Marcas-d'água=966>topics
+4 Criar uma Marca-d'água em Páginas Alternadas=899>topics
+2 Criar um Esboço Numerado
+4 Criar um Esboço=888>topics
+4 Definir Formatos de Esboço=887>topics
+4 Criar Estilos de Esboço=943>topics
+2 Criar Referências (Índice Remissivo, Notas de Rodapé, Saltos On-line)
+3 Criar Índices Remissivos e Listas Geradas
+4 Criar um Índice Remissivo=234>topics
+4 Construir uma Lista (Ilustrações em um Livro)=531>topics
+3 Criar Tabelas de Referência
+4 Criar um Índice=234>topics
+4 Criar uma Tabela de Autoridades=327>topics
+3 Criar Notas de Rodapé/Notas Finais
+4 Aprender Sobre as Notas de Rodapé e Notas Finais=60>topics
+4 Criar Notas de Rodapé=804>topics
+4 Criar Notas Finais=1331>topics
+3 Criar Saltos On-line
+4 Criar Ligações de Hipertexto=1277>topics
+2 Adicionar Imagens (Gráficos)
+3 Adicionar Imagens
+4 Aprender Sobre as Imagens Gráficas=520>topics
+4 Inserir Imagens (Gráficos/Clip-art)=1021>topics
+4 Criar Imagens Gráficas ou Gráficos=521>topics
+4 Criar Tabelas=777>topics
+4 Moldar o Texto (TextArt)=5801@wpta7br.hlp>topics
+4 Adicionar uma Marca-d'água Atrás do Texto=966>topics
+4 Adicionar Caracteres (Símbolos, Ícones)=8001@WPSH70br.hlp>topics
+3 Editar Imagens em Documentos
+4 Mover Gráficos com o Mouse=1029>topics
+4 Posicionar um Gráfico com Precisão=190>topics
+4 Manter uma Imagem em Uma Página=1940>topics
+4 Dimensionar Gráficos com o Mouse=744>topics
+4 Dimensionar Gráficos com Precisão=1741>topics
+4 Alterar a Aparência de uma Imagem (Cor, Giro, Escala)=801>topics
+4 Editar uma Imagem (Ferramentas de Imagem)=36>topics
+4 Contornar uma Imagem com Texto=968>topics
+3 Criar Novas Imagens (Editar Clip-art)
+4 Usar um Programa de Gráficos para Modificar uma Imagem=2051>topics
+3 Criar Efeitos no Texto
+4 Criar e Moldar o Texto (TextArt)=5801@wpta7br.hlp>topics
+4 Ampliar a Primeira Letra (Capitular Descida)=1036>topics
+4 Criar um Texto Revertido=352>topics
+4 Criar um Texto em um Quadro=715>topics
+4 Girar um Texto em um Quadro=921>topics
+4 Adicionar uma Legenda=741>topics
+4 Girar uma Legenda=616>topics
+4 Criar uma Imagem com Texto=2410>topics
+2 Criar Bordas, Linhas e Preenchimento
+3 Criar Linhas
+4 Inserir Linhas Retas=1617>topics
+4 Inserir Linhas Entre Colunas=1030>topics
+3 Criar Bordas e Preenchimento para Texto
+4 Aprender Sobre Bordas e Preenchimento=185>topics
+4 Criar Bordas Ao Redor de Texto=185>topics
+4 Adicionar uma Borda a uma Página=1031>topics
+4 Adicionar uma Borda a um Parágrafo=1032>topics
+4 Adicionar uma Borda a uma Coluna=1030>topics
+4 Adicionar Sombreado a uma Página=1644>topics
+4 Adicionar Sombreado a Parágrafos=1738>topics
+4 Adicionar Sombreado a uma Coluna=1645>topics
+4 Adicionar Sombreado a uma Marca-d'água=1232>topics
+4 Ajustar a Aparência de Bordas e Preenchimento=1646>topics
+4 Desativar uma Borda=1641>topics
+3 Criar Bordas e Preenchimento para Gráficos
+4 Alterar a Borda e Preenchimento de um Gráfico=191>topics
+4 Alterar a Borda e Preenchimento de uma Capitular Descida=1039>topics
+4 Alterar as Linhas, Borda e Preenchimento de Tabela=558>topics
+2 Adicionar Imagens em Movimento e Som
+4 Criar Clipes de Som=934>topics
+4 Adicionar Clipes de Vídeo=847>topics
+2 Criar Gráficos e Imagens Gráficas
+4 Criar Gráficos (de Torta, Barras, Linhas)=521>topics
+4 Criar um Gráfico a partir de uma Tabela=587>topics
+4 Importar e Ligar Planilhas/Bancos de Dados=165>topics
+2 Criar Números e Equações
+3 Numerar Objetos
+4 Numerar Linhas=311>topics
+4 Numerar Parágrafos=1944>topics
+4 Numerar Páginas=349>topics
+4 Numerar Páginas em Cabeçalhos/Rodapés=838>topics
+4 Numerar Qualquer Objeto (Contadores)=995>topics
+4 Criar um Esboço Numerado=888>topics
+4 Contar Palavras=442>topics
+4 Contar Páginas=1067>topics
+3 Criar Equações
+4 Criar Equações=116>topics
+4 Criar Equações em Texto=1995>topics
+4 Adicionar Símbolos Matemáticos (Caracteres)=8001@wpsh70br.hlp>topics
+3 Realizar Operações Matemáticas e Números em Tabelas
+4 Realizar Operações Matemáticas em Tabelas=282>topics
+4 Criar uma Fórmula em uma Tabela=1061>topics
+4 Inserir um Padrão Incremental (Números, Dias)=2065>topics
+2 Imprimir Documentos
+3 Imprimir Documentos
+4 Sobre a Impressão=6001@pfpi70br.hlp>topics
+4 Visualizar Documentos Antes de Imprimir=7066@pfod70br.hlp>topics
+4 Imprimir Documentos=6008@pfpi70br.hlp>topics
+4 Imprimir Documentos Salvos em Disco=6057@pfpi70br.hlp>topics
+4 Cancelar Serviços de Impressão=6013@pfpi70br.hlp>topics
+4 Imprimir em Ambos os Lados (Frente e Verso)=6017@pfpi70br.hlp>topics
+3 Imprimir em um Tamanho de Papel Diferente
+4 Alterar o Tamanho do Papel=6027@pfpi70br.hlp>topics
+4 Imprimir Envelopes=6001@pfpi70br.hlp>topics
+4 Imprimir Etiquetas Individuais=637>topics
+4 Imprimir Diversas Páginas em Uma Página=6032@pfpi70br.hlp>topics
+3 Tornar Ajustável a Impressão
+4 Ajustar para a Largura da Encadernação=6036@pfpi70br.hlp>topics
+4 Imprimir o Texto Invertido=6001@pfpi70br.hlp>topics
+4 Imprimir Lateralmente (Horizontal, Girar Texto)=6027@pfpi70br.hlp>topics
+4 Imprimir uma Faixa de Páginas=6032@pfpi70br.hlp>topics
+4 Imprimir a partir de uma Bandeja de Papel Diferente=6001@pfpi70br.hlp>topics
+4 Ajustar para a Alimentação Manual de Papel=6001@pfpi70br.hlp>topics
+4 Imprimir com Diferentes Fontes=6001@pfpi70br.hlp>topics
+3 Selecionar ou Alterar Impressoras
+4 Selecionar uma Impressora=6006@pfpi70br.hlp>topics
+4 Alterar as Configurações da Impressora=6016@pfpi70br.hlp>topics
+4 Mapear um Controlador de Rede Para Poder Imprimir=7032@pfod70br.hlp>topics
+2 Trabalhar Mais Rápido
+3 Usar Linhas da Grade
+4 Ajustar Margens=323>topics
+3 Usar Botões
+4 Usar a Barra Suplementar para Formatar Documentos=59>topics
+4 Usar a Barra de Ferramentas para Recursos Usados com Freqüência=160>topics
+4 Usar a Barra da Régua para Tabulações=1404>topics
+4 Usar a Barra da Régua para Margens=1334>topics
+4 Usar a Barra da Régua para Tabelas e Colunas=161>topics
+3 Localizar Arquivos
+4 Localizar os Arquivos Usados com Maior Freqüência=7018@pfod70br.hlp>topics
+4 Localizar os Arquivos Rapidamente=7001@pfod70br.hlp>topics
+4 Localizar os Arquivos Usando um Índice (BuscaRápida)=7000@pfod70br.hlp>topics
+3 Automatizar a Formatação
+4 Usar Modelos Pré-formatados=486>topics
+4 Ajustar o Texto para Encaixar em um Formato Existente=1038>topics
+4 Acelerar a Entrada de Texto com a CorreçãoRápida=487>topics
+4 Copiar a Aparência de um Texto Existente (FormataçãoRápida)=374>topics
+4 Criar Estilos de Formatação=943>topics
+4 Criar Estilos a partir de um Texto Existente=776>topics
+3 Automatizar Correções Ortográficas
+4 Usar a CorreçãoRápida=487>topics
+3 Trabalhar com Documentos Grandes
+4 Criar um Documento que Inclua outros Documentos=686>topics
+4 Comparar as Diferenças entre Dois Documentos=721>topics
+4 Criar um Marcador para Marcar o Local=1198>topics
+3 Produzir Documentos e Dados em Massa (Mesclagem)
+4 Sobre a Mesclagem=330>topics
+4 Criar Arquivos de Dados=769>topics
+4 Criar Arquivos de Formulários=771>topics
+4 Executar Mesclagens=897>topics
+4 Mesclar Usando o Caderno de Endereços=1223>topics
+4 Mesclar Envelopes=1024>topics
+4 Mesclar Etiquetas=529>topics
+4 Mesclar para E-mail=1811>topics
+4 Mesclar para uma Tabela em Expansão=1020>topics
+4 Executar Mesclagens com o Teclado=878>topics
+3 Automatizar Tarefas com Macros
+4 Executar Macros Existentes=1305>topics
+4 Usar Envio de Macros com o WordPerfect=485>topics
+4 Gravando macros=900>topics
+4 Editando Macros=1307>topics
+4 Atribuir Macros a Botões=1973>topics
+4 Atribuir Macros a Seqüências de Teclas=1973>topics
+4 Atribuir Macros a Menus=1973>topics
+2 Personalizar o WordPerfect
+3 Alterar a Aparência da Tela
+4 Alterar a Janela do Documento=696>topics
+4 Salvar a Forma de Exibição da Área de Trabalho=710>topics
+4 Alterar as Cores de Revelar Códigos=700>topics
+4 Alterar as Cores de Texto/Impressão=1035>topics
+4 Alterar a Aparência da Barra da Régua=701>topics
+4 Alterar a Aparência da Barra Suplementar=1988>topics
+4 Alterar a Aparência da Barra de Ferramentas=1988>topics
+4 Alterar a Aparência dos Menus=712>topics
+4 Desativar as DicasRápidas=1947>topics
+3 Alterar a Aparência do Documento
+4 Alterar a Forma de Exibição de Documentos=243>topics
+4 Alterar a Aparência de Símbolos=1124>topics
+4 Alterar a Forma de Exibição de Códigos=700>topics
+4 Alterar a Forma de Exibição de Códigos de Mesclagem=702>topics
+4 Alterar a Forma de Exibição de Imagens Gráficas=610>topics
+4 Alterar a Forma de Exibição de Fontes=262>topics
+4 Especificar as Fontes de Substituição (Mapeamento de Fontes)=262>topics
+4 Alterar as Informações do Usuário em Comentários e Resumos de Documentos=707>topics
+4 Salvar a Localização nos Documentos Salvos=1390>topics
+3 Alterar Como o WordPerfect Trabalha
+4 Alterar a Forma de Hifenização de Palavras=708>topics
+4 Alterar a Forma de Seleção de Texto (Palavra ou Letra)=817>topics
+4 Especificar Quando o WordPerfect Emite um Bip=709>topics
+4 Desativar as DicasRápidas=1947>topics
+4 Alterar a Forma de Exclusão dos Códigos=18>topics
+4 Ativar Todas as Ligações de Hipertexto=1391>topics
+4 Reformatar os Documentos para a Impressora Default=1948>topics
+3 Alterar Como o WordPerfect Inicia
+4 Inicia o WordPerfect com Opções Personalizadas=890>topics
+3 Especificar a Localização e Conversões de Arquivo
+4 Especificar a Localização de Arquivos=274>topics
+4 Especificar as Conversões de Arquivo (Delimitadores, Meta-arquivos)=298>topics
+3 Personalizar Barras, Teclados e Menus do WordPerfect
+4 Exibir ou Ocultar Barras do WordPerfect=203>topics
+4 Criar Barras de Ferramentas, Teclados e Menus=1985>topics
+4 Editar Barras de Ferramentas, Teclados e Menus=8013@WPSH70br.hlp>topics
+4 Alterar as Preferências da Barra de Ferramentas/Teclado/Barra de Menus=197>topics
+4 Alterar as Opções da Barra de Ferramentas/Barra Suplementar=1987>topics
+4 Alterar as Opções da Barra de Status=937>topics
+3 Trabalhar com Outros Idiomas
+4 Adicionar Caracteres e Símbolos=8001@WPSH70br.hlp>topics
+4 Alterar as Unidades de Medida (Exibição do Documento)=696>topics
+4 Selecionar as Convenções de Formatação de um Outro Idioma=307>topics
+4 Selecionar um Conjunto de Caracteres para um Outro Idioma=1052>topics
+4 Especificar as Preferências de Conversão de Fontes=1054>topics
+4 Especificar as Preferências de Conversão de Idiomas=1301>topics
+4 Especificar as Conversões de Fontes Diferentes do Idioma Inglês=262>topics
+2 Enviar, Ligar, Iniciar e Importar
+3 Enviando
+4 Enviar um Fax=479>topics
+4 Enviar Correio Eletrônico=466>topics
+4 Enviar Malas Diretas (Mesclar)=330>topics
+4 Criar Etiquetas de Correspondência (Caderno de Endereços)=1557>topics
+4 Mesclar para E-mail=1811>topics
+3 Ligar e Importar
+4 Ligar e Importar Planilhas/Bancos de Dados=165>topics
+4 Ligar Outros Aplicativos do Windows (DDE ou OLE)=251>topics
+4 Inserir ou Ligar Objetos=847>topics
+4 Digitalizar Imagens no WordPerfect=566>topics
+4 Converter um Arquivo a partir de um Formato Diferente=759>topics
+3 Iniciar
+4 Criar Ligações de Hipertexto=1277>topics
+4 Iniciar uma Macro em uma Posição Especificada=133>topics
+2 Usar Ferramentas da Internet
+3 Navegar na World Wide Web
+4 Aprender Sobre o Publicador da Internet=1231>topics
+4 Aprender Sobre os Navegadores da Web=1518>topics
+4 Navegar a Web=1283>topics
+4 Especificar URLs de um Documento da Web=1517>topics
+4 Ir Para a Nossa Página de Documentação=1966>topics
+4 Ir Para o Fórum da CompuServe=2026>topics
+3 Publicar na World Wide Web
+4 Sobre o Publicador da Internet=1231>topics
+4 Sobre a Criação de Documentos para a Web=1230>topics
+4 Sobre o Corel Barista=6078@pfpi70br.hlp>topics
+4 Sobre a Linguagem HTML=1519>topics
+4 Mais Informações Sobre a HTML (Tags)=1417>topics
+4 Visualizar um Documento da Web Antes de Publicar para HTML=1559>topics
+4 Converter um Documento da Web para o WordPerfect=1772>topics
+3 Criar Documentos da Web (HTML)
+4 Criar Documentos da Web=1256>topics
+4 Alterar a Aparência do Texto=1534>topics
+4 Criar um Texto Intermitente=1894>topics
+4 Criar Texto Pré-formatado=1520>topics
+4 Criar Parágrafos=1556>topics
+4 Criar Imagens e Som=1774>topics
+4 Criar Mapas de Imagem=1903>topics
+4 Criar Saltos de Hipertexto para Outros Sites na Web=1663>topics
+4 Criar Listas=1629>topics
+4 Criar Títulos=1630>topics
+4 Criar Tabelas=1639>topics
+3 Obter Ajuda do WordPerfect sobre a Internet
+4 Obter Ajuda sobre a Internet=1861>topics
+4 Ir Para a Nossa Página de Documentação=1966>topics
+1 O Que há de Novo ou Alterado
+2 Quando você faz uma Atualização=2337>topics
+2 Na Janela do Documento
+3 Linhas-guia=1767>topics
+3 PontosRápidos=1850>topics
+3 MenusRápidos=1469>topics
+3 DicasRápidas=596>topics
+3 EndentaçãoRápida=2022>topics
+3 O Ponteiro Sombreado=1848>topics
+3 A Barra de Tabulação=1404>topics
+3 Texto Sublinhado pela Correção Automática=1892>topics
+3 Desfazer e Refazer=75>topics
+2 Sobre a Criação de Documentos
+3 Abrindo um Novo Documento=339>topics
+3 Abrindo um Documento Editado Recentemente=621>topics
+3 O Caderno de Endereços=6801@poab70br.hlp>topics
+3 Importação Fácil dos Bancos de Dados do Caderno de Endereços=6802@poab70br.hlp>topics
+3 Usando Nomes Longos de Arquivo=7056@pfod70br.hlp>topics
+3 Ajustando o Tamanho de um Documento=552>topics
+3 Formatando Parágrafos=351>topics
+3 Numerando Páginas=349>topics
+3 Copiando a Aparência de Cabeçalhos (FormataçãoRápida)=374>topics
+3 Adicionando uma Letra Grande (Capitular Descida)=550>topics
+3 Alterando o Formato da Data=797>topics
+3 CorreçãoRápida=487>topics
+3 Salvando as Configurações de Impressão=6004@pfpi70br.hlp>topics
+3 Verificando os Serviços de Impressão=6003@pfpi70br.hlp>topics
+3 Criando Resumos de Documento=442>topics
+3 Reutilizando Fontes=1541>topics
+3 Destacando Texto=1678>topics
+3 Criando uma Lista de Itens de Quadros de Seleção=2597>topics
+3 Inserindo Números em Esboços=888>topics
+3 Usando Macros Incluídas no Corel WordPerfect=485>topics
+3 Usando Outros Aplicativos a partir do WordPerfect (OLE)=251>topics
+3 Usando a Automação OLE=91>topics
+3 Transmitindo Documentos por Fax=479>topics
+2 Sobre a Adição de Desenhos
+3 Usando o Novo Corel Clip Art=2528>topics
+3 Editando uma Imagem=2075>topics
+3 Editando um Quadro Gráfico=2074>topics
+3 Dimensionando um Quadro de Gráfico=744>topics
+3 Mantendo uma Imagem em uma Página=1940>topics
+3 Adicionando TextArt=441>topics
+3 Adicionando Bordas e Preenchimento=185>topics
+3 Adicionando Bordas Sofisticadas da Página=1031>topics
+3 Usando Texto e Gráfico=2534>topics
+2 Sobre Tabelas
+3 Criando Tabelas com uma Aparência Profissional (FormataçãoRápida)=560>topics
+3 Tornando Iguais as Colunas de Tabela=1488>topics
+3 Adicionando uma Linha Diagonal a uma Célula de Tabela=1494>topics
+3 Girando o Conteúdo da Célula da Tabela=1495>topics
+3 Dividindo uma Fileira de Tabela entre Páginas=1499>topics
+3 Ajustando as Larguras de Colunas para o Texto mais Largo=1487>topics
+2 Sobre o WordPerfect em uma Rede
+3 Compartilhando o Caderno de Endereços=6877@poab70br.hlp>topics
+3 Criando Etiquetas Usando o Caderno de Endereços=1557>topics
+3 Enviando Malas Diretas com E-mail (Mesclar)=1811>topics
+3 Enviando Documentos=466>topics
+2 Sobre o WordPerfect e a Internet
+3 Enviando Documentos=466>topics
+3 Usando o Caderno de Endereços=6801@poab70br.hlp>topics
+3 Usando o Publicador da Internet=1231>topics
+3 Criando Documentos para a World Wide Web=1230>topics
+3 Navegando a World Wide Web=1283>topics
+3 Salvando Documentos no Formato do Envoy=1686>topics
+3 Publicando um Documento para o Envoy=1687>topics
+3 Publicando um Documento para o Barista=6078@pfpi70br.hlp>topics
+3 Criando Ligações de Hipertexto para Documentos da Web=1277>topics
+3 Ajuda On-line do WordPerfect=1861>topics
+2 Como Manusear o Hardware
+3 Funcionalidade Plug and Play=2071>topics
+2 Aprender Sobre o WordPerfect
+; 3 O PerfectExpert=1862>topics
+; 3 Ajuda com a Atualização=496>topics
+3 Sobre a Ajuda=1863>topics
+1 Solucionando Problemas
+2 Caderno de Endereços=2268>topics
+2 Encadernação e Impressão Frente e Verso=6067@pfpi70br.hlp>topics
+2 Listas Numeradas e de Bullets=2199>topics
+2 Colunas=2131>topics
+2 Comentários e Texto Oculto=2193>topics
+2 Comparação e Revisão de Documentos=2213>topics
+2 Conversão de Formatos de Arquivo=2198>topics
+2 Corel Barista=2619>topics
+2 Referências Cruzadas=2322>topics
+2 Problemas de Exibição=2155>topics
+2 Envelopes=1416>topics
+2 Fax=2361>topics
+2 Localização de Arquivos=2214>topics
+2 Seguindo as Etapas da Ajuda ou do Manual=2136>topics
+2 Fontes=2220>topics
+2 Notas de Rodapé e Notas Finais=2139>topics
+2 Gráficos=2385>topics
+2 Legendas do Quadro de Gráficos=2373>topics
+2 Cabeçalhos e Rodapés=1370>topics
+2 Ligações e Saltos de Hipertexto=2238>topics
+2 Índices Remissivos e Índices=2328>topics
+2 Publicador da Internet=2226>topics
+2 Etiquetas=1432>topics
+2 Ligando e Embutindo=2176>topics
+2 Correio=1435>topics
+2 Margens e Orientação da Página=2339>topics
+2 Documentos-Mestre=2303>topics
+2 Mesclagem=2287>topics
+2 Abrindo Arquivos=2233>topics
+2 Esboços=2015>topics
+2 Quebras de Página=2431>topics
+2 Numeração de Páginas=2443>topics
+2 Formatação de Parágrafos=2416>topics
+2 Imprimindo=2240>topics
+2 Arquivos de Programa=2490>topics
+2 Protegendo um Documento=2253>topics
+2 Publicando para o Envoy=2311>topics
+2 Gravando e Executando Macros=2296>topics
+2 Salvando e Fechando Documentos=2257>topics
+2 Corretor Ortográfico e de Gramática=2279>topics
+2 Importando e Ligando Planilha/Banco de Dados=2492>topics
+2 Estilos=2455>topics
+2 Tabelas=2345>topics
+2 Tabulações e Endentações=2349>topics
+2 Modelos=2370>topics
+2 Editor de Equação e TextArt=2300>topics
+2 Barra de Ferramentas, Barra Suplementar, Barra da Régua e Menus=1709>topics
+2 Digitando e Selecionando=2167>topics
+2 Atualizando=2337>topics
+2 Códigos de Formatação do WordPerfect=2186>topics
+2 Trabalhando em Outros Idiomas=2355>topics
+1 Mesclar
+2 Sobre a Mesclagem=330>topics
+2 Criar Arquivos de Dados=769>topics
+2 Criar Arquivos de Formulários=771>topics
+2 Executar Mesclagens=897>topics
+2 Mesclar Usando o Caderno de Endereços=1223>topics
+2 Mesclar Envelopes=1024>topics
+2 Mesclar Etiquetas=529>topics
+2 Mesclar para E-mail=1811>topics
+2 Mesclar para uma Tabela em Expansão=1020>topics
+2 Executar Mesclagens do Teclado=878>topics
+2 Comandos de Programação, Expressões e Variáveis=2596>topics
+1 Macros
+2 Sobre Macros=17>topics
+2 Programação de Macros=!IE(FE(`wpmh7br.hlp'), `Exit():EF(`wpmh7br.hlp',`',1,`')', `IE(FE(`wpmcc7br.hlp'), `CS():JI(`wpmcc7br.hlp>envoy',`WPMACROSTEASER'):CW(`topics'):CW(`visual')', `JI(`wpwp7br.hlp>topics',`17')')')
+;1 SGML do WordPerfect
+;2 Sobre o SGML do WordPerfect=2479>topics
+;2 Para Instalar o SGML do WordPerfect=2480>topics
+;2 Para Ativar os Recursos SGML no WordPerfect=2482>topics
+;2 Para Abrir um Arquivo SGML no WordPerfect=2483>topics
+;2 Para Criar um Documento SGML em Branco no WordPerfect=2485>topics
+1 Exibir Manuais
+2 Sobre o Centro de Referência=2609>topics
+2 Ir para o Centro de Referência=1@wprc70br.hlp>envoy
+1 Serviços de Suporte da Corel
+2 Web Site Independente CorelNET=8050@support.hlp>topics
+2 Suporte do Produto na América do Norte=8037@support.hlp>topics
+2 Suporte Mundial do Produto=8038@support.hlp>topics
+2 Dicas para Exibir e Editar o Número de Licença=1976>topics

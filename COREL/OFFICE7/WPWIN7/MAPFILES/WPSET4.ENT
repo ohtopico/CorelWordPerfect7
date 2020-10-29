@@ -1,0 +1,116 @@
+<!--
+    File:  WPSET4.ENT
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset4 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 4 (Typographic Symbols)//EN">
+      %wpset4;
+
+         Name            Text          WP#   Description
+--> 
+<!ENTITY bullet   SDATA "[bullet  ]" --4,0   Bullet -->
+<!ENTITY hlbul    SDATA "[hlbul   ]" --4,1   Hollow Bullet -->
+<!ENTITY sqbul    SDATA "[sqbul   ]" --4,2   Square Bullet -->
+<!ENTITY smbul    SDATA "[smbul   ]" --4,3   Small Bullet -->
+<!ENTITY basaster SDATA "[basaster]" --4,4   Base Asterisk -->
+<!ENTITY para     SDATA "[para    ]" --4,5   Paragraph Sign -->
+<!ENTITY sect     SDATA "[sect    ]" --4,6   Section Sign -->
+<!ENTITY iexcl    SDATA "[iexcl   ]" --4,7   Inverted Exclamation Point -->
+<!ENTITY iquest   SDATA "[iquest  ]" --4,8   Inverted Question Mark -->
+<!ENTITY ldguill  SDATA "[ldguill ]" --4,9   Left Double Guillemet -->
+<!ENTITY rdguill  SDATA "[rdguill ]" --4,10  Right Double Guillemet -->
+<!ENTITY pound    SDATA "[pound   ]" --4,11  Pound/Sterling -->
+<!ENTITY yen      SDATA "[yen     ]" --4,12  Yen -->
+<!ENTITY peseta   SDATA "[peseta  ]" --4,13  Peseta -->
+<!ENTITY florin   SDATA "[florin  ]" --4,14  Florin/Guilder -->
+<!ENTITY fspanord SDATA "[fspanord]" --4,15  Feminine Spanish Ordinal -->
+<!ENTITY mspanord SDATA "[mspanord]" --4,16  Masculine Spanish Ordinal -->
+<!ENTITY frac1.2  SDATA "[frac1.2 ]" --4,17  1/2 -->
+<!ENTITY frac1.4  SDATA "[frac1.4 ]" --4,18  1/4 -->
+<!ENTITY cent     SDATA "[cent    ]" --4,19  Cent -->
+<!ENTITY power.2  SDATA "[power.2 ]" --4,20  Power of 2 -->
+<!ENTITY power.n  SDATA "[power.n ]" --4,21  Power of n -->
+<!ENTITY reg.tm   SDATA "[reg.tm  ]" --4,22  Registered Trademark -->
+<!ENTITY copy     SDATA "[copy    ]" --4,23  Copyright -->
+<!ENTITY currency SDATA "[currency]" --4,24  General Currency Symbol -->
+<!ENTITY frac3.4  SDATA "[frac3.4 ]" --4,25  3/4 -->
+<!ENTITY power.3  SDATA "[power.3 ]" --4,26  Power of 3 -->
+<!ENTITY ilsquote SDATA "[ilsquote]" --4,27  Left Single Quote (Like Inverted 6) -->
+<!ENTITY rsquote  SDATA "[rsquote ]" --4,28  Right Single Quote (Like 9) -->
+<!ENTITY lsquote  SDATA "[lsquote ]" --4,29  Inverted Single Quote (Like 6) -->
+<!ENTITY ldquote  SDATA "[ldquote ]" --4,30  Left Double Quote (Like Inverted 66) -->
+<!ENTITY rdquote  SDATA "[rdquote ]" --4,31  Right Double Quote (Like 99) -->
+<!ENTITY idquote  SDATA "[idquote ]" --4,32  Inverted Double Quote (Like 66) -->
+<!ENTITY endash   SDATA "[endash  ]" --4,33  En Dash -->
+<!ENTITY emdash   SDATA "[emdash  ]" --4,34  Em Dash -->
+<!ENTITY lsguill  SDATA "[lsguill ]" --4,35  Left Single Guillemet -->
+<!ENTITY rsguill  SDATA "[rsguill ]" --4,36  Right Single Guillemet -->
+<!ENTITY lghlbul  SDATA "[lghlbul ]" --4,37  Large Hollow Bullet -->
+<!ENTITY lhlsqbul SDATA "[lhlsqbul]" --4,38  Large Hollow Square Bullet -->
+<!ENTITY dagger   SDATA "[dagger  ]" --4,39  Dagger -->
+<!ENTITY ddagger  SDATA "[ddagger ]" --4,40  Double Dagger -->
+<!ENTITY trademrk SDATA "[trademrk]" --4,41  Trademark -->
+<!ENTITY servmrk  SDATA "[servmrk ]" --4,42  Servicemark -->
+<!ENTITY Rx       SDATA "[Rx      ]" --4,43  Prescription (Rx) -->
+<!ENTITY lgbul    SDATA "[lgbul   ]" --4,44  Large Bullet -->
+<!ENTITY smhlbul  SDATA "[smhlbul ]" --4,45  Small Hollow Bullet -->
+<!ENTITY lgsqbul  SDATA "[lgsqbul ]" --4,46  Large Square Bullet -->
+<!ENTITY smsqbul  SDATA "[smsqbul ]" --4,47  Small Square Bullet -->
+<!ENTITY hlsqbul  SDATA "[hlsqbul ]" --4,48  Hollow Square Bullet -->
+<!ENTITY smhlsqbl SDATA "[smhlsqbl]" --4,49  Small Hollow Square Bullet -->
+<!ENTITY figdash  SDATA "[figdash ]" --4,50  Figure Dash -->
+<!ENTITY fflig    SDATA "[fflig   ]" --4,51  Ligature ff -->
+<!ENTITY ffilig   SDATA "[ffilig  ]" --4,52  Ligature ffi -->
+<!ENTITY ffllig   SDATA "[ffllig  ]" --4,53  Ligature ffl -->
+<!ENTITY filig    SDATA "[filig   ]" --4,54  Ligature fi -->
+<!ENTITY fllig    SDATA "[fllig   ]" --4,55  Ligature fl -->
+<!ENTITY ellips   SDATA "[ellips  ]" --4,56  Em Leader (Ellipsis) -->
+<!ENTITY milreis  SDATA "[milreis ]" --4,57  Milreis/Escudo -->
+<!ENTITY francs   SDATA "[francs  ]" --4,58  Francs -->
+<!ENTITY cruzado  SDATA "[cruzado ]" --4,59  Cruzado -->
+<!ENTITY eurocurr SDATA "[eurocurr]" --4,60  European Currency Symbol -->
+<!ENTITY lire     SDATA "[lire    ]" --4,61  Lire (Italian currency symbol) -->
+<!ENTITY bsquote  SDATA "[bsquote ]" --4,62  Base Single Quote -->
+<!ENTITY bdquote  SDATA "[bdquote ]" --4,63  Base Double Quote -->
+<!ENTITY frac1.3  SDATA "[frac1.3 ]" --4,64  1/3 -->
+<!ENTITY frac2.3  SDATA "[frac2.3 ]" --4,65  2/3 -->
+<!ENTITY frac1.8  SDATA "[frac1.8 ]" --4,66  1/8 -->
+<!ENTITY frac3.8  SDATA "[frac3.8 ]" --4,67  3/8 -->
+<!ENTITY frac5.8  SDATA "[frac5.8 ]" --4,68  5/8 -->
+<!ENTITY frac7.8  SDATA "[frac7.8 ]" --4,69  7/8 -->
+<!ENTITY circleM  SDATA "[circleM ]" --4,70  Circle M -->
+<!ENTITY circleP  SDATA "[circleP ]" --4,71  Circle P -->
+<!ENTITY circleU  SDATA "[circleU ]" --4,72  Circle U -->
+<!ENTITY careof   SDATA "[careof  ]" --4,73  Care of -->
+<!ENTITY cadauna  SDATA "[cadauna ]" --4,74  Cadauna -->
+<!ENTITY perthou  SDATA "[perthou ]" --4,75  Per Thousand -->
+<!ENTITY number   SDATA "[number  ]" --4,76  Number (No.) -->
+<!ENTITY emdash3q SDATA "[emdash3q]" --4,77  Three Fourths Em Dash -->
+<!ENTITY power.1  SDATA "[power.1 ]" --4,78  Power of 1 -->
+<!ENTITY HT       SDATA "[HT      ]" --4,79  HT (Horizontal Tab) -->
+<!ENTITY FF       SDATA "[FF      ]" --4,80  FF (Form Feed) -->
+<!ENTITY CR       SDATA "[CR      ]" --4,81  CR (Carriage Return) -->
+<!ENTITY LF       SDATA "[LF      ]" --4,82  LF (Line Feed) -->
+<!ENTITY NL       SDATA "[NL      ]" --4,83  NL (Newline) -->
+<!ENTITY VT       SDATA "[VT      ]" --4,84  VT (Vertical Tab) -->
+
+<!-- New as of WPWin 6.0 -->
+
+<!ENTITY recycle  SDATA "[recycle ]" --4,85  Recycle Symbol -->
+<!ENTITY won      SDATA "[won     ]" --4,86  Won (Korean Currency) -->
+<!ENTITY naira    SDATA "[naira   ]" --4,87  Naira (Nigerian Currency) -->
+<!ENTITY rupee    SDATA "[rupee   ]" --4,88  Rupee (India Currency) -->
+<!ENTITY md       SDATA "[md      ]" --4,89  MD (Canadian Registration Mark) -->
+<!ENTITY mc       SDATA "[mc      ]" --4,90  MC (Canadian Trademark Symbol) -->
+<!ENTITY play     SDATA "[play    ]" --4,91  Play -->
+<!ENTITY stop     SDATA "[stop    ]" --4,92  Stop -->
+<!ENTITY pause    SDATA "[pause   ]" --4,93  Pause -->
+<!ENTITY reverse  SDATA "[reverse ]" --4,94  Reverse -->
+<!ENTITY fastfwd  SDATA "[fastfwd ]" --4,95  Fast Forward -->
+<!ENTITY record   SDATA "[record  ]" --4,96  Record -->
+<!ENTITY tracbkwd SDATA "[tracbkwd]" --4,97  Track Backward, Skip Backward -->
+<!ENTITY tracfwd  SDATA "[tracfwd ]" --4,98  Track Forward, Skip Forward -->
+<!ENTITY eject    SDATA "[eject   ]" --4,99  Eject -->
+<!ENTITY trebclef SDATA "[trebclef]" --4,100 Treble Clef -->
+<!ENTITY bassclef SDATA "[bassclef]" --4,101 Bass Clef -->

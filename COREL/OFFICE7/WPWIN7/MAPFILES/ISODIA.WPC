@@ -1,0 +1,25 @@
+--
+    File:  ISODIA.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOdia PUBLIC
+       "ISO 8879-1986//ENTITIES Diacritical Marks//EN">
+     %ISOdia;
+
+  WP #    Name       Text            Description
+--
+  1,6     acute     "[acute ]"     --=acute accent--
+  1,22    breve     "[breve ]"     --=breve--
+  1,19    caron     "[caron ]"     --=caron--
+  1,17    cedil     "[cedil ]"     --=cedilla--
+  1,3     circ      "[circ  ]"     --=circumflex accent--
+  1,16    dblac     "[dblac ]"     --=double acute accent--
+  1,7     die       "[die   ]"     --=dieresis--
+  1,15    dot       "[dot   ]"     --=dot above--
+  1,0     grave     "[grave ]"     --=grave accent--
+  1,8     macr      "[macr  ]"     --=macron--
+  1,18    ogon      "[ogon  ]"     --=ogonek--
+  1,14    ring      "[ring  ]"     --=ring--
+  1,2     tilde     "[tilde ]"     --=tilde--
+  1,7     uml       "[uml   ]"     --=umlaut mark--

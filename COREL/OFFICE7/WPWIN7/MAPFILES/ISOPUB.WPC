@@ -1,0 +1,96 @@
+--
+    File:  ISOPUB.WPC
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+     <!ENTITY % ISOpub PUBLIC
+       "ISO 8879-1986//ENTITIES Publishing//EN">
+     %ISOpub;
+
+  WP #    Name       Text            Description
+--
+  0,0     emsp      "[emsp  ]"     --=em space--
+  0,0     ensp      "[ensp  ]"     --=en space (1/2-em)--
+  0,0     emsp13    "[emsp3 ]"     --=1/3-em space--
+  0,0     emsp14    "[emsp4 ]"     --=1/4-em space--
+  0,0     numsp     "[numsp ]"     --=digit space (width of a number)--
+  0,0     puncsp    "[puncsp]"     --=punctuation space (width of comma)--
+  0,0     thinsp    "[thinsp]"     --=thin space (1/6-em)--
+  0,0     hairsp    "[hairsp]"     --=hair space--
+  4,34    mdash     "[mdash ]"     --=em dash--
+  4,33    ndash     "[ndash ]"     --=en dash--
+  0,45    dash      "[dash  ]"     --=hyphen (true graphic)--
+  0,0     blank     "[blank ]"     --=significant blank symbol--
+  4,56    hellip    "[hellip]"     --=ellipsis (horizontal)--
+  2,32    nldr      "[nldr  ]"     --=double baseline dot (en leader)--
+  4,64    frac13    "[frac13]"     --=fraction one-third--
+  4,65    frac23    "[frac23]"     --=fraction two-thirds--
+  0,0     frac15    "[frac15]"     --=fraction one-fifth--
+  0,0     frac25    "[frac25]"     --=fraction two-fifths--
+  0,0     frac35    "[frac35]"     --=fraction three-fifths--
+  0,0     frac45    "[frac45]"     --=fraction four-fifths--
+  0,0     frac16    "[frac16]"     --=fraction one-sixth--
+  0,0     frac56    "[frac56]"     --=fraction five-sixths--
+  4,73    incare    "[incare]"     --=in-care-of symbol--
+  3,3     block     "[block ]"     --=full block--
+  3,5     uhblk     "[uhblk ]"     --=upper half block--
+  3,7     lhblk     "[lhblk ]"     --=lower half block--
+  3,0     blk14     "[blk14 ]"     --=25% shaded block--
+  3,1     blk12     "[blk12 ]"     --=50% shaded block--
+  3,2     blk34     "[blk34 ]"     --=75% shaded block--
+  0,0     marker    "[marker]"     --=histogram marker--
+  6,109   cir       "[cir   ]"     --/circ B: =circle, open--
+  6,93    squ       "[squ   ]"     --=square, open--
+  0,0     rect      "[rect  ]"     --=rectangle, open--
+  6,172   utri      "[utri  ]"     --/triangle =up triangle, open--
+  6,173   dtri      "[dtri  ]"     --/triangledown =down triangle, open--
+  5,73    star      "[star  ]"     --=star, open--
+  4,0     bull      "[bull  ]"     --/bullet B: =round bullet, filled--
+  4,2     squf      "[squf  ]"     --/blacksquare =sq bullet, filled--
+  6,29    utrif     "[utrif ]"     --/blacktriangle =up tri, filled--
+  6,30    dtrif     "[dtrif ]"     --/blacktriangledown =dn tri, filled--
+  6,28    ltrif     "[ltrif ]"     --/blacktriangleleft R: =l tri, filled--
+  6,27    rtrif     "[rtrif ]"     --/blacktriangleright R: =r tri, filled--
+  5,168   clubs     "[clubs ]"     --/clubsuit =club suit symbol--
+  5,1     diams     "[diams ]"     --/diamondsuit =diamond suit symbol--
+  5,0     hearts    "[hearts]"     --/heartsuit =heart suit symbol--
+  5,171   spades    "[spades]"     --/spadesuit =spades suit symbol--
+  5,64    malt      "[malt  ]"     --/maltese =maltese cross--
+  4,39    dagger    "[dagger]"     --/dagger B: =dagger--
+  4,40    Dagger    "[Dagger]"     --/ddagger B: =double dagger--
+  5,52    check     "[check ]"     --/checkmark =tick, check mark--
+  5,55    cross     "[ballot]"     --=ballot cross--
+  5,27    sharp     "[sharp ]"     --/sharp =musical sharp--
+  5,28    flat      "[flat  ]"     --/flat =musical flat--
+  5,4     male      "[male  ]"     --=male symbol--
+  5,5     female    "[female]"     --=female symbol--
+  5,30    phone     "[phone ]"     --=telephone symbol--
+  0,0     telrec    "[telrec]"     --=telephone recorder symbol--
+  4,71    copysr    "[copysr]"     --=sound recording copyright sign--
+  0,0     caret     "[caret ]"     --=caret (insertion mark)--
+  0,0     lsquor    "[lsquor]"     --=rising single quote, left (low)--
+  0,0     ldquor    "[ldquor]"     --=rising dbl quote, left (low)--
+  4,51    fflig     "[fflig ]"     --small ff ligature--
+  4,54    filig     "[filig ]"     --small fi ligature--
+  0,0     fjlig     "[fjlig ]"     --small fj ligature--
+  4,52    ffilig    "[ffilig]"     --small ffi ligature--
+  4,53    ffllig    "[ffllig]"     --small ffl ligature--
+  4,55    fllig     "[fllig ]"     --small fl ligature--
+  4,56    mldr      "[mldr  ]"     --em leader--
+  0,0     rdquor    "[rdquor]"     --rising dbl quote, right (high)--
+  0,0     rsquor    "[rsquor]"     --rising single quote, right (high)--
+  6,222   vellip    "[vellip]"     --vertical ellipsis--
+  5,11    hybull    "[hybull]"     --rectangle, filled (hyphen bullet)--
+  5,95    loz       "[loz   ]"     --/lozenge - lozenge or total mark--
+  6,96    lozf      "[lozf  ]"     --/blacklozenge - lozenge, filled--
+  6,170   ltri      "[ltri  ]"     --/triangleleft B: l triangle, open--
+  6,171   rtri      "[rtri  ]"     --/triangleright B: r triangle, open--
+  6,184   starf     "[starf ]"     --/bigstar - star, filled--
+  5,29    natur     "[natur ]"     --/natural - music natural--
+  4,43    rx        "[rx    ]"     --pharmaceutical prescription (Rx)--
+  5,86    sext      "[sext  ]"     --sextile (6-pointed star)--
+  0,0     target    "[target]"     --register mark or target--
+  0,0     dlcrop    "[dlcrop]"     --downward left crop mark --
+  0,0     drcrop    "[drcrop]"     --downward right crop mark --
+  0,0     ulcrop    "[ulcrop]"     --upward left crop mark --
+  0,0     urcrop    "[urcrop]"     --upward right crop mark --

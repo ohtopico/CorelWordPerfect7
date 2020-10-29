@@ -1,0 +1,252 @@
+<!--
+    File:  WPSET6.ENT
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset6 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 6 (Math/Scientific)//EN">
+      %wpset6;
+
+         Name            Text          WP#   Description
+--> 
+<!ENTITY negative SDATA "[negative]" --6,0   Minus -->
+<!ENTITY plusmin  SDATA "[plusmin ]" --6,1   Plus or Minus -->
+<!ENTITY le       SDATA "[le      ]" --6,2   Less Than Or Equal -->
+<!ENTITY ge       SDATA "[ge      ]" --6,3   Greater Than Or Equal -->
+<!ENTITY prop     SDATA "[prop    ]" --6,4   Proportional -->
+<!ENTITY notslash SDATA "[notslash]" --6,5   Not (Slash) -->
+<!ENTITY figslash SDATA "[figslash]" --6,6   Figure Slash (Fraction) -->
+<!ENTITY setmin   SDATA "[setmin  ]" --6,7   Figure Backslash (Set Minus) -->
+<!ENTITY divide   SDATA "[divide  ]" --6,8   Division -->
+<!ENTITY absval   SDATA "[absval  ]" --6,9   Absolute Value (Divides) -->
+<!ENTITY langbra  SDATA "[langbra ]" --6,10  Left Angle Bracket (Bra) -->
+<!ENTITY rangbra  SDATA "[rangbra ]" --6,11  Right Angle Bracket (Ket) -->
+<!ENTITY sim      SDATA "[sim     ]" --6,12  Similar -->
+<!ENTITY appreql  SDATA "[appreql ]" --6,13  Approximately Equal -->
+<!ENTITY equiv    SDATA "[equiv   ]" --6,14  Equivalent -->
+<!ENTITY member   SDATA "[member  ]" --6,15  Member (Element) -->
+<!ENTITY intrsct  SDATA "[intrsct ]" --6,16  Intersection -->
+<!ENTITY parallel SDATA "[parallel]" --6,17  Parallel -->
+<!ENTITY sum      SDATA "[sum     ]" --6,18  Summation -->
+<!ENTITY infinity SDATA "[infinity]" --6,19  Infinity -->
+<!ENTITY lognot   SDATA "[lognot  ]" --6,20  Logical Not -->
+<!ENTITY rtarrow  SDATA "[rtarrow ]" --6,21  Right Arrow -->
+<!ENTITY ltarrow  SDATA "[ltarrow ]" --6,22  Left Arrow -->
+<!ENTITY uparrow  SDATA "[uparrow ]" --6,23  Up Arrow -->
+<!ENTITY dnarrow  SDATA "[dnarrow ]" --6,24  Down Arrow -->
+<!ENTITY lrarrow  SDATA "[lrarrow ]" --6,25  Left and Right Arrow -->
+<!ENTITY udarrow  SDATA "[udarrow ]" --6,26  Up and Down Arrow -->
+<!ENTITY sotrirt  SDATA "[sotrirt ]" --6,27  Solid Triangle Right -->
+<!ENTITY sotrilt  SDATA "[sotrilt ]" --6,28  Solid Triangle Left -->
+<!ENTITY sotriup  SDATA "[sotriup ]" --6,29  Solid Triangle Up -->
+<!ENTITY sotridn  SDATA "[sotridn ]" --6,30  Solid Triangle Down -->
+<!ENTITY cntdot   SDATA "[cntdot  ]" --6,31  Center Dot -->
+<!ENTITY smcntdot SDATA "[smcntdot]" --6,32  Small Center Dot -->
+<!ENTITY smcirc   SDATA "[smcirc  ]" --6,33  Small Circle -->
+<!ENTITY smsocirc SDATA "[smsocirc]" --6,34  Small Solid Circle -->
+<!ENTITY angstrom SDATA "[angstrom]" --6,35  Angstrom -->
+<!ENTITY degree   SDATA "[degree  ]" --6,36  Degree -->
+<!ENTITY micro    SDATA "[micro   ]" --6,37  Micro -->
+<!ENTITY raiseneg SDATA "[raiseneg]" --6,38  Raised Negative Sign -->
+<!ENTITY mult     SDATA "[mult    ]" --6,39  Multiply (x) -->
+<!ENTITY integ    SDATA "[integ   ]" --6,40  Integral -->
+<!ENTITY product  SDATA "[product ]" --6,41  Product -->
+<!ENTITY minplus  SDATA "[minplus ]" --6,42  Minus or Plus -->
+<!ENTITY nabla    SDATA "[nabla   ]" --6,43  Nabla (Gradient) -->
+<!ENTITY prtderiv SDATA "[prtderiv]" --6,44  Partial Derivative -->
+<!ENTITY prime    SDATA "[prime   ]" --6,45  Prime -->
+<!ENTITY dblprime SDATA "[dblprime]" --6,46  Double Prime -->
+<!ENTITY vectovr  SDATA "[vectovr ]" --6,47  Vector -->
+<!ENTITY error    SDATA "[error   ]" --6,48  Error (Script e) -->
+<!ENTITY liter    SDATA "[liter   ]" --6,49  Liter (Script l) -->
+<!ENTITY planck   SDATA "[planck  ]" --6,50  Planck's Constant -->
+<!ENTITY ifraktur SDATA "[ifraktur]" --6,51  Ifraktur -->
+<!ENTITY rfraktur SDATA "[rfraktur]" --6,52  Rfraktur -->
+<!ENTITY weierstr SDATA "[weierstr]" --6,53  Weierstrass -->
+<!ENTITY rlarrows SDATA "[rlarrows]" --6,54  Right and Left Arrows -->
+<!ENTITY lrarrows SDATA "[lrarrows]" --6,55  Left and Right Arrows -->
+<!ENTITY dbart    SDATA "[dbart   ]" --6,56  Double Arrow Right (Implies) -->
+<!ENTITY dbalt    SDATA "[dbalt   ]" --6,57  Double Arrow Left (Implied By) -->
+<!ENTITY dbaup    SDATA "[dbaup   ]" --6,58  Double Arrow Up -->
+<!ENTITY dbadn    SDATA "[dbadn   ]" --6,59  Double Arrow Down -->
+<!ENTITY dbalr    SDATA "[dbalr   ]" --6,60  Double Arrow Left and Right (Iff) -->
+<!ENTITY dbaud    SDATA "[dbaud   ]" --6,61  Double Arrow Up and Down -->
+<!ENTITY nearrow  SDATA "[nearrow ]" --6,62  Northeast Arrow -->
+<!ENTITY searrow  SDATA "[searrow ]" --6,63  Southeast Arrow -->
+<!ENTITY nwarrow  SDATA "[nwarrow ]" --6,64  Northwest Arrow -->
+<!ENTITY swarrow  SDATA "[swarrow ]" --6,65  Southwest Arrow -->
+<!ENTITY union    SDATA "[union   ]" --6,66  Union -->
+<!ENTITY propsub  SDATA "[propsub ]" --6,67  Proper Subset -->
+<!ENTITY propsup  SDATA "[propsup ]" --6,68  Proper Superset -->
+<!ENTITY rflsub   SDATA "[rflsub  ]" --6,69  Reflex Subset (Contained In or Equals) -->
+<!ENTITY rflsup   SDATA "[rflsup  ]" --6,70  Reflex Superset (Contains or Equals) -->
+<!ENTITY contains SDATA "[contains]" --6,71  Contains as a Member -->
+<!ENTITY emptyset SDATA "[emptyset]" --6,72  Empty Set -->
+<!ENTITY ltceil   SDATA "[ltceil  ]" --6,73  Left Ceiling -->
+<!ENTITY rtceil   SDATA "[rtceil  ]" --6,74  Right Ceiling -->
+<!ENTITY ltfloor  SDATA "[ltfloor ]" --6,75  Left Floor -->
+<!ENTITY rtfloor  SDATA "[rtfloor ]" --6,76  Right Floor -->
+<!ENTITY muchless SDATA "[muchless]" --6,77  Much Less -->
+<!ENTITY muchgrtr SDATA "[muchgrtr]" --6,78  Much Greater -->
+<!ENTITY angle    SDATA "[angle   ]" --6,79  Angle -->
+<!ENTITY circmult SDATA "[circmult]" --6,80  Circle Multiply -->
+<!ENTITY circplus SDATA "[circplus]" --6,81  Circle Plus -->
+<!ENTITY circmin  SDATA "[circmin ]" --6,82  Circle Minus -->
+<!ENTITY circdiv  SDATA "[circdiv ]" --6,83  Circle Divide -->
+<!ENTITY circdot  SDATA "[circdot ]" --6,84  Circle Dot -->
+<!ENTITY logand   SDATA "[logand  ]" --6,85  Logical And -->
+<!ENTITY logor    SDATA "[logor   ]" --6,86  Logical Or -->
+<!ENTITY logxor   SDATA "[logxor  ]" --6,87  Logical Exclusive Or -->
+<!ENTITY top      SDATA "[top     ]" --6,88  Top -->
+<!ENTITY bottom   SDATA "[bottom  ]" --6,89  Bottom -->
+<!ENTITY arcovr   SDATA "[arcovr  ]" --6,90  Arc Overmark -->
+<!ENTITY assert   SDATA "[assert  ]" --6,91  Assertion -->
+<!ENTITY mirassrt SDATA "[mirassrt]" --6,92  Mirrored Assertion -->
+<!ENTITY square   SDATA "[square  ]" --6,93  Square -->
+<!ENTITY solsquar SDATA "[solsquar]" --6,94  Solid Square -->
+<!ENTITY loz      SDATA "[loz     ]" --6,95  Lozenge -->
+<!ENTITY solloz   SDATA "[solloz  ]" --6,96  Solid Lozenge -->
+<!ENTITY ldblbra  SDATA "[ldblbra ]" --6,97  Left Double Bracket -->
+<!ENTITY rdblbra  SDATA "[rdblbra ]" --6,98  Right Double Bracket -->
+<!ENTITY notequal SDATA "[notequal]" --6,99  Not Equal -->
+<!ENTITY notequiv SDATA "[notequiv]" --6,100 Not Equivalent -->
+<!ENTITY because  SDATA "[because ]" --6,101 Because -->
+<!ENTITY therefor SDATA "[therefor]" --6,102 Therefore -->
+<!ENTITY identicl SDATA "[identicl]" --6,103 Identical (Four Dots) -->
+<!ENTITY cntint   SDATA "[cntint  ]" --6,104 Contour Integral -->
+<!ENTITY laplace  SDATA "[laplace ]" --6,105 Laplace Transform (Script L) -->
+<!ENTITY cfraktur SDATA "[cfraktur]" --6,106 Cfraktur -->
+<!ENTITY zfraktur SDATA "[zfraktur]" --6,107 Zfraktur -->
+<!ENTITY oscriptp SDATA "[oscriptp]" --6,108 Open Script P (Weierstrass) -->
+<!ENTITY circop   SDATA "[circop  ]" --6,109 Circle (Empty, For Operator) -->
+<!ENTITY defined  SDATA "[defined ]" --6,110 Defined As (Underscored Triangle) -->
+<!ENTITY diamond  SDATA "[diamond ]" --6,111 Diamond (Hollow) -->
+<!ENTITY solstar  SDATA "[solstar ]" --6,112 Solid Star -->
+<!ENTITY triprime SDATA "[triprime]" --6,113 Triple Prime -->
+<!ENTITY coprod   SDATA "[coprod  ]" --6,114 Coproduct -->
+<!ENTITY simoreq  SDATA "[simoreq ]" --6,115 Similar or Equal -->
+<!ENTITY congr    SDATA "[congr   ]" --6,116 Congruent -->
+<!ENTITY prec     SDATA "[prec    ]" --6,117 Precedes -->
+<!ENTITY precoreq SDATA "[precoreq]" --6,118 Precedes or Equals -->
+<!ENTITY foll     SDATA "[foll    ]" --6,119 Follows -->
+<!ENTITY folloreq SDATA "[folloreq]" --6,120 Follows or Equals -->
+<!ENTITY exists   SDATA "[exists  ]" --6,121 There Exists -->
+<!ENTITY forall   SDATA "[forall  ]" --6,122 For All -->
+<!ENTITY mumuless SDATA "[mumuless]" --6,123 Much Much Less -->
+<!ENTITY mumugrea SDATA "[mumugrea]" --6,124 Much Much Greater -->
+<!ENTITY mulsetun SDATA "[mulsetun]" --6,125 Multiset Union (U Plus) -->
+<!ENTITY subneq   SDATA "[subneq  ]" --6,126 Subset But Does Not Equal -->
+<!ENTITY supneq   SDATA "[supneq  ]" --6,127 Superset But Does Not Equal -->
+<!ENTITY sqintr   SDATA "[sqintr  ]" --6,128 Square Intersection -->
+<!ENTITY squnion  SDATA "[squnion ]" --6,129 Square Union -->
+<!ENTITY sqprosub SDATA "[sqprosub]" --6,130 Square Proper Subset -->
+<!ENTITY sqrflsub SDATA "[sqrflsub]" --6,131 Square Reflex Subset -->
+<!ENTITY sqsubneq SDATA "[sqsubneq]" --6,132 Square Subset But Does Not Equal -->
+<!ENTITY sqprosup SDATA "[sqprosup]" --6,133 Square Proper Superset -->
+<!ENTITY sqrflsup SDATA "[sqrflsup]" --6,134 Square Reflex Superset -->
+<!ENTITY sqsupneq SDATA "[sqsupneq]" --6,135 Square Superset But Does Not Equal -->
+<!ENTITY bigtriup SDATA "[bigtriup]" --6,136 Big Triangle Up -->
+<!ENTITY bigtridn SDATA "[bigtridn]" --6,137 Big Triangle Down -->
+<!ENTITY smtrilt  SDATA "[smtrilt ]" --6,138 Small Triangle Left -->
+<!ENTITY smtrirt  SDATA "[smtrirt ]" --6,139 Small Triangle Right -->
+<!ENTITY bowtie   SDATA "[bowtie  ]" --6,140 Bowtie -->
+<!ENTITY smile    SDATA "[smile   ]" --6,141 Smile -->
+<!ENTITY frown    SDATA "[frown   ]" --6,142 Frown -->
+<!ENTITY bigcirc  SDATA "[bigcirc ]" --6,143 Big Circle -->
+<!ENTITY curlrarr SDATA "[curlrarr]" --6,144 Curly Right Arrow -->
+<!ENTITY hooklarr SDATA "[hooklarr]" --6,145 Hook Left Arrow -->
+<!ENTITY hookrarr SDATA "[hookrarr]" --6,146 Hook Right Arrow -->
+<!ENTITY mapsto   SDATA "[mapsto  ]" --6,147 Maps To -->
+<!ENTITY lharpup  SDATA "[lharpup ]" --6,148 Left Harpoon Up -->
+<!ENTITY lharpdn  SDATA "[lharpdn ]" --6,149 Left Harpoon Down -->
+<!ENTITY rharpup  SDATA "[rharpup ]" --6,150 Right Harpoon Up -->
+<!ENTITY rharpdn  SDATA "[rharpdn ]" --6,151 Right Harpoon Down -->
+<!ENTITY rlharps  SDATA "[rlharps ]" --6,152 Right and Left Harpoons -->
+<!ENTITY lrharps  SDATA "[lrharps ]" --6,153 Left and Right Harpoons -->
+<!ENTITY upharplt SDATA "[upharplt]" --6,154 Up Harpoon Left -->
+<!ENTITY upharprt SDATA "[upharprt]" --6,155 Up Harpoon Right (Restriction) -->
+<!ENTITY dnharplt SDATA "[dnharplt]" --6,156 Down Harpoon Left -->
+<!ENTITY dnharprt SDATA "[dnharprt]" --6,157 Down Harpoon Right -->
+<!ENTITY rtarrows SDATA "[rtarrows]" --6,158 Two Right Arrows -->
+<!ENTITY ltarrows SDATA "[ltarrows]" --6,159 Two Left Arrows -->
+<!ENTITY dblunion SDATA "[dblunion]" --6,160 Double Union -->
+<!ENTITY dblintr  SDATA "[dblintr ]" --6,161 Double Intersection -->
+<!ENTITY dblsub   SDATA "[dblsub  ]" --6,162 Double Subset -->
+<!ENTITY dblsup   SDATA "[dblsup  ]" --6,163 Double Superset -->
+<!ENTITY circcirc SDATA "[circcirc]" --6,164 Circle Circle -->
+<!ENTITY circast  SDATA "[circast ]" --6,165 Circle Asterisk -->
+<!ENTITY circdash SDATA "[circdash]" --6,166 Circle Dash -->
+<!ENTITY mho      SDATA "[mho     ]" --6,167 Mho -->
+<!ENTITY measang  SDATA "[measang ]" --6,168 Measured Angle -->
+<!ENTITY spherang SDATA "[spherang]" --6,169 Spherical Angle -->
+<!ENTITY trianglt SDATA "[trianglt]" --6,170 Triangle Left -->
+<!ENTITY triangrt SDATA "[triangrt]" --6,171 Triangle Right -->
+<!ENTITY triangup SDATA "[triangup]" --6,172 Triangle Up -->
+<!ENTITY triangdn SDATA "[triangdn]" --6,173 Triangle Down -->
+<!ENTITY dirsum   SDATA "[dirsum  ]" --6,174 Direct Sum (Dot Plus) -->
+<!ENTITY equbydef SDATA "[equbydef]" --6,175 Equal by Definition -->
+<!ENTITY image    SDATA "[image   ]" --6,176 Image (Falling Dots Equals) -->
+<!ENTITY revimage SDATA "[revimage]" --6,177 Reverse Image (Rising Dots Equals) -->
+<!ENTITY isomorph SDATA "[isomorph]" --6,178 Isomorphic -->
+<!ENTITY asymequi SDATA "[asymequi]" --6,179 Asymptotically Equivalent -->
+<!ENTITY perpdblr SDATA "[perpdblr]" --6,180 Perpendicular Double Right (Models) -->
+<!ENTITY corresp  SDATA "[corresp ]" --6,181 Corresponds To -->
+<!ENTITY between  SDATA "[between ]" --6,182 Between (Quantic) -->
+<!ENTITY wrthprod SDATA "[wrthprod]" --6,183 Wreath Product -->
+<!ENTITY lgsolstr SDATA "[lgsolstr]" --6,184 Large Solid Star -->
+<!ENTITY notless  SDATA "[notless ]" --6,185 Not Less Than -->
+<!ENTITY notleseq SDATA "[notleseq]" --6,186 Neither Less Than Nor Equal -->
+<!ENTITY notgrtr  SDATA "[notgrtr ]" --6,187 Not Greater Than -->
+<!ENTITY notgrteq SDATA "[notgrteq]" --6,188 Neither Greater Than Nor Equal -->
+<!ENTITY notsim   SDATA "[notsim  ]" --6,189 Not Similar -->
+<!ENTITY notsimeq SDATA "[notsimeq]" --6,190 Not Similar or Equal -->
+<!ENTITY notcongr SDATA "[notcongr]" --6,191 Not Congruent -->
+<!ENTITY notappeq SDATA "[notappeq]" --6,192 Not Approximately Equal -->
+<!ENTITY notprec  SDATA "[notprec ]" --6,193 Does Not Precede -->
+<!ENTITY notprceq SDATA "[notprceq]" --6,194 Neither Precedes Nor Equals -->
+<!ENTITY notfoll  SDATA "[notfoll ]" --6,195 Does Not Follow -->
+<!ENTITY notfoleq SDATA "[notfoleq]" --6,196 Neither Follows Nor Equals -->
+<!ENTITY notsub   SDATA "[notsub  ]" --6,197 Not Subset -->
+<!ENTITY notsup   SDATA "[notsup  ]" --6,198 Not Superset -->
+<!ENTITY norflsub SDATA "[norflsub]" --6,199 Not Reflex Subset -->
+<!ENTITY norflsup SDATA "[norflsup]" --6,200 Not Reflex Superset -->
+<!ENTITY sqnotsub SDATA "[sqnotsub]" --6,201 Square Not Subset -->
+<!ENTITY sqnotsup SDATA "[sqnotsup]" --6,202 Square Not Superset -->
+<!ENTITY sqnorfsb SDATA "[sqnorfsb]" --6,203 Square Not Reflex Subset -->
+<!ENTITY sqnorfsp SDATA "[sqnorfsp]" --6,204 Square Not Reflex Superset -->
+<!ENTITY notpara  SDATA "[notpara ]" --6,205 Not Parallel -->
+<!ENTITY notdiv   SDATA "[notdiv  ]" --6,206 Does Not Divide -->
+<!ENTITY noasymeq SDATA "[noasymeq]" --6,207 Not Asymptotically Equivalent -->
+<!ENTITY nvrexist SDATA "[nvrexist]" --6,208 There Never Exists -->
+<!ENTITY nomember SDATA "[nomember]" --6,209 Not a Member (Not an Element) -->
+<!ENTITY nisomrph SDATA "[nisomrph]" --6,210 Not Isomorphic -->
+<!ENTITY emf      SDATA "[emf     ]" --6,211 EMF (Script E) -->
+<!ENTITY fourtrns SDATA "[fourtrns]" --6,212 Fourier Transform (Script F) -->
+<!ENTITY cmplxnum SDATA "[cmplxnum]" --6,213 Complex Number (Hollow C) -->
+<!ENTITY integer  SDATA "[integer ]" --6,214 Integer (Hollow I) -->
+<!ENTITY naturnum SDATA "[naturnum]" --6,215 Natural Number (Hollow N) -->
+<!ENTITY realnum  SDATA "[realnum ]" --6,216 Real Number (Hollow R) -->
+<!ENTITY questeq  SDATA "[questeq ]" --6,217 Questioned Equality -->
+<!ENTITY rtangle  SDATA "[rtangle ]" --6,218 Right Angle -->
+<!ENTITY suchthat SDATA "[suchthat]" --6,219 Such That -->
+<!ENTITY axellips SDATA "[axellips]" --6,220 Axis Ellipses -->
+<!ENTITY bsellips SDATA "[bsellips]" --6,221 Baseline Ellipses -->
+<!ENTITY vtellips SDATA "[vtellips]" --6,222 Vertical Ellipses -->
+<!ENTITY dgellips SDATA "[dgellips]" --6,223 Diagonal Ellipses -->
+<!ENTITY trdtdiac SDATA "[trdtdiac]" --6,224 Triple Dot Diacritical -->
+<!ENTITY dyaddiac SDATA "[dyaddiac]" --6,225 Dyad Diacritical -->
+<!ENTITY plus     SDATA "[plus    ]" --6,226 Plus -->
+<!ENTITY minus    SDATA "[minus   ]" --6,227 Minus -->
+<!ENTITY equals   SDATA "[equals  ]" --6,228 Equals -->
+<!ENTITY astmult  SDATA "[astmult ]" --6,229 Asterisk Multiply -->
+<!ENTITY scrprime SDATA "[scrprime]" --6,230 Script Prime -->
+<!ENTITY scrdbpri SDATA "[scrdbpri]" --6,231 Script Double Prime -->
+<!ENTITY scrtrpri SDATA "[scrtrpri]" --6,232 Script Triple Prime -->
+<!ENTITY hamilth  SDATA "[hamilth ]" --6,233 Hamiltonian H -->
+<!ENTITY scriptp  SDATA "[scriptp ]" --6,234 Script P -->
+
+<!-- New as of WPWin 6.0 -->
+
+<!ENTITY ltequiv  SDATA "[ltequiv ]" --6,235 Less Than Or Equivalent To -->
+<!ENTITY gtequiv  SDATA "[gtequiv ]" --6,236 Greater Than Or Equivalent To -->
+<!ENTITY bar      SDATA "[bar     ]" --6,237 Bar -->

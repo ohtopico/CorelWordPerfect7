@@ -1,0 +1,115 @@
+  -- ...................................................................... --
+  -- DocBook MAP file V2.4 ................................................ --
+  -- File docbook.cat ..................................................... --
+
+  -- Please direct all questions, bug reports, or suggestions for
+     changes to the davenport@ora.com mailing list or to one of the
+     maintainers:
+
+     o Terry Allen, O'Reilly & Associates, Inc.
+       101 Morris St., Sebastopol, CA 95472
+       <terry@ora.com>
+
+     o Eve Maler, ArborText, Inc.
+       105 Lexington St., Burlington, MA 01803
+       <elm@arbortext.com>
+  --
+
+  -- This is the catalog data file for Version 2.4 of the DocBook DTD.
+     It is provided as a convenience in building your own catalog files.
+     You need not use the file names listed here, and need not use the
+     filename method of identifying storage objects at all.  See the
+     documentation for detailed information on the files associated with
+     the DocBook DTD.  See SGML Open Technical Resolution 9401 for
+     detailed information on supplying and using catalog data.
+  --
+
+PUBLIC   "ISO Registration Number 100//CHARSET
+          ECMA-94 Right Part of Latin Alphabet Nr. 1//ESC 2/13 4/1"
+CHARSET   ecma94.set
+
+PUBLIC   "-//Davenport//DTD DocBook V2.4//EN"
+DTD      docbook.dtd
+
+
+PUBLIC   "-//Davenport//ELEMENTS DocBook Information Pool V2.4//EN"
+DTD      dbpool.mod
+
+  -- ...................................................................... --
+  -- DocBook modules ...................................................... --
+
+PUBLIC   "-//Davenport//ELEMENTS CALS-Based DocBook Table Model V2.4//EN"
+DTD      calstbl.mod
+
+PUBLIC   "-//Davenport//ELEMENTS DocBook Information Pool V2.4//EN"
+DTD      dbpool.mod
+
+PUBLIC   "-//Davenport//ELEMENTS DocBook Document Hierarchy V2.4//EN"
+DTD      dbhier.mod
+
+PUBLIC   "-//Davenport//ELEMENTS DocBook Additional General Entities//EN"
+DTD      dbgenent.mod
+
+  -- ...................................................................... --
+  -- ISO entity sets ...................................................... --
+
+PUBLIC   "ISO 8879:1986//ENTITIES Diacritical Marks//EN"
+ENTITIES isodia.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN"
+ENTITIES isonum.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Publishing//EN"
+ENTITIES isopub.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES General Technical//EN"
+ENTITIES isotech.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Added Latin 1//EN"
+ENTITIES isolat1.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Added Latin 2//EN"
+ENTITIES isolat2.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Greek Letters//EN"
+ENTITIES isogrk1.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Monotoniko Greek//EN"
+ENTITIES isogrk2.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Greek Symbols//EN"
+ENTITIES isogrk3.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Alternative Greek Symbols//EN"
+ENTITIES isogrk4.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Added Math Symbols: Arrow Relations//EN"
+ENTITIES isoamsa.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Added Math Symbols: Binary Operators//EN"
+ENTITIES isoamsb.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Added Math Symbols: Delimiters//EN"
+ENTITIES isoamsc.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Added Math Symbols: Negated Relations//EN"
+ENTITIES isoamsn.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Added Math Symbols: Ordinary//EN"
+ENTITIES isoamso.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Added Math Symbols: Relations//EN"
+ENTITIES isoamsr.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Box and Line Drawing//EN"
+ENTITIES isobox.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Russian Cyrillic//EN"
+ENTITIES isocyr1.ent
+
+PUBLIC   "ISO 8879:1986//ENTITIES Non-Russian Cyrillic//EN"
+ENTITIES isocyr2.ent
+
+
+  -- End of DocBook MAP file V2.4 ......................................... --
+  -- ...................................................................... --

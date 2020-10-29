@@ -1,0 +1,16 @@
+<!DOCTYPE book [
+
+<!-- External entity declarations -->
+
+<!ENTITY % front   PUBLIC "-//COREL//DTD Front section of LESSON3.DTD//EN"   >
+%front;
+<!ENTITY % chapter PUBLIC "-//COREL//DTD Chapter section of LESSON3.DTD//EN" >
+%chapter;
+<!ENTITY % end     PUBLIC "-//COREL//DTD End section of LESSON3.DTD//EN"     >
+%end;
+
+<!-- Element declarations -->
+
+<!ELEMENT book	O O  (front, chapter+, end) >
+
+]>

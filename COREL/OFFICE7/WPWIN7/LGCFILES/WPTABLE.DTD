@@ -1,0 +1,119 @@
+<!-- Public document type definition subset for WordPerfect 5.1 tabular
+     material. To tag tables using the WP 5.1 method, include this DTD
+     subset in the DTD. -->
+
+<!-- Add the following declaration and reference to the DTD:
+
+     <!ENTITY % wptable PUBLIC "-//COREL//DTD WP 5.1 Table Declarations//EN">
+     %wptable;
+
+     The external entity mapping file must contain an entry similar to the
+     following:
+
+     PUBLIC  "-//COREL//DTD WP 5.1 Table Declarations//EN"
+     DTD     wptable.dtd
+
+     In this example, the DTD2LGCW utility would search for the file
+     WPTABLE.DTD in one of the directories specified in the documentation.
+     If the file is not in one of those directories, you must include the
+     full pathname in the fourth field of the entity mapping entry (e.g.,
+     C:\MYDTD\WPTABLE.DTD).
+-->
+
+<!ENTITY % wptbord "st|dt|dat|dott|tt|et|nt"
+          -- Border attributes are: s(ingle), d(ouble), da(shed), dot(ted),
+          t(hick), e(xtra thick), n(one) -->
+<!ENTITY % wplbord "sl|dl|dal|dotl|tl|el|nl"
+          -- Border attributes are: s(ingle), d(ouble), da(shed), dot(ted),
+          t(hick), e(xtra thick), n(one) -->
+<!ENTITY % wpbbord "sb|db|dab|dotb|tb|eb|nb"
+          -- Border attributes are: s(ingle), d(ouble), da(shed), dot(ted),
+          t(hick), e(xtra thick), n(one) -->
+<!ENTITY % wprbord "sr|dr|dar|dotr|tr|er|nr"
+          -- Border attributes are: s(ingle), d(ouble), da(shed), dot(ted),
+          t(hick), e(xtra thick), n(one) -->
+<!ENTITY % wphal "l|c|r|d|j"
+          -- Align attributes for columns, cells.   Alignments are:
+          l(eft), c(enter), r(ight), j(ustified), and d(ecimal). -->
+<!ENTITY % wpval "t|m|b"
+          -- Vertical alignment.  Alignments are: t(op), m(iddle), b(ottom) -->
+
+
+<!ELEMENT wptable      - -        (wprow+) >
+
+<!ATTLIST wptable      numtab        ID          #IMPLIED
+          -- Table number, WordPerfect will automatically generate the
+             correct table number.--
+
+                       numcols      NUMBER       #REQUIRED
+          -- Number of columns per row starting at 1 at the left cell. --
+
+                       headers      NUMBER       "0"
+          -- Number of header rows. --
+
+                       cwidth       CDATA        #IMPLIED
+          -- A list giving the dimensions of each column. --
+
+                       defjust    (%wphal;)      "l"
+          -- Default justification for any unspecified column. --
+
+                       just      NMTOKENS        #IMPLIED
+          -- To indicate the default alignment of columns that differ from
+             the default, specify from 1 to n alignment tokens, where n is
+             the number of columns. Alignments are same as in %wphal. Default
+             is specified with the defjust attribute.
+             Example:
+              "1 c" gives center aligned 1st column, all others use defjust. --
+
+                       prec       NUMBER         "2"
+          -- Precision. Number of digits to the right of the decimal point. -->
+
+
+<!ELEMENT wprow        - O        (wpcell+) >
+
+<!ATTLIST wprow        tbord      (%wptbord;)    "st"
+          -- Top default border for any cells in row. --
+
+                       lbord      (%wplbord;)    "sl"
+          -- Left default border for any cells in row. --
+
+                       bbord      (%wpbbord;)    "nb"
+          -- Bottom default border for any cells in row. --
+
+                       rbord      (%wprbord;)    "nr"
+          -- Right default border for any cells in row. -->
+
+
+<!ELEMENT wpcell         - O      (#PCDATA) >
+
+<!ATTLIST wpcell       just       (%wphal;)      #IMPLIED
+          -- This will override the column alignment --
+
+                       prec       NUMBER         "2"
+          -- Precision. Number of digits to the right of the decimal point. --
+
+                       vjust      (%wpval;)      "t"
+          -- Vertical alignment of a cell. --
+
+                       tbord      (%wptbord;)    #IMPLIED
+          -- Top default border for any cells in row. --
+
+                       lbord      (%wplbord;)    #IMPLIED
+          -- Left default border for any cells in row. --
+
+                       bbord      (%wpbbord;)    #IMPLIED
+          -- Bottom default border for any cells in row. --
+
+                       rbord      (%wprbord;)    #IMPLIED
+          -- Right default border for any cells in row. --
+
+                       cspan      NUMBER         #IMPLIED
+          -- The number of columns that are spanned by this cell.
+             (e.g. cspan="2" indicates that the cell spans two cells:
+             itself and the cell adjacent to the right). --
+
+                       rspan      NUMBER         #IMPLIED
+          -- The number of rows that are spanned by this cell.
+             (e.g. rspan="2" indicates that the cell spans two rows:
+             itself and the row below it). -->
+

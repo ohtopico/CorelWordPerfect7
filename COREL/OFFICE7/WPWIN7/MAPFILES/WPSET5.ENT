@@ -1,0 +1,269 @@
+<!-->
+    File:  WPSET5.ENT
+    (C) 1996 Corel Corporation Limited.  All Rights Reserved.
+
+    Character entity set.  Typical invocation:
+      <!ENTITY % wpset5 PUBLIC 
+        "-//COREL//ENTITIES WP 6.1 Character Set 5 (Iconic Symbols)//EN">
+      %wpset5;
+
+         Name            Text          WP#   Description
+--> 
+<!ENTITY hearto   SDATA "[hearto  ]" --5,0   Heart Open Card Style -->
+<!ENTITY diamondo SDATA "[diamondo]" --5,1   Diamond Open Card Style -->
+<!ENTITY clubo    SDATA "[clubo   ]" --5,2   Club Open Card Style -->
+<!ENTITY spadeo   SDATA "[spadeo  ]" --5,3   Spade Open Card Style -->
+<!ENTITY male     SDATA "[male    ]" --5,4   Male -->
+<!ENTITY female   SDATA "[female  ]" --5,5   Female -->
+<!ENTITY compass  SDATA "[compass ]" --5,6   Compass -->
+<!ENTITY happy    SDATA "[happy   ]" --5,7   Happy Face -->
+<!ENTITY drkhappy SDATA "[drkhappy]" --5,8   Dark Happy Face -->
+<!ENTITY note1.8  SDATA "[note1.8 ]" --5,9   Eighth Note -->
+<!ENTITY note1.16 SDATA "[note1.16]" --5,10  Sixteenth Notes -->
+<!ENTITY horzrect SDATA "[horzrect]" --5,11  Horizontal Rectangle -->
+<!ENTITY smhouse  SDATA "[smhouse ]" --5,12  Small House -->
+<!ENTITY dblexcl  SDATA "[dblexcl ]" --5,13  Double Exclamation Mark -->
+<!ENTITY radical  SDATA "[radical ]" --5,14  Bent Radical -->
+<!ENTITY undudarw SDATA "[undudarw]" --5,15  Underscored Up and Down Arrow -->
+<!ENTITY begline  SDATA "[begline ]" --5,16  Beginning of Line -->
+<!ENTITY ibegline SDATA "[ibegline]" --5,17  Inverted Beginning of Line -->
+<!ENTITY ibullet  SDATA "[ibullet ]" --5,18  Inverse Bullet -->
+<!ENTITY ihlbul   SDATA "[ihlbul  ]" --5,19  Inverse Hollow Bullet -->
+<!ENTITY newline  SDATA "[newline ]" --5,20  Newline //(Enter symbol) -->
+<!ENTITY centline SDATA "[centline]" --5,21  Centerline -->
+<!ENTITY lpntindx SDATA "[lpntindx]" --5,22  Left Pointing Index -->
+<!ENTITY grphspc  SDATA "[grphspc ]" --5,23  Graphic Space -->
+<!ENTITY emptybal SDATA "[emptybal]" --5,24  Empty Ballot Box -->
+<!ENTITY markbal  SDATA "[markbal ]" --5,25  Marked Ballot Box -->
+<!ENTITY sadface  SDATA "[sadface ]" --5,26  Sad Face -->
+<!ENTITY sharp    SDATA "[sharp   ]" --5,27  Sharp -->
+<!ENTITY flat     SDATA "[flat    ]" --5,28  Flat -->
+<!ENTITY natural  SDATA "[natural ]" --5,29  Natural -->
+<!ENTITY phonefr  SDATA "[phonefr ]" --5,30  Telephone French Style -->
+<!ENTITY clock    SDATA "[clock   ]" --5,31  Clock -->
+<!ENTITY hrglass  SDATA "[hrglass ]" --5,32  Hourglass -->
+
+<!-- New as of WPWin 6.0 -->
+
+<!ENTITY scisbrbo SDATA "[scisbrbo]" --5,33  Scissors Solid Broken Bottom -->
+<!ENTITY scissors SDATA "[scissors]" --5,34  Scissors Solid -->
+<!ENTITY scisbrto SDATA "[scisbrto]" --5,35  Scissors Solid Broken Top -->
+<!ENTITY safescis SDATA "[safescis]" --5,36  Safety Scissors Open -->
+<!ENTITY phonewhi SDATA "[phonewhi]" --5,37  Telephone Solid White Dial -->
+<!ENTITY phonehnd SDATA "[phonehnd]" --5,38  Telephone Handset -->
+<!ENTITY tapereel SDATA "[tapereel]" --5,39  Tape Reel -->
+<!ENTITY airplane SDATA "[airplane]" --5,40  Airplane -->
+<!ENTITY envwaxsl SDATA "[envwaxsl]" --5,41  Envelope Wax Sealed -->
+<!ENTITY ehndsolc SDATA "[ehndsolc]" --5,42  East Hand M Solid Line Cuff -->
+<!ENTITY ehndopec SDATA "[ehndopec]" --5,43  East Hand M Open Simple Cuff -->
+<!ENTITY peacehnd SDATA "[peacehnd]" --5,44  Peace Sign Hand Open -->
+<!ENTITY hndnpenc SDATA "[hndnpenc]" --5,45  Hand with Pencil -->
+<!ENTITY sepencpt SDATA "[sepencpt]" --5,46  Southeast Pencil Point -->
+<!ENTITY epencpt  SDATA "[epencpt ]" --5,47  East Pencil Point -->
+<!ENTITY nepencpt SDATA "[nepencpt]" --5,48  Northeast Pencil Point -->
+<!ENTITY epenope  SDATA "[epenope ]" --5,49  East Pen Nib Open -->
+<!ENTITY epensol  SDATA "[epensol ]" --5,50  East Pen Nib Solid -->
+<!ENTITY chksolme SDATA "[chksolme]" --5,51  Check Mark Solid Medium Brush -->
+<!ENTITY chksolbo SDATA "[chksolbo]" --5,52  Check Mark Solid Bold Brush -->
+<!ENTITY xsollght SDATA "[xsollght]" --5,53  X Solid Light -->
+<!ENTITY xsolbold SDATA "[xsolbold]" --5,54  X Solid Bold -->
+<!ENTITY xsolbrli SDATA "[xsolbrli]" --5,55  X Solid Brush Light -->
+<!ENTITY xsolbrme SDATA "[xsolbrme]" --5,56  X Solid Brush Medium -->
+<!ENTITY plsmeout SDATA "[plsmeout]" --5,57  Plus Sign Solid Med Outline -->
+<!ENTITY plsbold  SDATA "[plsbold ]" --5,58  Plus Sign Solid Bold -->
+<!ENTITY plsmeopc SDATA "[plsmeopc]" --5,59  Plus Sign Med Open Ctr Square -->
+<!ENTITY plsboopc SDATA "[plsboopc]" --5,60  Plus Sign Bold Open Ctr Square -->
+<!ENTITY crsmed   SDATA "[crsmed  ]" --5,61  Cross Medium -->
+<!ENTITY crsosesh SDATA "[crsosesh]" --5,62  Cross Open S E Shadow -->
+<!ENTITY crssomeo SDATA "[crssomeo]" --5,63  Cross Solid Medium Outlined -->
+<!ENTITY mltcrsso SDATA "[mltcrsso]" --5,64  Maltese Cross Solid -->
+<!ENTITY strdavid SDATA "[strdavid]" --5,65  Star of David -->
+<!ENTITY ast4pnt  SDATA "[ast4pnt ]" --5,66  Asterisk Medium 4 Points -->
+<!ENTITY jkstrsol SDATA "[jkstrsol]" --5,67  Jack Star Solid Light -->
+<!ENTITY jkstrsob SDATA "[jkstrsob]" --5,68  Jack Star Solid Bold No Dot -->
+<!ENTITY crsso3lf SDATA "[crsso3lf]" --5,69  Cross Solid 3 Leaf Clover Tips -->
+<!ENTITY str4sol  SDATA "[str4sol ]" --5,70  Star 4pt Solid -->
+<!ENTITY str4opso SDATA "[str4opso]" --5,71  Star 4pt Open Stress Outline -->
+<!ENTITY str5sol  SDATA "[str5sol ]" --5,72  Star 5pt Solid -->
+<!ENTITY str5opst SDATA "[str5opst]" --5,73  Star 5pt Open Stressed -->
+<!ENTITY cr5strce SDATA "[cr5strce]" --5,74  Circle Solid 5pt Star Center -->
+<!ENTITY str5opce SDATA "[str5opce]" --5,75  Star 5pt Open Center Circle -->
+<!ENTITY str5opsc SDATA "[str5opsc]" --5,76  Star 5pt Open Solid Cntr Dot -->
+<!ENTITY str5soli SDATA "[str5soli]" --5,77  Star 5pt Solid Light Outline -->
+<!ENTITY str5sohe SDATA "[str5sohe]" --5,78  Star 5pt Solid Heavy Outline -->
+<!ENTITY str5conv SDATA "[str5conv]" --5,79  Star 5pt Convex -->
+<!ENTITY str5opse SDATA "[str5opse]" --5,80  Star 5pt Open S E Cast Shadow -->
+<!ENTITY astsolbo SDATA "[astsolbo]" --5,81  Asterisk Mono Solid Bold -->
+<!ENTITY astboopc SDATA "[astboopc]" --5,82  Asterisk Mono Bold Open Center -->
+<!ENTITY str8lift SDATA "[str8lift]" --5,83  Star 8pt Light Flare Tips -->
+<!ENTITY str8litt SDATA "[str8litt]" --5,84  Star 8pt Light Taper Tips -->
+<!ENTITY str8conv SDATA "[str8conv]" --5,85  Star 8pt Convex -->
+<!ENTITY str6soli SDATA "[str6soli]" --5,86  Star 6pt Solid Light -->
+<!ENTITY str8soli SDATA "[str8soli]" --5,87  Star 8pt Solid Light -->
+<!ENTITY str8sobo SDATA "[str8sobo]" --5,88  Star 8pt Solid Bold -->
+<!ENTITY str12sol SDATA "[str12sol]" --5,89  Star 12pt Solid -->
+<!ENTITY str16sol SDATA "[str16sol]" --5,90  Star 16pt Solid Light -->
+<!ENTITY flo6dotl SDATA "[flo6dotl]" --5,91  Flower 6 Dtchd Petals Dot Lt -->
+<!ENTITY flo6liop SDATA "[flo6liop]" --5,92  Flower 6 Petal Light Open Ctr -->
+<!ENTITY asttearc SDATA "[asttearc]" --5,93  Asterisk Teardrop Ctr Dot Med -->
+<!ENTITY flo6alt  SDATA "[flo6alt ]" --5,94  Flower 6 Petal Alt Blk Wht -->
+<!ENTITY flo5soop SDATA "[flo5soop]" --5,95  Flower 5 Petal Solid Open Ctr -->
+<!ENTITY flo5opso SDATA "[flo5opso]" --5,96  Flower 5 Petal Open Solid Ctr Circle -->
+<!ENTITY flo8solo SDATA "[flo8solo]" --5,97  Flower 8 Petal Solid Outlined -->
+<!ENTITY sunopcir SDATA "[sunopcir]" --5,98  Sunshine Open in Solid Circle -->
+<!ENTITY flo6bw   SDATA "[flo6bw  ]" --5,99  Flower 6 Black White Petals -->
+<!ENTITY snw6ltch SDATA "[snw6ltch]" --5,100 Snowflake 6pt Lt Chevrons -->
+<!ENTITY snw6opst SDATA "[snw6opst]" --5,101 Snowflake 6pt Open Star -->
+<!ENTITY snw6boch SDATA "[snw6boch]" --5,102 Snowflake 6pt Bold Chevrons -->
+<!ENTITY spk8some SDATA "[spk8some]" --5,103 Sparkle 8pt Solid Medium -->
+<!ENTITY spk8sobo SDATA "[spk8sobo]" --5,104 Sparkle 8pt Solid Bold -->
+<!ENTITY ast6sord SDATA "[ast6sord]" --5,105 Asterisk 6pt Solid Round Ends -->
+<!ENTITY floremld SDATA "[floremld]" --5,106 Flower Remote Petals Lrg Dot -->
+<!ENTITY ast8tear SDATA "[ast8tear]" --5,107 Asterisk Solid 8pt Tear Dot -->
+<!ENTITY cirsol   SDATA "[cirsol  ]" --5,108 Circle Solid -->
+<!ENTITY ciropesh SDATA "[ciropesh]" --5,109 Circle Open East Shadow -->
+<!ENTITY sqrsol   SDATA "[sqrsol  ]" --5,110 Square Solid -->
+<!ENTITY sqropsed SDATA "[sqropsed]" --5,111 Square Open S E Drop Shadow -->
+<!ENTITY sqropned SDATA "[sqropned]" --5,112 Square Open N E Drop Shadow -->
+<!ENTITY sqropsec SDATA "[sqropsec]" --5,113 Square Open S E Cast Shadow -->
+<!ENTITY sqropnec SDATA "[sqropnec]" --5,114 Square Open N E Cast Shadow -->
+<!ENTITY trisolup SDATA "[trisolup]" --5,115 Triangle Solid Upright -->
+<!ENTITY trisoldn SDATA "[trisoldn]" --5,116 Triangle Solid Down -->
+<!ENTITY diasol   SDATA "[diasol  ]" --5,117 Diamond Solid -->
+<!ENTITY ornsoldx SDATA "[ornsoldx]" --5,118 Ornament Solid Diamond White X -->
+<!ENTITY hlfcirrs SDATA "[hlfcirrs]" --5,119 Half Circle Right Solid -->
+<!ENTITY recsothv SDATA "[recsothv]" --5,120 Rectangle Solid Thin Vertical -->
+<!ENTITY recsomev SDATA "[recsomev]" --5,121 Rectangle Solid Med Vertical -->
+<!ENTITY recsobov SDATA "[recsobov]" --5,122 Rectangle Solid Bold Vertical -->
+<!ENTITY sopqtsop SDATA "[sopqtsop]" --5,123 Sng Open Quote Solid Pretty -->
+<!ENTITY sclqtsop SDATA "[sclqtsop]" --5,124 Sng Closed Quote Solid Pretty -->
+<!ENTITY dopqtsop SDATA "[dopqtsop]" --5,125 Dbl Open Quote Solid Pretty -->
+<!ENTITY dclqtsop SDATA "[dclqtsop]" --5,126 Dbl Closed Quote Solid Pretty -->
+<!ENTITY dopqtsos SDATA "[dopqtsos]" --5,127 Dbl Open Quote Solid Simple -->
+<!ENTITY dclqtsos SDATA "[dclqtsos]" --5,128 Dbl Closed Quote Solid Simple -->
+<!ENTITY opbrcsob SDATA "[opbrcsob]" --5,129 Open Curly Brace Solid Bold -->
+<!ENTITY clbrcsob SDATA "[clbrcsob]" --5,130 Closed Curly Brace Solid Bold -->
+<!ENTITY opparbop SDATA "[opparbop]" --5,131 Open Paren Bold Pointed -->
+<!ENTITY clparbop SDATA "[clparbop]" --5,132 Closed Paren Bold Pointed -->
+<!ENTITY wchvsome SDATA "[wchvsome]" --5,133 West Chevron Solid Medium -->
+<!ENTITY echvsome SDATA "[echvsome]" --5,134 East Chevron Solid Medium -->
+<!ENTITY openbrkt SDATA "[openbrkt]" --5,135 Open Bracket -->
+<!ENTITY clsdbrkt SDATA "[clsdbrkt]" --5,136 Closed Bracket -->
+<!ENTITY wpencpt  SDATA "[wpencpt ]" --5,137 West Pencil Point -->
+<!ENTITY wpenope  SDATA "[wpenope ]" --5,138 West Pen Nib Open -->
+<!ENTITY wpensol  SDATA "[wpensol ]" --5,139 West Pen Nib Solid -->
+<!ENTITY str8open SDATA "[str8open]" --5,140 Star 8pt Open -->
+<!ENTITY xopebrbo SDATA "[xopebrbo]" --5,141 X Open Brush Bold -->
+<!ENTITY chkopbrb SDATA "[chkopbrb]" --5,142 Check Mark Open Brush Bold -->
+<!ENTITY earopbal SDATA "[earopbal]" --5,143 East Arrow Open Balloon Style -->
+<!ENTITY warlishd SDATA "[warlishd]" --5,144 West Arrow Light Stressed Head -->
+<!ENTITY warbalbo SDATA "[warbalbo]" --5,145 West Arrow Balloon Bold -->
+<!ENTITY warsobos SDATA "[warsobos]" --5,146 West Arrow Solid Bold Strobe -->
+<!ENTITY warsthbb SDATA "[warsthbb]" --5,147 West Arrow Stress Head Bold Body -->
+<!ENTITY waropesh SDATA "[waropesh]" --5,148 West Arrow Open East Shadow -->
+<!ENTITY warsoswt SDATA "[warsoswt]" --5,149 West Arrow Solid Swept Tail -->
+<!ENTITY earopmbo SDATA "[earopmbo]" --5,150 East Arrow Open Mono Bold -->
+<!ENTITY waropmbo SDATA "[waropmbo]" --5,151 West Arrow Open Mono Bold -->
+<!ENTITY earxboms SDATA "[earxboms]" --5,152 East Arrow Ex Bold Mono Stroke -->
+<!ENTITY warxboms SDATA "[warxboms]" --5,153 West Arrow Ex Bold Mono Stroke -->
+<!ENTITY earso3ft SDATA "[earso3ft]" --5,154 East Arrow Solid 3 Feather Lt -->
+<!ENTITY warso3ft SDATA "[warso3ft]" --5,155 West Arrow Solid 3 Feather Lt -->
+<!ENTITY earso5ft SDATA "[earso5ft]" --5,156 East Arrow Solid 5 Feather -->
+<!ENTITY warso5ft SDATA "[warso5ft]" --5,157 West Arrow Solid 5 Feather -->
+<!ENTITY hlfcirls SDATA "[hlfcirls]" --5,158 Half Circle Left Solid -->
+<!ENTITY lipsorpu SDATA "[lipsorpu]" --5,159 Lips Solid Right Puckered -->
+<!ENTITY pilcsolg SDATA "[pilcsolg]" --5,160 Pilcrow Solid Large -->
+<!ENTITY pilcsofr SDATA "[pilcsofr]" --5,161 Pilcrow Solid French Style -->
+<!ENTITY excsobo  SDATA "[excsobo ]" --5,162 Exclamation Mark Solid Bold -->
+<!ENTITY hrtexcso SDATA "[hrtexcso]" --5,163 Heart Exclamation Mark Solid -->
+<!ENTITY hrtsoext SDATA "[hrtsoext]" --5,164 Heart Solid Extended -->
+<!ENTITY lipsolpu SDATA "[lipsolpu]" --5,165 Lips Solid Left Puckered -->
+<!ENTITY flohtsov SDATA "[flohtsov]" --5,166 Floral Heart Solid Vertical -->
+<!ENTITY flohtsoh SDATA "[flohtsoh]" --5,167 Floral Heart Solid Horizontal -->
+<!ENTITY clubs    SDATA "[clubs   ]" --5,168 Club Solid Card Style -->
+<!ENTITY diamonds SDATA "[diamonds]" --5,169 Diamond Solid Card Style -->
+<!ENTITY hearts   SDATA "[hearts  ]" --5,170 Heart Solid Card Style -->
+<!ENTITY spades   SDATA "[spades  ]" --5,171 Spade Solid Card Style -->
+<!ENTITY cir1ops  SDATA "[cir1ops ]" --5,172 No 1 Circle Open Serif -->
+<!ENTITY cir2ops  SDATA "[cir2ops ]" --5,173 No 2 Circle Open Serif -->
+<!ENTITY cir3ops  SDATA "[cir3ops ]" --5,174 No 3 Circle Open Serif -->
+<!ENTITY cir4ops  SDATA "[cir4ops ]" --5,175 No 4 Circle Open Serif -->
+<!ENTITY cir5ops  SDATA "[cir5ops ]" --5,176 No 5 Circle Open Serif -->
+<!ENTITY cir6ops  SDATA "[cir6ops ]" --5,177 No 6 Circle Open Serif -->
+<!ENTITY cir7ops  SDATA "[cir7ops ]" --5,178 No 7 Circle Open Serif -->
+<!ENTITY cir8ops  SDATA "[cir8ops ]" --5,179 No 8 Circle Open Serif -->
+<!ENTITY cir9ops  SDATA "[cir9ops ]" --5,180 No 9 Circle Open Serif -->
+<!ENTITY cir10ops SDATA "[cir10ops]" --5,181 No 10 Circle Open Serif -->
+<!ENTITY cir1sos  SDATA "[cir1sos ]" --5,182 No 1 Circle Solid Serif Bold -->
+<!ENTITY cir2sos  SDATA "[cir2sos ]" --5,183 No 2 Circle Solid Serif Bold -->
+<!ENTITY cir3sos  SDATA "[cir3sos ]" --5,184 No 3 Circle Solid Serif Bold -->
+<!ENTITY cir4sos  SDATA "[cir4sos ]" --5,185 No 4 Circle Solid Serif Bold -->
+<!ENTITY cir5sos  SDATA "[cir5sos ]" --5,186 No 5 Circle Solid Serif Bold -->
+<!ENTITY cir6sos  SDATA "[cir6sos ]" --5,187 No 6 Circle Solid Serif Bold -->
+<!ENTITY cir7sos  SDATA "[cir7sos ]" --5,188 No 7 Circle Solid Serif Bold -->
+<!ENTITY cir8sos  SDATA "[cir8sos ]" --5,189 No 8 Circle Solid Serif Bold -->
+<!ENTITY cir9sos  SDATA "[cir9sos ]" --5,190 No 9 Circle Solid Serif Bold -->
+<!ENTITY cir10sos SDATA "[cir10sos]" --5,191 No 10 Circle Solid Serif Bold -->
+<!ENTITY cir1oss  SDATA "[cir1oss ]" --5,192 No 1 Circle Open Sans Serif -->
+<!ENTITY cir2oss  SDATA "[cir2oss ]" --5,193 No 2 Circle Open Sans Serif -->
+<!ENTITY cir3oss  SDATA "[cir3oss ]" --5,194 No 3 Circle Open Sans Serif -->
+<!ENTITY cir4oss  SDATA "[cir4oss ]" --5,195 No 4 Circle Open Sans Serif -->
+<!ENTITY cir5oss  SDATA "[cir5oss ]" --5,196 No 5 Circle Open Sans Serif -->
+<!ENTITY cir6oss  SDATA "[cir6oss ]" --5,197 No 6 Circle Open Sans Serif -->
+<!ENTITY cir7oss  SDATA "[cir7oss ]" --5,198 No 7 Circle Open Sans Serif -->
+<!ENTITY cir8oss  SDATA "[cir8oss ]" --5,199 No 8 Circle Open Sans Serif -->
+<!ENTITY cir9oss  SDATA "[cir9oss ]" --5,200 No 9 Circle Open Sans Serif -->
+<!ENTITY cir10oss SDATA "[cir10oss]" --5,201 No 10 Circle Open Sans Serif -->
+<!ENTITY cir1sss  SDATA "[cir1sss ]" --5,202 No 1 Circle Solid Sans Serif -->
+<!ENTITY cir2sss  SDATA "[cir2sss ]" --5,203 No 2 Circle Solid Sans Serif -->
+<!ENTITY cir3sss  SDATA "[cir3sss ]" --5,204 No 3 Circle Solid Sans Serif -->
+<!ENTITY cir4sss  SDATA "[cir4sss ]" --5,205 No 4 Circle Solid Sans Serif -->
+<!ENTITY cir5sss  SDATA "[cir5sss ]" --5,206 No 5 Circle Solid Sans Serif -->
+<!ENTITY cir6sss  SDATA "[cir6sss ]" --5,207 No 6 Circle Solid Sans Serif -->
+<!ENTITY cir7sss  SDATA "[cir7sss ]" --5,208 No 7 Circle Solid Sans Serif -->
+<!ENTITY cir8sss  SDATA "[cir8sss ]" --5,209 No 8 Circle Solid Sans Serif -->
+<!ENTITY cir9sss  SDATA "[cir9sss ]" --5,210 No 9 Circle Solid Sans Serif -->
+<!ENTITY cir10sss SDATA "[cir10sss]" --5,211 No 10 Circle Solid Sans Serif -->
+<!ENTITY earmohtm SDATA "[earmohtm]" --5,212 East Arrow Mono Horz Term Med -->
+<!ENTITY earlishd SDATA "[earlishd]" --5,213 East Arrow Light Stress Head -->
+<!ENTITY ewarlist SDATA "[ewarlist]" --5,214 East West Arrow Lt Strsd Head  -->
+<!ENTITY uparlist SDATA "[uparlist]" --5,215 Up Down Arrow Lt Stress Head -->
+<!ENTITY searthtb SDATA "[searthtb]" --5,216 S E Arrow Tri Head Taper Body -->
+<!ENTITY eardhdtb SDATA "[eardhdtb]" --5,217 East Arrow Delta Hd Taper Body -->
+<!ENTITY nearthtb SDATA "[nearthtb]" --5,218 N E Arrow Tri Head Taper Body -->
+<!ENTITY earsodhd SDATA "[earsodhd]" --5,219 East Arrow Solid Delta Head -->
+<!ENTITY earbalbo SDATA "[earbalbo]" --5,220 East Arrow Balloon Bold -->
+<!ENTITY earsxlth SDATA "[earsxlth]" --5,221 East Arrow Solid X Lt Tri Head -->
+<!ENTITY earsomth SDATA "[earsomth]" --5,222 East Arrow Solid Med Tri Head -->
+<!ENTITY earsomst SDATA "[earsomst]" --5,223 East Arrow Solid Med Strobe -->
+<!ENTITY earsobst SDATA "[earsobst]" --5,224 East Arrow Solid Bold Strobe -->
+<!ENTITY earsobth SDATA "[earsobth]" --5,225 East Arrow Solid Bold Tri Head -->
+<!ENTITY edelcvdb SDATA "[edelcvdb]" --5,226 East Delta Convex Dark Bottom -->
+<!ENTITY edelcvdt SDATA "[edelcvdt]" --5,227 East Delta Convex Dark Top -->
+<!ENTITY edelsol  SDATA "[edelsol ]" --5,228 East Delta Solid -->
+<!ENTITY dnrarsol SDATA "[dnrarsol]" --5,229 Down Right Arrow Solid -->
+<!ENTITY uprarsol SDATA "[uprarsol]" --5,230 Up Right Arrow Solid -->
+<!ENTITY earsoboc SDATA "[earsoboc]" --5,231 East Arrow Solid Bold Condensed -->
+<!ENTITY earsthbb SDATA "[earsthbb]" --5,232 East Arrow Stress Head Bold Body -->
+<!ENTITY earopesh SDATA "[earopesh]" --5,233 East Arrow Open East Shadow -->
+<!ENTITY earopwsh SDATA "[earopwsh]" --5,234 East Arrow Open West Shadow -->
+<!ENTITY earoesss SDATA "[earoesss]" --5,235 East Arrow Open E Slant S Shadow -->
+<!ENTITY earowsns SDATA "[earowsns]" --5,236 East Arrow Open W Slant N Shadow -->
+<!ENTITY earopses SDATA "[earopses]" --5,237 East Arrow Open S E Shadow -->
+<!ENTITY earopnes SDATA "[earopnes]" --5,238 East Arrow Open N E Shadow -->
+<!ENTITY earvtses SDATA "[earvtses]" --5,239 East Arrow V Tail S E Shadow -->
+<!ENTITY earopboc SDATA "[earopboc]" --5,240 East Arrow Open Bold Condensed -->
+<!ENTITY warvtnes SDATA "[warvtnes]" --5,241 West Arrow V Tail N E Shadow -->
+<!ENTITY earinsel SDATA "[earinsel]" --5,242 East Arrow in Solid Ellipse -->
+<!ENTITY ear4opch SDATA "[ear4opch]" --5,243 East Arrow 4 Open Chevron Tail -->
+<!ENTITY searshdt SDATA "[searshdt]" --5,244 S E Arrow Strsd Hd Dtchd Tail -->
+<!ENTITY earshdt  SDATA "[earshdt ]" --5,245 East Arrow Strsd Hd Dtchd Tail -->
+<!ENTITY nearshdt SDATA "[nearshdt]" --5,246 N E Arrow Strsd Hd Dtchd Tail -->
+<!ENTITY searsst  SDATA "[searsst ]" --5,247 S E Arrow Solid Swept Tail -->
+<!ENTITY earsost  SDATA "[earsost ]" --5,248 East Arrow Solid Swept Tail -->
+<!ENTITY nearsost SDATA "[nearsost]" --5,249 N E Arrow Solid Swept Tail -->
+<!ENTITY eartearb SDATA "[eartearb]" --5,250 East Arrow Teardrop Style Bold -->
+<!ENTITY eartulb  SDATA "[eartulb ]" --5,251 East Arrow Tulip Style Bold -->
+<!ENTITY earbocht SDATA "[earbocht]" --5,252 East Arrow Bold Chevron Tail -->
+<!ENTITY earbocct SDATA "[earbocct]" --5,253 East Arrow Bold Cond Chevron Tail -->
+<!ENTITY earopope SDATA "[earopope]" --5,254 East Arrow Open Open Ends -->
